@@ -1,0 +1,16 @@
+# 1714 - Noli
+
+# County title
+title = c_noli
+
+# Settlements
+max_settlements = 4
+b_noli = city
+b_savona = city
+b_albenga = castle
+
+# Misc
+culture = ligurian
+religion = italic
+
+# History

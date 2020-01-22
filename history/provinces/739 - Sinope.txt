@@ -1,0 +1,19 @@
+# 739 - Sinope
+
+# County Title
+title = c_sinope
+
+# Settlements
+max_settlements = 4
+b_talaura = castle
+b_sinope = city
+b_themiscyra = temple
+
+
+# Misc
+culture = pontic
+religion = mithraic
+
+# History
+740.1.1 = { trade_post = b_spinola }
+1000.1.1 = { b_talaura = castle } 

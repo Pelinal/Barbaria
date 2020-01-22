@@ -1,0 +1,23 @@
+# XXX - Zatec
+
+# County Title
+title = c_zatec
+
+# Settlements
+max_settlements = 4
+b_zatec = tribal
+
+#b_osek = temple
+#b_louny = city
+#b_bilina = castle
+#b_kadan = city
+#b_teplice = temple
+#b_chomutov = castle
+
+
+# Misc
+culture = thuringian
+religion = germanic_pagan
+
+# History
+

@@ -1,0 +1,15 @@
+490.1.1 = {
+	holder = 6000 # Mithridates of Pontus
+}
+535.1.1 = {
+	holder = 6001 # Polemon of Pontus
+}
+557.1.1 = {
+	holder = 6002 # Mithridates 'II' of Pontus
+}
+588.1.1 = {
+	holder = 6003 # Mithridates 'III' of Pontus
+}
+614.1.1 = {
+	holder = 6004 # Mithridates 'IV' of Pontus
+}

@@ -1,0 +1,19 @@
+# 1782 - Kharga
+
+# County Title
+title = c_kharga
+
+# Settlements
+max_settlements = 2
+b_elkharga = castle
+
+#b_baris
+#b_ismant
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+
+820.1.1 = { culture = egyptiote }

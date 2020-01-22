@@ -1,0 +1,20 @@
+# 470 - Varadzin
+
+# County Title
+title = c_varadzin
+
+# Settlements
+max_settlements = 4
+b_varazdin = tribal
+
+#b_lepoglava = castle
+#b_toplice = castle
+#b_donjastubica = castle
+#b_krapina = castle
+#b_oroslavje = castle
+
+# Misc
+culture = catari
+religion = italic
+
+# History

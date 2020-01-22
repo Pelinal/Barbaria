@@ -1,0 +1,27 @@
+# 160 - Lisboa
+
+# County Title
+title = c_lisboa
+
+# Terrain
+terrain = hills
+
+# Settlements
+max_settlements = 6
+b_lisboa = castle
+b_santarem = city
+b_alcobaca = temple
+#b_sintra = castle
+#b_batalha = castle
+#b_alenquer = castle
+#b_atouguia = castle
+#b_tomar = castle 
+
+# Misc
+culture = celtiberian
+religion = gallic
+
+# History
+950.1.1 = {
+	b_sintra = castle
+}

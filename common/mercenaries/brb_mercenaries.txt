@@ -1,0 +1,6 @@
+inanna_composition = {
+	levy_size = 5
+	heavy_infantry = 250
+	light_infantry = 500
+	knights = 50
+}

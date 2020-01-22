@@ -1,0 +1,27 @@
+###############################################################################
+##				 Religions of Barbaria - A World Without Rome				 ##
+###############################################################################
+
+Celtic:
+	- Brythonic
+	- Gallic
+	- Celtiberian
+	- Tautha De (Irish)
+	
+Semitic:
+	- Jewish
+	- Christian (Jewish Heresy)
+	- Canaanite
+	- Punic
+	- Chaldean
+	
+Scythian:
+	- Heptadic
+
+Hellenic:
+	- Hellenic
+	- Italic
+
+Egyptian:
+	- Kemetic
+	- Atenic

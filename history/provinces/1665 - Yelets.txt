@@ -1,0 +1,23 @@
+# 1665 - Yelets
+
+# County Title
+title = c_yelets
+
+# Settlements
+max_settlements = 3
+
+b_yelets = tribal	#1146
+
+#b_voronej		#1177
+#b_zadonsk		#1615
+#b_semiuki
+#b_khlevnoye
+#b_dolgorukovo
+#b_terbuny
+
+#Misc
+culture = hunnic
+religion = tengri_pagan
+terrain = plains
+
+# History

@@ -1,0 +1,22 @@
+# 1644 - Campulung
+
+# County Title
+title = c_campulung
+
+# Settlements
+max_settlements = 5
+
+b_campulung = castle
+b_arges = city
+b_pitesti = castle
+
+#b_bran = castle
+#b_bovora = temple
+#b_cozla = temple
+#b_mioveni = castle
+
+# Misc
+culture = dacian
+religion = zalmoxian
+
+# History

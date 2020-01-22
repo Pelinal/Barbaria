@@ -1,0 +1,15 @@
+# 1812 - Saqsin
+
+# County title
+title = c_saqsin
+
+# Settlements
+max_settlements = 4
+
+b_saqsin = tribal
+
+# Misc
+culture = sarmatian
+religion = heptadic
+
+# History

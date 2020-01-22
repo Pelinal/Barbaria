@@ -1,0 +1,19 @@
+# 2025 - Ctesiphon
+
+# County Title
+title = c_ctesiphon
+
+# Settlements
+max_settlements = 7
+
+b_ctesiphon = castle
+b_weh_antiok = castle
+b_selucia = city
+b_daremehr = temple
+#b_eshnunna = city
+#b_zabe = castle
+#b_kaske = temple
+
+#Misc
+culture = persian
+religion = zoroastrian

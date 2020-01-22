@@ -1,0 +1,19 @@
+# 237 - Savoie
+
+# County Title
+title = c_savoie
+
+# Settlements
+max_settlements = 5
+b_faucigny = castle
+b_tarentaise = temple
+b_chambery = city
+
+# Misc
+culture = gaulish
+religion = gallic
+
+# History
+1295.1.1 = { b_chambery = castle }
+1295.1.1 = { b_conflens = city }
+

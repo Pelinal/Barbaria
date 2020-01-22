@@ -1,0 +1,16 @@
+# 2034 - Gebal
+
+# County Title
+title = c_gebal
+
+# Settlements
+max_settlements = 4
+
+b_gebal = castle
+#b_berothe = city
+b_brochoi = temple
+#b_gerra = city
+
+#Misc
+culture = phoenician
+religion = canaanite

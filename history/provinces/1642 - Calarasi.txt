@@ -1,0 +1,22 @@
+# 1642 - Calarasi
+
+# County Title
+title = c_calarasi
+
+# Settlements
+max_settlements = 3
+
+b_calarasi = tribal
+#b_coconi = city
+
+#b_cornatei = temple
+#b_floci = castle
+#b_oltenita = castle
+#b_slobozia = castle
+#b_fetesti = city
+
+# Misc
+culture = hunnic
+religion = zalmoxian
+
+# History

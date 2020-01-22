@@ -1,0 +1,47 @@
+# Kushanshahs
+230.1.1 = {
+	holder = 4250 # Ardashir I
+}
+245.1.1 = {
+	holder = 2451 # Peroz I
+}
+275.1.1 = {
+	holder = 4252 # Hormizd I
+}
+300.1.1 = {
+	holder = 4253 # Hormizd II
+}
+303.1.1 = {
+	holder = 4254 # Peroz II
+}
+330.1.1 = {
+	holder = 4255 # Varahran I
+}
+# Kidarites
+350.1.1 = {
+	holder = 4003 # Kidara I
+}
+390.1.1 = {
+	holder = 4004 # Grumbates I
+}
+425.1.1 = {
+	holder = 4006 # Varahran II
+}
+450.1.1 = {
+	holder = 4007 # Goboziko I
+}
+467.1.1 = {
+	holder = 4008 # Salanvira I
+}
+488.1.1 = {
+	holder = 4009 # Vinayaditya I
+}
+501.1.1 = {
+	holder = 4010 # Kandik I
+}
+#560.1.1 = {
+#	holder = 4011 # Tarkhun I
+#}
+#600.1.1 = {
+#	holder = 4012 # Kandik II
+#}

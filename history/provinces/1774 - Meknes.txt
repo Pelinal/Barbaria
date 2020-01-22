@@ -1,0 +1,17 @@
+# 1774 - Meknes
+
+# County Title
+title = c_meknes
+
+# Settlements
+max_settlements = 3
+
+b_meknes = castle
+b_sefrou = city
+b_tagragra = temple
+
+# Misc
+culture = mauri
+religion = berber
+
+# History

@@ -1,0 +1,100 @@
+52.1.1 = {
+	holder = 1514 # Tiridates I
+}
+59.1.1 = {
+	holder = 2006 # Tigranes VI 
+}
+62.1.1 = {
+	holder = 1514 # Tiridates I, again
+}
+88.1.1 = {
+	holder = 2007 # Sanatruces I
+}
+110.1.1 = {
+	holder = 1507 # Axidares I
+}
+113.1.1 = {
+	holder = 1508 # Parthamasiris I
+}
+117.1.1 = {
+	holder = 1515 # Vologases III of Persia
+}
+144.1.1 = {
+	holder = 1505 # Vologases V of Persia
+}
+198.1.1 = {
+	holder = 1516 # Khosrov I of Persia
+}
+217.1.1 = {
+	holder = 1520 # Tiridates II
+}
+252.1.1 = {
+	holder = 2008 # Khosrov II of Armenia
+}
+253.1.1 = {
+	holder = 256 # Sassanid Kingship - Shapur I
+}
+272.1.1={
+	holder = 257 # Sassanid Kingship - Hormizd I
+}
+273.1.1={
+	holder = 258 # Sassanid Kingship - Bahram I
+}
+276.1.1={
+	holder = 259 # Sassanid Kingship - Bahram II
+}
+287.1.1 = {
+	holder = 2009 # Tiridates III 'the Great'
+}
+330.1.1 = {
+	holder = 2010 # Khosrov III 'the Small'
+}
+339.1.1 = {
+	holder = 2011 # Tiran I
+}
+350.1.1 = {
+	holder = 2012 # Arshak II
+}
+368.1.1 = {
+	holder = 268 # Shapur II - Sassanid Kingship 2.0
+}
+370.1.1 = {
+	holder = 2013 # Pap of Armenia
+}
+374.1.1 = {
+	holder = 2015 # Varazdat I
+}
+378.1.1 = {
+	holder = 2016 # Arshak III
+}
+387.1.1 = {
+	holder = 2017 # Khosrov IV
+}
+389.1.1 = {
+	holder = 2018 # Vramshapuh I
+}
+414.1.1 = {
+	holder  = 0
+}
+422.1.1 = {
+	holder = 2019 # Artaxias IV, last Arsacid king of Armenia
+}
+423.1.1 = {
+	holder = 0
+}
+465.1.1 = {
+	holder = 441 # Adhur Gushnap
+}
+481.1.1 = {
+	holder = 2027 # Sahak II of Bagratuni
+}
+482.1.1 = {
+	holder = 442 # Shapur Mihran
+}
+533.1.1 = {
+	holder = 0
+}
+606.1.1 = {
+	holder = 2033 # Smbat I, King of Armenia
+	set_tribute_suzerain = { who = e_persia percentage = 0.31 }
+}

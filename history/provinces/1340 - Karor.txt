@@ -1,0 +1,23 @@
+# 1340 - Karor
+
+# County Title
+title = c_karor
+
+# Settlements
+max_settlements = 3
+b_karor = castle
+b_mankera = city
+#b_shadia = temple
+#b_wan_bhachran = city
+
+# Misc
+culture = alchon
+religion = hephthalite
+
+# History
+700.1.1={
+	religion = hindu
+}
+720.1.1={
+	culture = panjabi
+}

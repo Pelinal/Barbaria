@@ -1,0 +1,22 @@
+# 570 - Tver
+
+# County Title
+title = c_tver
+
+# Settlements
+max_settlements = 4
+
+b_tver = tribal		#1182
+
+#b_klin			#1317
+#b_lotoshino	#1478
+#b_puchka		#1499
+#b_rodnya
+#b_turayevo
+#b_burashevo
+
+#Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

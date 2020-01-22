@@ -1,0 +1,23 @@
+## 513 - Birlad
+
+# County Title
+title = c_birlad
+
+# Settlements
+max_settlements = 5
+
+b_barlad = castle
+b_tecuci = city
+b_focsani = temple
+
+#b_adjud = castle
+#b_craciuna = castle
+#b_targu_putnei = castle
+#b_marasesti = castle
+
+# Misc
+
+culture = dacian
+religion = zalmoxian
+
+# History

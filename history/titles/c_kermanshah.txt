@@ -1,0 +1,104 @@
+226.1.1={
+	liege = e_persia
+	holder=252 # Ardashir I
+}
+241.1.1={
+	holder=256 # Shapur I
+}
+272.1.1={
+	holder=257 # Hormizd I
+}
+273.1.1={
+	holder=258 # Bahram I
+}
+276.1.1={
+	holder=259 # Bahram II
+}
+293.1.1={
+	holder=260 # Bahram III
+}
+293.4.1={
+	holder=261 # Narseh
+}
+302.1.1={
+	holder=262 # Hormizd II
+}
+309.1.1={
+	holder=268 # Shapur II
+}
+379.1.1={
+	holder=265 # Ardashir II
+}
+383.1.1={
+	holder=267 # Shapur III
+}
+388.1.1={
+	holder=269 # Bahram IV
+}
+399.1.1={
+	holder=270 # Yazdegerd I
+}
+421.1.1={
+	holder=271 # Bahram V
+}
+438.1.1={
+	holder=272 # Yazdegerd II
+}
+457.1.1={
+	holder=273 # Hormizd III
+}
+459.1.1={
+	holder=275 # Peroz I
+}
+484.6.1={
+	holder=274 # Balash
+}
+488.1.1={
+	holder=278 # Kavadh I
+}
+496.1.1={
+	holder=180625 # Djamasp
+}
+498.1.1={
+	holder=278 # Kavadh I
+}
+531.1.1={
+	holder=279 # Khosrau I
+}
+579.1.1={
+	holder=281 # Hormizd IV
+}
+590.1.1={
+	holder=354 # Bahram VI
+}
+592.1.1={
+	holder=282 # Khosrau II
+}
+628.2.28={
+	holder=283 # Kavadh II
+}
+628.6.1={
+	holder=284 # Ardashir III
+}
+630.4.27={
+	holder=285 # Borandukht
+}
+631.5.1={
+	holder=286 # Azarmidokht
+}
+631.9.1={
+	holder=288 # Yazdegerd III
+}
+## point of divergence
+651.1.1={
+	holder=291 # Peroz II
+}
+705.1.1={
+	holder=292 # Narsieh I
+}
+710.1.1={
+	holder=295 # Bahram VII
+}
+710.1.1={
+	holder=296 # Bahram VII
+}

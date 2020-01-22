@@ -1,0 +1,224 @@
+##= Religions Localisation =##
+
+##= Druidic =##
+gallic;Gallic;;;;;;;;;;;;x
+druidic;Druidic;;;;;;;;;;;;x
+gallic_reformed;Gallic;;;;;;;;;;;;x
+
+##= Egyptian Group =##
+kemetic;Kemetic;;;;;;;;;;;;x
+atenic;Atenic;;;;;;;;;;;;x
+egyptian_group;Egyptian;;;;;;;;;;;x
+
+##= Semitic =##
+semitic_grp;Semitic;;;;;;;;;;;;x
+chaldean;Chaldean;;;;;;;;;;;;x
+chaldean_full;Chaldean;;;;;;;;;;;;x
+chaldean_DESC;The polytheistic beliefs of the Mesopotamians date back millenia, with a complex heirarchy of gods and evil spirits. They believe in the appeasement of the gods via worship and living virtuous lives, in order to prevent their wrath and the potential destruction of Mesopotamian civilisation. The ancient religion of Mesopotamia has to be by far the oldest pantheon in the world.\n;;;;;;;;;;;;x
+chaldean_reformed;Chaldean;;;;;;;;;;;;x
+chaldean_reformed_full;Chaldean Reformed;;;;;;;;;;;;x
+chaldean_reformed_DESC;The polytheistic beliefs of the Mesopotamians date back millenia, with a complex heirarchy of gods and evil spirits. They believe in the appeasement of the gods via worship and living virtuous lives, in order to prevent their wrath and the potential destruction of Mesopotamian civilisation. The ancient religion of Mesopotamia has to be by far the oldest pantheon in the world.\n;;;;;;;;;;;;x
+KALUM;Kalum;;;;;;;;;;;;x
+GOD_ENLIL;Enlil;;;;;;;;;;;;x
+GOD_ASHUR;Ashur;;;;;;;;;;;;x
+GOD_ANU;Anu;;;;;;;;;;;;x
+GOD_ENKI;Enki;;;;;;;;;;;;x
+GOD_NINURTA;Ninurta;;;;;;;;;;;;x
+GOD_NERGAL;Nergal;;;;;;;;;;;;x
+GOD_INANNA;Inanna;;;;;;;;;;;;x
+GOD_NABU;Nabu;;;;;;;;;;;;x
+GOD_NANNA;Nanna;;;;;;;;;;;;x
+GOD_UTU;Utu;;;;;;;;;;;;x
+GOD_DAGAN;Dagan;;;;;;;;;;;;x
+GOD_MARDUK;Marduk;;;;;;;;;;;;x
+LAMASHTU;Lamashtu;;;;;;;;;;;;x
+UGGAE;Uggae;;;;;;;;;;;;x
+THE_DINGIR_XULU;the Udug and the Galla;;;;;;;;;;;;x
+THE_ENUMA_ELISH;The Enuma Elish;;;;;;;;;;;;x
+canaanite;Canaanite;;;;;;;;;;;;x
+canaanite_full;Canaanite;;;;;;;;;;;;x
+canaanite_DESC;The religious practices and beliefs of Phoenicia were cognate generally to their neighbours in Canaan. Its rites were primarily for city-state purposes payment of taxes by citizens was considered in the category of religious sacrifices. Unfortunately, many of the Phoenician sacred writings known to the ancients have been lost. Phoenicians were known for being very religious. While there remain favourable aspects regarding Canaanite religion, several of its reported practices have been widely criticized, in particular, temple prostitution, and child sacrifice.\n;;;;;;;;;;;;x
+canaanite_reformed;Canaanite;;;;;;;;;;;;x
+canaanite_reformed_full;Canaanite Reformed;;;;;;;;;;;;x
+canaanite_reformed_DESC;The religious practices and beliefs of Phoenicia were cognate generally to their neighbours in Canaan. Its rites were primarily for city-state purposes payment of taxes by citizens was considered in the category of religious sacrifices. Unfortunately, many of the Phoenician sacred writings known to the ancients have been lost. Phoenicians were known for being very religious. While there remain favourable aspects regarding Canaanite religion, several of its reported practices have been widely criticized, in particular, temple prostitution, and child sacrifice.\n;;;;;;;;;;;;x
+punic;Punic;;;;;;;;;;;;x
+punic_full;Punic;;;;;;;;;;;;x
+punic_DESC;The religion of Carthage in North Africa is a direct continuation of the Phoenician variety of the polytheistic Canaanite religion with significant local modifications. Controversy prevails regarding the possible existence and practice of propitiatory child sacrifice in the religion of Carthage.\n;;;;;;;;;;;;x
+punic_reformed;Punic;;;;;;;;;;;;x
+punic_reformed_full;Punic Reformed;;;;;;;;;;;;x
+punic_reformed_DESC;The religion of Carthage in North Africa is a direct continuation of the Phoenician variety of the polytheistic Canaanite religion with significant local modifications. Controversy prevails regarding the possible existence and practice of propitiatory child sacrifice in the religion of Carthage.\n;;;;;;;;;;;;x
+nabataean;Nabataean;;;;;;;;;;;;x
+nabataean_reformed;Nabataean;;;;;;;;;;;;x
+nabataean_full;Nabataean;;;;;;;;;;;;x
+nabataean_reformed_full;Nabataean Reformed;;;;;;;;;;;;x
+nabataean_DESC;The Nabataean religion is the form of Arab polytheism practiced in Nabataea. The Nabateans are polytheistic and worship a wide variety of local gods as well as Baalshamin, Isis, and Graeco-Italic gods such as Tyche and Dionysus. Their gods are worshipped at temples, high places, and betyls. They are mostly aniconic and prefer to decorate their sacred places with geometric designs. Like many other polytheists, they make sacrifices to their gods, perform other rituals and believe in an afterlife.\n;;;;;;;;;;;;x
+nabataean_reformed_DESC;The Nabataean religion is the form of Arab polytheism practiced in Nabataea. The Nabateans are polytheistic and worship a wide variety of local gods as well as Baalshamin, Isis, and Graeco-Italic gods such as Tyche and Dionysus. Their gods are worshipped at temples, high places, and betyls. They are mostly aniconic and prefer to decorate their sacred places with geometric designs. Like many other polytheists, they make sacrifices to their gods, perform other rituals and believe in an afterlife.\n;;;;;;;;;;;;x
+nabataean_reformed_FEATURES;§Y*§! Defensive bonuses in Nabataean lands.\n§Y*§! Can demand conversion and convert provinces.;;;;;;;;;;;;x
+sayhadic;Wathanist;;;;;;;;;;;;x
+sayhadic_reformed;Wathanist;;;;;;;;;;;;x
+sayhadic_full;Wathanist;;;;;;;;;;;;x
+sayhadic_reformed_full;Wathanist Reformed;;;;;;;;;;;;x
+sayhadic_DESC;The civilizations of south Arabia are considered to have the most developed pantheon in the Arabian peninsula. In south Arabia, the most common god is Athtar, who is considered remote. Patron deities are considered to be of much more immediate significance than Athtar. Each people group are termed the “children” of their respective patron deity. Patron deities play a vital role in sociopolitical terms, their cults serving as the focus of a person’s cohesion and loyalty.\n;;;;;;;;;;;;x
+sayhadic_reformed_DESC;The civilizations of south Arabia are considered to have the most developed pantheon in the Arabian peninsula. In south Arabia, the most common god is Athtar, who is considered remote. Patron deities are considered to be of much more immediate significance than Athtar. Each people group are termed the “children” of their respective patron deity. Patron deities play a vital role in sociopolitical terms, their cults serving as the focus of a person’s cohesion and loyalty.\n;;;;;;;;;;;;x
+sayhadic_reformed_FEATURES;§Y*§! Defensive bonuses in Wathanist lands.\n§Y*§! Can demand conversion and convert provinces.;;;;;;;;;;;;x
+GOD_DUSHARA;Dushara;;;;;;;;;;;;x
+GOD_AL_UZZA;Al-Uzza;;;;;;;;;;;;x
+GOD_ALLAT;Allat;;;;;;;;;;;;x
+GOD_MANAT;Manat;;;;;;;;;;;;x
+GOD_BAALSHAMIN;Baalshamin;;;;;;;;;;;;x
+GOD_TYCHE;Tyche;;;;;;;;;;;;x
+GOD_ISIS;Isis;;;;;;;;;;;;x
+GOD_AL_KUTBAY;Al-Kutbay;;;;;;;;;;;;x
+GOD_MANOTU;Manotu;;;;;;;;;;;;x
+THE_GHOULS;the Ghouls;;;;;;;;;;;;x
+GOD_ATHTAR;Athtar;;;;;;;;;;;;x
+GOD_ALMAQAH;Almaqah;;;;;;;;;;;;x
+GOD_WADD;Wadd;;;;;;;;;;;;x
+GOD_AMM;'Amm;;;;;;;;;;;;x
+GOD_HAUBAS;Huabas;;;;;;;;;;;;x
+GOD_TALAB;Ta'lab;;;;;;;;;;;;x
+GOD_HAUKIM;Haukim;;;;;;;;;;;;x
+GOD_UZZAYAN;Uzzayan;;;;;;;;;;;;x
+GOD_BASAMUM;Basamum;;;;;;;;;;;;x
+THE_SACRED_TABLETS;The Sacred Tablets;;;;;;;;;;;;x
+THE_BETYLITIC_TEXTS;The Betylitic Texts;;;;;;;;;;;;x
+KAHIN;Kahin;;;;;;;;;;;;x
+AFKAL;Afkal;;;;;;;;;;;;x
+MONSTER_BAHAMUT;Bahamut;Bahamut;;;;;;;;;;x
+
+##= Graeco-Italic =##
+graeco_italic;Graeco-Italic;;;;;;;;;;;;x
+hellenic;Hellenic;;;;;;;;;;;;x
+hellenic_full;Hellenic;;;;;;;;;;;;x
+hellenic_DESC;Hellenistic theology is polytheistic, based on the assumption that there are many gods and goddesses, as well as a range of lesser supernatural beings of various types. There exists a hierarchy of deities, with Zeus, the king of the gods, having a level of control over all the others, although he is not almighty. Some deities have dominion over certain aspects of nature.\n;;;;;;;;;;;;x
+italic;Italic;;;;;;;;;;;;x
+italic_full;Italic;;;;;;;;;;;;x
+italic_DESC;The people of the Italian Peninsula are highly religious, and attribute their successes to their collective piety in maintaining good relations with the gods. They are known for the great number of deities they honour. Greeks on the Italian peninsula from the beginning of the historical period influenced Latin culture, introducing some religious practices that became fundamental. They look for common ground between their major gods and those of the Greeks, often adapting Greek myths and iconography.\n;;;;;;;;;;;;x
+GOD_ZEUS;Zeus;;;;;;;;;;;;x
+GOD_HERA;Hera;;;;;;;;;;;;x
+GOD_HADES;Hades;;;;;;;;;;;;x
+GOD_POSEIDON;Poseidon;;;;;;;;;;;;x
+GOD_DEMETER;Demeter;;;;;;;;;;;;x
+GOD_ATHENA;Athena;;;;;;;;;;;;x
+GOD_APOLLO;Apollo;;;;;;;;;;;;x
+GOD_ARTEMIS;Artemis;;;;;;;;;;;;x
+GOD_ARES;Ares;;;;;;;;;;;;x
+GOD_ATHRODITE;Athrodite;;;;;;;;;;;;x
+GOD_HEPHAESTUS;Hephaestus;;;;;;;;;;;;x
+GOD_HERMES;Hermes;;;;;;;;;;;;x
+GOD_CRONUS;Cronus;;;;;;;;;;;;x
+GOD_DIONYSUS;Dionysus;;;;;;;;;;;;x
+GOD_ECHIDNA;Echidna;;;;;;;;;;;;x
+
+##= Anatolic =##
+khaldic;Khaldic;;;;;;;;;;;;x
+khaldic_full;Khaldic;;;;;;;;;;;;x
+khaldic_DESC;The Khaldic pantheon represents a religion which grew out of the ancient Urartian culture, many millenia before. A principally polytheistic faith, the chief god is known as Khaldi, and is worshipped as a warrior god.\n;;;;;;;;;;;;x
+khaldic_reformed;Khaldic;;;;;;;;;;;;x
+khaldic_reformed_full;Khaldic Reformed;;;;;;;;;;;;x
+khaldic_reformed_DESC;The Khaldic pantheon represents a religion which grew out of the ancient Urartian culture, many millenia before. A principally polytheistic faith, the chief god is known as Khaldi, and is worshipped as a warrior god.\n;;;;;;;;;;;;x
+
+armazic;Armazi;;;;;;;;;;;;x
+armazic_full;Armazi;;;;;;;;;;;;x
+armazic_DESC;Georgian paganism is an obscure and diverse religion, centered on a variety of gods, and the heroes they champion. Major gods include Armazi, Dali, Adgilis Deda, and Tamari.\n;;;;;;;;;;;;x
+armazic_reformed;Armazi;;;;;;;;;;;;x
+armazic_reformed_full;Armazi Reformed;;;;;;;;;;;;x
+armazic_reformed_DESC;Georgian paganism is an obscure and diverse religion, centered on a variety of gods, and the heroes they champion. Major gods include Armazi, Dali, Adgilis Deda, and Tamari.\n;;;;;;;;;;;;x
+GOD_AMIRANI;Amirani;Amirani;;;;;;;;;;x
+GOD_ARMAZI;Armazi;Armazi;;;;;;;;;;x
+GOD_BAADURI;Baaduri;Baaduri;;;;;;;;;;x
+GOD_DALI;Dali;Dali;;;;;;;;;;x
+GOD_LAMARA;Lamara;Lamara;;;;;;;;;;x
+GOD_MORIGE;Morige;Morige;;;;;;;;;;x
+GOD_OCHOPINTRE;Ochopintre;Ochopintre;;;;;;;;;;x
+GOD_TAMARI;Tamari;Tamari;;;;;;;;;;x
+GOD_ZADENI;Zadeni;Zadeni;;;;;;;;;;x
+GOD_ADGILIS_DEDA;Adgilis Deda;Adgilis Deda;;;;;;;;;;x
+GOD_DAVI;Davi;Davi;;;;;;;;;;x
+GOD_GATSI;Gatsi;Gatsi;;;;;;;;;;x
+GOD_GAIMI;Gaimi;Gaimi;;;;;;;;;;x
+GOD_ALI;Ali;Ali;;;;;;;;;;x
+
+cybelene;Cybelene;Cybèliene;;;;;;;;;;x
+cybelene_DESC;The Phrygian cult of Cybele is linked to prehistoric Mother-Goddess worship. Evolving over thousands of years, the cult of Cybele often claimed relationship to mythical figures and heroes, and practiced their religion with the veneration of idols.\n;;;;;;;;;;;x
+GOD_CYBELE;Cybele;Cybèle;;;;;;;;;;x
+GOD_MATAR_KUBILEYA;Matar Kubileya;Matar Kubileya;;;;;;;;;;x
+GOD_MEN;Men;;;;;;;;;;;;x
+GOD_ATTIS;Attis;Attis;;;;;;;;;;x
+GOD_HADES;Hades;Hadès;;;;;;;;;;x
+SYBILINE_BOOKS;Sybiline Books;Livres sibyllins;;;;;;;;;;x
+GALLAI;Gallai;Gallai;;;;;;;;;;x
+d_cybelene;The Cybelene Mysteries;Les mystères cybéliens;;;;;;;;;;x
+d_cybelene_adj;Cybelene;Cybèlien;;;;;;;;;;x
+temple_baron_cybelian_pagan;Priest;Prêtre;;;;;;;;;;;x
+ARCHIGALLUS;Archigallus;Archigallus;;;;;;;;;;x
+
+##= Iberian =##
+iberic;Iberic;;;;;;;;;;;;x
+iberic_reformed;Iberic;;;;;;;;;;;;x
+vasconic;Vasconic;;;;;;;;;;;;x
+vasconic_reformed;Vasconic;;;;;;;;;;;;x
+vasconic_DESC;The Vasconic religion comes from one of the last pre-indo-european tribes, the Basques, isolated in the Pyrenees, who have managed to resist to the cultural influences of surrounding powers and kept their local religious customs.;;;;;;;;;;;x
+vasconic_reformed_DESC;The Vasconic religion comes from one of the last pre-indo-european tribes, the Basques, isolated in the Pyrenees, who have managed to resist to the cultural influences of surrounding powers and kept their local religious customs.;;;;;;;;;;;x
+GOD_URTZI;Urtzi;Urtzi;;;;;;;;;;x
+GOD_MARI;Mari;Mari;;;;;;;;;;x
+GOD_LAMIA;Lamia;Lamia;;;;;;;;;;x
+GOD_BASAJAUN;Basajaun;Basajaun;;;;;;;;;;x
+GOD_ILARGIA;Ilargia;Ilargia;;;;;;;;;;x
+GOD_EGUZKIA;Eguzkia;Eguzkia;;;;;;;;;;x
+GOD_AMALUR;Amalur;Amalur;;;;;;;;;;x
+GOD_ATARRABI;Atarrabi;Atarrabi;;;;;;;;;;x
+GOD_SUGAAR;Sugaar;Sugaar;;;;;;;;;;x
+GOD_AKERBELTZ;Akerbeltz;Aker ;;;;;;;;;;x
+GOD_MIKELATS;Mikelatz;Mikelatz;;;;;;;;;;x
+GOD_TARTALO;Tartalo;Tartalo;;;;;;;;;;x
+GOD_JENTILAK;Jentilak;Jentilak;;;;;;;;;;x
+EVIL_JENTILAK;Jentilak;Jentilak;;;;;;;;;;x
+EVIL_TARTALO;Thagimasidas;Thagimasidas;;;;;;;;;;x
+GUDA_SANTUA;Guda Santua;Guda Santua;;;;;;;;;;x
+EUSKAL_BIBLIA;Euskal Biblia;Euskal Biblia;;;;;;;;;;x
+ZAI;Zai;Zai;;;;;;;;;;x
+iberic_grp;Ibero-Vasconic;;;;;;;;;;;;x
+
+##= Germanic =##
+germanic_pagan_reformed;Germanic;;;;;;;;;;;;x
+germanic_pagan;Germanic;;;;;;;;;;;;x
+norse_pagan;Norse;;;;;;;;;;;;x
+norse_pagan_reformed;Norse;;;;;;;;;;;;x
+
+#### Uncategorised, for now... ####
+berber;Amazight;;;;;;;;;;;;x
+baltic_pagan;Matrist;;;;;;;;;;;;x
+baltic_pagan_reformed;Matrist;;;;;;;;;;;;x
+finnish_pagan;Finnic;;;;;;;;;;;;x
+finnish_pagan_reformed;Finnic;;;;;;;;;;;;x
+
+nick_the_persian;the Persian;;;;;;;;;;;;x
+nick_the_boar;the Boar;;;;;;;;;;;x
+
+##= Eastern =##
+sanamahi;Sanamahi;sanamahi;;;;;;;;;;x
+sanamahi_DESC;Sanamahism is the worship of Sanamahi as the eternal force responsible for all living things. This collection of this faith's beliefs is the Puya, written in Manipuri.;Le sanamahisme est le culte de Sanamahi comme la force éternelle responsable de tous les êtres vivants. Cette collection de croyances de cette foi est la Puya, écrit en Manipuri.;;;;;;;;;;x
+PUYA;The Puya;La Puya;;;;;;;;;;x
+GOD_SANAMAHI;Sanamahi;Sanamahi;;;;;;;;;;x
+GOD_EMA_PHOUOIBI;Ema Phouoibi;Ema Phouoibi;;;;;;;;;;x
+GOD_APOKPA;Apokpa;Apokpa;;;;;;;;;;x
+GOD_LAININGTHOU_SANAMAHI;Lainingthou Sanamahi;Lainingthou Sanamahi;;;;;;;;;;x
+GOD_SHIDABA_MAPU;Shidaba Mapu;Shidaba Mapu;;;;;;;;;;x
+GOD_THE_EBUDHOU;Ebudhou;Ebudhou;;;;;;;;;;x
+temple_baron_sanamahi;Priest;Prêtre;;;;;;;;;;x
+
+##= Nomadic Religions =##
+heptadic;Heptadic;;;;;;;;;;;x
+heptadic_DESC;Scythian Paganism refers to the mythology, ritual practices and beliefs of the Scythians, an ancient Iranian people who dominated Central Asia and the Pontic-Caspian steppe in Eastern Europe throughout Classical Antiquity. What little is known of the religion is drawn from the work of the 5th century Greek historian and ethnographer Herodotus. Scythian religion is assumed to have been related to the earlier Proto-Indo-Iranian religion, and to have influenced later Slavic, Hungarian and Turkic mythologies, as well as some contemporary Eastern Iranian and Ossetian traditions.;Agini se réfère à la mythologie, les pratiques et les croyances rituelles des Scythes, un ancien peuple iranien qui domina l'Asie centrale et la steppe pontique-Caspienne en Europe tout au long de l'Antiquité classique. Le peu que l'on connaît de la religion est tirée de l'œuvre de l'historien et ethnographe grec du 5ème siècle Hérodote. La religion scythe est supposée avoir été liée à la religion antérieure proto-indo-iranienne, et avoir influencé plus tard les mythologies slaves, hongroises et turques, ainsi que certaines traditions contemporaines iraniennes et ossètes de l'Est.;;;;;;;;;;x
+heptadic_reformed;Heptadic;;;;;;;;;;;x
+heptadic_reformed_DESC;Scythian Paganism refers to the mythology, ritual practices and beliefs of the Scythians, an ancient Iranian people who dominated Central Asia and the Pontic-Caspian steppe in Eastern Europe throughout Classical Antiquity. What little is known of the religion is drawn from the work of the 5th century Greek historian and ethnographer Herodotus. Scythian religion is assumed to have been related to the earlier Proto-Indo-Iranian religion, and to have influenced later Slavic, Hungarian and Turkic mythologies, as well as some contemporary Eastern Iranian and Ossetian traditions..;;;;;;;;;;;x
+
+GOD_AGIN;Agin;Agin;;;;;;;;;;x
+GOD_TABITI;Tabiti;Tabiti;;;;;;;;;;x
+GOD_PAPAIOS;Papaios;Papaios;;;;;;;;;;x
+GOD_API;Api;Api;;;;;;;;;;x
+GOD_OITOSYROS;Oitosyros;Oitosyros;;;;;;;;;;x
+GOD_ARGIMPASA;Argimpasa;Argimpasa;;;;;;;;;;x
+GOD_THAGIMASIDAS;Thagimasidas;Thagimasidas;;;;;;;;;;x
+ENAREI;Enarei;Enarée;;;;;;;;;;x

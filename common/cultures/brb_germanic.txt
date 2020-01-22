@@ -1,0 +1,1401 @@
+###############################################
+###		Germanic Cultures - Barbaria 		###
+###############################################
+
+## colour: 0.5 0.28 0.13
+# Norse
+# Frankish
+# Gothic 
+# Suebi
+# Anglo-Saxon
+# Saxon 
+# Frisian
+# Thuringian 
+# Angle 
+# Burgundian
+# Vandal 
+# Alemanni
+# Rugian
+# Quadi
+# Scirii
+# Bastarnae
+
+germanic = {
+	graphical_cultures = { westerngfx }
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	
+	norse = {
+		graphical_cultures = { norsegfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		# Th 222 þ 254 Ð 208 th 240 æ
+		
+		male_names = {
+			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjorn Arngrimr Arni_Arne Arnfast Asbjorn_Asbjorn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil_Berthold Birger Bjorn_Beorn Bo Borkvard Botulfr_Botulf Bragi_Brage Buthli
+			Dag Dan Dyre Eilif Egill_Egil Emund Einarr_Einar Eirikr_Erik Eskild Falki Faste Filip_Philip Fredrik_Frederick Frirek Frothi_Frode Freyr_Frej Folki_Folke Gandalfr Geirr Georg_George Gnupa_Gnupa Gorm_Gorm Greger_Gregory Grimr_Grim Guthfrith_Godfrey Guthmundr_Gudmund Guthrothr_Gudrod Gunnarr_Gunnar Hakon_Hakon Halsten Haraldr_Harold Haukr Helgi_Helge
+			Hemming Holmger Hrafn Hrolfr_Rolf Hrane Hæsteinn Hjalmar_Hjalmar Hrothgar Hrothulfr Hrorekr_Rurik Hysing Ingólfr_Ingolf Ingemar Ingjald Ivar_Ivar Jedvard_Edward Jon_John Karl_Charles Kettil Kettilmund Kjartan Klas_Nicholas Knut_Knut Kol Kolbjorn Magnus_Magnus Markus_Marcus 
+			Magni_Magne Mats_Matthew Nils_Nicholas Niklas_Nicholas Oddr_Odd Ofeig Olafr_Olaf Ormr_Orm Ottarr_Ottar Refr Refil Ragnarr_Rainer Rikulfr Rognvaldr_Ragnvald Skuli_Skule Snorri Sigbjorn Sigtrygg Sigurthr_Sigurd Starkathr_Starkad Steinn_Sten Sturla Styrbjorn Styrkar Sumarlithi_Somerled Suni_Sune Sveinn_Sven
+			Sverker Sæmundr_Sämund Solvi_Solve Sorkver Tjudmund_Tjudmund Toke_Toke Tolir Thorbjorn_Torbjorn Thorfinn_Torfinn Thorbrandr_Torbrand Thordr_Tord Thorgil_Torkel Thorsteinn_Torsten Thorolfr_Thorolf Toste Totil Tryggve Tyke Ulfr_Ulf Vagn Valdemar_Vladimir Ake Yngvar_Ingvar Orvar_Orvar Oysteinn_Eysteinn
+		}
+		female_names = {
+			Aleta Alfhildr_Alfhild Alfrith_Alfridh Alvor Anna_Anna Asa_Asa Aslaug Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Bjorg Bodil Bothildr_Bothild Cecilia_Cecilia
+			Edla Elin Elisabet_Elizabeth Freyja_Freja Gerthr Gloth Grima Gunnhildr_Gunhild Gurli Guthrun_Gudrun Gyla Gyrith Gytha_Gytha Hafrid Halla Helena_Helen Holmfrid
+			Iliana Inga_Inge Ingfrid Ingibjorg_Ingeborg Ingjerthr_Ingegerd Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maer
+			Malmfrith_Malmfrid Margareta_Margaret Maria_Maria Rikissa Rognfrith_Ragnfrid Rognhildr_Ragnhild Saga Sara_Sarah Sif Sigrid_Sigrid Skuld Sofia_Sophia
+			Svanhildr_Svanhild Ulfhildr_Ulvhilde Vigdis Ylva_Ylva Yrsa_Ursula Thora_Thora Thordis_Thordis Thyra_Thyra
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+	
+	frankish = {
+		graphical_cultures = { germangfx frankishgfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "af "
+		male_patronym = "ssunu"
+		female_patronym = "sdohter"
+		prefix = no
+		
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 10
+		mother_name_chance = 3
+		
+		allow_looting = yes
+	}
+	
+	gothic = {
+		graphical_cultures = { germangfx occitangfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "af "
+		male_patronym = "ssunus"
+		female_patronym = "sdauhtar"
+		prefix = no
+		
+		dukes_called_kings = yes
+	
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 0
+	}
+	
+	suebi = {
+		graphical_cultures = { germangfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+
+		male_names = {
+			Abbelin Abragast Abrekan Adorik Agriulfum Agriwulf Aiwarik Alamir Aldered Alduward Aliverk 
+			Allifred Alowind Alvar Amalarik Amedon Anila Ardabast Ardald Ardebred Ardulf Argilo Argivast 
+			Ariamir Arias Ariast Arnald Askarik Askulf Athalfons Attila Audekka Audikka Badamund Badesind 
+			Badila Bagino Bakkina Baldemir Baldesind Baltar Balto Baril Bati Baton Bazar Bekkilla Bela 
+			Belesar Berosind Blandila Bliviarik Bonemir Burgila Crizila Dada Dadila Dadinus Danila Desterik 
+			Dokemir Domerik Dukila Dulkemir Dulkemund Eborik Eimorik Eldan Eldegeses Eldemir Eldemund 
+			Eldesind Eldibert Eldin Eldiverik Eldo Eldowig Ellekka Elpandus Elperik Emiso Endulf Entrud 
+			Erifuns Ermaldus Ermarik Ermefred Ermegild Ermemir Ermiar Ermila Eruulfus Espallo Faffila 
+			Fagila Fagildus Fakino Fakko Fandila Fannus Fatered Fatu Felellus Felemir Filibert Filon 
+			Floresind Fofo Fonso Fralenko Framilla Framta Frankila Franko Frariko Frauwino Fredamund 
+			Fredemir Fredenand_Ferdinand Frederik_Frederick Fredisk Fredowald Fredowin Fredulf Fredus 
+			Freduwar Fridibert Frogila Frogiulf Froila Frojo_Froio Fronosila Frowarenk Frumar Frumir Frunila 
+			Fruwarik Fulkared Gademir Gaella Gaffo Gagikka Gaidus Gaifar Ganati Gandila Gandinus Gandulf 
+			Ganila Ganoi Garding Gastre Gaton Gaudemir Gauderik Gaudesind Gaudila Gaudilani Gaudinas 
+			Gaufred Gaulf Gavila Gebuld Geda Gega Geldemir Gelmir Gemund Gendo Genila Genlo Gentoi Gera 
+			Germund Gero Gesa Gesemir Geserik_Geisericus Gesulf Geterik Getila Gidibert Gigel Gildarik 
+			Gildo Gilloi Girald_Gerhard Gismund Gisofred Gisvad Gitarius Gitesind Gitio Givellan Gladila 
+			Godefred Godegild Godellus Godemir Godesind Godomund Gogila Gogitus Goldegild Goldred Goldregod 
+			Golfarik Golinus Gollo Gomald Gomared Gomarik Gomedei Gomesind Gomulf Gomund Gonso Gontemund 
+			Gontere Gontoi Gontuwald Gotesend Goto Goton Goymund Gramila Granilo Gresomar Grima Grisulf 
+			Grundemar Gudegis Gudenand Gudered Guderik Gudesind Gudestes Gudila Gudilo Gudilulf Guginus 
+			Guldar Gulderes Gulderik Gulfar Gulfemir Gumar Gumel Gumila Gumito Gundarius Gundebred Gundelin 
+			Gunderam Gunderik Gundesila Gundesind Gundifort Gundila Gundisalf Gundiskalk Gundivad Gundivald 
+			Gundon Gundulf Gunkitus Guntato Guntellus Guntemir Gunterotis Guntiesklo Guntikio Gutemir 
+			Gutemund Gutila Gutinus Gutumar Guwalamar Guwalamir Guwaldar Guwaldejo Guwaldramir Guwandalar 
+			Guwandalisko Guwandila Guwantal Guwimarik Gwendo Gwilbert Gwimir Gwina Gwinus Gwirik Gwisind 
+			Hamdino Heremigar Hermekisk Hermerik Herus Hidibert Hildebrad Hildefuns Hildemir Hilderik_Hilderik 
+			Hildowi Hildras Hildulfus Hitault Hitimund Hlewomir Hlutar_Chlotar Igo Ikila Indisk Itila 
+			Ivolik Janard Jenserik Jerulf Jonarik Jonila Justiarik Justri Juswandus Kagild Kagitus Kalendus 
+			Kamund Kanut_Canute Kararik Karlo_Karl Karmir Kartin Kedisilo Keila Kendas Kendemir Kendered 
+			Kendon Kendulf Ketenand Keti Ketoi Koniarik Kwalavala Kwedesend Kwedulf Kwella Kwidemir 
+			Kwiderik Kwintila Kwintilo Kwitarius Kwitoi Kwitre Lalla Lallinus Lallus Lilo Liubald Liubegild 
+			Liubegoto Liubegutus Liubellus Liubered Liuberik Liubert Liubesind Liubila Liubilo Liubus Lovoi 
+			Lubinus Magan Magila Magit Magnit Malared Malarik Malasko Maldras Mandila Mandin Mandulf 
+			Manello Maniarik Manilla Maninus Maniulf Manna Manno Manosind Manowim Mantellus Manulf Manuwald 
+			Markitus Marko Markosind Martila_Martin Masdras Massila Materiks Matroi Matrosind Mauran 
+			Maurentan Maurikan Mauron Megild Meitila Meitins Meitulf Merila Mervig_Merovech Miro Mirosind 
+			Miruwaldo Moderid Moderik Modila Modild Monderik Mondoi Monefuns Monobred Mudarjo Mudila Mund 
+			Mundel Mundila Munisk Naustila Neufila Nitigis Niufila Notar Nwilla Nwillo Odorik Ofila_Offa 
+			Oldarik Onared Onegildo Onemir Onesind Onorik_Honorius Oppa Oppila Osdulf Osmund Pantar Pantin 
+			Panto Pappo_Poppo Pennino Pepi_Pepin Pipernik Rademund Radesind Radulf Ragesind Ragian 
+			Ragifred_Ragnfred Ragimir Ragito Ragolf Raiola Rakerik Ramila Ramon Ramulo Ranar_Ragnarr 
+			Randemir Randila Rando Randuwar Ranemir Ranemund Ranibert Ranilo Ranisk Ranosind Ranulf 
+			Ranuwald Ratar Raupar Redemir Refulfo Regaulf Reginald_Reginald Reimund_Raymond Reirik 
+			Rekkafred Rekkared_Richard Rekkela Rekkemir Rekkemund Rekkerit Rekkesind Rekkeswind_Rekeswinth 
+			Rekkiar Rekkila Rekkilod Rekkimund Rekkoi Rekkuwald Remegild Remesar Remesila Remesind Remest 
+			Remismund Remisol Renderik Resterik Reterik Rikkigar Rodebert Rodemir Rodowug Romarik Romila 
+			Rososild Ruderik_Roderick Rudesind Rudila Rudilo Rufred Rulind Sabared Sabegoto Sabila Sabitus 
+			Sagatus Sagild Sagulf Salamir Salla Sandimir Santimir Saroi Saruwila Savarik_Savarik Savegod 
+			Savoi Sawarak Saxo Sedeges Sedino Segemund Segesind Segestro Segga Segika Segimar Segio Segioi 
+			Seguwin_Sigewin Seixomir Selmir Seloi Senda Sendamir Sendel Senderik Sendin Sendoi Sendon 
+			Sendred Sendulf Senduwitu Seniared Seniulf Senta Sentar Senuldo Seririgo Serulf Servald Seserik 
+			Seskut Sesmir Sesmund Sesoi Sesuwito Sevegild Sigebert_Sigebert Sigefrid_Siegfried Sigered 
+			Sigerik Sigesind Sigila Sigu Sigunterik Sindamund Sindibert Sindigis Sindila Sindilo Sindo 
+			Sinifred Sisebut Sisel Sisibert Sisil Sisila Sisilu Sisinus Sisnand Sisuld Sisulf Sisuwald 
+			Sitagel Siti Sitivid Skapa Skarkila Skerin Smerlo Sonegild Songimer Soniarik Sonifred Sonna 
+			Sontrila Spanar Spanarik Spandarik Spanilo Spanosind Sperautan Spintilo Spodemir Spoderik 
+			Struko Sundemir Suniagisk Suniar Sunila Sunilo Sunimir Sunitus Suwabas Suwavar Suwered Suwimir 
+			Tandus Tankila Tankin Tankus Tankwila Tata Teadario Tedoi Tegila Tegino Tegio Tegit Teobald 
+			Teoda Teodebert Teodefred Teodegild Teodekut Teodemir_Theodemer Teodemund Teodenand Teoderad 
+			Teoderik_Theoderic Teodesind Teodevad Teodila Teodilo Teodinus Teodisila Teodisk Teodiskes 
+			Teodiu Teoduldo Teodulf Teton Titila Torsario Tota Tradin Tradus Trakin Trasar Trasarik 
+			Trasendus Trasido Trasiuwadus Trasmiro Trasmund Trasoi Trassemut Trastalo Trastemir Trastulf 
+			Trasulf Trasuwar Trevuls Trudigild Trudilo Trudinus Trudulf Truktemir Truktemund Trukterik 
+			Truktesind Truktila Truktin Truktus Truwitellus Truwitero Tumtuldo Tundulfus Tuntila Turisulf 
+			Unemund Unila Unisk Usegild Valaris Vamba Vandino Vasaridus Vederoi Vedragese Venedario 
+			Venetrik Venze Vermund Viamund Viarik Vidragild Vidrald Vidramir Vidubas Vigila Vigilo Vigiltu 
+			Vigoi Viktemir Vikterik Vilesind Vilian Viliar Viliarik Vilifred Vilifuns Viligus 
+			Villelmus_William Villiamir Villo Viman Visald Visandus Visellu Visklafred Visklamir Visklamund 
+			Visklario Vistemund Visterlo Vistesind Vistibert Vistiklo Vistragild Vistramund Vistrarik 
+			Vistremir Vistresind Vitar Vitas Vitila Vitildus Vitinus Vitisk Vitiza Viza Vizamund Vizila 
+			Vizoi Vuwanda Wadamund Wademir Wegitus Weremund Wiliared Willoi Wimared Wistiz Wistrela Wisulf 
+			Wita Wittimer Zazitus Zazo Zendasind Zenzitus Zisila
+		}
+		female_names = {
+			Adegundia Adikka Adila Adosinda Alatrudia Alia Alowinda Attina Badosinda Baga Baita Begikka 
+			Bekkosinda Belavrida Bellerta Berina Boniza Brunildi_Brunhild Burgala Dadildi Danili Dukili 
+			Eldebona Eldegundia Eldesinda Eldigia Elperika Emildi Engoreda Ensalda Entrudi 
+			Ermedrudia_Ermentrude Ermega Ermegundia Ermengont Ermesinda Ermildi Ermulfa Eva_Eva Evosinda 
+			Faffili Fagili Fakkili Fata Ferildi Floresinda Fofeldi Fonsa Fonselli Fradegundia Framilli 
+			Framulda Frankildi Frauwina Freda Fredegundia Fredenanda Fredesinda Fredilli Frogeva Frogildi 
+			Frogina Froiloba Froisinda Fronildi Fronosili Fruma Frunili Gadenanda Gaeldi Gandilli Gandina 
+			Ganilla Gardinga Gasuwildi Gaudesinda Gaudilli Gavildi Gavina Gefera Gelowira Gendina Genildi 
+			Genitigia Genobreda Gesmira Getilli Gitesinda Gladilli Godella Godenanda Godesinda Godoigia 
+			Gogia Gogilli Gogina Gomesinda Gomita Gondella Gondenanda Gonkeria Gonta Gonza Gota Goysinda 
+			Gramildi Gudigeba Gudili Gudiliuba Gudiverga Guma Gumildi Gundebrida Gundelina Gunderona 
+			Gundertia Gundesilli Gundesinda Gundigeva Gundili Gundisalva Gundivera Gunkita Guntedrudia 
+			Gunti Guntina Guntwigia Guta Gutilli Gutina Gutumara Guwadla Guwalamira Guwanadildi Guwandilli 
+			Gwinilli Gwisinda Hildiverga Hildonika Hilduwara Ibilli Ika Ikilli Itildi Janarda Jonilde 
+			Justesenda Justila Kagilda Kagita Kartina Keilli Kenabrida Kendamara Kenseriga Kenusenda 
+			Kenusinda Ketemera Ketenanda Kindiverga Kisla Kwalatrudia Kwidemira Kwintildi Kwizino Lalli 
+			Lallina Lelina Lilla Liuba_Lioba Liubesinda Liubilli Magilda_Mathilda Mandilli Manildi 
+			Maniliuba Manilli Manni Manosinda Mansuwara Manusildi Margilli Markosinda Matrosinda Meduma 
+			Meitilli Mektubrida Menegundia Merowildi Mira Mirella Mirosinda Miruwalda Modilli Monderika 
+			Mundildi Naustilli Niufilli Nwilli Oda Ofilli Olda Onildi Onosinda Oppilli Orosinda Ossila 
+			Panta Penetrudia Radesinda Ragesinda Raiolli Ramildi Randildi Ranemira Raniberta Ranosinda 
+			Refulfa Reikionda Rekkebrida Rekkedrudia Rekkelli Rekkemera Rekkerita Rekkesinda Rekkeswinda 
+			Rekkiloda Remesilli Remesinda Remisiwera Resterika Rezevera Rimionda Rodosildi Romildi 
+			Rudesinda Rudilli Rumaria Sabilli Sabita Sanigia Saruwilli Savarika Savildi Segemunda Segesinda 
+			Senatrudia Senderiga Sendina Seniberta Senildi Senuwita Sesina Sevegildi Sigefrida Sigesgundia 
+			Sigesinda Sigilli Sindi Sindiberga Sindiliuba Sindilli Sinduwara Sinerta Sisa Sisegundia 
+			Siseguntia Sisegutia Sisiberta Sisiliuba Sisilli Sisivigia Sisuwalda Sisuwita Skarkilli 
+			Sontrilli Spanosinda Spanubrida Sparuwildi Stanildi Stodildi Sunildi Suntria Suwimira 
+			Swinthiliuba Tankilli Tankwili Tatina Tegilli Teksilli Teodeberga Teodegondia Teodenanda 
+			Teoderona Teodesinda Teodiberta Teodildi Teodina Teodisilli Teodoriga Tetina Thuresmuda Todegia 
+			Todegogia Toduldo Trasavara Trasilli Trasmira Trastala Trastidia Trastivigia Traswinda Truda 
+			Trudildi Trudina Trukta Truktesinda Truktilli Tuntilli Unilli Uniska Uwaduwara Uwenildi 
+			Vedrailli Vera Viariga Vidila Vigilli Viklavara Vilesinda Vilitra Villelma Vimara Vinkila 
+			Viskaberga Visterla Vistesinda Vistiberga Vistivara Vistravara Vistresilli Vistresinda 
+			Vistrildi Vitilli Vitregia Vivilda Vizildi Wistrelli Wistriliuba Witi Wittina Zazita Zendasinda 
+			Zenzita Zisilli
+			
+		}
+		
+		from_dynasty_prefix = "ab "
+		male_patronym = "ssunu"
+		female_patronym = "stohter"
+		prefix = no # The patronym is added as a suffix
+	
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 0
+	}
+	
+	#Anglo-Saxon
+	saxon = {
+		graphical_cultures = { englishgfx saxongfx  }
+		unit_graphical_cultures = { saxongfx englishgfx }
+		
+		color = { 0.5 0.28 0.13 }
+		
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "of "
+
+		male_patronym = "sson"
+		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	#Saxon
+	old_saxon = {
+		graphical_cultures = { englishgfx saxongfx  }
+		unit_graphical_cultures = { saxongfx englishgfx }
+		
+		color = { 0.5 0.28 0.13 }
+		alternate_start = {
+			OR = {
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+
+		from_dynasty_prefix = "of "
+
+		male_patronym = "sson"
+		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	frisian = {
+		graphical_cultures = { englishgfx saxongfx }
+		alternate_start = {
+			OR = {
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+
+		from_dynasty_prefix = "von "
+
+		male_patronym = "sson"
+		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	
+	thuringian = {
+		graphical_cultures = { germangfx saxongfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "aw "
+		male_patronym = "ssunu"
+		female_patronym = "stohter"
+		prefix = no
+		
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	angle = {				#æ->e
+		graphical_cultures = { saxongfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		male_patronym = "ssunu"
+		female_patronym = "sdohtor"
+		prefix = no # The patronym is added as a suffix
+		
+		dukes_called_kings = yes
+		
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+		
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 2
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 10
+		mother_name_chance = 2
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+	
+	burgundian = {
+		graphical_cultures = { germangfx occitangfx westerngfx }
+		
+		color = { 0.5 0.28 0.13 }
+
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "af "
+		male_patronym = "ssunus"
+		female_patronym = "sdauhtar"
+		prefix = no
+		
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	vandal = {
+		graphical_cultures = { germangfx occitangfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		used_for_random = no
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "af "
+		male_patronym = "ssunus"
+		female_patronym = "sdauhtar"
+		prefix = no # The patronym is added as a suffix
+	
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 0
+	}
+	
+	alemanni = {
+		graphical_cultures = { germangfx frankishgfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "ab "
+		male_patronym = "ssunu"
+		female_patronym = "sdohder"
+		prefix = no
+		
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+		
+		disinherit_from_blinding = yes
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 0
+		
+		allow_looting = yes
+	}
+	
+	rugian = {
+		graphical_cultures = { germangfx saxongfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "aw "
+		male_patronym = "ssunu"
+		female_patronym = "stohter"
+		prefix = no
+		
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	quadi = {
+		graphical_cultures = { germangfx saxongfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		parent = suebi
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "aw "
+		male_patronym = "ssunu"
+		female_patronym = "stohter"
+		prefix = no
+		
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	scirii = {
+		graphical_cultures = { germangfx saxongfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "aw "
+		male_patronym = "ssunu"
+		female_patronym = "stohter"
+		prefix = no
+		
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	bastarnae = {
+		graphical_cultures = { germangfx saxongfx westerngfx }
+		alternate_start = {
+			has_alternate_start_parameter = { key = culture value = full_random }
+		}
+		
+		color = { 0.5 0.28 0.13 }
+		
+		male_names = {
+			Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
+			Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
+			Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
+			Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
+			Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
+			Casthrauc Castleik Castrand Castric Charietto Chariovalda
+			Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+			Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
+			Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
+			Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
+			Genomund Genoram Genorand Genric Genwald Gerand Gerhram
+			Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
+			Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
+			Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
+			Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+			Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
+			Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
+			Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
+			Ingoht Ingoleik Ingomar Ingram Ingrand Ingrauc Ingric Ingsun
+			Inguiomer Ingwald Laikwald Leigmund Leikbolad Leikrauc Leko
+			Malact Malleik Mallobald Mallobaudes Mallovendus Malo Malobald
+			Malogan Malogast Maloger Malogund Maloram Malorand Malorauc
+			Maloric Malowind Malwald Marcobold Marcogan Marcogast Marcoger
+			Marcogund Marcoleik Marcomer Marcomund Marcoram Marcorauc
+			Marcwald Markoht Marobod Marodouus Mederic Mero Merobald
+			Merobaudes Merogais Mundobald Mundogast Mundoger Nebigast
+			Randleik Randmund Rando Randobald Randram Randrauc Richomeres
+			Ricomar Rigleik Rigmund Rigrand Rigwald Segestes Segimer
+			Segimund Sesithank Sigact Sigeid Sigibald Sigigais Sigigan
+			Sigigast Sigigund Sigimar Sigimund Sigiram Sigirand Sigirauc
+			Sigismund Sigisun Siglaik Sigo Sigric Sigwald Sunbald Sungan
+			Sunger Sunlaik Sunnact Sunneid Sunneram Sunno Sunnogast
+			Sunnomund Sunnorauc Sunnoric Sunrand Sunwald Tanchild Tancoht
+			Tancram Tancrand Tancric Tancwald Teutomer Theodeid Theodlaik
+			Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
+			Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
+			Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
+			Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+			Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
+			Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
+			Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
+			Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
+		}
+		female_names = {
+			Actihild Aschild Baldhild Casthild Castiburg Duomburg Duomhild
+			Eidburg Eidhild Eidsunne Eidwalda Geriburg Gerrhild Gunborg
+			Gundhild Hildborg Hildwald Hramburg Hramhild Hramis Hrauchild
+			Hraugiburg Ingiburg Ingihild Laighild Leigiburg Malburg Malhild
+			Marchild Mundhild Randild Rhamis Richild Rigiburg Sigiburg
+			Sigihild Sunburg Sunhild Theodeburg Theothild Thurishilda
+			Thurisinburg Thurisinhilda Thusnelda Walburg Waldburg
+			Walhild Waloburg Waluburg
+		}
+		
+		from_dynasty_prefix = "aw "
+		male_patronym = "ssunu"
+		female_patronym = "stohter"
+		prefix = no
+		
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}

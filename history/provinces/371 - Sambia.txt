@@ -1,0 +1,28 @@
+# 371 - Sambia
+
+# County Title
+title = c_sambia
+
+# Terrain
+terrain = forest
+
+# Settlements
+max_settlements = 4
+b_konigsberg = tribal
+#b_sambrandenburg = city
+#b_fischhausen = temple
+
+#b_tapiau = castle
+#b_labiau = castle
+#b_frombork = temple
+#b_wiskiauten = city
+#b_cranz = castle
+
+# Misc
+culture = rugian
+religion = germanic_pagan
+terrain = plains
+
+# History
+
+

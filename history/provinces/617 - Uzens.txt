@@ -1,0 +1,24 @@
+# 617 - Uzens
+
+# County Title
+title = c_uzens
+
+# Settlements
+max_settlements = 2
+
+b_kaztal = tribal
+
+#b_kyzylasker = city
+#b_krykuru = temple
+
+#b_khasan = castle
+#b_akkus = castle
+#b_kosoba = castle
+#b_ushkuduk = castle
+#b_aytbay = castle
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History

@@ -1,0 +1,259 @@
+##### Tibetan and Chinese #####
+
+
+tibetan_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+	
+	bodpa = { # Tibetan
+		graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0 0.24 }
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Atimuwer Berkya Bonchung Chimetsukphu Chirum Chunmardang Dakhor Damitheke Damshe Dangwa Demdruk Denpar
+			Dokchen Donla Draktsen Draktsubkye Drenpa Dud Duddul Durshen Dzomar Gawagye Gekho Gon Gowar Gurser Guwer
+			Gyalwa Gyer Gyerme Gyerpung Gyung Gyungyar Harachipar Hrido Hripa Hrista Jonwa Kalarasa Khyabpa Kuchi
+			Kunla Kyabpai Kyeshe Kyichuk Kyile Labchen Lakring Lampa Langboche Larje Likmigyal Likmikya Likmur
+			Liknyashur Liknyikya Liknyirhya Liwergyer Lokpai Lopo Lopon Ludrub Luje Lurab Lutsen Mabu Mangke Marpo
+			Martang Mebar Meka Meri Merutse Milusamlek Mikmar Milwo Mra Mrabon Mranyite Mrawa Mucho Mukho Mukhung
+			Mulakhung Mumar Mune Muwer Muwernor Namdak Namje Namkha Namse Nangwa Nangzher Naro Nor Norgyi Okar
+			Osel Pebon Pholha Pung Pungse Rabtson Rakhuk Salwa Sangjo Sangpo Sangto Sehrigyer Senggetram Shebu Shele
+			Shelgyung Shenlha Shenpa Shenrab Sridpa Takla Takma Tenzin Thenwa Thipang Thokgo Thoktse Thuchen Tobchen
+			Tonggyung Tonpa Traphu Trideiopo Tridem Tridu Trimen Triwer Troto Tsepo Wal Werya Yangje Yidring Zache
+			Zijid Zingkye Zingpa Zutse
+		}
+		female_names = {
+			Atak Ataklumo Atakmo Ba Batsame Bumtsho Cha Changmo Chatsame Chukmo Dangra Dongkar
+			Drangma Drablai Dronglek Duk Duktsuk Dzomo Gyi Gyichangmo Gyilumo Gyitsame Kering Khyungza Kyinam Kyidagi
+			Kyukma Lekyi Lhogyal Liwer Lumo Magyal Menchung Mewar Molha Mracham Nangze Neuchung Nyakchikma
+			Ongma Ringtsun Semarkar Shenza Silema Takber Takliwer Ting Tingber Tinglumo Tingtsame Trakthung
+			Tsa Tsadagi Tsame Tsatsame Tshogyal Trinyen Wangmo Yid Yidongma Yum Yumtsame Yuyi Zamatok Zangza Zazu
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	tangut = {
+		graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 0.8 0 0.24 }
+		
+		male_names = {
+			Atimuwer Berkya Bonchung Chimetsukphu Chirum Chunmardang Dakhor Damitheke Damshe Dangwa Demdruk Denpar
+			Dokchen Donla Draktsen Draktsubkye Drenpa Dud Duddul Durshen Dzomar Gawagye Gekho Gon Gowar Gurser Guwer
+			Gyalwa Gyer Gyerme Gyerpung Gyung Gyungyar Harachipar Hrido Hripa Hrista Jonwa Kalarasa Khyabpa Kuchi
+			Kunla Kyabpai Kyeshe Kyichuk Kyile Labchen Lakring Lampa Langboche Larje Likmigyal Likmikya Likmur
+			Liknyashur Liknyikya Liknyirhya Liwergyer Lokpai Lopo Lopon Ludrub Luje Lurab Lutsen Mabu Mangke Marpo
+			Martang Mebar Meka Meri Merutse Milusamlek Mikmar Milwo Mra Mrabon Mranyite Mrawa Mucho Mukho Mukhung
+			Mulakhung Mumar Mune Muwer Muwernor Namdak Namje Namkha Namse Nangwa Nangzher Naro Nor Norgyi Okar
+			Osel Pebon Pholha Pung Pungse Rabtson Rakhuk Salwa Sangjo Sangpo Sangto Sehrigyer Senggetram Shebu Shele
+			Shelgyung Shenlha Shenpa Shenrab Sridpa Takla Takma Tenzin Thenwa Thipang Thokgo Thoktse Thuchen Tobchen
+			Tonggyung Tonpa Traphu Trideiopo Tridem Tridu Trimen Triwer Troto Tsepo Wal Werya Yangje Yidring Zache
+			Zijid Zingkye Zingpa Zutse
+		}
+		female_names = {
+			Atak Ataklumo Atakmo Ba Batsame Bumtsho Cha Changmo Chatsame Chukmo Dangra Dongkar
+			Drangma Drablai Dronglek Duk Duktsuk Dzomo Gyi Gyichangmo Gyilumo Gyitsame Kering Khyungza Kyinam Kyidagi
+			Kyukma Lekyi Lhogyal Liwer Lumo Magyal Menchung Mewar Molha Mracham Nangze Neuchung Nyakchikma
+			Ongma Ringtsun Semarkar Shenza Silema Takber Takliwer Ting Tingber Tinglumo Tingtsame Trakthung
+			Tsa Tsadagi Tsame Tsatsame Tshogyal Trinyen Wangmo Yid Yidongma Yum Yumtsame Yuyi Zamatok Zangza Zazu
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	zhangzhung = { # Zhangzhung
+		graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0 0.24 }
+		
+		alternate_start = {
+			OR = {
+				year < 1000 
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Atimuwer Berkya Bonchung Chimetsukphu Chirum Chunmardang Dakhor Damitheke Damshe Dangwa Demdruk Denpar
+			Dokchen Donla Draktsen Draktsubkye Drenpa Dud Duddul Durshen Dzomar Gawagye Gekho Gon Gowar Gurser Guwer
+			Gyalwa Gyer Gyerme Gyerpung Gyung Gyungyar Harachipar Hrido Hripa Hrista Jonwa Kalarasa Khyabpa Kuchi
+			Kunla Kyabpai Kyeshe Kyichuk Kyile Labchen Lakring Lampa Langboche Larje Likmigyal Likmikya Likmur
+			Liknyashur Liknyikya Liknyirhya Liwergyer Lokpai Lopo Lopon Ludrub Luje Lurab Lutsen Mabu Mangke Marpo
+			Martang Mebar Meka Meri Merutse Milusamlek Mikmar Milwo Mra Mrabon Mranyite Mrawa Mucho Mukho Mukhung
+			Mulakhung Mumar Mune Muwer Muwernor Namdak Namje Namkha Namse Nangwa Nangzher Naro Nor Norgyi Okar
+			Osel Pebon Pholha Pung Pungse Rabtson Rakhuk Salwa Sangjo Sangpo Sangto Sehrigyer Senggetram Shebu Shele
+			Shelgyung Shenlha Shenpa Shenrab Sridpa Takla Takma Tenzin Thenwa Thipang Thokgo Thoktse Thuchen Tobchen
+			Tonggyung Tonpa Traphu Trideiopo Tridem Tridu Trimen Triwer Troto Tsepo Wal Werya Yangje Yidring Zache
+			Zijid Zingkye Zingpa Zutse
+		}
+		
+		female_names = {
+			Atak Ataklumo Atakmo Ba Batsame Bumtsho Cha Changmo Chatsame Chukmo Dangra Dongkar
+			Drangma Drablai Dronglek Duk Duktsuk Dzomo Gyi Gyichangmo Gyilumo Gyitsame Kering Khyungza Kyinam Kyidagi
+			Kyukma Lekyi Lhogyal Liwer Lumo Magyal Menchung Mewar Molha Mracham Nangze Neuchung Nyakchikma
+			Ongma Ringtsun Semarkar Shenza Silema Takber Takliwer Ting Tingber Tinglumo Tingtsame Trakthung
+			Tsa Tsadagi Tsame Tsatsame Tshogyal Trinyen Wangmo Yid Yidongma Yum Yumtsame Yuyi Zamatok Zangza Zazu
+		}
+		
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 25
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	sumpa = { # Sumpa
+		graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0 0.24 }
+		
+		alternate_start = {
+			OR = {
+				year < 1000 
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		dynasty_name_first = yes
+		
+		male_names = {
+			Dangraskya Datserhim Dirotiga Dudlutsen Krasnetse Kunhritse Litsakra Ljonlji Mangpu Martaskra Molingzan
+			Muba Muguni Mugunpu Murkya Nejini Nerkya Nyagdod Nyilni Pantihritse Pantimatso Rangskya Rangwerro Rawerni
+			Rtseni Sadslungse Sadsrung Shimwerro Skyartse Talsnetse Talwerni Thatseseto Thetsedar Thungni Tigrali
+			Tigratinsho Tigunyiri Timinrang Tisrang Tsakrani Xinuoluo Zarani Zlaririm
+		}
+		
+		female_names = {
+			Ataklumo_Ataklumo Baninera Bartirkhum Bhardha Brizhalda Delhodshim Delosnyri Dhingtsamed Dhingyose
+			Dudelos Dunshogs Khikhar Khirnyiri Khizhi Necugni Nelnesla Neltunyose Pantitsamed Racugni Shekhonti
+			Sherkya Shethetse Shimdhing Shimyose Smarkangshe Smarshibi Smarshim Smartsamed Smaryose Thathurrtse
+			Thungtsamed Thungyose Tingsho Tiseto Tishekhon Tortseli Tritiga Yutsog Zangsyag Zhamze Zhimzhalsto
+		}
+		
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 30
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 25
+		mother_name_chance = 30
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+}
+
+chinese_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+	
+	han = {
+		graphical_cultures = { chinesegfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		color = { 211 44 44 }
+
+		male_names = {
+			Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi
+			Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao 
+			Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen 
+			Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili 
+			Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing 
+			Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian 
+			Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen 
+			Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang 
+			Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da'an
+			Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin 
+			Zhengyi Jingchen Junliang Cha Fangzhi Lübing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji
+			Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze
+			Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu
+			Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang 
+			Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi 
+			Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo 
+			Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng 
+			Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+		}
+		female_names = {
+			Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei
+			Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi
+			Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu'er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying
+			Lingbing Zhaopei Yao'er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian
+			Mingxiang Yuanhua Tong'e Mingyue Zhaojun "Zu'e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E'zi"
+			Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan'er" Shun Fangmei Zhenyi Caiping Yuhuan
+			Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E'huang" "Nüying" Xinyue Hanyue 
+			Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing 
+			Zhuozhen Yan Yanyan "Shi'er" "Xian'e" Nanxian Shanxiang Ai Shanli Jinluan "Xi'er" "Zhen'er" Wanyi Mantang Xijie 
+			Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao'er Daoyi Niangzi Saihua Guiying 
+			Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang 
+			Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan 
+			Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao'e" Xiaoying Xiaoyuan Xiaoji 
+			Xiuui "Nüjie" Qingyu Zhichong "Yi'an" Youwu Yupan Jinnu Jinluo Fujin "Hu'er" Jinxian Qiaoyun Sanjin Xiangyun 
+			Zhuzhu "Jin'er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A'wu" Lizhi Jing Shu Lingyue Xianhui 
+			Jijiang "Guo'er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A'man" Huimei Shuozhen Youwei
+			Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+		}
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = ""
+		
+		modifier = default_culture_modifier
+	}
+}

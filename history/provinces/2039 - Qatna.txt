@@ -1,0 +1,16 @@
+# 2039 - Qatna
+
+# County Title
+title = c_qatna
+
+# Settlements
+max_settlements = 4
+
+b_qatna = castle
+b_hadad = city
+#b_otthara = temple
+#b_triparadesios = temple
+
+#Misc
+culture = aramaic
+religion = hellenic

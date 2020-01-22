@@ -1,0 +1,3245 @@
+######################################################
+##			BARBARIA - E_BRITANNIA TITLES 			    ##
+######################################################
+
+e_britannia = {
+	color={ 120 60 70 }
+	color2={ 255 255 255 }
+	capital = 32 # Middlesex
+	
+	briton = Prydain
+	cumbric = Prydain	
+	pictish = Prydain
+	thulean = Albion
+	gaelic = Albion
+	irish = Albion
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = gaelic_group
+				culture_group = british
+			}
+		}
+	}
+
+	k_brigantia = {
+		color={ 60 120 80 }
+		color2={ 255 255 255 }
+		capital = 52 # Northumberland
+		dignity = 10 # Counted as having this many more counties than it does
+		
+		catholic = 300 # Crusade target weight
+		norse_pagan_reformed = 200 # Crusade target weight
+		aztec_reformed = 500
+		
+		culture = cumbric
+		
+		d_setantii = {
+			color={ 60 120 110 }
+			color2={ 255 255 255 }
+			
+			capital = 59 # Chester
+			
+			c_chester = {
+				color={ 60 120 110 }
+				color2={ 255 255 255 }
+			
+				b_chester = {
+				}
+				b_halton = {
+				}
+				b_malpas = {
+				}
+				b_northwich = {
+				}
+				b_macclesfield = {
+				}
+				b_beeston = {
+				}
+				b_sandbach = {
+				}
+				b_nantwich = {
+				}
+			}
+			c_lancaster = {
+				color={ 43 86 79 }
+				color2={ 255 255 255 }
+
+				saxon = "Amounderness"
+
+				b_salford = {
+				}
+				b_lancaster = {
+				}
+				b_preston = {
+				}
+				b_sawley = {
+				}
+				b_gisburn = {
+				}
+				b_furness = {
+				}
+				b_clitheroe = {
+				}
+			}
+		}
+		
+		d_brigantia = {
+			color={ 60 120 80 }
+			color2={ 255 255 255 }
+			
+			capital = 1943 # Yoredale
+			
+			c_leeds = {
+				color={ 52 103 69 }
+				color2={ 255 255 255 }
+
+				briton = Elmet
+	
+				b_leeds = {
+				}
+				b_doncaster = {
+				}
+				b_sherburn = {
+				}
+				b_selby = {
+				}
+				b_sheffield = {
+				}
+				b_pontefract = {
+				}
+				b_conisbrough = {
+					norwegian = "Kungsborg"
+					danish = "Kungsborg"
+					swedish = "Kungsborg"
+					norse = "Kungsborg"
+				}
+			}	
+			c_yoredale = {
+				color={ 60 120 80 }
+				color2={ 255 255 255 }
+
+				briton = Dunoting
+				cumbric = "Isuer"
+				roman = "Isurium"
+				etruscan = "Isuriuu"
+	
+				b_yoredale = {
+					cumbric = "Isuer"
+				}
+				b_settle = {
+				}
+				b_ilkley = {
+				}
+				b_bolton = {
+				}
+				b_skipton = {
+				}
+				b_bainbridge = {
+				}
+				b_middleham = {
+				}
+			}
+			
+			c_durham = {
+				color={ 69 137 91 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Dunholm"
+				danish = "Dunholm"
+				swedish = "Dunholm"
+				norse = "Dunholm"
+	
+				b_gateshead = {
+				}
+				b_durham = {
+					norwegian = "Dunholm"
+					danish = "Dunholm"
+					swedish = "Dunholm"
+					norse = "Dunholm"
+				}
+				b_chester-le-street = {
+				}
+				b_jarrow = {
+				}
+				b_hartlepool = {
+				}
+				b_auckland = {
+				}
+				b_raby = {
+				}
+				b_st_cuthbert = {
+				}
+			}
+			c_cumberland = {
+				color={ 86 171 114 }
+				color2={ 255 255 255 }
+	
+				b_carlisle = {
+				}
+				b_burgh = {
+				}
+				b_gilsland = {
+				}
+				b_penrith = {
+				}
+				b_egremont = {
+				}
+				b_papcastlet = {
+				}
+				b_cockermouth = {
+				}
+				b_dacre = {
+				}
+			}		
+			c_westmorland = {
+				color={ 35 69 46 }
+				color2={ 255 255 255 }
+			
+				b_appleby = {
+				}
+				b_kendal = {
+				}
+				b_lowther = {
+				}
+				b_cartmel = {
+				}
+				b_kirkby = {
+				}
+				b_brough = {
+				}
+				b_shap = {
+				}
+				b_brougham = {
+				}
+			}
+		}
+		d_votadinia = {
+			color={ 70 120 60 }
+			color2={ 255 255 255 }
+			
+			capital = 52 # Northumberland
+			
+			c_dunbar = {
+				color = { 70 120 60 }
+				color2={ 255 255 255 }
+				
+				pictish = "Utudina"
+				briton = "Din Baer"
+				irish = "Dùn Bár"
+	
+				b_dunbar = {
+					pictish = "Dun Ber"
+					briton = "Din Baer"
+					irish = "Dùn Bár"
+				}
+				b_berwick = {
+					pictish = "Caer Brinech"
+					briton = "Caer Bryneich"
+					irish = "Bearaig"
+				}
+				b_thirlestane = {
+					pictish = "Lauuether"
+					briton = "Lauwedder"
+					irish = "Labhdar"
+				}
+				b_tyninghame = {
+					pictish = "Pisctaltreh"
+					briton = "Pistylltref"
+					irish = "Linnebaile"
+				}
+				b_gordon = {
+					pictish = "Gor Dun"
+					briton = "Gor Din"
+					irish = "Gòr Dùn"
+				}
+				b_huntly = {
+					pictish = "Istrad Bach"
+					briton = "Ystrath Bach"
+					irish = "Srath Bhalgaidh"
+				}
+				b_coldingham = {
+					pictish = "Lanbrin"
+					briton = "Llanbryn"
+					irish = "Cillecnoc"
+				}
+				b_crichton = {
+					pictish = "Finuultreh"
+					briton = "Ffinioltref"
+					irish = "Criochdún"
+				}
+			}
+			
+			c_northumberland = {
+				color={ 40 69 35 }
+				color2={ 255 255 255 }
+				
+				saxon = Northumbria
+			
+				b_morpeth = {
+				}
+				b_bamburgh = {
+					norwegian = "Bamborg"
+					danish = "Bamborg"
+					swedish = "Bamborg"
+					norse = "Bamborg"
+				}
+				b_hexham = {
+				}
+				b_newcastle = {
+					saxon="Corbridge"
+				}
+				b_alnwick = {
+				}
+				b_st_aidans = {
+				}
+				b_mitford = {
+				}
+			}
+			c_lindisfarne = {
+				color={ 80 137 69 }
+				color2={ 255 255 255 }
+							
+				b_lindisfarne = {
+				}
+				b_yeavering = {
+				}
+				b_norham = {
+				}
+				b_tweedmouth = {
+				}
+				b_lowick = {
+				}
+				b_etal = {
+				}
+				b_cornhill = {
+				}
+			}
+		}
+		d_parisia = {
+			color={ 100 120 60 }
+			color2={ 255 255 255 }
+			
+			capital = 57 # York
+			
+			dignity = 2
+			c_york = {
+				color={  100 120 60 }
+				color2={ 255 255 255 }
+				
+				briton = Ebrauc
+				roman = Eboracum
+	
+				b_york = {
+					briton = "Caer Ebrauc"
+					roman = Eboracum
+				}
+				b_richmond = {
+					saxon = "Catterick"
+				}
+				b_st_peters = {
+				}
+				b_scarborough = {
+					norwegian = "Skardaborg"
+					danish = "Skardaborg"
+					swedish = "Skardaborg"
+					norse = "Skardaborg"
+				}
+				b_middlesbrough = {
+				}
+				b_whitby = {
+				}
+				b_thirsk = {
+				}
+			}
+			c_hull = {
+				color={ 58 69 35 }
+				color2={ 255 255 255 }
+				
+				briton = Deywr
+	
+				b_hull = {
+				}
+				b_stamford_bridge = {
+				}
+				b_beverley = {
+				}
+				b_wyke = {
+				}
+				b_guildhall = {
+				}
+				b_bridlington = {
+				}
+				b_hornsea = {
+				}
+			}				
+		}
+	}
+	
+	k_britannia = {
+		color={ 28 78 122 } #old: 54 12 179
+		color2={ 255 255 255 }
+		capital = 32 # Middlesex
+		dignity = 10 # Counted as having this many more counties than it does
+		
+		catholic = 300 # Crusade target weight
+		norse_pagan_reformed = 200 # Crusade target weight
+		aztec_reformed = 500
+		
+		culture = briton
+
+		cumbric = Lloegyr
+		pictish = Lloegyr
+		briton = Lloegyr
+		irish = Sasana
+		roman = Britannia
+		
+		d_cornovia = {
+			color={ 60 106 181 }
+			color2={ 255 255 255 }
+			
+			capital = 66 # Shrewsbury
+			
+			c_worcester = {
+				color={  14 115 129 }
+				color2={ 255 255 255 }
+				
+				b_worcester = {
+				}
+				b_evesham = {
+				}
+				b_droitwich = {
+				}
+				b_kidderminster = {
+				}
+				b_pershore = {
+				}
+				b_malvern = {
+				}
+				b_bromsgrove = {
+				}
+				b_laughern = {
+				}
+			}	
+			
+			c_shrewsbury = {
+				color={ 135 177 139 }
+				color2={ 255 255 255 }
+				
+				briton = Pengwern
+				saxon = Shropshire
+				english = Shrewsbury
+			
+				b_shrewsbury = {
+				}
+				b_clun = {
+				}
+				b_wenlock = {
+				}
+				b_ludlow = {
+				}
+				b_whitchurch = {
+				}
+				b_bridgnorth = {
+				}
+				b_oswestry = {
+				}
+				b_chirk = {
+				}
+			}	
+		}
+		
+		d_corieltauvia = {
+			color={ 74 115 129}
+			color2={ 255 255 255 }
+			
+			capital = 67 # Warwick
+			
+			dignity = 5
+			
+			briton = "Pengwern"
+			
+			c_derby = {
+				color={ 40 116 151 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Djuraby"
+				danish = "Djuraby"
+				swedish = "Djuraby"
+				norse = "Djuraby"
+			
+				b_derby = {
+					norwegian = "Djuraby"
+					danish = "Djuraby"
+					swedish = "Djuraby"
+					norse = "Djuraby"
+				}
+				b_bakewell = {
+				}
+				b_repton = {
+				}
+				b_bolsover = {
+				}
+				b_castleton = {
+				}
+				b_chesterfield = {
+				}
+				b_burton = {
+				}
+				b_wirksworth = {
+				}
+			}
+			
+			c_leicester = {
+				color={  54 125 139}
+				color2={ 255 255 255 }
+			
+				b_leicester = {
+				}
+				b_nottingham = {
+				}
+				b_southwell = {
+				}
+				b_newark = {
+				}
+				b_hucknall = {
+				}
+				b_tickhill = {
+				}
+				b_worksop = {
+				}
+				b_newstead = {
+					saxon = "Saint Martin"
+				}
+			}
+			c_lincoln = {
+				color={ 94 115 149 }
+				color2={ 255 255 255 }
+				
+				saxon = "Lindsey"
+
+				b_gainsborough = {
+				}
+				b_lincoln = {
+				}
+				b_boston = {
+				}
+				b_spalding = {
+				}
+				b_stamford = {
+				}
+				b_grantham = {
+				}
+				b_louth = {
+				}
+				b_bardney = {
+				}
+			}
+			c_warwick = {
+				color={ 74 115 129 }
+				color2={ 255 255 255 }
+			
+				b_coventry = {
+				}
+				b_warwick = {
+				}
+				b_lichfield = {
+				}
+				b_stafford = {
+				}
+				b_tamworth = {
+				}
+				b_kenilworth = {
+				}
+				b_tutbury = {
+				}
+				b_dudley = {
+				}
+			}
+			
+		}
+		
+		d_iceni = {
+			color={ 74 115 179 }
+			color2={ 255 255 255 }
+			
+			capital = 70 # Norfolk
+			
+			c_essex = {
+				color={ 54 125 179 }
+				color2={ 255 255 255 }
+				
+				b_maldon = {
+				}
+				b_havering = {
+				}
+				b_dunmow = {
+				}
+				b_colchester = {
+				}
+				b_waltham = {
+				}
+				b_barking = {
+				}
+				b_pleshey = {
+				}
+				b_hedingham = {
+				}
+			}
+			
+			c_norfolk = {
+				color={ 74 115 179 }
+				color2={ 255 255 255 }
+			
+				b_norwich = {
+				}
+				b_thetford = {
+				}
+				b_buckenham = {
+				}
+				b_lynn = {
+				}
+				b_elmham = {
+				}
+				b_castle_rising = {
+				}
+				b_chatteris = {
+				}
+			}
+			c_suffolk = {
+				color={ 34 115 149 }
+				color2={ 255 255 255 }
+			
+				b_ipswich = {
+				}
+				b_ely = {
+				}
+				b_bury = {
+				}
+				b_lowestoft = {
+					danish = "Lothvistoft"
+					swedish = "Lothvistoft"
+					norwegian = "Lothvistoft"
+					norse = "Lothvistoft"
+				}
+				b_dunwich = {
+				}
+				b_stow = {
+				}
+				b_bungay = {
+				}
+				b_framlingham = {
+				}
+			}		
+		
+		}
+		
+		d_catuvellaunia = {
+			color={ 28 78 122 }
+			color2={ 255 255 255 }
+			capital = 32 # Middlesex
+			
+			norman = "Bedford"
+			english = "Bedford"
+			briton = "Calchwynedd"
+			
+			c_bedford = {
+				color={ 28 78 122 }
+				color2={ 255 255 255 }
+				
+				b_bedford = {
+				}
+				b_hertford = {
+				}
+				b_st_albans = {
+				}
+				b_berkhamsted = {
+				}
+				b_luton = {
+				}
+				b_dunstable = {
+				}
+				b_watford = {
+				}
+				b_ashridge = {
+				}
+			}
+			c_middlesex = {
+				color={ 14 38 60 }
+				color2={ 255 255 255 }
+			
+				holy_site = aztec
+				holy_site = aztec_reformed
+
+				b_westminster = {
+					used_for_dynasty_names = no
+					norse=Vestmystur
+				}
+				b_london = {
+					used_for_dynasty_names = no
+					norse=Lundúnir
+				}
+				b_st_pauls = {
+				}
+				b_tottenham = {
+				}
+				b_fulham = {
+				}
+				b_staines = {
+				}
+				b_harrow = {
+				}
+				b_chelsea = {
+				}
+			}
+			c_northampton = {
+				color={ 23 65 101 }
+				color2={ 255 255 255 }
+				
+				b_peterborough = {
+				}
+				b_huntingdon = {
+				}
+				b_ramsey = {
+				}
+				b_northampton = {
+				}
+				b_kettering = {
+				}
+				b_cambridge = {
+				}
+				b_crowland = {
+				}
+				b_rockingham = {
+				}
+			}		
+		}
+		
+		d_dobrunnia = {
+			color={63 64 146}
+			color2={ 255 255 255 }
+			
+			capital = 21 # Gloucester	
+		
+			c_oxford = {
+				color={ 63 64 146 }
+				color2={ 255 255 255 }
+				
+				b_oxford = {
+				}
+				b_wallingford = {
+				}
+				b_abingdon = {
+				}
+				b_buckingham = {
+				}
+				b_banbury = {
+				}
+				b_reading = {
+				}
+				b_aylesbury = {
+				}
+				b_eynsham = {
+				}
+			}		
+			c_gloucester = {
+				color={ 18 20 81 }
+				color2={ 255 255 255 }
+
+				roman = Glevum
+			
+				b_gloucester = {
+				}
+				b_sudeley = {
+				}
+				b_tewkesbury = {
+				}
+				b_cheltenham = {
+				}
+				b_cirencester = {
+				}
+				b_winchcombe = {
+				}
+				b_hailes = {
+				}
+			}			
+		}
+		
+		d_cantiacia = {
+			color={ 28 62 119 }
+			color2={ 255 255 255 }
+			
+			capital = 24 # Surrey
+			
+			c_kent = {
+				color={ 28 62 119 }
+				color2={ 255 255 255 }
+				
+				holy_site = catholic
+				
+				b_rochester = {
+				}
+				b_dover = {
+				}
+				b_canterbury = {
+				}
+				b_faversham = {
+				}
+				b_sandwich = {
+				}
+				b_lympne = {
+				}
+				b_romney = {
+				}
+				b_tonbridge = {
+				}
+			}
+			c_sussex = {
+				color={ 42 184 180 }
+				color2={ 255 255 255 }
+				
+				b_hastings = {
+				}
+				b_pevensey = {
+				}
+				b_chichester = {
+				}
+				b_lewes = {
+				}
+				b_arundel = {
+					saxon = "Selsey"
+				}
+				b_rye = {
+				}
+				b_bramber = {
+				}
+				b_bodiam = {
+				}
+			}		
+		}
+		
+		d_atrebatia = {		
+			color={ 59 80 98 }
+			color2={ 255 255 255 }
+			
+			capital = 26 # Winchester
+			
+			norman="Hampshire"
+			english="Hampshire"
+			
+			
+			c_surrey = {
+				color={ 59 80 98 }
+				color2={ 255 255 255 }
+				
+				b_farnham = {
+				}
+				b_guildford = {
+				}
+				b_lambeth = {
+				}
+				b_southwark = {
+				}
+				b_woking = {
+				}
+				b_chertsey = {
+				}
+				b_croydon = {
+				}
+				b_waverley = {
+				}
+			}
+			
+			c_winchester = {
+				color={ 59 61 98 }
+				color2={ 255 255 255 }
+				
+				saxon="Wessex"
+				
+				b_southampton = {
+				}
+				b_portchester = {
+				}
+				b_winchester = {
+				}
+				b_romsey = {
+				}
+				b_andover = {
+				}
+				b_st_swithun = {
+				}
+				b_wherwell = {
+				}
+			}
+			c_wight = {
+				color={ 40 54 66}
+				color2={ 255 255 255 }
+				
+				saxon="Wihtwara"
+				
+				b_carisbrooke = {
+				}
+				b_bonchurch = {
+				}
+				b_newport_wight = {
+				}
+				b_yarmouth = {
+				}
+				b_sandown = {
+				}
+				b_cowes = {
+				}
+				b_st_helens = {
+				}
+			}
+			c_wiltshire = {
+				color={ 69 93 114 }
+				color2={ 255 255 255 }
+			
+				b_wilton = {
+				}
+				b_sarum = {
+				}
+				b_clarendon = {
+				}
+				b_malmesbury = {
+				}
+				b_salisbury = {
+				}
+				b_devizes = {
+				}
+				b_ramsbury = {
+				}
+				b_marlborough = {
+				}
+			}
+		}
+		
+		d_durotriges = {		
+			color={ 70 75 115 }
+			color2={ 255 255 255 }
+			
+			capital = 28 # Somerset
+			
+			norman="Somerset"
+			english="Somerset"
+			briton = "Lloegyr"
+			
+			c_somerset = {
+				color={ 70 75 115 }
+				color2={ 255 255 255 }
+				
+				b_taunton = {
+				}
+				b_glastonbury = {
+				}
+				b_ilchester = {
+				}
+				b_muchelney = {
+				}
+				b_castle_cary = {
+				}
+				b_bridgwater = {
+				}
+				b_yeovil = {
+				}
+			}
+			c_bath = {
+				color={ 80 105 115 }
+				color2={ 255 255 255 }
+
+				roman = "Aquae Sulis"
+				
+				b_bath = {
+					roman = "Aquae Sulis"
+				}
+				b_burnham = {
+				}
+				b_bristol = {
+				}
+				b_wells = {
+				}
+				b_cleeve = {
+				}
+				b_castle_batch = {
+				}
+				b_cadbury = {
+					saxon = Camalet
+				}
+			}
+			c_dorset = {
+				color={ 40 85 135 }
+				color2={ 255 255 255 }
+				
+				b_wareham = {
+				}
+				b_corfe = {
+				}
+				b_shaftesbury = {
+				}
+				b_dorchester = {
+				}
+				b_sherborne = {
+				}
+				b_lyme = {
+				}
+				b_weymouth = {
+				}
+				b_wimborne = {
+				}
+			}		
+		}
+		
+		d_damnonia = {		
+			color={ 57 96 158 }
+			color2={ 255 255 255 }
+			
+			capital = 31 # Cornwall
+			
+			c_cornwall = {
+				color={ 57 96 158 }
+				color2={ 255 255 255 }
+				
+				b_bodmin = {
+				}
+				b_launceston = {
+				}
+				b_st_germans = {
+				}
+				b_truro = {
+				}
+				b_liskeard = {
+				}
+				b_tintagel = {
+				}
+				b_st_michael = {
+				}
+				b_restormel = {
+				}
+			}
+			c_devon = {
+				color={ 57 116 119 }
+				color2={ 255 255 255 }
+				
+				b_lydford = {
+				}
+				b_exeter = {
+				}
+				b_crediton = {
+				}
+				b_totnes = {
+				}
+				b_axminster = {
+				}
+				b_tavistock = {
+				}
+				b_buckfast = {
+				}
+				b_dartmouth = {
+				}
+			}
+		}
+		
+		d_ordovices = {
+			color={ 105 117 149 }
+			color2={ 255 255 255 }
+			
+			capital = 64 # Gwynedd
+			
+			c_hereford = {
+				color={ 62 56 120 }
+				color2={ 255 255 255 }
+				
+				briton = Ergyng
+			
+				b_st_ethelberts = {
+				}
+				b_hereford = {
+					briton = "Din Aricon"
+				}
+				b_leominster = {
+				}
+				b_archenfield = {
+				}
+				b_ewyas_harold = {
+				}
+				b_ledbury = {
+				}
+				b_clifford = {
+				}
+				b_brobury = {
+				}
+			}
+			
+			c_gwynedd = {
+				color={ 105 117 149 }
+				color2={ 255 255 255 }
+				
+				b_caernarfon = {
+				}
+				b_degannwy = {
+				}
+				b_bangor_fawr = {
+				}
+				b_harlech = {
+				}
+				b_abergwyngregyn = {
+				}
+				b_conwy = {
+				}
+				b_llanrhos = {
+				}
+			}
+			c_anglesey = {
+				color={ 95 127 109 }
+				color2={ 255 255 255 }
+				
+				b_aberffraw = {
+					norwegian = Ongullsøy
+					english = Anglesey
+					saxon = Anglesey
+				}
+				b_llanfaes = {
+				}
+				b_holyhead = {
+				}
+				b_llangefni = {
+				}
+				b_benllech = {
+				}
+				b_amlwch = {
+				}
+				b_beaumaris = {
+				}
+			}
+			c_perfeddwlad = {
+				color={ 55 107 139 }
+				color2={ 255 255 255 }
+				
+				b_denbigh = {
+				}
+				b_rhuddlan = {
+				}
+				b_llanelwy = {
+				}
+				b_flint = {
+				}
+				b_ruthin = {
+				}
+				b_basingwerk = {
+				}
+				b_ewloe = {
+				}
+				b_hawarden = {
+				}
+			}
+			c_powys = {
+				color={ 95 117 119 }
+				color2={ 255 255 255 }
+				
+				b_caersws = {
+				}
+				b_mathrafal = {
+				}
+				b_llangollen = {
+				}
+				b_llandinam = {
+				}
+				b_glascwm = {
+				}
+				b_radnor = {
+				}
+				b_montgomery = {
+				}
+				b_rhayader = {
+				}
+			}
+			
+		}
+
+		d_demetae= {
+			
+			color={ 112 146 200 }
+			color2={ 255 255 255 }
+			
+			capital = 18 # Dyfed
+			
+			c_builth = {
+				color={ 62 136 220 }
+				color2={ 255 255 255 }
+				
+				b_builth = {
+				}
+				b_llanafan_fawr = {
+				}
+				b_llandrindod = {
+				}
+				b_abergwesyn = {
+				}
+				b_llanwrtyd = {
+				}
+				b_aberedw = {
+				}
+				b_llangammarch = {
+				}
+			}
+			
+			c_dyfed = {
+				color={ 112 146 200 }
+				color2={ 255 255 255 }
+			
+				b_pembroke = {
+				}
+				b_st_davids = {
+					briton = Tyddewi
+					norwegian = "Ramsøy"
+				}
+				b_penycwm = {
+				}
+				b_llanstadwell = {
+				}
+				b_tenby = {
+				}
+				b_narberth = {
+				}
+				b_haverford = {
+				}
+			}
+			c_ceredigion = {
+				color={ 112 146 200 }
+				color2={ 255 255 255 }
+			
+				b_cardigan = {
+				}
+				b_llanbadarn = {
+				}
+				b_aberystwyth = {
+				}
+				b_aberaeron = {
+				}
+				b_llanddewi_brefi = {
+				}
+				b_tregaron = {
+				}
+				b_lampeter = {
+				}
+			}
+			c_gower = {
+				color={ 142 176 230 }
+				color2={ 255 255 255 }
+
+				briton = Gwyr
+			
+				b_carmarthen = {
+				}
+				b_dinefwr = {
+				}
+				b_llandeilo = {
+				}
+				b_kidwelly = {
+					briton = Cydweli
+				}
+				b_swansea = {
+				}
+				b_caerphilly_gower = {
+				}
+				b_loughor = {
+				}
+			}
+		}
+		
+		d_silures = {
+		
+			color={ 62 116 200 }
+			color2={ 255 255 255 }
+			
+			capital = 20 # Gwent
+			
+			c_gwent = {
+				color={ 62 116 200 }
+				color2={ 255 255 255 }
+			
+				b_caerwent = {
+				}
+				b_chepstow = {
+				}
+				b_abergavenny = {
+				}
+				b_monmouth = {
+				}
+				b_caerleon = {
+				}
+				b_newport = {
+				}
+				b_tintern = {
+				}
+			}
+			c_glamorgan = {
+				color={ 22 136 200 }
+				color2={ 255 255 255 }
+
+				briton = Morgannwg
+			
+				b_cardiff = {
+				}
+				b_neath = {
+				}
+				b_llandaff = {
+				}
+				b_caerphilly = {
+				}
+				b_st_donats = {
+				}
+				b_margam = {
+				}
+				b_ogmore = {
+				}
+			}
+			c_brycheiniog = {
+				color={ 62 116 170 }
+				color2={ 255 255 255 }
+
+				norman = Breconshire
+				english = Breconshire
+			
+				b_brecon = {
+				}
+				b_talgarth = {
+				}
+				b_merthyr_tydfil = {
+				}
+				b_cradoc = {
+				}
+				b_llanddew = {
+				}
+				b_tretower = {
+				}
+				b_crickhowell = {
+				}
+			}
+			
+		}
+	}
+	
+	k_pictland = {
+		color={ 120 100 60 }
+		color2={ 255 255 255 }
+		
+		capital = 43 #Gowrie
+		
+		culture = pictish
+		
+		catholic = 300 # Crusade target weight
+		norse_pagan_reformed = 200 # Crusade target weight
+		
+		#norse = Skotland
+		#swedish = Skottland
+		#danish = Skotland
+		#norwegian = Skottland
+		briton = Alban
+		irish = Alba
+		breton = Alba
+		pictish = Pictland
+		roman = Caledonia
+		
+		d_orkney = {
+			color={ 161 148 93 }
+			color2={ 255 255 255 }
+			
+			capital = 36 # Orkney
+			
+			norse = "Norðreyjar"
+			pictish = "Insee Galeth"
+			briton = "Ynysoedd Gogledd"
+			irish = "Innse Tuath"
+			
+			pagan_coa = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 5
+					emblem = 0
+					color = 0
+					color = 0
+					color = 0
+				}
+				religion = "norse_pagan"
+			}
+			
+			c_faereyar = {
+				color={	171 159 109 }
+				color2={ 255 255 255 }
+				
+				swedish = "Färöarna"
+				pictish = "Caliu"
+				briton = "Ynysoedd Ceiliau"
+				irish = "Innse Caora"
+				
+				b_skansin = {
+					pictish = "Lam"
+					briton = "Llam"
+					irish = "Leum"
+				}
+				b_torshavn = {
+					pictish = "Pirth Taran"
+					briton = "Porth Taran"
+					irish = "Port Turenn"
+				}
+				b_kirkjubour = {
+					pictish = "Tathinauu"
+					briton = "Tyddynaueglwys"
+					irish = "Tuathanaseaglais"
+				}
+				b_funningur = {
+					pictish = "Uenaeth"
+					briton = "Gwynaidd"
+					irish = "Fionnach"
+				}
+				b_kvivik = {
+					pictish = "Culbachuu"
+					briton = "Culbachwy"
+					irish = "Caolbati"
+				}
+				b_sandur = {
+					pictish = "Insee Tret"
+					briton = "Ynys Traeth"
+					irish = "Eilean Tràigh"
+				}
+				b_klaksvik = {
+					pictish = "Insee Uun"
+					briton = "Ynys Edn"
+					irish = "Innis Eun"
+				}
+				b_hov = {
+					pictish = "Icluasc"
+					briton = "Eglwys"
+					irish = "Eaglais"
+				}
+			}
+			c_shetland = {
+				color={ 113 103 65 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Hjaltland"
+				danish = "Hjaltland"
+				swedish = "Hjaltland"
+				norse = "Hjaltland"
+				pictish = "Insee Cait"
+				briton = "Ynysoedd Cait"
+				irish = "Innse Catt"
+				
+				b_scalloway = {
+					pictish = "Bachuuon Maurt"
+					briton = "Bachwyon Mawrty"
+					irish = "Batin Môrtaigh"
+				}
+				b_muness = {
+					pictish = "Muunis"
+					briton = "Mwynis"
+					irish = "Mùnis"
+				}
+				b_tingwall = {
+					pictish = "Camanfalioth"
+					briton = "Cymanfalleoedd"
+					irish = "Coinneamhionad"
+				}
+				b_cunningsburgh = {
+					norwegian = "Konungsborg"
+					danish = "Konungsborg"
+					swedish = "Konungsborg"
+					norse = "Konungsborg"
+					pictish = "Caer Rui"
+					briton = "Caer Rhi"
+					irish = "Rìghdùn"
+				}
+				b_sumburgh = {
+					pictish = "Taranupin"
+					briton = "Taranupenn"
+					irish = "Tàirneanachceann"
+				}
+				b_northmavine = {
+					pictish = "Goglethculder"
+					briton = "Gogleddculdir"
+					irish = "Tuathcuing"
+				}
+				b_sound = {
+					pictish = "Cliaubae"
+					briton = "Cleiaubae"
+					irish = "Crèadhbati"
+				}
+				b_yell = {
+					pictish = "Insee Uuan"
+					briton = "Ynys Gwyn"
+					irish = "Innis Fionn"
+				}
+			}
+			c_orkney = {
+				color={ 161 148 93 }
+				color2={ 255 255 255 }
+				
+				swedish = "Orknö"
+				danish = "Orknø"
+				norse = "Orknö"
+				pictish = "Insee Orc"
+				briton = "Ynysoedd Orc"
+				irish = "Innse Orc"
+				
+				b_kirkwall = {
+					norwegian = "Kirkuvåg"
+					danish = "Kyrkovik"
+					swedish = "Kyrkovik"
+					norse = "Kyrkovik"
+					pictish = "Icluasctreh"
+					briton = "Eglwystref"
+					irish = "Baile na h-Eaglais"
+				}
+				b_birsay = {
+					norwegian = "Birgishærad"
+					danish = "Birgishærad"
+					swedish = "Birgishärad"
+					norse = "Birgishærad"
+					pictish = "Brideclauet"
+					briton = "Ffraidclywed"
+					irish = "Brìghdechuala"
+				}
+				b_orphir = {
+					pictish = "Aerfur"
+					briton = "Aerfwr"
+					irish = "Ayrfir"
+				}
+				b_westray = {
+					pictish = "Driduana"
+					briton = "Driduana"
+					irish = "Triduana"
+				}
+				b_wyre = {
+					pictish = "Insee Ware"
+					briton = "Ynys Wyre"
+					irish = "Innis Weir"
+				}
+				b_egilsay = {
+					pictish = "Insee Icluasc"
+					briton = "Ynys Eglwys"
+					irish = "Innis Eaglais"
+				}
+				b_sanday = {
+					pictish = "Insee Tiuod"
+					briton = "Ynys Tywod"
+					irish = "Innis Tràigh"
+				}
+				b_ronaldsay = {
+					pictish = "Insee Ninian"
+					briton = "Ynys Ninian"
+					irish = "Innis Ronan"
+				}
+			}
+		}
+		
+		d_the_isles = {
+			color={ 161 113 18 }
+			color2={ 255 255 255 }
+
+			capital = 54 # Isle of Man
+			
+			briton = Manaw
+			norwegian = "Mann"
+			danish = "Mann"
+			swedish = "Mann"
+			norse = "Mann"
+			pictish = "Manu"
+			irish = "Mhannin"
+			
+			c_isle_of_man = {
+				color={ 161 113 18 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Mann"
+				danish = "Mann"
+				swedish = "Mann"
+				norse = "Mann"
+				pictish = "Insee Manu"
+				briton = "Ynys Manaw"
+				irish = "Ellan Mhannin"
+				
+				b_peel = {
+					norwegian = "Pålø"
+					danish = "Pålø"
+					swedish = "Pålø"
+					norse = "Pålø"
+					pictish = "Pirtinsee"
+					briton = "Porth Ynys"
+					irish = "Purt ny h-Inshey"
+				}
+				b_rushen = {
+					pictish = "Resan"
+					briton = "Resyn"
+					irish = "Rosien"
+				}
+				b_maughold = {
+					pictish = "Mauugan"
+					briton = "Mawgan Sant"
+					irish = "Macaille"
+				}
+				b_douglas = {
+					pictish = "Duunglasc"
+					briton = "Duonglassafon"
+					irish = "Duboglassio"
+				}
+				b_kirk_michael = {
+					pictish = "Icluasc Mihagal"
+					briton = "Eglwys Mihangel"
+					irish = "Cill Micheál"
+				}
+				b_sulby = {
+					pictish = "Drauuglan"
+					briton = "Drywglyn"
+					irish = "Druígleann"
+					norwegian = "Sõlabyr"
+					danish = "Sõlabyr"
+					swedish = "Sõlabyr"
+				}
+				b_inis_patraic = {
+					pictish = "Inees Pedric"
+					briton = "Ynys Padric"
+					irish = "Inis Pátraic"
+				}
+				b_laxey = {
+					pictish = "Ahonugad"
+					briton = "Afoneogiaid"
+					irish = "Uisge Bradán"
+				}
+			}
+		}
+		
+		d_novantia = {
+			color={ 107 95 71 }
+			color2={ 255 255 255 }
+			
+			capital = 50 # Galloway
+			
+			briton = Strathclyde
+			pictish = "Nouantia"
+			irish = "Gall-Ghaidhealaibh"
+			
+			c_teviotdale = {
+				color = { 119 75 60 }
+				color2={ 255 255 255 }
+				
+				pictish = "Heluua"
+				briton = "Guendoleu"
+				irish = "Cealsaidh"
+				
+				b_jedburgh = {
+					pictish = "Dungod"
+					briton = "Dingod"
+					irish = "Dùngot"
+				}
+				b_roxburgh = {
+					pictish = "Iaartreh"
+					briton = "Iârtref"
+					irish = "Baile na h-Cearc"
+				}
+				b_peebles = {
+					pictish = "Peball"
+					briton = "Pebyll"
+					irish = "Na Pùballan"
+				}
+				b_melrose = {
+					pictish = "Maelruusan"
+					briton = "Mailrhosan"
+					irish = "Maol Ros"
+				}
+				b_kelso = {
+					pictish = "Calchanith"
+					briton = "Calchfynydd"
+					irish = "Cealsaidh"
+				}
+				b_selkirk = {
+					pictish = "Halchraig"
+					briton = "Halchraig"
+					irish = "Salcraig"
+				}
+				b_maxwell = {
+					pictish = "Mabfanon"
+					briton = "Mabffynnon"
+					irish = "Tobar na Mac"
+				}
+				b_ednam = {
+					pictish = "Aethontreh"
+					briton = "Aeddantref"
+					irish = "Baile na h-Aodhàn"
+				}
+			}
+			
+			c_galloway = {
+				color={ 107 95 71 }
+				color2={ 255 255 255 }
+				
+				pictish = "Nouantia"
+				briton = "Nofant"
+				irish = "Na Rannaibh"
+				saxon = "Rhinns"
+
+				b_dumfries = {
+					pictish = "Dunrad"
+					briton = "Dinrhyd"
+					irish = "Dùn Phris"
+				}
+				b_dunragit = {
+					pictish = "Dunreget"
+					briton = "Din Rheged"
+					irish = "Dùn Reicheit"
+				}
+				b_whithorn = {
+					pictish = "Taiuuan"
+					briton = "Tygwyn"
+					irish = "Taigh Mhàrtainn"
+				}
+				b_dunrod = {
+					pictish = "Dun Brin"
+					briton = "Din Brenin"
+					irish = "Dùn Droighnein"
+				}
+				b_kirkcudbright = {
+					pictish = "Cuthberbatu"
+					briton = "Cuddbertbetws"
+					irish = "Cill Chuithbeirt"
+				}
+				b_glenluce = {
+					pictish = "Ulanchuan"
+					briton = "Glynchwyn"
+					irish = "Ghlinn Lus"
+				}
+				b_wigtown = {
+					pictish = "Betrah"
+					briton = "Faetref"
+					irish = "Baile na h-Ùige"
+				}
+				b_threave = {
+					pictish = "Insee Datrah"
+					briton = "Ynys Dytref"
+					irish = "Eilean na h-Uisge Dhè"
+				}
+			}
+		}
+		
+		d_western_isles = {
+			color = { 198 159 83 }
+			color2 = { 255 255 255 }
+			capital = 35 # Inse Gall
+			
+			norwegian = "Søreyar"
+			danish = "Søreyar"
+			swedish = "Söröarna"
+			norse = "Suðreyjar"
+			pictish = "Insee Hilth"
+			briton = "Ynysoedd Heledd"
+			irish = "Dál Riata"
+			
+			pagan_coa = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 8
+					emblem = 0
+					color = 0
+					color = 0
+					color = 0
+				}
+				religion = "norse_pagan"
+			}
+			
+			c_innse_gall = {
+				color={ 107 98 71 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Søreyar"
+				danish = "Søreyar"
+				swedish = "Söröarna"
+				norse = "Suðreyjar"
+				pictish = "Carnonac"
+				briton = "Ynysoedd Heledd"
+				irish = "Innse Gall"
+				scottish = "Innse Gall"
+				
+				b_snizort = {
+					pictish = "Lantalarc"
+					briton = "Llantalarican"
+					irish = "Cill Targhlain"
+				}
+				b_stornoway = {
+					norwegian = "Stornavåg"
+					danish = "Stornavik"
+					swedish = "Stornavik"
+					norse = "Stornavik"
+					pictish = "Laueube"
+					briton = "Llywiobae"
+					irish = "Steòrnabhagh"
+				}
+				b_uig = {
+					norwegian = "Vik"
+					danish = "Vik"
+					swedish = "Vik"
+					norse = "Vik"
+					pictish = "Betret"
+					briton = "Baetraeth"
+					irish = "Càrnais Ùige"
+				}
+				b_dunvegan = {
+					pictish = "Dun Bachain"
+					briton = "Din Bychan"
+					irish = "Dùn Bheagain"
+				}
+				b_kiltaraglen = {
+				}
+				b_sleat = {
+				}
+				b_kisimul = {
+				}
+			}
+			c_iona = {
+				color={ 77 68 51 }
+				color2={ 255 255 255 }
+				
+				pictish = "Auenle"
+				briton = "Ywenlle"
+				
+				b_iona = {
+					pictish = "Auenle"
+					briton = "Ywenlle"
+					irish = "Ì Chaluim Chille"
+				}
+				b_finlaggan = {
+					pictish = "Inseepirt"
+					briton = "Ynysporth"
+					irish = "Port an Eilein"
+				}
+				b_laggan = {
+					pictish = "Nuuathuchel"
+					briton = "Neuadduchel"
+					irish = "Àird Talla"
+				}
+				b_dunyveg = {
+					pictish = "Dun Galiuu"
+					briton = "Din Galïau"
+					irish = "Dùn Naomhaig"
+				}
+				b_tobermory = {
+				}
+				b_scarinish = {
+				}
+				b_arinagour = {
+				}
+			}
+			c_argyll = {
+				color={ 138 122 92 }
+				color2={ 255 255 255 }
+				
+				pictish = "Ebithan"
+				briton = "Epiddant"
+				irish = "Airer Goídel"
+				
+				b_st_moluag = {
+					pictish = "Malluoc"
+					briton = "Malluoc Sant"
+					irish = "Naomh Moluóc"
+				}
+				b_dunollie = {
+					pictish = "Dun Ugastel"
+					briton = "Din Ogystal"
+					irish = " Dùn Ollaigh"
+				}
+				b_loch_awe = {
+					pictish = "Lanahon"
+					briton = "Llynafon"
+					irish = "Loch Obha"
+				}
+				b_sween = {
+					pictish = "Caer Sauunae"
+					briton = "Caer Sywny"
+					irish = "Dùn Suibhne"
+				}
+				b_dunstaffnage = {
+					pictish = "Dun Stapan"
+					briton = "Din Staffpentir"
+					irish = "Dùn Stafhainis"
+				}
+				b_ardchattan = {
+					pictish = "Uchdarcathan"
+					briton = "Uchdercaddan"
+				}
+				b_kilmun = {
+					pictish = "Caer Muun"
+					briton = "Caer Munn"
+					irish = "Cill Mhunna"
+				}
+				b_inverary = {
+					pictish = "Aberera"
+					briton = "Aberaera"
+					irish = "Inbhir Aora"
+				}
+				b_argh = {
+				}
+			}
+		}
+		
+		d_dumnonia = {
+		
+			color = { 85 71 43 }
+			color2={ 255 255 255 }
+			
+			capital = 48 # Lothian
+			
+			pictish = "Damnunia"
+			briton = "Gododdin"
+			irish = "Labhdaidh"
+			
+			c_strathearn = {
+				color={ 112 97 67 }
+				color2={ 255 255 255 }
+				
+				pictish = "Uuanun"
+				briton = "Ystrad Iwerddon"
+				irish = "Srath Èireann"
+				
+				b_crieff = {
+					pictish = "Coiden"
+					briton = "Coeden"
+					irish = "Craoibh"
+				}
+				b_dunblane = {
+					pictish = "Dul Blaan"
+					briton = "Dinblyne"
+					irish = "Dùn Bhlàthain"
+				}
+				b_tullibardine = {
+					pictish = "Duunrud"
+					briton = "Duonrhyd"
+					irish = "Dubhàth"
+				}
+				b_auchterarder = {
+					pictish = "Uchel"
+					briton = "Hufenaruchel"
+					irish = "Uachdar Ardair"
+				}
+				b_madderty = {
+					pictish = "Pintu"
+					briton = "Penndu"
+					irish = "Ceanndubh"
+				}
+				b_doune = {
+					pictish = "I Dun"
+					briton = "Y Din"
+					irish = "An Dùn"
+				}
+				b_inchaffray = {
+					pictish = "Insee Ufirin"
+					briton = "Ynys Offeren"
+					irish = "Innis Oifrend"
+				}
+				b_kenmore = {
+					pictish = "Bilauc"
+					briton = "Belauc"
+					irish = "Bealach"
+				}
+			}
+			
+			c_carrick = {
+				color={ 85 71 43 }
+				color2={ 255 255 255 }
+				
+				pictish = "Ueron"
+				briton = "Aeron"
+				irish = "A' Charraig"
+				
+				b_turnberry = {
+					pictish = "Dun Ueron"
+					briton = "Din Aeron"
+					irish = "Dùn Àir"
+				}
+				b_dunure = {
+					pictish = "Dunauen"
+					briton = "Din Ywen"
+					irish = "Dùn Iùbhair"
+				}
+				b_maybole = {
+					pictish = "Maescanatan"
+					briton = "Y Maes Ynfytyn"
+					irish = "Am Magh Baoghail"
+				}
+				b_crossraguel = {
+					pictish = "Crosc Ruagal"
+					briton = "Croes Rhygal"
+					irish = "Crois Riagal"
+				}
+				b_loch_doon = {
+					scottish = "Balloch"
+					pictish = "Landun"
+					briton = "Llyndin"
+					irish = "Loch Dhùin"
+				}
+				b_ballantrae = {
+					pictish = "Tretrah"
+					briton = "Traethtref"
+					irish = "Baile na Tràgha"
+				}
+				b_culzean = {
+					pictish = "Pinaglan"
+					briton = "Pennyglyn"
+					irish = "Ceann na Gleann"
+				}
+				b_greenan = {
+					pictish = "Abereron"
+					briton = "Aberaeron"
+					irish = "Inbhir Àir"
+				}
+			}
+			c_clydesdale = {
+				color={ 120 100 58 }
+				color2={ 255 255 255 }
+				
+				pictish = "Damnunia"
+				briton = "Alt Clut"
+				irish = "Dail Chluaidh"
+				
+				b_renfrew = {
+					pictish = "Bregurun"
+					briton = "Brigffroen"
+					irish = "Rinn Friù"
+				}
+				b_st_kentigern = {
+					pictish = "Cantearn"
+					briton = "Cyndeyrn Sant"
+					irish = "Cill Mungo"
+				}
+				b_glasgow = {
+					pictish = "Catuuris"
+					briton = "Cathures"
+					irish = "Glaschu"
+				}
+				b_lanark = {
+					pictish = "Lanirc"
+					briton = "Lanerc"
+					irish = "Lannraig"
+				}
+				b_cadzow = {
+					pictish = "Uuohan"
+					briton = "Guofan"
+					irish = "Bàile Ghobhainn"
+				}
+				b_bothwell = {
+					pictish = "Mamuanon"
+					briton = "Mamffynnon"
+					irish = "Tobar na Màthar"
+				}
+				b_lesmahagow = {
+					pictish = "Lanmahau"
+					briton = "Llanmahagw"
+					irish = "Lios MoChuda"
+				}
+				b_dumbarton = {
+					pictish = "Alcluit"
+					briton = "Alt Clut"
+					irish = "Dùn Breatainn"
+				}
+			}
+			
+			c_lothian = {
+				color = { 16 62 157 }
+				color2={ 255 255 255 }
+				
+				pictish = "Lut"
+				briton = "Lleuddiniawn"
+				irish = "Labhdaidh"
+	
+				b_edinburgh = {
+					pictish = "Dun Eidan"
+					briton = "Din Eidyn"
+					irish = "Dùn Eideann"
+				}
+				b_stirling = {
+					pictish = "Iutheu"
+					briton = "Iuddeu"
+					irish = "Sruighlea"
+				}
+				b_abercorn = {
+					pictish = "Abercarn"
+					briton = "Abercarnedd"
+					irish = "Obar Chùirnidh"
+				}
+				b_linlithgow = {
+					pictish = "Glanaluu"
+					briton = "Glynallwedd"
+					irish = "Gleann Iucha"
+				}
+				b_falkirk = {
+					pictish = "Ecclescbret"
+					briton = "Ecclesbrith"
+					irish = "An Eaglais Bhreac"
+				}
+				b_stow_of_wedale = {
+					pictish = "Gallath"
+					briton = "Galladd"
+					irish = "An Geal Àth"
+				}
+				b_leith = {
+					pictish = "Aberlath"
+					briton = "Aberlydd"
+					irish = "Inverlìte"
+				}
+				b_torphichen = {
+					pictish = "Trehechan"
+					briton = "Treffechan"
+					irish = "Tóir Féichín"
+				}
+			}
+		}
+		
+		d_taexali = {
+			color={ 120 100 60 }
+			color2={ 255 255 255 }
+			
+			capital = 43 # Gowrie
+			
+			pictish = "Alban"
+			briton = "Alban"
+			irish = "Albanigh"
+			
+			c_fife = {
+				color={ 120 100 60 }
+				color2={ 255 255 255 }
+				
+				pictish = "Fib"
+				briton = "Gwidd"
+				irish = "Fìobha"
+				
+				b_dunfermline = {
+					pictish = "Dunfurlan"
+					briton = "Dinfirllyn"
+					irish = "Dùn Phàrlain"
+				}
+				b_cupar = {
+					pictish = "Cafredun"
+					briton = "Cyffredin"
+					irish = "Compàirt"
+				}
+				b_st_andrews = {
+					pictish = "Pinbed"
+					briton = "Pennbaedd"
+					irish = "Cill Rígmonaid"
+				}
+				b_kirkcaldy = {
+					pictish = "Caercaled"
+					briton = "Caer Caledin"
+					irish = "Cair Chaladain"
+				}
+				b_kinross = {
+					pictish = "Pinhadlen"
+					briton = "Pennhadllin"
+					irish = "Ceann Rois"
+				}
+				b_leuchars = {
+					pictish = "Luchar"
+					briton = "Brwyn"
+					irish = "Luachar"
+				}
+				b_lochore = {
+					pictish = "Laner"
+					briton = "Llynaer"
+					irish = "Locháir"
+				}
+				b_falkland = {
+					pictish = "Maluen"
+					briton = "Malfin"
+					irish = "Fháclainne"
+				}
+			}
+			c_gowrie = {
+				color={ 103 86 52 }
+				color2={ 255 255 255 }
+				
+				pictish = "Circinn"
+				briton = "Caer Cinn"
+				irish = "Gobharaidh"
+				
+				b_scone = {
+					pictish = "Sguun"
+					briton = "Sgon"
+					irish = "Sgoinde"
+				}
+				b_dunkeld = {
+					pictish = "Dun Celadon"
+					briton = "Din Celyddon"
+					irish = "Dùn Chailleann"
+				}
+				b_perth = {
+				}
+				b_forteviot = {
+					pictish = "Nan Aruadocet"
+					briton = "Nant Arwyddocâd"
+					irish = "Fothair Tabhaicht"
+				}
+				b_dundee = {
+					pictish = "Orrea"
+					briton = "Dindân"
+					irish = "Dùn Dèagh"
+				}
+				b_abernethy = {
+					pictish = "Aber Naiton"
+					briton = "Aber Neithon"
+					irish = "Obar Neithich"
+				}
+				b_clunie = {
+					pictish = "Luned"
+					briton = "Llynaedd"
+					irish = "Cluainidh"
+				}
+				b_errol = {
+					pictish = "Landafan"
+					briton = "Llandyffryn"
+					irish = "Lannfothir"
+				}
+			}
+			c_buchan = {
+				color={ 137 114 69 }
+				color2={ 255 255 255 }
+				
+				pictish = "Cei"
+				briton = "Cai"
+				irish = "Beanaomh"
+				
+				b_aberdeen = {
+					briton = "Aberdwyafon"
+					irish = "Obar Dabhuin"
+				}
+				b_banff = {
+					pictish = "Banaugluas"
+					briton = "Benywglwys"
+					irish = "Beanaomh"
+				}
+				b_deer = {
+					pictish = "Ceiru"
+					briton = "Ceirw"
+					irish = "Fiadh"
+				}
+				b_kintore = {
+					pictish = "Pintar"
+					briton = "Penntyrau"
+					irish = "Ceann Tòrr"
+				}
+				b_inverurie = {
+					pictish = "Aberury"
+					briton = "Aberury"
+					irish = "Inbhir Uraidh"
+				}
+				b_fyvie = {
+					pictish = "Carubran"
+					briton = "Carwbryn"
+					irish = "Fiachein"
+				}
+				b_ellon = {
+					pictish = "Inseeol"
+					briton = "Ynysol"
+					irish = "Eilean"
+				}
+				b_st_machar = {
+					pictish = "Mabaur"
+					briton = "Mabfawr Sant"
+					irish = "Naomh Machar"
+				}
+			}
+		}
+		
+		d_caledonia = {
+		
+			color={ 178 153 102 }
+			color2={ 255 255 255 }
+			
+			capital = 40 # Moray
+			
+			c_moray = {
+				color={ 178 153 102 }
+				color2={ 255 255 255 }
+				
+				pictish = "Fortriu"
+				briton = "Gwrturio"
+				irish = "Muireb"
+				
+				b_forres = {
+					pictish = "Uerris"
+					briton = "Gwerrys"
+					irish = "Farrais"
+				}
+				b_cawdor = {
+					pictish = "Caerdurn"
+					briton = "Caerdwrn"
+					irish = "Caladar"
+				}
+				b_elgin = {
+					pictish = "Eruan"
+					briton = "Aergwyn"
+					irish = "Ailgin"
+				}
+				b_nairn = {
+					pictish = "Abernard"
+					briton = "Abernard"
+					irish = "Inbhir Narann"
+				}
+				b_inverness = {
+					pictish = "Abernis"
+					briton = "Abernis"
+					irish = "Inbhir Nis"
+				}
+				b_lochindorb = {
+					pictish = "Lansildod"
+					briton = "Llyn y Sildod"
+					irish = "Loch nan Doirb"
+				}
+				b_kinloss = {
+					pictish = "Canalosc"
+					briton = "Cynyddullosg"
+					irish = "Cinnlois"
+				}
+				b_urquhart = {
+					pictish = "Urcarthen"
+					briton = "Aercardden"
+					irish = "Airdchartdan"
+				}
+			}			
+			c_atholl = {
+				color={ 35 21 18 }
+				color2={ 255 255 255 }
+				
+				pictish = "Fotla"
+				briton = "Focla"
+				irish = "Athfhotla"
+				
+				b_blair_atholl = {
+					pictish = "Athfocla"
+					briton = "Brwydr Focla"
+					irish = "Blàr Athfhotla"
+				}
+				b_glen_dochart = {
+					pictish = "Lanuan"
+					briton = "Llangwyn"
+					irish = "Cillefhinn"
+				}
+				b_pitlochry = {
+					pictish = "Moulin"
+					briton = "Porth Craig"
+					irish = "Mhaothlinne"
+				}
+				b_fortingall = {
+					pictish = "Iuenlan"
+					briton = "Ywenllan"
+					irish = "Iubharcille"
+				}
+				b_grandtully = {
+					pictish = "Uuag"
+					briton = "Gwag y Rhwdfa"
+					irish = "Lag an Ratha"
+				}
+				b_rannoch = {
+					pictish = "Redan"
+					briton = "Rhedyn"
+					irish = "Raineach"
+				}
+				b_strathardle = {
+					pictish = "Istrad Ardle"
+					briton = "Ystrad Aerdôl"
+					irish = "Strath Àrdail"
+				}
+				b_struan = {
+					pictish = "Aberfel"
+					briton = "Aberfelly"
+					irish = "Obar Pheallaidh"
+				}
+				b_anthrachs = {
+				}
+			}		
+		}
+		
+		d_moray = {
+		
+			color = { 136 113 68 }
+			color2 = { 255 255 255 }
+			
+			pictish = "Fortriu"
+			briton = "Gwrturio"
+			irish = "Muireb"
+			
+			capital = 37 # Caithness
+			
+			c_ross = {
+				color={ 136 113 68 }
+				color2={ 255 255 255 }
+				
+				pictish = "Fidach"
+				briton = "Gwidauc"
+				irish = "Ros"
+				
+				b_applecross = {
+					pictish = "Aporcrosan"
+					briton = "Aporcrosan"
+					irish = "Obar Crosain"
+				}
+				b_dingwall = {
+					norwegian = "Tingvall"
+					danish = "Tingvall"
+					swedish = "Tingvall"
+					norse = "Tingvall"
+					pictish = "Aberpis"
+					briton = "Aberpeffry"
+					irish = "Inbhir Pheofharain"
+				}
+				b_rosemarkie = {
+					pictish = "Rosanmairch"
+					briton = "Rhosan Meirchnant"
+					irish = "Ros Mhaircnidh"
+				}
+				b_fortrose = {
+					pictish = "Caerrosan"
+					briton = "Caerrhosan"
+					irish = "Dùnrois"
+				}
+				b_fearn = {
+					pictish = "Manech Rasan"
+					briton = "Mynachdy Rhosan"
+					irish = "Manachainn Rois"
+				}
+				b_tain = {
+					briton = "Duthactref"
+					irish = "Baile Dubhthaich"
+				}
+				b_cromarty = {
+					pictish = "Crucabachu"
+					briton = "Crwcabachwy"
+					irish = "Crombati"
+				}
+				b_avoch = {
+					pictish = "Aberauc"
+					briton = "Aberauc"
+					irish = "Abhach"
+				}
+			}
+			
+			c_caithness = {
+				color={ 171 142 86 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Katanes"
+				danish = "Katanæs"
+				swedish = "Katanäs"
+				norse = "Katanæs"
+				pictish = "Cait"
+				briton = "Caitnys"
+				irish = "Cataibh"
+				
+				b_wick = {
+					norwegian = "Vik"
+					danish = "Vik"
+					swedish = "Vik"
+					norse = "Vik"
+					pictish = "Aberbachuu"
+					briton = "Aberbachwy"
+					irish = "Inbhir Ùige"
+				}
+				b_dunbeath = {
+					pictish = "Dunbathac"
+					briton = "Dinbyddag"
+					irish = "Dùn Beithe"
+				}
+				b_dornoch = {
+					pictish = "Dirnfeth"
+					briton = "Dyrnfedd"
+					irish = "Dòrnach"
+				}
+				b_thurso = {
+					swedish = "Tjurså"
+					danish = "Tyrså"
+					norwegian = "Tyrså"
+					norse = "Tyrså"
+					pictish = "Aberteuafon"
+					briton = "Abertaewafon"
+					irish = "Inbhir Tarbhainn"
+				}
+				b_dunrobin = {
+					pictish = "Dunrubert"
+					briton = "Dinraibeart"
+					irish = "Dùnrhobert"
+				}
+				b_freswick = {
+					swedish = "Fresvik"
+					danish = "Fresvik"
+					norwegian = "Fresvik"
+					norse = "Fresvik"
+					pictish = "Aberfauur"
+					briton = "Aberfawr"
+					irish = "Obar Àrdair"
+				}
+				b_latheron = {
+					pictish = "Lathaeron"
+					briton = "Lladdaeron"
+					irish = "Latharan"
+				}
+				b_golspie = {
+					pictish = "Fostreh"
+					briton = "Ffostref"
+					irish = "Goillspidh"
+				}
+			}
+		}
+	}
+	
+	k_ireland = {
+		color={ 112 150 105 }
+		color2={ 255 255 255 }
+		
+		capital = 11 # Dublin
+		
+		culture = irish
+		
+		catholic = 300 # Crusade target weight
+		norse_pagan_reformed = 200 # Crusade target weight
+		
+		norse = Irland
+		swedish = Irland
+		danish = Irland
+		norwegian = Irland
+		irish = Éire
+		pictish = Iuerthon
+		briton = Iwerddon
+		breton = Iwerzhon
+		roman = Hibernia
+		
+		d_iceland = {
+			color={ 39 161 118 }
+			color2={ 220 220 220 }
+			
+			capital = 1 # Vestisland
+			
+			norse = Island
+			danish = Island
+			swedish = Island
+			norwegian = Island
+			irish = "Thule"
+			thulean = "Thule"
+			
+			c_vestisland = {
+				color={ 69 191 148 }
+				color2={ 220 220 220 }
+				
+				swedish = "Västisland"
+				thulean = "Heimaey"
+				irish = "Heimaey"
+				
+				b_hvamm = {
+				}
+				b_vatnafjordur = {
+				}
+				b_alftafjordur = {
+				}
+				b_borg = {
+				}
+				b_reykholar = {
+				}
+				b_isafjordur = {
+				}
+				b_sudureyri = {
+				}
+			}			
+			c_austisland = {
+				color={ 39 176 126 }
+				color2={ 220 220 220 }
+				
+				swedish = "Östisland"
+				thulean = "Taobh Thoir"
+				irish = "Taobh Thoir"
+				
+				b_valpjotstadur = {
+				}
+				b_kirkjubaer = {
+				}
+				b_reydarfjall = {
+				}
+				b_hoffel = {
+				}
+				b_reydarfjordur = {
+				}
+				b_eskilfjordur = {
+				}
+				b_egilsstadir = {
+				}				
+			}			
+			c_nordlendingafjordungur = {
+				color={ 90 196 159 }
+				color2={220 220 220}
+				
+				swedish = "Nordisland"
+				thulean = "Thuaidh"
+				irish = "Thuaidh"
+				
+				b_husavik = {
+				}
+				b_nattfaravik = {
+				}
+				b_hrisey = {
+				}
+				b_holar = {
+				}
+				b_glaumbaer = {
+				}
+				b_akureyri = {
+				}
+				b_goddalir = {
+				}
+			}			
+			c_sunnlendingafjordungur = {
+				color={ 49 143 110 }
+				color2={220 220 220}
+				
+				swedish = "Sydisland"
+				thulean = "Iarthar"
+				irish = "Iarthar"
+				
+				b_reykjavik = {
+					irish = "Papar"
+				}
+				b_alftanes = {
+					swedish = "Alftanäs"
+				}
+				b_skalholt = {
+				}
+				b_kjalarnes = {
+				}
+				b_pingvellir = {
+				}
+				b_hlidarendi = {
+				}
+				b_olfusa = {
+				}
+			}
+		}
+		
+		d_ulster = {
+			color={ 5 222 31 }
+			color2={ 255 255 255 }
+			
+			capital = 5 # Ulster
+			
+			norwegian = Strangfjord
+			swedish = Strangfjord
+			danish = Strangfjord
+			norse = Strangfjorðr
+			irish = Ulaidh
+			
+			c_ulster = {
+				color={ 25 230 35 }
+				color2={ 255 255 255 }
+				
+				norwegian = Strangfjord
+				swedish = Strangfjord
+				danish = Strangfjord
+				norse = Strangfjorðr
+				irish = Ulaidh
+			
+				b_downpatrick = {
+					norwegian = Strangfjord
+					swedish = Strangfjord
+					danish = Strangfjord
+					norse = Strangfjorðr
+					irish = "Dún Pádraig"
+				}
+				b_dunseverick = {
+					irish = "Dún Sobhairce"
+				}
+				b_bangor = {
+					irish = "Inbhear Beg"
+				}
+				b_carrickfergus = {
+					irish = "Carraig Fhearghais"
+				}
+				b_connor = {
+					irish = "Con Doire"
+				}
+				b_dromore = {
+					irish = "Druim Mór"
+				}
+				b_larne = {
+					irish = "Latharna"
+				}
+				b_dunluce = {
+					irish = "Dún Libhse"
+				}
+			}
+			c_oriel = {
+				color={ 30 180 45 }
+				color2={ 255 255 255 }
+	
+				irish = Airgíalla
+				
+				b_clones = {
+					irish = "Cluain Eois"
+				}
+				b_armagh = {
+					irish = "Ard Mhacha"
+				}
+				b_dundalk = {
+					norwegian = Kerlingfjord
+					swedish = Kerlingfjord
+					danish = Kerlingfjord
+					norse = Kerlingfjorðr
+					irish = "Dún Dealgan"
+				}
+				b_clogher = {
+					irish = "Clochar"
+				}
+				b_drogheda = {
+					irish = "Droichead Átha"
+				}
+				b_monaghan = {
+					irish = "Muineachán"
+				}
+				b_olouth = {
+					irish = "Lúghbhaidh"
+				}
+				b_ardee = {
+					irish = "Baile Átha Fhirdhia"
+				}
+			}
+			c_tyrone = {
+				color={ 66 157 22 }
+				color2={ 255 255 255 }
+				
+				irish = "Tír Eoghain"
+	
+				b_coleraine = {
+					irish = "Cúil Rathain"
+				}
+				b_dungannon = {
+					irish = "Dún Geanainn"
+				}
+				b_aileach = {
+					irish = "Ailech"
+				}
+				b_maghera = {
+					irish = "Machaire Rátha"
+				}
+				b_derry = {
+					irish = "Daire Coluimb Chille"
+				}
+				b_omagh = {
+					irish = "An Óghmaigh"
+				}
+				b_tullyhogue = {
+					irish = "Tulaigh Óg"
+				}
+				b_dungiven = {
+					irish = "Dún Geimhin"
+				}
+			}
+			c_tyrconnell = {
+				color={ 25 190 31 }
+				color2={ 255 255 255 }
+				
+				irish = "Tír Chonaill"
+			
+				b_gartan = {
+					irish = "Gartán"
+				}
+				b_moville = {
+					irish = "Magh Bhile"
+				}
+				b_raphoe = {
+					irish = "Ráth Bhoth"
+				}
+				b_fahan = {
+					irish = "Fathain"
+				}
+				b_donegal = {
+					irish = "Dún na nGall"
+				}
+				b_ballyshannon = {
+					irish = "Béal Átha Seanaidh"
+				}
+				b_kilmacrenan = {
+					irish = "Cill Mhic nEanain"
+				}
+				b_ballymacswiney = {
+					irish = "Baile Mhic Suibhne"
+				}
+			}
+		}
+		d_connacht = {
+			color={ 43 229 108 }
+			color2={ 255 255 255 }
+			
+			capital = 9 # Connacht
+			
+			irish = "Connachta"
+		
+			c_breifne = {
+				color={ 40 230 65 }
+				color2={ 255 255 255 }
+				
+				irish = "Bréifne"
+	
+				b_dromahair = {
+					irish = "Droim Áth Thiar"
+				}
+				b_kilmore = {
+					irish = "Cill Mhór"
+				}
+				b_cavan = {
+					irish = "An Cabhán"
+				}
+				b_longford = {
+					irish = "An Longphort"
+				}
+				b_ardagh = {
+					irish = "Ardachadh"
+				}
+				b_leitrim = {
+					irish = "Liatroim"
+				}
+				b_drumcliffe = {
+					irish = "Droim Chliabh"
+				}
+				b_kells = {
+					irish = "Ceann Lios"
+				}
+			}
+			c_connacht = {
+				color={ 45 230 70 }
+				color2={ 255 255 255 }
+				
+				irish = "Iarthar Connachta"
+	
+				b_galway = {
+					irish = "Dún Bhun na Gaillimhe"
+				}
+				b_elphin = {
+					irish = "Ail Finn"
+				}
+				b_tuam = {
+					irish = "Tuaim Dá Ghualann"
+				}
+				b_clonfert = {
+					irish = "Cluain Fearta"
+				}
+				b_roscommon = {
+					irish = "Ros Comáin"
+				}
+				b_killala = {
+					irish = "Cill Ala"
+				}
+				b_anchory = {
+					irish = "Baile Uí Fhiacháin"
+				}
+			}
+			c_ui_fiachrach = {
+				color={ 50 240 80 }
+				color2={ 255 255 255 }
+
+				irish = "Muaidhe"
+
+				b_mayo = {
+					irish = "Maigh Eo"
+				}
+				b_aughagower = {
+					irish = "Achadh Ghobhair"
+				}
+				b_ballintubber = {
+					irish = "Baile an Tobair"
+				}
+				b_errew = {}
+				b_cong = {}
+				b_mullet = {
+					irish = "Mhuirthead"
+				}
+				b_inishkea = {
+					irish = "Inis Gé"
+				}
+			}
+			c_hy_many = {
+				color={ 55 245 75 }
+				color2={ 255 255 255 }
+
+				irish = "Uí Maine"
+
+				b_cruachu = {}
+				b_delbna = {}
+				b_rathmore = {}
+				b_rathnadarve = {
+					irish = "Rath na dTarbh"
+				}
+				b_relignaree = {
+					irish = "Reilig na Rí"
+				}
+				b_oweynagat = {
+					irish = "Uaimh na gCat"
+				}
+				b_rathbeg = {}
+			}
+		}
+		d_meath = {
+			color={ 112 150 105 }
+			color2={ 255 255 255 }
+			
+			capital = 11 # Dublin
+			
+			norwegian = Dublin
+			danish = Dublin
+			swedish = Dublin
+			norse = Dyflinn
+			irish = Mide
+			
+			pagan_coa = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 3
+					emblem = 0
+					color = 0
+					color = 0
+					color = 0
+				}
+				religion = "norse_pagan"
+			}
+		
+			c_kildare = {
+				color={ 112 150 105 }
+				color2={ 255 255 255 }
+				
+				irish = "Cill Dara"
+	
+				b_knockaulin = {
+					irish = "Dún Ailinne"
+				}
+				b_athlone = {
+					irish = "Baile Átha Luain"
+				}
+				b_kildare = {
+					irish = "Cill Dara"
+				}
+				b_maynooth = {
+					irish = "Maigh Nuad"
+				}
+				b_st_brigit = {
+					irish = "Naomh Brigid"
+				}
+				b_rathangan = {
+					irish = "Ráth Iomgháin"
+				}
+				b_durrow = {
+					irish = "Darú"
+				}
+				b_clonard = {
+					irish = "Cluain Ioraird"
+				}
+			}
+			c_dublin = {
+				color={ 78 105 74 }
+				color2={ 255 255 255 }
+				
+				norse = Dyflinn
+				irish = Dubhlinn
+				briton = Dulyn
+
+				
+				b_dublin = {
+					norse = Dyflinn
+					irish = Dubhlinn
+					briton = Dulyn
+				}
+				b_clondalkin = {
+				}
+				b_finglas = {
+					irish = "Fionnghlas"
+				}
+				b_wicklow = {
+					irish = "Cill Mhantáin"
+				}
+				b_ath_cliath = {
+					irish = "Baile Átha Cliath"
+				}
+				b_christ_church = {
+					irish = "Ardeaglais Chríost"
+				}
+				b_mellifont = {
+					irish = "An Mhainistir Mhór"
+				}
+				b_trim = {
+					irish = "Baile Átha Troim"
+				}
+			}
+			c_meath = {
+				color={ 101 135 95 }
+				color2={ 255 255 255 }
+
+				b_tara_meath = {}
+				b_forradh = {}
+				b_knowth = {}
+				b_raith_laoghaire = {}
+				b_raith_na_seanadh = {}
+				b_saint_patricks = {}
+				b_ciannachta = {}
+				b_raith_na_riogh = {}
+			}
+			c_westmeath = {
+				color={ 155 182 150 }
+				color2={ 255 255 255 }
+
+				b_westmeath = {}
+				b_birr = {}
+				b_uisnech = {}
+				b_frewin = {
+					irish = "Frémainn"
+				}
+				b_fir_cell = {}
+				b_cenel_fiachach = {}
+				b_tethba = {}
+			}
+		}
+		d_leinster = {
+			color={ 74 105 85 }
+			color2={ 255 255 255 }
+			
+			capital = 16 # Leinster
+			
+			norwegian = Veisafjord
+			swedish = Veisafjord
+			danish = Veisafjord
+			norse = Veisafjorðr
+			irish = Laigin
+			
+			c_leinster = {
+				color={ 65 210 85 }
+				color2={ 255 255 255 }
+				
+				norwegian = Veisafjord
+				swedish = Veisafjord
+				danish = Veisafjord
+				norse = Veisafjorðr
+				irish = Laigin
+	
+				b_wexford = {
+					norwegian = Veisafjord
+					swedish = Veisafjord
+					danish = Veisafjord
+					norse = Veisafjorðr
+					irish = "Loch Garman"
+				}
+				b_leighlin = {
+					irish = "Leithghlinn"
+				}
+				b_arklow = {
+					irish = "An tInbhear Mór"
+				}
+				b_carlow = {
+					irish = "Ceatharlach"
+				}
+				b_ferns = {
+					irish = "Fearna Mór Maedhóg"
+				}
+				b_glendalough = {
+					irish = "Gleann Dá Loch"
+				}
+				b_naas = {
+					irish = "Nás na Ríogh"
+				}
+				b_enniscorthy = {
+					irish = "Inis Córthaidh"
+				}
+			}
+			c_ossory = {
+				color={ 60 210 80 }
+				color2={ 255 255 255 }
+				
+				irish = "Osraige"
+		
+				b_kilkenny = {
+					irish = "Cill Chainnigh"
+				}
+				b_gowran = {
+					irish = "Gabhrán"
+				}
+				b_clonmacnoise = {
+					irish = "Cluain Mhic Nóis"
+				}
+				b_aghaboe = {
+					irish = "Achadh Bhó"
+				}
+				b_jerpoint = {
+					irish = "Sheireapúin"
+				}
+				b_callan = {
+					irish = "Callainn"
+				}
+				b_grennan = {
+					irish = "An Ghrianán"
+				}
+				b_grannagh = {
+					irish = "An Greannach"
+				}
+			}
+			c_leix = {
+				color={ 60 200 90 }
+				color2={ 255 255 255 }
+
+				b_leix = {}
+				b_loigis = {}
+				b_timahoe = {}
+				b_dun_masc = {}
+				b_dunamase = {}
+				b_mountrath = {}
+				b_ui_bainche = {}
+			}
+		}
+		d_munster = {
+			color={ 81 96 63 }
+			color2={ 255 255 255 }
+			
+			capital = 13 # Thomond
+			
+			norwegian = "Hlymrek"
+			danish = "Lymrek"
+			swedish = "Lymrek"
+			norse = "Hlymrek"
+			irish = "Mumu"
+		
+			c_thomond = {
+				color={ 90 221 111 }
+				color2={ 255 255 255 }
+				
+				norwegian = "Hlymrek"
+				danish = "Lymrek"
+				swedish = "Lymrek"
+				norse = "Hlymrek"
+				irish = "Tuadhmhumhain"
+		
+				b_limerick = {
+					norwegian = "Hlymrek"
+					danish = "Lymrek"
+					swedish = "Lymrek"
+					norse = "Hlymrek"
+					irish = "Luimneach"
+				}
+				b_bunratty = {
+					irish = "Bun na Raite"
+				}
+				b_killaloe = {
+					irish = "Cill Dálua"
+				}
+				b_emly = {
+					irish = "Imleach Iubhair"
+				}
+				b_ennis = {
+					irish = "Inis"
+				}
+				b_kilfenora = {
+					irish = "Cill Fhionnúrach"
+				}
+				b_askeaton = {
+					irish = "Eas Géitine"
+				}
+				b_adare = {
+				}
+			}
+			c_ormond = {
+				color={ 95 221 121 }
+				color2={ 255 255 255 }
+				
+				norwegian = Vedrafjord
+				swedish = Vedrafjord
+				danish = Vedrafjord
+				norse = Veðrafjorðr
+				irish = Urmhumhain
+		
+				b_waterford = {
+					norwegian = Vedrafjord
+					swedish = Vedrafjord
+					danish = Vedrafjord
+					norse = Veðrafjorðr
+					irish = "Port Láirge"
+				}
+				b_cahir = {
+					irish = "Cathair Dhún Iascaigh"
+				}
+				b_cashel = {
+					irish = "Dún Caiseal"
+				}
+				b_clonmel = {
+					irish = "Cluain Meala"
+				}
+				b_lismore = {
+					irish = "Lios Mór"
+				}
+				b_roscrea = {
+					irish = "Ros Cré"
+				}
+				b_nenagh = {
+					irish = "Aonach Urmhumhan"
+				}
+				b_fethard = {
+					irish = "Fiodh Ard"
+				}
+			}
+			c_desmond = {
+				color={ 100 221 90 }
+				color2={ 255 255 255 }
+				
+				irish = "Deasmhumhain"
+		
+				b_cork = {
+					irish = "Corcaigh"
+				}
+				b_dunasead = {
+					irish = "Dún na Séad"
+				}
+				b_clone = {
+				}
+				b_youghal = {
+					irish = "Eochaill"
+				}
+				b_kilbrittain = {
+				}
+				b_cloyne = {
+					irish = "Cluain"
+				}
+				b_fermoy = {
+					irish = "Mainistir Fhear Maí"
+				}
+				b_blarney = {
+					irish = "An Bhlarna"
+				}
+			}
+			c_iarmond = {
+				color={ 105 221 100 }
+				color2={ 255 255 255 }
+				
+				irish = "Iarmhumhain"
+				english = Kerry
+		
+				b_cahersiveen = {
+				}
+				b_innisfallen = {
+				}
+				b_ross = {
+					irish = "Ros Ó gCairbre"
+				}
+				b_killarney = {
+				}
+				b_ardfert = {
+					irish = "Ard Fhearta"
+				}
+				b_tralee = {
+				}
+				b_skellig = {
+				}
+			}
+		}
+}

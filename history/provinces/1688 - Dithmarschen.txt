@@ -1,0 +1,14 @@
+# 1688 - Dithmarschen
+
+# County Title
+title = c_dithmarschen
+
+# Settlements
+max_settlements = 3
+b_itzehoe = tribal
+
+# Misc
+culture = angle
+religion = germanic_pagan
+
+# History

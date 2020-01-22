@@ -1,0 +1,18 @@
+# 2024 - Akkad
+
+# County Title
+title = c_akkad
+
+# Settlements
+max_settlements = 6
+
+b_akkad = castle
+b_kutha = city
+b_zaqqarat = temple
+b_kish = castle
+#b_amnamnum = castle
+#b_jemdet_nasr = temple
+
+#Misc
+culture = akkadian
+religion = chaldean

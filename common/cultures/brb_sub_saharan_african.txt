@@ -1,0 +1,156 @@
+###################################################
+###		Sub-Saharan Cultures - Barbaria 		###
+###################################################
+
+## colour: 0.8 0.45 0.75
+## mashed up base game
+
+sub_saharan = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }
+	
+	kanuri = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.45 0.75 }
+		
+		male_names = {
+			Abbas Abdallah Abdul Abdulraham Abubakar Adam_Adam Ahmed Airimi Alhaji Ali Alooma Amin Amr Arku Arsu Baba Baram Bikorom Biri Bukar Bulu Buyuma Dabbalemi Dala Daoud_David Dugu Dunama Fune Gaji Gajideni Galrima Gana Garbai Gazali Gazi Ghana Hume Hummay Ibrahim_Abraham Idris Kaday Kanemi Kashim Katakarmabe Katur Kiyari Kura Kuri Kuwaana Madu Mahmoud Mamane Modu Mohammed_Mohammed Mufioma Murama Musa Mustafa Nikale Osman Said Salmama Sanda Sani Sef Selma Shettima Shu Suleyman_Solomon Tandja Umar Waziri Yahya_John Yaqub_Jacob Yusuf_Joseph Zannah
+		}
+		female_names = {
+			Aisha Aissa Aliyah Amina Aziza Bakhita Cinta Daniyah Dikwa Fatima_Fatima Halima Jalila Kaltum Karima Khadija Khalila Kili Layla Malika Mariam_Maria Mina Nadia Rashida Shadia Shakira Sukda Tebunnu Wahida Ya Yasmin
+		}
+	}
+	
+	hausa = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.45 0.75 }
+		
+		male_names = {
+			Abasama Abbas Abdul Abdulkareem Abdulraham Abu Abubakar Adam_Adam Adamu Ado Ahmed Ahmedu Ali Aliyu Aminu Amir Ashakuka Atuma Bagunda Bako Balarabe Barau Barbushe Bashar Bashir Bawa Bawo Bayajidda Bayero Bello Bilal Biram Burema Burja Cikkoku Dadi Dakauta Dallatu Danasabe Danjuma Danladi Danlami Daoud_David Daren Dauda Daura Faisal Faizu Faruk Faruq Fuad Gaddo Gambo Gani Gijimasu Gobir Gowon Gugwa Habib Hadi Hafiz Hammada Hamzah Hassan Hussain Hussein Ibrahim Ibrahim_Abraham Idris Imam Isa Ishaku Ishaq_Isaac Ismaila Jalil Jamal Jatau Jibril Kabe Kado Kamil Kanajeji Kandala Kano Karbagari Kareem Katsina Khalifah Kisoki Korau Kukuna Kumbari Mahdi Mahmoud Mahmud Malam Mansur Mohammed_Mohammed Muhsin Musa Mustafa Nabil Nafata Naguji Nasir Nawata Nazaki Nohir Nomau Rahid Rano Rashidi Rumfa Said Salim Sambo Shahada Sharef Shashere Shekarau Sidi Soyaki Suleyman_Solomon Tahir Tanimu Tanko Tsamiya Tsaraki Uban Umar Umaru Usman Warisi Yahya_John Yaji Yakubu Yakufu Yamusa Yaqub_Jacob Yero Yohance Yohanna Yunfa Yunusa Yusa Yusuf Yusuf_Joseph Zaki Zaria
+		}
+		female_names = {
+			Adia Aisha Aissa Aliyah Amina Aminah Aminatu Arria Arziki Asabe Asmau Atikah Auta Aziza Baba Bagwariya Bakhita Bakwa Balaraba Batatume Daniyah Danuwa Daura Daurama Faidah Faiqah Faizah Faraa Farih Fatima_Fatima Fatimah Gamata Gerda Gimbya Gino_Gino Gizirgizir Habibah Hadejia Hafsah Halima Halimah Hamata Hamidah Hanna Hassana Hazika Hussaina Ijaba Iman Ina Innagari Jalila Jamata Jamilah Jummai Kaka Karima Khadija Khadijah Khalila Khamees Khamisa Kili Kubra Kurfuru Ladi Lami Lantana Laraba Larai Latifah Layla Lina Lisha Lubabah Magajiya Magaram Magira Maimuna Malika Mansurah Mariam_Maria Marka Maryam Mina Nabilah Nadia Nafisah Naimah Rabiah Rahmah Rashida Rashidah Ruqayyah Safiyah Sakinah Salimah Samirah Sandamata Shadia Shakira Shata Shawata Shukriyah Sumayyah Talatu Turunku Wahida Walzama Yakumo Yanbamu Yasmin Yukuna Zahrah Zainab Zakiyyah Zama Zaytun Zubaydah
+		}
+	}
+	
+	zaghawa = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.45 0.75 }
+		
+		male_names = {
+			Abakar Abba Abbas Abdul Abdulraham Adam_Adam Ahmed Ali At-Tayeb Brahim_Abraham Daoud_David Deli Dolo Gilding Goukouni Hishi Ibrahim_Abraham Idris Ingir Issa Kasu Kosu Ku Kuti Mahmoud Minni Mohammed_Mohammed Musa Oki Okiramaj Omer Osman Shartay Siddick Sora Suleyman_Solomon Tijani Timan Toholjo Tor Torfu Tugule Udure Yahya_John Yaqub_Jacob Yusuf_Joseph
+		}
+		female_names = {
+			Aisha Aliyah Bado Bakhita Bi Eya Fatima Gir Hadurah Halima Hinda Ija Kadiga Khalila Layla Makka Malika Mariam_Maria Mounah Ning Ogai Rashida Shadia Shakira Sumah Sumiah Tele Ter Wahida Yasmin
+		}
+	}
+	
+	manden = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.45 0.75 }
+		
+		male_names = {
+			Abi-Bakr_Abu-Bakr Abubakari_Abu-Bakr Akoi Alayaman Ali_Ali Ali-Fay Ali-Kolon Ali-Zalil Badä Bakr Bakr-Kanbu Bamari Bankanu
+			Bannu Bassarou Bassi Birama Bisi Biyu Bonga Cisse Dankaran Daoud_David Dawud_David Demba Diara Düru
+			Faga-Laye Fatta Fodi Fuluku Fädazu Gane Gao Hargani Harun Igoumou Ishaq_Isaac Ismail_Ismail Kabayo Kalabi Kambine
+			Kanafa Kassa Kasseï Kaya Kayna Kinkin Kisha Kodama Koïze Kukuray Kusoy Lahiltoul M'Bali Maammarou Maghan
+			Mahmud_Mahmud Majan Malla Mamadi Mamoudou Manding-Bory Mari-Djata Maÿroumfa Missi-Ize Morobani Musa_Moses
+			Nintasanay Nuh Ouali Ouankoÿ Ouati Reidja Sakoura Salman_Solomon Samsou-Beri Samsou-Keïna Sandaki Soumaba
+			Soumaoro Soundiata Sulayman_Solomon Takoi Tib Tomo_Thomas Tunka Umar_Umar Yama Yaqub_Jacob Yasiboy Zakoi Zenku
+		}
+		female_names = {
+			Adja Aichata Aissata Alima Aminata Amita Aoua Barakissa Bintou Deye Djeneba Djenly Djire Fadima
+			Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam_Maria Nafissa Namandje Namiss Nana
+			Safiatou Salimata Sassouma Sidibe Siya Sogolon Tekhaye Youma Zeïnab
+		}
+		
+		founder_named_dynasties = yes
+		
+		modifier = default_culture_modifier
+	}
+	soninke = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.45 0.75 }
+		
+		male_names = {
+			Abubakar Akoi Alayaman 
+			Berete Bathily Bomou Bilali Bunama Badä Bamari Bannu Birama Bisi Biyu 
+			Cissi Diobe Dabo Diakhaba Diawara Daffi Doucouri Dankaran Demba Daoud_David Diara
+			Fissourou Fadiga Fädazu Fuluku Gane Gao Ishaq_Isaac
+			Kaba Kabayo Kalabi Kanafa Kambine Kassa Kaya Kayna Kinkin Kukuray Kusoy
+			Marega M'Bali Maghan Majan Mamadi Mamoudou Mari-Djata Musa_Moses 
+			Niakhate Nintasanay	Wague Wali Wati
+			Reidja Sy Sylla Sakho Soukhouna Sima Soumare Sakoura Salman Sandaki Soumaba Soumaoro Soundiata Sulayman 
+			Tandian Tunka Tunka-Menin Tabouri Tounkara Touri Tandi Takoi Tib  
+			Yansane Yataberi Yama Yasiboy
+			Zakoi Zenku
+		}
+		female_names = {
+			Adja Alima Amita Aoua Aminata Aichata Aissata
+			Barakissa Bintou Deye Djeneba Djenly Djire
+			Fadima Fatim Fatoumata Halima Hawa
+			Ina Kondolon Kadi Kilia Kolonkan 
+			Lorane Mariam Namandje 
+			Nafissa Namiss Nana
+			Sane Sogolon Safiatou Salimata Sidibe Siya Tekhaye
+			Youma Zeinab
+		}
+	}
+	songhay = {
+		color = { 0.8 0.45 0.75 }
+		
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		male_names = {
+			Abi Abu Adamu_Adam Ahmad Al-Hajj Alayaman Ali Alkamiisa Ammar Ankabi Ar Arabi Aranda
+			Baba Babba Bada Baki Bakr Bani Bano Baru Bassarou Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Bukar Buyunbu
+			Daara Dala Dankataya Dao Daouda_David Dari Dawud_David Dum Dunku Duru
+			Fadazaw Falaku Far Fari-Mondzo Fay Fi Fodi
+			Hanga Hargani Harun Hassan Hin Huseini
+			Ibrahim_Abraham Igoumou Ikoi Ishaq_Isaac Is’mail Ize Jim
+			Kaasei Kanafa Kanbu Karaway Karay Karbachi Kayna Keina Kibu’u Kima Kimi Kinba Kinkin Kiray Kisha Kodama Koi Koize Kolon Komi Koy Ku Kukiya Kukura Kuli Kulun Kumay Kun Kur Kusoy Kusur
+			Laraba Maammarou Mahmud Malla Mar Mar-Chindin Mayroumfa Missi Morobani Moussa Muhammed Musa
+			Nari Nuh Nunta Ouankoy
+			Samsou Samsou-Beri Sanay Shams Shinyunbu Silman Sorko-ije Sulayman Sunni
+			Takoi Tib Tomo Uthman Wunka Yama Yaqub_Jacob Yasiboy Yuma Zakoi Zalil Zunku
+		}
+		
+		female_names = {
+			Adama Aisha Alkamiisa Amina Aminah Azzah 
+			Bilqis Chindi Daara Dangey
+			Fanta Fatima_Fatima Fatimah Fitila
+			Gando Geyka Hassana Hawa Huseina Kouton
+			Lambu Layla Mecca Medina Nuru Tarifa Teko Zaynab
+		}
+	}
+	
+	daju = {
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.8 0.45 0.75 }
+		
+		male_names = {
+			Adam Ahmed_Ahmad Anqarib Asil Bakhit Ber Bogirg Bokdoru Bolad Born Bug Chang Chaski Dahab Dong Ede Ett Ferne Gaguwe Galan Gelgel Gon Habib Hajar Hassaballah Ibedou Ibrahim_Abraham Ishaq_Isaac Issa Izzo Jal Jamne Kalge Kamalgi Karim Kasefroge Kosom Koydin Kukne Kur Lanhjin Magjin Maland Malaz Mbakin Meayge Meewge Moussa Moustafa_Mustafa Murtin Omar Pen Pid Risha Rong Salih Shendi Shuaeib Wadanh Youssouf_Joseph Yug
+		}
+		female_names = {
+			Amm Awdinh Bakhita Ber Bis Bor Buk Chaski Emsire Gaguwe Gosgod Hamam Jamne Kakaw Kimzir Kubuy Kugurg Kulk Lanhjin Maj Mariam Musin Ngid Okk Pid Raqiq Ur Usk Wadanh
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+		
+		allow_looting = yes
+	}
+}

@@ -1,0 +1,18 @@
+# 2027 - Serapion
+
+# County Title
+title = c_serapion
+
+# Settlements
+max_settlements = 6
+
+b_serapion = castle
+b_kainon = city
+b_noetu = temple
+#b_amastor = castle
+#b_agdon = castle
+#b_euseperides = city
+
+#Misc
+culture = cyrenacian
+religion = hellenic

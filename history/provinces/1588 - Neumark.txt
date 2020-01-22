@@ -1,0 +1,21 @@
+# 1588 - Neumark
+
+# County Title
+title = c_neumark
+
+# Settlements
+max_settlements = 2
+b_santok = tribal
+
+#b_driesen
+#b_bernstein
+#b_dramburg
+#b_tempelburg
+#b_schivelbein
+#b_drawa
+
+# Misc
+culture = rugian
+religion = germanic_pagan
+
+# History

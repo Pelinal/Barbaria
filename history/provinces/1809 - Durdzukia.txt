@@ -1,0 +1,14 @@
+# 1809 - Durdzukia
+
+# County title
+title = c_durdzukia
+
+# Settlements
+max_settlements = 3
+b_durdzukia = tribal
+
+# Misc
+culture = georgian
+religion = armazic
+
+# History

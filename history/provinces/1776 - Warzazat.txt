@@ -1,0 +1,19 @@
+# 1776 - Warzazat
+
+# County Title
+title = c_warzazat
+
+# Settlements
+max_settlements = 3 
+
+b_warzazat = tribal
+
+#b_tasagdah = city
+#b_shwan = temple
+
+# Misc
+culture = mauri
+religion = berber
+
+# History
+

@@ -1,0 +1,25 @@
+## Pelinal's Plans for Mesopotamia ##
+
+Phase 1: Setup
+	x- Make new province structure in provinces.bmp in Sumer, Akkad and Assyria
+	x- Edit definitions.csv to match new provinces (or tweaked ones)
+	x- Make new files in history/provinces for new ids (or edit ones with new names)
+	x- Localise new provinces (e.g. PROV4000;Chocolateland;;;;;;;;;;;;x)
+	x- Redo landed_titles.txt setup for the new provinces, new duchies and kingdoms and counties w/baronies
+	x- Make middle-eastern de jure Akkadian Empire, or Babylonian or Neo-Assyrian (cant remember which was latest)
+	x- Add religions and cultures with localising and colours
+	- Add new religious titles such as temporal title and formable holy order
+
+Phase 2: History
+	- Setup province histories: cultures and religions, wonders perhaps
+	- Setup title history for the satrap of Akkad under the Sassanids
+	- Make a history of semi-historical rulers of regions if possible
+	
+Phase 3: Flavour
+	- Make 3 unique decisions equating to summer fairs, feasts and runestones or tournaments
+	- Make a few decisions to restore various cultural-religious things (e.g. Akkadian, Babylonian or Assyrian empires)
+	- Add a unique pilgrimage (similar to canaanites in this case)
+	- Add 2 generic societies (warrior and secret)
+	- Add 1 unique society, undecided on what yet
+	- Add a new succ law which is divine succession, where children on birth recieve a trait similar to born in the purple, only those with this should inherit
+	- Add a new religious doctrine for reformation

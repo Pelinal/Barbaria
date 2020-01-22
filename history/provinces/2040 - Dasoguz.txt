@@ -1,0 +1,14 @@
+# 2040 - Dasoguz Region
+
+# County Title
+title = c_kara_kum_desert
+
+# Settlements
+max_settlements = 2
+
+b_dasoguz_castle = castle
+#b_dasoguz_city = city
+
+#Misc
+culture = dahae
+religion = zoroastrian

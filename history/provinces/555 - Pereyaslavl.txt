@@ -1,0 +1,21 @@
+# 555 - Pereyaslavl
+
+# County Title
+title = c_pereyaslavl
+
+# Settlements
+max_settlements = 4
+
+b_pereyaslavl = tribal	#907
+
+#b_boryspil = temple	#1015
+#b_kozelets	= city		#1098
+#b_baryshivka = castle	#1125
+
+#b_yahotyn		#1552
+#b_velyka_dymerka	#1552
+#b_berezan		#1616
+
+# Misc
+culture = hunnic
+religion = heptadic

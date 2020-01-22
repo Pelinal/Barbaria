@@ -1,0 +1,15 @@
+# 1932 - Akroinon
+
+# County Title
+title = c_akroinon
+
+# Settlements
+max_settlements = 3
+b_akroinon = castle
+b_antiochia_akroinon = city
+
+# Misc
+culture = phrygian
+religion = hellenic
+
+# History

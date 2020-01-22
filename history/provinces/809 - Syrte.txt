@@ -1,0 +1,25 @@
+# 809 - Syrte
+
+# County Title
+title = c_syrte
+
+# Settlements
+max_settlements = 4
+
+b_syrte = tribal
+b_assidr = temple
+
+#b_abuhadi = city
+#b_lanuf = castle
+#b_nawfalliyah = castle
+
+# Misc
+culture = cyrenacian
+religion = hellenic
+
+# History
+760.1.1 = {
+	religion = kemetic
+	b_syrte = castle
+	b_abuhadi = city
+}

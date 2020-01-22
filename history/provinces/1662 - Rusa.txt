@@ -1,0 +1,22 @@
+# 1662 - Rusa
+
+# County Title
+title = c_rusa
+
+# Settlements
+max_settlements = 2
+
+b_rusa = tribal		#1167
+
+#b_poddorye		#1800
+#b_ramushevo
+#b_lyublino
+#b_peregino
+#b_belebelka
+#b_korchevka
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

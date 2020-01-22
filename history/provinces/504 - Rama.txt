@@ -1,0 +1,15 @@
+# 504 - Soli
+
+# County Title
+title = c_rama
+
+# Settlements
+max_settlements = 3
+b_soli = tribal
+
+# Misc
+culture = greco_illyrian
+religion = hellenic
+terrain = mountain
+
+# History

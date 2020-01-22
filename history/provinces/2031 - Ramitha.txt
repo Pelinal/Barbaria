@@ -1,0 +1,18 @@
+# 2031 - Ramitha
+
+# County Title
+title = c_ramitha
+
+# Settlements
+max_settlements = 6
+
+b_ramitha = castle
+b_sigon = city
+b_ugarit = temple
+#b_posideion = city
+#b_lysias = castle
+b_antigonia = city
+
+#Misc
+culture = phrygian
+religion = hellenic

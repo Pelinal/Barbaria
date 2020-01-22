@@ -1,0 +1,296 @@
+## KURDISH CHARACTERS ##
+## From IDS 1500-1749   ##
+
+1500 = { # Xušyar, vassal duke of Kurdistan
+    name = "Xusyar"
+    religion = "zoroastrian"
+    culture = "kurdish"
+    dynasty = 271
+
+    580.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = 1501
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1501 = { # Perjîn, vassal duke of Kurdistan's wife
+    name = "Perjin"
+    religion = "zoroastrian"
+    culture = "kurdish"
+	female = yes
+	
+    578.1.1 = {
+		birth = yes
+	}
+	643.1.1 = {
+		death = yes
+	}
+}
+
+1502 = {
+	name="Vonones" # II
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	2.1.1={
+		birth=yes # probably BC
+	}
+	51.6.1={
+		death=yes
+	}
+}
+1503 = {
+	name="Mehrdad" #Mithridates IV
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1502 # different opinions
+	52.1.1={
+		birth=yes
+	}
+	140.8.29={
+		death=yes
+	}
+}
+1504 = {
+	name="Vagharsh" #Vagharsh
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1503
+	100.11.1={
+		birth="100.11.1"
+	}
+	191.1.29={
+		death="191.1.29"
+	}
+}
+1505 = {
+	name="Vologases" # Vologases V
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1504
+	130.11.1={
+		birth="130.11.1"
+	}
+	208.1.29={
+		death="208.1.29"
+	}
+}
+
+1506 = {
+	name="Pacorus" # II
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1502
+	35.1.1={
+		birth=yes
+	}
+	105.1.1={
+		death=yes
+	}
+}
+
+1507 = {
+	name="Axidares"
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1506
+	60.1.1={
+		birth=yes
+	}
+	113.1.1={
+		death=yes
+	}
+}
+
+1508 = {
+	name="Parthamasiris"
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1506
+	65.1.1={
+		birth=yes
+	}
+	114.1.1={
+		death=yes
+	}
+}
+
+1509 = {
+	name="Meredates"
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1506
+	70.1.1={
+		birth=yes
+	}
+	151.1.1={
+		death=yes
+	}
+}
+
+1510 = {
+	name="Vologases" # Vologases I
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1502
+	20.1.1={
+		birth=yes
+	}
+	78.1.1={
+		death=yes
+	}
+}
+
+1511 = {
+	name="Vardanes" # II
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1510
+	40.1.1={
+		birth=yes
+	}
+	65.1.1={
+		death=yes
+	}
+}
+
+1512 = {
+	name="Vologases" # Vologases II
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1510
+	39.1.1={
+		birth=yes
+	}
+	80.1.1={
+		death=yes
+	}
+}
+
+1513 = {
+	name="Osroes" # I
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1502
+	45.1.1={
+		birth=yes
+	}
+	130.1.1={
+		death=yes
+	}
+}
+
+1514 = {
+	name="Tiridates" # I
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1502
+	32.1.1={
+		birth=yes
+	}
+	88.1.1={
+		death=yes
+	}
+}
+
+1515 = {
+	name="Vologases" # Vologases III
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1512
+	80.1.1={
+		birth=yes
+	}
+	148.1.1={
+		death=yes
+	}
+}
+
+1516 = {
+	name="Xusrew" # Khosrov I
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1505
+	165.1.1={
+		birth=yes
+	}
+	217.1.1={
+		death=yes
+	}
+}
+
+1517 = { 
+	name="Vologases" # Vologases VI
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1505
+	180.11.1={
+		birth=yes
+	}
+	230.8.29={
+		death=yes
+	}
+}
+
+1518 = {
+	name="Erdewan" #Artabanus V
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1505
+	175.1.1={
+		birth=yes
+	}
+	224.4.28={
+		death=yes
+	}
+}
+
+1519 = {
+	name="Sura"
+	female=yes
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1518
+	213.1.1={
+		birth=yes
+	}
+	270.1.1={
+		death=yes
+	}
+}
+
+1520 = {
+	name="Tiridates" # Tiridates II of Armenia
+	dynasty=288
+	religion="zoroastrian"
+	culture="kurdish"
+	father=1516
+	192.1.1={
+		birth=yes
+	}
+	256.1.1={
+		death=yes
+	}
+}

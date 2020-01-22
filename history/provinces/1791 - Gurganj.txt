@@ -1,0 +1,20 @@
+# 1791 - Gurganj
+
+# County title
+title = c_gurganj
+
+max_settlements = 3
+
+b_kyrkmolla = castle
+b_urgench = city
+b_nukus = temple
+
+# Misc
+culture = dahae
+religion = heptadic
+terrain = steppe
+
+# History
+750.1.1 = {
+	religion = heptadic
+}

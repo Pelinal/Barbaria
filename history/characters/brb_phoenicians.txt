@@ -1,0 +1,30 @@
+## PHOENICIAN CHARACTERS ##
+## From IDS 4750-4999    ##
+
+4750 = { # Eshbaal of Tyrus
+    name = "Eshbaal"
+    dynasty = 990010
+    religion = "canaanite"
+    culture = "phoenician"
+    
+	580.1.1 = {
+		birth = yes
+    }
+	650.1.1 = {
+		death = yes
+    }
+}
+
+4751 = { # Bomilcar of Arpad
+    name = "Bomilcar"
+    dynasty = 990011
+    religion = "canaanite"
+    culture = "phoenician"
+    
+	580.1.1 = {
+		birth = yes
+    }
+	650.1.1 = {
+		death = yes
+    }
+}

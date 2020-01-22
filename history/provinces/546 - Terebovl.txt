@@ -1,0 +1,23 @@
+# 546 - Terebovl
+
+# County Title
+title = c_terebovl
+
+# Settlements
+max_settlements = 3
+
+b_terebovl = tribal
+
+#b_mykulyn = city
+#b_onut = temple
+
+#b_kuchelemyn = castle
+#b_bakota = castle
+#b_moklekov = castle
+#b_dolyna = castle
+
+# Misc
+culture = bastarnae
+religion = germanic_pagan
+
+# History

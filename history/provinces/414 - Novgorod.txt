@@ -1,0 +1,22 @@
+# 414 - Novgorod
+
+# County Title
+title = c_novgorod
+
+# Settlements
+max_settlements = 5
+
+b_novgorod = tribal
+b_soltsy = temple
+
+#b_pankovka
+#b_chudovo
+#b_luga
+#b_batetsky
+#b_shimsk
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

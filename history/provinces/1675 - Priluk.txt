@@ -1,0 +1,22 @@
+# 1675 - Priluk
+
+# County Title
+title = c_priluk
+
+# Settlements
+max_settlements = 5
+
+b_priluk = tribal	#~1000
+
+#b_romny	#902
+#b_bobrovytsia	#~1000
+#b_varva	#1079
+#b_nizhyn	#1147
+#b_nosivka	#1147
+#b_ichina	#~1300
+
+# Misc
+culture = hunnic
+religion = heptadic
+
+# History

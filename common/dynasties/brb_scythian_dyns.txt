@@ -1,0 +1,252 @@
+### Scythian Dynastic Names ###
+# e.g. Scythian, Sarmatian, Dahae, Tocharian, Khotanese and Yuezhi
+# 100- 249?
+
+# Dahae Dynasties
+100 = {
+	name = "Kausal"
+	culture = "dahae"
+}
+101 = {
+	name = "Gank"
+	culture = "dahae"
+}
+102 = {
+	name = "Tenare"
+	culture = "dahae"
+}
+103 = {
+	name = "Ytarim"
+	culture = "dahae"
+}
+104 = {
+	name = "Tripuskar"
+	culture = "dahae"
+}
+105 = {
+	name = "Dantapur"
+	culture = "dahae"
+}
+109 = {
+	name = "Baransi"
+	culture = "dahae"
+}
+110 = {
+	name = "Yurpaska"
+	culture = "dahae"
+}
+111 = {
+	name = "Rohini"
+	culture = "dahae"
+	used_for_random = no
+}
+112 = {
+	name = "Vaideh"
+	culture = "dahae"
+}
+113 = {
+	name = "Vaisali"
+	culture = "dahae"
+}
+114 = {
+	name = "Iksvaku"
+	culture = "dahae"
+}
+115 = {
+	name = "Kausika"
+	culture = "dahae"
+}
+116 = {
+	name = "Sakke"
+	culture = "dahae"
+}
+117 = {
+	name = "Kasake"
+	culture = "dahae"
+}
+118 = {
+	name = "Yarkam"
+	culture = "dahae"
+}
+119 = {
+	name = "Bharuka"
+	culture = "dahae"
+}
+120 = {
+	name = "Cadota"
+	culture = "dahae"
+}
+121 = {
+	name = "Lyam"
+	culture = "dahae"
+}
+122 = {
+	name = "Kunlyu"
+	culture = "dahae"
+}
+
+# Scythian Dynasties
+123 = {
+	name = "Kausal"
+	culture = "scythian"
+}
+124 = {
+	name = "Gank"
+	culture = "scythian"
+}
+125 = {
+	name = "Tenare"
+	culture = "scythian"
+}
+126 = {
+	name = "Ytarim"
+	culture = "scythian"
+}
+127 = {
+	name = "Tripuskar"
+	culture = "scythian"
+}
+128 = {
+	name = "Dantapur"
+	culture = "scythian"
+}
+129 = {
+	name = "Baransi"
+	culture = "scythian"
+}
+130 = {
+	name = "Yurpaska"
+	culture = "scythian"
+}
+131 = {
+	name = "Rohini"
+	culture = "scythian"
+	used_for_random = no
+}
+132 = {
+	name = "Vaideh"
+	culture = "scythian"
+}
+133 = {
+	name = "Vaisali"
+	culture = "scythian"
+}
+134 = {
+	name = "Iksvaku"
+	culture = "scythian"
+}
+135 = {
+	name = "Kausika"
+	culture = "scythian"
+}
+136 = {
+	name = "Sakke"
+	culture = "scythian"
+}
+137 = {
+	name = "Kasake"
+	culture = "scythian"
+}
+138 = {
+	name = "Yarkam"
+	culture = "scythian"
+}
+139 = {
+	name = "Bharuka"
+	culture = "scythian"
+}
+140 = {
+	name = "Cadota"
+	culture = "scythian"
+}
+141 = {
+	name = "Lyam"
+	culture = "scythian"
+}
+142 = {
+	name = "Kunlyu"
+	culture = "scythian"
+}
+
+# Sarmatian Dynasties
+143 = {
+	name = "Kausal"
+	culture = "sarmatian"
+}
+144 = {
+	name = "Gank"
+	culture = "sarmatian"
+}
+145 = {
+	name = "Tenare"
+	culture = "sarmatian"
+}
+146 = {
+	name = "Ytarim"
+	culture = "sarmatian"
+}
+147 = {
+	name = "Tripuskar"
+	culture = "sarmatian"
+}
+148 = {
+	name = "Dantapur"
+	culture = "sarmatian"
+}
+149 = {
+	name = "Baransi"
+	culture = "sarmatian"
+}
+150 = {
+	name = "Yurpaska"
+	culture = "sarmatian"
+}
+151 = {
+	name = "Rohini"
+	culture = "sarmatian"
+	used_for_random = no
+}
+152 = {
+	name = "Vaideh"
+	culture = "sarmatian"
+}
+153 = {
+	name = "Vaisali"
+	culture = "sarmatian"
+}
+154 = {
+	name = "Iksvaku"
+	culture = "sarmatian"
+}
+155 = {
+	name = "Kausika"
+	culture = "sarmatian"
+}
+156 = {
+	name = "Sakke"
+	culture = "sarmatian"
+}
+157 = {
+	name = "Kasake"
+	culture = "sarmatian"
+}
+158 = {
+	name = "Yarkam"
+	culture = "sarmatian"
+}
+159 = {
+	name = "Bharuka"
+	culture = "sarmatian"
+}
+160 = {
+	name = "Cadota"
+	culture = "sarmatian"
+}
+161 = {
+	name = "Lyam"
+	culture = "sarmatian"
+}
+162 = {
+	name = "Kunlyu"
+	culture = "sarmatian"
+}

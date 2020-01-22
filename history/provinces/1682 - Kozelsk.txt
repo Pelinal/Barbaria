@@ -1,0 +1,22 @@
+# 1682 - Kozelsk
+
+# County Title
+title = c_kozelsk
+
+# Settlements
+max_settlements = 4
+
+b_kozelsk = tribal		#1146
+
+#b_belev	#1147
+#b_mosalsk		#1234
+#b_mezetsk	#1238
+#b_serpeisk	#1406
+#b_sukhinichi	#XVIth
+#b_sosensky	#1952
+
+# Misc
+culture = polan
+religion = slavic_pagan
+
+# History

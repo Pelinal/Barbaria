@@ -1,0 +1,14 @@
+# 466 - Zachlumia
+
+# County Title
+title = c_zachlumia
+
+# Settlements
+max_settlements = 4
+b_stolac = tribal
+
+# Misc
+culture = illyrian
+religion = zalmoxian
+
+# History

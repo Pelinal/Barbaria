@@ -1,0 +1,14 @@
+### Bookmark images -  Barbaria ###
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_pick_era_image_brb_1"
+		texturefile = "gfx/interface/pick_era_image_brb_1.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_pick_era_image_brb_3"
+		texturefile = "gfx/interface/pick_era_image_brb_3.dds"
+		noOfFrames = 1
+	}
+}

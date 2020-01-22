@@ -1,0 +1,21 @@
+# 421 - Zhmud
+
+# County Title
+title = c_zhmud
+
+# Settlements
+max_settlements = 4
+b_jurbarkas = tribal
+#b_raseiniai = city
+#b_zarenai = temple
+
+#b_tverai = castle
+#b_kraziai = castle
+#b_knituva = castle
+#b_siautuna = castle
+
+# Misc
+culture = aestian
+religion = baltic_pagan
+
+# History

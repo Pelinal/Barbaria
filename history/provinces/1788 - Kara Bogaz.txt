@@ -1,0 +1,16 @@
+# 625 - Kara Bogaz
+
+# County Title
+title = c_kara_bogaz
+
+# Settlements
+max_settlements = 2
+b_kara_bogaz = castle
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History
+690.1.1 = { religion = zoroastrian }
+760.1.1 = { culture = persian }

@@ -1,0 +1,920 @@
+990000 = {
+    name = "Mahonid"
+    used_for_random = no
+    can_appear = no
+}
+990001 = {
+	name = "Sigibal"
+	culture = carthaginian
+	used_for_random = no
+    can_appear = no
+}
+990002 = {
+	name = "adn Murgi"
+	culture = carthaginian
+	used_for_random = no
+    can_appear = no
+}
+990003 = {
+	name = "Lev"
+	culture = carthaginian
+}
+990004 = {
+	name = "Barak"
+	culture = carthaginian
+}
+990005 = {
+	name = "Hadzrubalid"
+	culture = carthaginian
+}
+990006 = {
+	name = "Adonyson"
+	culture = carthaginian
+}
+990007 = {
+	name = "Miklyaton"
+	culture = carthaginian
+}
+990008 = {
+	name = "Donisid"
+	culture = carthaginian
+}
+990009 = {
+	name = "Shemenid"
+	culture = carthaginian
+}
+990010 = {
+	name = "Tammuz"
+	culture = carthaginian
+}
+990011 = {
+	name = "Adoniad"
+	culture = carthaginian
+}
+990012 = {
+	name = "Hyrumal"
+	culture = carthaginian
+}
+990013 = {
+	name = "Botryson"
+	culture = carthaginian
+}
+990014 = {
+	name = "Shamayim"
+	culture = carthaginian
+}
+990015 = {
+	name = "Danelid"
+	culture = carthaginian
+}
+990016 = {
+	name = "Zimridan"
+	culture = carthaginian
+}
+990017 = {
+	name = "Sakarbaal"
+	culture = carthaginian
+}
+990018= {
+	name = "Uticon"
+	culture = carthaginian
+}
+990019= {
+	name = "Maharbaal"
+	culture = carthaginian
+}
+990020= {
+	name = "Yutpanon"
+	culture = carthaginian
+}
+990021= {
+	name = "Ashtzaphid"
+	culture = carthaginian
+}
+990022= {
+	name = "Ashtartyaton"
+	culture = carthaginian
+}
+990023= {
+	name = "Bodeshmun"
+	culture = carthaginian
+}
+990024 = {
+	name = "Melqartpilles"
+	culture = carthaginian
+}
+990025 = {
+	name = "Aradusid"
+	culture = carthaginian
+}
+990026 = {
+	name = "Milkherem"
+	culture = carthaginian
+}
+990027 = {
+	name = "Itthobaal"
+	culture = carthaginian
+}
+990028 = {
+	name = "Hailamid"
+	culture = carthaginian
+}
+990029 = {
+	name = "Adonon"
+	culture = carthaginian
+}
+990030 = {
+	name = "Abdosirid"
+	culture = carthaginian
+}
+990031 = {
+	name = "Tammuzon"
+	culture = carthaginian
+}
+990032 = {
+	name = "Aqhatid"
+	culture = carthaginian
+}
+990033 = {
+	name = "Beiruton"
+	culture = carthaginian
+}
+990034 = {
+	name = "Astartid"
+	culture = carthaginian
+}
+990035 = {
+	name = "Yutpanid"
+	culture = carthaginian
+}
+990036 = {
+	name = "Barekbaal"
+	culture = carthaginian
+}
+990037 = {
+	name = "Azmelqart"
+	culture = carthaginian
+}
+990038 = {
+	name = "Adohnes"
+	culture = carthaginian
+}
+990039 = {
+	name = "Sikarbaal"
+	culture = carthaginian
+}
+990040 = {
+	name = "Balbid"
+	culture = carthaginian
+}
+990041 = {
+	name = "Ahiramid"
+	culture = carthaginian
+}
+990042 = {
+	name = "Aderbaal"
+	culture = carthaginian
+}
+990043 = {
+	name = "Jubanid"
+	culture = carthaginian
+}
+990044 = {
+	name = "Germelqart"
+	culture = carthaginian
+}
+990045 = {
+	name = "Bodeshmunon"
+	culture = carthaginian
+}
+990046 = {
+	name = "Hiempsalid"
+	culture = carthaginian
+}
+990047 = {
+	name = "Jubalon"
+	culture = carthaginian
+}
+990048 = {
+	name = "Addilon"
+	culture = carthaginian
+}
+990049 = {
+	name = "Maharbaalid"
+	culture = carthaginian
+}
+990050 = {
+	name = "Tabnitid"
+	culture = carthaginian
+}
+990051 = {
+	name = "Hannonid"
+	culture = carthaginian
+}
+990052 = {
+	name = "Magonid"
+	culture = carthaginian
+}
+
+
+#990052 = {
+#	name = "adn Infa"
+#	culture = phoenician
+#}
+990053 = {
+	name = "adn Murgi"
+	culture = phoenician
+}
+990054 = {
+	name = "Lev"
+	culture = phoenician
+}
+990055 = {
+	name = "Barak"
+	culture = phoenician
+}
+990056 = {
+	name = "Hadzrubalid"
+	culture = phoenician
+}
+990057 = {
+	name = "Adonyson"
+	culture = phoenician
+}
+990058 = {
+	name = "Miklyaton"
+	culture = phoenician
+}
+990059 = {
+	name = "Donisid"
+	culture = phoenician
+}
+990060 = {
+	name = "Shemenid"
+	culture = phoenician
+}
+990061 = {
+	name = "Tammuz"
+	culture = phoenician
+}
+990062 = {
+	name = "Adoniad"
+	culture = phoenician
+}
+990063 = {
+	name = "Hyrumal"
+	culture = phoenician
+}
+990064 = {
+	name = "Botryson"
+	culture = phoenician
+}
+990065 = {
+	name = "Shamayim"
+	culture = phoenician
+}
+990066 = {
+	name = "Danelid"
+	culture = phoenician
+}
+990067 = {
+	name = "Zimridan"
+	culture = phoenician
+}
+990068 = {
+	name = "Sakarbaal"
+	culture = phoenician
+}
+990069= {
+	name = "Uticon"
+	culture = phoenician
+}
+990070= {
+	name = "Maharbaal"
+	culture = phoenician
+}
+990071= {
+	name = "Yutpanon"
+	culture = phoenician
+}
+990072= {
+	name = "Ashtzaphid"
+	culture = phoenician
+}
+990073= {
+	name = "Ashtartyaton"
+	culture = phoenician
+}
+990074= {
+	name = "Bodeshmun"
+	culture = phoenician
+}
+990075 = {
+	name = "Melqartpilles"
+	culture = phoenician
+}
+990076 = {
+	name = "Aradusid"
+	culture = phoenician
+}
+990077 = {
+	name = "Milkherem"
+	culture = phoenician
+}
+990078 = {
+	name = "Itthobaal"
+	culture = phoenician
+}
+990079 = {
+	name = "Hailamid"
+	culture = phoenician
+}
+990080 = {
+	name = "Adonon"
+	culture = phoenician
+}
+990081 = {
+	name = "Abdosirid"
+	culture = phoenician
+}
+990082 = {
+	name = "Tammuzon"
+	culture = phoenician
+}
+990083 = {
+	name = "Aqhatid"
+	culture = phoenician
+}
+990084 = {
+	name = "Beiruton"
+	culture = phoenician
+}
+990085 = {
+	name = "Astartid"
+	culture = phoenician
+}
+990086 = {
+	name = "Yutpanid"
+	culture = phoenician
+}
+990087 = {
+	name = "Barekbaal"
+	culture = phoenician
+}
+990088 = {
+	name = "Azmelqart"
+	culture = phoenician
+}
+990089 = {
+	name = "Adohnes"
+	culture = phoenician
+}
+990090 = {
+	name = "Sikarbaal"
+	culture = phoenician
+}
+990091 = {
+	name = "Balbid"
+	culture = phoenician
+}
+990092 = {
+	name = "Ahiramid"
+	culture = phoenician
+}
+990093 = {
+	name = "Aderbaal"
+	culture = phoenician
+}
+990094 = {
+	name = "Jubanid"
+	culture = phoenician
+}
+990095 = {
+	name = "Germelqart"
+	culture = phoenician
+}
+990096 = {
+	name = "Bodeshmunon"
+	culture = phoenician
+}
+990097 = {
+	name = "Hiempsalid"
+	culture = phoenician
+}
+990098 = {
+	name = "Jubalon"
+	culture = phoenician
+}
+990099 = {
+	name = "Addilon"
+	culture = phoenician
+}
+990100 = {
+	name = "Maharbaalid"
+	culture = phoenician
+}
+990101 = {
+	name = "Tabnitid"
+	culture = phoenician
+}
+990102 = {
+	name = "Hannonid"
+	culture = phoenician
+}
+990103 = {
+	name = "Magonid"
+	culture = phoenician
+}
+
+990189=
+{
+	name="Verinus"
+	culture="rumiyim"
+	religion="miaphysite"
+	forced_coa_religiongroup="christian"
+}
+990190=
+{
+	name="Marcianus"
+	culture="rumiyim"
+	religion="orthodox"
+	forced_coa_religiongroup="christian"
+}
+990191=
+{
+	name="Theodosius"
+	culture="rumiyim"
+	religion="orthodox"
+	forced_coa_religiongroup="christian"
+}
+990192=
+{
+	name="Constantius"
+	culture="rumiyim"
+	religion="catholic"
+	forced_coa_religiongroup="christian"
+}
+990193=
+{
+	name="Valentinianus"
+	culture="rumiyim"
+	religion="catholic"
+	forced_coa_religiongroup="christian"
+}
+990194=
+{
+	name="Iovianus"
+	culture="rumiyim"
+	religion="catholic"
+	forced_coa_religiongroup="christian"
+}
+990195=
+{
+	name="Constantinus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990196=
+{
+	name="Licinianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990197=
+{
+	name="Daia"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990198=
+{
+	name="Armentarius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990199=
+{
+	name="Diocletianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990200=
+{
+	name="Carus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990201=
+{
+	name="Dalmatius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990202=
+{
+	name="Tacitus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990203=
+{
+	name="Crinitus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990204=
+{
+	name="Domitius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990205=
+{
+	name="Gothicus"
+	
+	forced_coa_religiongroup="christian"
+}
+990206=
+{
+	name="Valerianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990207=
+{
+	name="Aemilius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990208=
+{
+	name="Trebonianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990209=
+{
+	name="Messius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990210=
+{
+	name="Arabs"
+	
+	forced_coa_religiongroup="christian"
+}
+990211=
+{
+	name="Africanus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990212=
+{
+	name="Calvinus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990213=
+{
+	name="Maximus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990214=
+{
+	name="Thrax"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990215=
+{
+	name="Severus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990216=
+{
+	name="Antoninus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990217=
+{
+	name="Opellius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990218=
+{
+	name="Severus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990219=
+{
+	name="Didius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990220=
+{
+	name="Helvius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990221=
+{
+	name="Aurelius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990222=
+{
+	name="Verus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990223=
+{
+	name="Pius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990224=
+{
+	name="Hadrianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990225=
+{
+	name="Traianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990226=
+{
+	name="Cocceius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990227=
+{
+	name="Flavius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990228=
+{
+	name="Vitellius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990229=
+{
+	name="Salvius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990230=
+{
+	name="Sulpicius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990231=
+{
+	name="Pompeius"
+	culture="rumiyim"
+	religion="miaphysite"
+	forced_coa_religiongroup="christian"
+}
+990232=
+{
+	name="Claudius"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990233=
+{
+	name="Maximianus"
+	culture="rumiyim"
+	
+	forced_coa_religiongroup="christian"
+}
+990234 = {
+	name = "Siak"
+	culture = "javanese"
+}
+990235 = {
+	name = "Rajasanagara"
+	culture = "javanese"
+}
+990236 = {
+	name = "P'an-Lo"
+	culture = "javanese"
+}
+990237 = {
+	name = "Cheng"
+	culture = "javanese"
+}
+990238 = {
+	name = "Gunungjati"
+	culture = "javanese"
+}
+990239 = {
+	name = "Burnei"
+	culture = "javanese"
+}
+990240 = {
+	name = "Kutai"
+	culture = "javanese"
+}
+990241 = {
+	name = "Sibu"
+	culture = "javanese"
+}
+990242 = {
+	name = "Kuching"
+	culture = "javanese"
+}
+990243 = {
+	name = "Demak"
+	culture = "javanese"
+}
+990244 = {
+	name = "Surabaya"
+	culture = "javanese"
+}
+990245 = {
+	name = "Cirebon"
+	culture = "javanese"
+}
+990246 = {
+	name = "Samprangan"
+	culture = "javanese"
+}
+990247 = {
+	name = "Aceh"
+	culture = "javanese"
+}
+990248 = {
+	name = "Pasai"
+	culture = "javanese"
+}
+990249 = {
+	name = "Pagarruyung"
+	culture = "javanese"
+}
+990250 = {
+	name = "Palembang"
+	culture = "javanese"
+}
+990251 = {
+	name = "Jambi"
+	culture = "javanese"
+}
+990252 = {
+	name = "Siak"
+	culture = "sumatran"
+}
+990253 = {
+	name = "Rajasanagara"
+	culture = "sumatran"
+}
+990254 = {
+	name = "P'an-Lo"
+	culture = "sumatran"
+}
+990255 = {
+	name = "Cheng"
+	culture = "sumatran"
+}
+990256 = {
+	name = "Gunungjati"
+	culture = "sumatran"
+}
+990257 = {
+	name = "Burnei"
+	culture = "sumatran"
+}
+990258 = {
+	name = "Kutai"
+	culture = "sumatran"
+}
+990259 = {
+	name = "Sibu"
+	culture = "sumatran"
+}
+990260 = {
+	name = "Kuching"
+	culture = "sumatran"
+}
+990261 = {
+	name = "Demak"
+	culture = "sumatran"
+}
+990262 = {
+	name = "Surabaya"
+	culture = "sumatran"
+}
+990263 = {
+	name = "Cirebon"
+	culture = "sumatran"
+}
+990264 = {
+	name = "Samprangan"
+	culture = "sumatran"
+}
+990265 = {
+	name = "Aceh"
+	culture = "sumatran"
+}
+990266 = {
+	name = "Pasai"
+	culture = "sumatran"
+}
+990267 = {
+	name = "Pagarruyung"
+	culture = "sumatran"
+}
+990268 = {
+	name = "Palembang"
+	culture = "sumatran"
+}
+990269 = {
+	name = "Jambi"
+	culture = "sumatran"
+}
+990271 = {
+	name = "Shailendra"
+	culture = "javanese"
+	used_for_random = no
+}
+
+990272=
+{
+	name="Barcid"
+	culture="carthaginian"
+	religion="canaanite_pagan"
+	used_for_random = no
+	
+	coat_of_arms = {
+		data = { 0 3 0 51 0 0 0 }
+		religion = "catholic"
+	}
+	used_for_random=no
+}
+
+990273 = {
+    name = "adn Calpe"
+    used_for_random = no
+    can_appear = no
+}
+990274 = {
+    name = "Ummashid"
+    used_for_random = no
+    can_appear = no
+}
+990275 = {
+    name = "Aynelid"
+    used_for_random = no
+    can_appear = no
+}

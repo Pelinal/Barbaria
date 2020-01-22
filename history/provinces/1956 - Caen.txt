@@ -1,0 +1,28 @@
+# 1581 - Caen
+
+# County Title
+title = c_caen
+
+# Settlements
+max_settlements = 5
+
+b_caen = castle
+b_bayeux = city
+b_domfront = temple
+
+#b_vire
+#b_clecy
+#b_jurques
+#b_villers-bocage
+
+# Misc
+culture = gaulish
+religion = gallic
+
+# History
+1066.1.1 = {
+	b_bayeux = ct_wall_1
+	b_bayeux = ct_wall_2
+	b_bayeux = ct_port_2
+	b_bayeux = ct_port_3
+}

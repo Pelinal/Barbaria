@@ -1,0 +1,17 @@
+# 1675 - Prilok
+
+# County Title
+title = c_prilok
+
+# Settlements
+max_settlements = 1
+b_hvamm = tribal
+
+#b_borg = castle
+
+# Misc
+culture = scythian
+religion = heptadic
+terrain = arctic
+
+# History

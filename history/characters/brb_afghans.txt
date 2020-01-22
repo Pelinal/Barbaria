@@ -1,0 +1,374 @@
+## AFGHAN CHARACTERS ##
+## From IDS 2250-2499   ##
+
+2250 = {
+	name="Bo-Fuzun"
+	dynasty=300 # Zunbil
+	religion="buddhist"
+	culture="afghan"
+	father=2270
+	trait=kshatriya
+	trait=mahayana_buddhist
+	trait=sympathy_pagans
+	711.7.11={
+		birth=yes
+	}
+	738.1.1={
+		add_spouse=188566
+	}
+	775.1.1={
+		death=yes
+	}
+}
+
+2251 = {
+	name="Naz'aktar" # from early rather than mid 700s
+	dynasty=300 # Zunbil
+	religion="buddhist"
+	culture="afghan"
+	father=2250
+	mother=188566
+	trait=kshatriya
+	trait=mahayana_buddhist
+	trait=sympathy_pagans
+	742.9.25={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+2252 = {
+	name="Barhatakin"
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	
+	father=2271
+	mother=2272
+	
+	610.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+2253 = {
+	name="Rutbil" # name is more of a title
+	# semi-historical
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2252
+	635.1.1={
+		birth=yes
+	}
+	687.1.1={
+		death=yes
+	}
+}
+2254 = {
+	name="Rumofuda"	# name is more of a title
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2253
+	660.1.1={
+		birth=yes
+	}
+	725.1.1={
+		death=yes
+	}
+}
+2255 = {
+	name="Shihyu"
+	# semi-historical
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2254
+	685.1.1={
+		birth=yes
+	}
+	738.1.1={
+		death=yes
+	}
+}
+2256 = {
+	name="Jimofuta"
+	# semi-historical
+	dna = aehzcotudbu
+	properties = hb0ccd000000000000
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2255
+	trait=sympathy_indian
+	711.1.1={
+		birth=yes
+	}
+	770.1.1={
+		death=yes
+	}
+}
+
+2257 = {
+	name="Barha"	# fictional
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2256
+	trait=sympathy_indian
+	732.6.16={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+2258 = {
+	name="Benaz"	# fictional
+	female=yes
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2257
+	trait=sympathy_indian
+	761.1.28={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+
+2259 = {
+	name="Rumofuda"	# fictional
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2257
+	trait=sympathy_indian
+	764.12.18={
+		birth=yes
+	}
+	815.1.1={
+		death=yes
+	}
+}
+2260 = {
+	name="Rutbil"	# fictional
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2259
+	792.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+2261 = {
+	name="Jimofuta"	# fictional
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2260
+	825.1.1={
+		birth=yes
+	}
+	864.1.1={
+		death=yes
+	}
+}
+2262 = {
+	name="Hurmiz" # fictitious name
+	# Saffarid governor of Zabul
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2261
+	846.1.1={
+		birth=yes
+	}
+	868.1.1={
+		death=yes
+	}
+}
+2263 = {
+	name="Kabak"
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2260
+	823.1.1={
+		birth=yes
+	}
+	865.1.1={
+		death=yes
+	}
+}
+2264 = {
+	name="Firuz"
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2263
+	850.1.1={
+		birth=yes
+	}
+	866.1.1={
+		employer=175060
+		religion = hindu
+	}
+	873.1.1={
+		death=yes
+	}
+}
+2265 = {
+	name="Nîšan"	# fictional
+	female=yes
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2263
+	846.1.1={
+		birth=yes
+	}
+	866.1.1={
+		employer=175060
+		religion = hindu
+	}
+	900.1.1={
+		death=yes
+	}
+}
+2266 = {
+	name="Xêlîcan"	# fictional
+	female=yes
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2263
+	848.1.1={
+		birth=yes
+	}
+	866.1.1={
+		employer=175060
+		religion = hindu
+	}
+	900.1.1={
+		death=yes
+	}
+}
+2267 = {
+	name="Shiquer"	# fictional
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2256
+	trait=sympathy_indian
+	738.11.26={
+		birth=yes
+	}
+	785.1.1={
+		death=yes
+	}
+}
+
+2268 = {
+	name="Zerê"	# fictional
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	father=2256
+	trait=sympathy_indian
+	748.8.3={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+2269 = {
+	name="Tegin-Shah" # more of a title than name
+	# founder of Kabul Shahi line
+	dynasty=300 # Zunbil
+	religion="buddhist"
+	culture="afghan"
+	father=2252
+	655.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+
+2270 = {
+	name="Phrom-Kesar"
+	dynasty=300 # Zunbil
+	religion="buddhist"
+	culture="afghan"
+	father=2269
+	685.1.1={
+		birth=yes
+	}
+	745.1.1={
+		death=yes
+	}
+}
+
+###### ADD A ZUNBIL BLOODLINE PWEEASE
+2271 = {
+	name="Zundabtar" # more of a title than a name
+	dynasty=300 # Zunbil
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	
+	add_trait = zealous
+	add_trait = scholar
+	
+	580.1.1={
+		birth=yes
+	}
+	600.1.1={
+		add_spouse = 2272
+	}
+	630.1.1={
+		death=yes
+	}
+}
+
+2272 = {
+	name="Taara" 
+	religion="zun_pagan_reformed"
+	culture="afghan"
+	female = yes
+	
+	584.1.1={
+		birth=yes
+	}
+	646.1.1={
+		death=yes
+	}
+}
+
+2273 = {
+	name="Pazir"
+	dynasty=301
+	religion="zoroastrian"
+	culture="afghan"
+	
+	594.1.1={
+		birth=yes
+	}
+	652.1.1={
+		death=yes
+	}
+}

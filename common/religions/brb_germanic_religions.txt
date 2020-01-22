@@ -1,0 +1,289 @@
+
+###############################################
+###		African Religions - Barbaria 	    ###
+###############################################
+
+# Norse Reformed
+# Norse
+# Germanic Reformed
+# Germanic
+
+pagan_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+	
+	# Names given only to Pagan characters (base names)
+	male_names = {
+		Anund Asbjörn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund Gudröd Hardeknud Helge Odd Orm 
+		Orvar Ottar Rikulfr Rurik Sigbjörn Styrbjörn Starkad Styrkar Sämund Sölve Sörkver Thorolf Tjudmund Toke Tolir 
+		Torbjörn Torbrand Torfinn Torgeir Toste Tyke
+	}
+	female_names = {
+		Aslaug Bothild Björg Freja Grima Gytha Kráka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
+	}
+	
+	norse_pagan_reformed = {
+		graphical_culture = norsegfx
+		secondary_event_pictures = norse_pagan
+		alternate_start = { always = no }
+
+		icon = 20
+		heresy_icon = 21
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.6 0.6 0.6 }
+		
+		high_god_name = GOD_ODIN
+		
+		god_names = {
+			GOD_THOR GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_ODIN GOD_FREY GOD_TYR
+		}
+		evil_god_names = {
+			LOKI HEL FENRIR JORMUNGANDR
+		} 
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SAGAS
+		priest_title = GODI
+		priests_can_marry = yes
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		allow_looting = yes
+		#allow_rivermovement = yes 		#Special features are added via reformation. If HF is not installed, default features are applied on reformed religion by event.
+		female_temple_holders = yes
+		#allow_viking_invasion = yes
+		#seafarer = yes
+		
+		short_reign_opinion_year_mult = 1.5
+		
+		aggression = 1.5 # AI aggression factor
+		
+		max_consorts = 3
+
+		
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+		
+		intermarry = norse_pagan
+		
+		allow_in_ruler_designer = no
+		#reformer_head_of_religion = yes #make the character that reforms this religion the head of the new reformed faith
+	}		
+	
+	norse_pagan = {
+		graphical_culture = norsegfx
+		alternate_start = {
+			OR = {
+				year < 1100
+				has_alternate_start_parameter = { key = religion value = full_random }
+			}
+		}
+
+		icon = 19
+		heresy_icon = 21
+		
+		color = { 0.5 0.5 0.5 }
+		
+		high_god_name = GOD_ODIN
+		
+		god_names = {
+			GOD_THOR GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_ODIN GOD_FREY GOD_TYR
+		}
+		evil_god_names = {
+			LOKI HEL FENRIR JORMUNGANDR
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SAGAS
+		priest_title = GODI
+		
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		allow_viking_invasion = yes
+		seafarer = yes
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = norse_pagan_reformed
+		
+		aggression = 2.0 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 2.5
+		
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+		
+		intermarry = norse_pagan_reformed
+		intermarry = baltic_pagan
+		intermarry = slavic_pagan
+		
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+	}
+	
+	germanic_pagan_reformed = { #Urglaube
+		graphical_culture = norsegfx
+		secondary_event_pictures = norse_pagan
+		alternate_start = { always = no }
+
+		icon = 19
+		heresy_icon = 21
+
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+
+		color = { 0.6 0.34 0.15 }
+
+		high_god_name = GOD_THE_ALLFATHER
+
+		god_names = {
+			GOD_THE_ANCESTORS GOD_THE_ALLFATHER GOD_WODANAZ GOD_THUNRAZ GOD_SAXNOT GOD_WULTHUZ GOD_INGWAZ GOD_NERTHUS
+		}
+		evil_god_names = {
+			LOPTR THE_DARK_SPIRITS
+		}
+		
+		#unit_modifier = {
+			#garrison_size = 0.2
+			#levy_size = 0.2
+
+			#key = "DEF_RELIGION"
+		#}
+		#unit_home_modifier = {
+			#land_morale = 0.3
+			#light_infantry_defensive = 0.3
+			#heavy_infantry_defensive = 0.3
+			#pikemen_defensive = 0.3
+			#light_cavalry_defensive = 0.3
+			#knights_defensive = 0.3
+			#archers_defensive = 0.3
+			#horse_archers_defensive = 0.3
+			#camel_cavalry_defensive = 0.3
+			#war_elephants_defensive = 0.3
+			#garrison_size = 0.4
+			#key = "DEF_RELIGION_HOME_TERRITORY"
+		#}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SAGAS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		
+		aggression = 1.5 # AI aggression factor
+		allow_looting = no
+		allow_rivermovement = yes
+		allow_in_ruler_designer = no
+		can_call_crusade = yes
+		dislike_tribal_organization = no
+		female_temple_holders = yes
+		join_crusade_if_bordering_hostile = yes
+		max_consorts = 3
+		short_reign_opinion_year_mult = 3 # The default is 2
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+
+		
+		intermarry = german_group
+	}
+
+	germanic_pagan = {
+		graphical_culture = norsegfx
+		alternate_start = {
+			OR = {
+				year < 900
+				has_alternate_start_parameter = { key = religion value = full_random }
+			}
+		}
+
+		icon = 19
+		heresy_icon = 21
+
+		color = { 0.5 0.28 0.13 }
+		reformed = germanic_pagan_reformed
+
+		high_god_name = GOD_THE_ALLFATHER
+
+		god_names = {
+			GOD_THE_ANCESTORS GOD_THE_ALLFATHER GOD_WODANAZ GOD_THUNRAZ GOD_SAXNOT GOD_WULTHUZ GOD_INGWAZ GOD_NERTHUS
+		}
+		evil_god_names = {
+			LOPTR THE_DARK_SPIRITS
+		}
+		
+		unit_modifier = {
+			garrison_size = 0.3
+			levy_size = 0.1
+
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.3
+			light_infantry_defensive = 0.3
+			heavy_infantry_defensive = 0.3
+			pikemen_defensive = 0.3
+			light_cavalry_defensive = 0.3
+			knights_defensive = 0.3
+			archers_defensive = 0.3
+			horse_archers_defensive = 0.3
+			camel_cavalry_defensive = 0.3
+			war_elephants_defensive = 0.3
+			garrison_size = 0.4
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SAGAS
+		priest_title = PRIEST
+		
+		aggression = 1.0 # AI aggression factor
+		allow_looting = yes
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		dislike_tribal_organization = yes
+		female_temple_holders = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		max_consorts = 3
+		peace_prestige_loss = no # will not Lose Prestige while at peace
+		priests_can_marry = yes
+		raised_vassal_opinion_loss = no
+		short_reign_opinion_year_mult = 4 # The default is 2
+
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+
+		
+		intermarry = german_group
+	}
+}

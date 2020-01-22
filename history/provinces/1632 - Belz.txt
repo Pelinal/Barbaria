@@ -1,0 +1,22 @@
+# 1632 - Belz
+
+# County Title
+title = c_belz
+
+# Settlements
+max_settlements = 3
+
+b_belz = tribal
+#b_horodlo = city
+#b_lopatyn = temple
+
+#b_sokal = castle
+#b_grabowiec = castle
+#b_mycow = castle
+#b_tchernogrov = caslte
+
+# Misc
+culture = bastarnae
+religion = germanic_pagan
+
+# History

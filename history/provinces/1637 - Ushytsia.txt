@@ -1,0 +1,22 @@
+# 1637 - Ushytsia
+
+# County Title
+title = c_ushytsia
+
+# Settlements
+max_settlements = 3
+
+b_ushytsia	= tribal
+
+#b_kamianets	#XIIth	#former castle of Kamianets-Podilskyi
+#b_litnivtsi	#1439
+#b_dunaivtsi	#1403
+#b_murovani		#1453
+#b_velykyi_zhvanchyk
+#b_ushiyin	#fictional
+
+# Misc
+culture = bastarnae
+religion = germanic_pagan
+
+# History

@@ -1,0 +1,22 @@
+# 1582 - Sieradzka
+
+# County Title
+title = c_sieradzka
+
+# Settlements
+max_settlements = 4
+
+b_sieradz = tribal
+#b_piotrkow = temple
+#b_przedborz = city
+
+#b_szadek = castle
+#b_radomsko = castle
+#b_turek = castle
+#b_rozprza = castle
+
+# Misc
+culture = burgundian
+religion = germanic_pagan
+
+# History

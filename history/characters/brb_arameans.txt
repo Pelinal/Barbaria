@@ -1,0 +1,74 @@
+## ARAMAIC CHARACTERS ##
+## From IDS 4500-4749    ##
+
+4500 = {
+    name = "Ieshua"
+    dynasty = 80
+    religion = "canaanite"
+    culture = "aramaic"
+    
+	580.1.1 = {
+		birth = yes
+    }
+	650.1.1 = {
+		death = yes
+    }
+}
+4501 = {
+    name = "Thaddai"
+    dynasty = 80
+    religion = "canaanite"
+    culture = "aramaic"
+	father = 4500
+    
+	620.1.1 = {
+		birth = yes
+    }
+	690.1.1 = {
+		death = yes
+    }
+}
+
+4502 = {
+	name = "Quriaqos"
+	dynasty = 81
+	religion = "canaanite"
+	culture = "aramaic"
+	
+	add_trait = hunter
+	add_trait = zealous
+	
+	587.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+4503 = { # Yochhanan of Druz
+	name = "Yochhanan"
+	dynasty = 82
+	religion = "canaanite"
+	culture = "aramaic"
+	
+	587.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+4504 = { # Abgar of Baalbek
+	name = "Abgar"
+	dynasty = 83
+	religion = "hellenic"
+	culture = "aramaic"
+	
+	569.1.1 = {
+		birth = yes
+	}
+	614.1.1 = {
+		death = yes
+	}
+}

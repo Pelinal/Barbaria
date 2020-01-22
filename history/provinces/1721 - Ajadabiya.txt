@@ -1,0 +1,23 @@
+# 1721 - Ajadabiya
+
+# County Title
+title = c_ajadabiya
+
+# Settlements
+max_settlements = 3
+
+b_ajadabiya = tribal
+
+
+#b_qaryatbishr
+
+# Misc
+culture = cyrenacian
+religion = hellenic
+
+# History
+
+760.1.1 = {
+	religion = kemetic
+	b_al_aghaila = city 
+}

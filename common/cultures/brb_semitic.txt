@@ -1,0 +1,242 @@
+###############################################
+###		Semitic Cultures - Barbaria 	    ###
+###############################################
+
+## col; 0.44 0.14 0.7
+# Hebrew
+# Carthaginian
+# Phoenician
+# Libyo-Phoenician
+# Phoeniciberian
+
+semitic = {
+	graphical_cultures = { arabicgfx muslimgfx } #muslimgfx arabicgfx
+	
+	hebrew = { 
+		graphical_cultures = { ashkenazigfx byzantinegfx }
+		
+		color = { 0.44 0.14 0.7 }
+		
+		male_names = {
+			Ahav Ahaz Ahazyahu Amon Asa Atalyah Aviyam Baasha David Elah Hizqiyah Hoshea Ishbaal Menahem 
+			Menasheh Omri Pehah Pekahyah Shallum Shelomoh Yehoram Yehoshafat Yehu Yeravam Yotam 
+			Zekharyah Zimri
+			
+			Mordechai Avraham Benyamin Yonathan Yehuda Shlomo Shaul Shmuel Shimon Gavriel Daniel Emmanuel_Emmanuel Ezekiel Itzhak Yaakov Gidon Tvika Eyal
+			Aviv Ohad Elad Tomer Achinoam Akiva Gil Gilad Reuven Ori Pesach Meir Moshe Bar Tamir Michael Zion Amit Avishay Itamar Itay Gili Yosef Yossi Azriel Israel Noam
+			Ariel Mattithyahu Matan Elijah Aharon Asher Chaim Efraim Elazar Gershom Kalonymos Menachem Meshulam Nasan Peter Shabsai Shimshon Yechiel Yoel Sasson "Yom-Tov"
+			Ilan Nechiemiah Nachman Ehud Baruch Aviram Guy Shay Eytan Immanuel_Emmanuel Yoshua Dolev Alon Adar Adir Almog Asaf Doron Dor Eden Liav Maor Nadav Nimrod Nathan Netanel
+			
+			Abba Abbaye Acha Achai Achunai Alechsandri Ammi Amram Amunah Ashi Avomai Azariah Baboi
+			Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+			Dimi Dodai Dudai Efrayim Eina Elchanan Eldad Eliezer Elyakim Gedalyah Ghayyat Giat Giza Hillel
+			Hila Isaac Ivomai Kafnai Kahana Levi Kiyomi Machir Malcha Mar Mari Matiyahu Menechem Menashe Mesharsheya
+			Mevasser Mishael Nachshon Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi
+			Ravai Ravi Ravya Rivai Saadiah Sechok Shalom Shanoi Shemaryah Sherira Sheshna Shila Shinoi
+			Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yachya Yehudah Yehudai Yehoshua Yeshayah_Isaiah
+			Yisrael Yitzchak Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
+		}
+		female_names = {			
+			Danielle Rita_Rita Dafna "Bat-El" Sarah Tzipi Yudith Adara Agam Geula Rahel Esther Anna Rivka Gilit Tamar Miri Naama
+			Michal Anael Gal Norah Davida Alona Nediva Nehama Miriam Yuval Adi Yetta Yael Tikva Ilana Micol Dalilah Dana Zara Ninet Orli Lior Chen
+			Amit Keren Golda Liron Mara Chana Guta Tziporah Dina Hila Simona Shlomit Ariela Bar Tomer Shir Shirel Noah Maya Neta Rina Liat Tal Almog 
+			Avia Ifat Eden Inbar Lee Maayan Mor Nitzan Nofar Noy Rothem Lotem Shahar Sapir Yarin Shani Sharon Shoval Stav Tali Hadas Naomi Nirit Roni Rinat Ronit
+			
+			Beila Belet Doltza Guthela Madrona Matrona Minna Pultzelina Rachel_Rachel Rivkah Saris Scolaster
+			Shluida Shoinlin Shonlin Yehudis Yeintil
+		}
+		from_dynasty_prefix = "ab"
+		
+		male_patronym = "Ben"
+		female_patronym = "Bat"
+		prefix = yes
+		
+		modifier = default_culture_modifier
+		
+		pat_grf_name_chance = 35
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+	}
+	
+	carthaginian = {
+		graphical_cultures = { arabicgfx } #maybe add byzantinegfx
+		
+		color = { 0.44 0.14 0.7 }
+
+		male_names = {
+			Hanno Malchus Mago Hasdrubal Hamilcar Himilco Hannibal Gisco Bomilcar Adherbal Bodo Bostar Carthalo Clitomachus Gisgo Aqhat Qarnaim Abdmelqart Abdastartus Adoniah Yarikh Baltsar Bodeshmun Milkyaton
+			Boldizsar Resheph Balthasar Ashtartyaton Baltser Hyrum Hailama Zephon Baldo Balzer Adonia Ugarit Yutpan Yehawwielon Baalshillek Hiram Baltser Adohnes Beirut Bodmelqart Shamayim Azmelqart Batnoam 
+			Adad Abbar Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Boulomenus Chelbes Tabnit Zimrida Gerbaal Gerimilki Khiletzbaal Baaliaton Barekbaal Urumilki Yehomilk Yadamilk Paltibaal Abirami
+			Eshbaal Eugoras Germelqart Maharbal Mattan Metallo Milkherem Milkiram Danel Kanmi Maharbaal Milkpilles Melqartpilles Massinissa Hiempsal Juba Melqartshama Ahumm Eshmounhilles Eshmouniaton Itthobaal 
+			Philosir Boodes Bomical Abdhamon Abibaal Bodbaal
+		}
+		female_names = {
+			Dido Sophonisba Alissa Birkana Adonica Amatbal Ashtoreth Amatashtart Imashmon Izabel Tanyth Jezebelle Birkanda Zibqet Melita Barkitbal Jezebel Sisa Demna Astarte Amotmilqart Azibal Adonyah Tanith 
+			Arshut Jezibel Tanni Birkanda Amatbal Anath Coryender Coriander Tanyih Arishot Ashdonbal Yasha Ummashtart Shiba Pawly Shapash Amma Mitunbaal Arashtibal Tanis Domina Izavel Quarta Tanythe Bisha Nikkal
+			Abdosir Arishat Batnoam Shayna Tamar Adiya Tabua Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Iezabel Elissa Muttunbaal
+		}
+		
+		from_dynasty_prefix = "adn "
+		
+		male_patronym = "by"
+		female_patronym = "byth"
+		prefix = yes
+		
+		used_for_random = no
+		dynasty_title_names = no
+		founder_named_dynasties = yes
+		
+		seafarer = yes
+		
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+	
+	phoenician = {
+		graphical_cultures = { arabicgfx } #maybe add byzantinegfx
+		
+		color = { 0.44 0.14 0.7 } 
+
+		male_names = {
+			Hanno Malchus Mago Hasdrubal Hamilcar Himilco Hannibal Gisco Bomilcar Adherbal Bodo Bostar Carthalo Clitomachus Gisgo Aqhat Qarnaim Abdmelqart Abdastartus Adoniah Yarikh Baltsar Bodeshmun Milkyaton
+			Boldizsar Resheph Balthasar Ashtartyaton Baltser Hyrum Hailama Zephon Baldo Balzer Adonia Ugarit Yutpan Yehawwielon Baalshillek Hiram Adohnes Beirut Bodmelqart Shamayim Azmelqart Batnoam Bodbaal
+			Adad Abbar Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Boulomenus Chelbes Tabnit Zimrida Gerbaal Gerimilki Khiletzbaal Baaliaton Barekbaal Urumilki Yehomilk Yadamilk Paltibaal Abirami
+			Eshbaal Eugoras Germelqart Maharbal Mattan Metallo Milkherem Milkiram Danel Kanmi Maharbaal Milkpilles Melqartpilles Massinissa Hiempsal Juba Melqartshama Ahumm Eshmounhilles Eshmouniaton Itthobaal 
+			Philosir Boodes Bomical Abdhamon Abibaal 
+		}
+		female_names = {
+			Dido Sophonisba Alissa Birkana Adonica Amatbal Ashtoreth Amatashtart Imashmon Izabel Tanyth Jezebelle Zibqet Melita Barkitbal Jezebel Sisa Demna Astarte Amotmilqart Azibal Adonyah Tanith 
+			Arshut Jezibel Tanni Birkanda Anath Coryender Coriander Tanyih Arishot Ashdonbal Yasha Ummashtart Shiba Pawly Shapash Amma Mitunbaal Arashtibal Tanis Domina Izavel Quarta Tanythe Bisha
+			Nikkal Abdosir Arishat Batnoam Shayna Tamar Adiya Tabua Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Iezabel Elissa Muttunbaal
+		}
+		
+		from_dynasty_prefix = "adn "
+		
+		male_patronym = "by"
+		female_patronym = "byth"
+		prefix = yes
+		
+		parent = punic
+		used_for_random = no
+		dynasty_title_names = no
+		founder_named_dynasties = yes
+		
+		#allow_looting = yes
+		seafarer = yes
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+	
+	libyo_phoenician = {
+		graphical_cultures = { arabicgfx } #maybe add byzantinegfx
+		
+		color = { 0.44 0.14 0.7 } 
+
+		male_names = {
+			Hanno Malchus Mago Hasdrubal Hamilcar Himilco Hannibal Gisco Bomilcar Adherbal Bodo Bostar Carthalo Clitomachus Gisgo Aqhat Qarnaim Abdmelqart Abdastartus Adoniah Yarikh Baltsar Bodeshmun Milkyaton
+			Boldizsar Resheph Balthasar Ashtartyaton Baltser Hyrum Hailama Zephon Baldo Balzer Adonia Ugarit Yutpan Yehawwielon Baalshillek Hiram Adohnes Beirut Bodmelqart Shamayim Azmelqart Batnoam Bodbaal
+			Adad Abbar Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Boulomenus Chelbes Tabnit Zimrida Gerbaal Gerimilki Khiletzbaal Baaliaton Barekbaal Urumilki Yehomilk Yadamilk Paltibaal Abirami
+			Eshbaal Eugoras Germelqart Maharbal Mattan Metallo Milkherem Milkiram Danel Kanmi Maharbaal Milkpilles Melqartpilles Massinissa Hiempsal Juba Melqartshama Ahumm Eshmounhilles Eshmouniaton Itthobaal 
+			Philosir Boodes Bomical Abdhamon Abibaal 
+		}
+		female_names = {
+			Dido Sophonisba Alissa Birkana Adonica Amatbal Ashtoreth Amatashtart Imashmon Izabel Tanyth Jezebelle Zibqet Melita Barkitbal Jezebel Sisa Demna Astarte Amotmilqart Azibal Adonyah Tanith 
+			Arshut Jezibel Tanni Birkanda Anath Coryender Coriander Tanyih Arishot Ashdonbal Yasha Ummashtart Shiba Pawly Shapash Amma Mitunbaal Arashtibal Tanis Domina Izavel Quarta Tanythe Bisha
+			Nikkal Abdosir Arishat Batnoam Shayna Tamar Adiya Tabua Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Iezabel Elissa Muttunbaal
+		}
+		
+		from_dynasty_prefix = "adn "
+		
+		male_patronym = "by"
+		female_patronym = "byth"
+		prefix = yes
+		
+		parent = punic
+		used_for_random = no
+		dynasty_title_names = no
+		founder_named_dynasties = yes
+		
+		#allow_looting = yes
+		seafarer = yes
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+	
+	phoeniciberian = {
+		graphical_cultures = { arabicgfx } #maybe add byzantinegfx
+		
+		color = { 0.44 0.14 0.7 } 
+
+		male_names = {
+			Hanno Malchus Mago Hasdrubal Hamilcar Himilco Hannibal Gisco Bomilcar Adherbal Bodo Bostar Carthalo Clitomachus Gisgo Aqhat Qarnaim Abdmelqart Abdastartus Adoniah Yarikh Baltsar Bodeshmun Milkyaton
+			Boldizsar Resheph Balthasar Ashtartyaton Baltser Hyrum Hailama Zephon Baldo Balzer Adonia Ugarit Yutpan Yehawwielon Baalshillek Hiram Adohnes Beirut Bodmelqart Shamayim Azmelqart Batnoam Bodbaal
+			Adad Abbar Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Boulomenus Chelbes Tabnit Zimrida Gerbaal Gerimilki Khiletzbaal Baaliaton Barekbaal Urumilki Yehomilk Yadamilk Paltibaal Abirami
+			Eshbaal Eugoras Germelqart Maharbal Mattan Metallo Milkherem Milkiram Danel Kanmi Maharbaal Milkpilles Melqartpilles Massinissa Hiempsal Juba Melqartshama Ahumm Eshmounhilles Eshmouniaton Itthobaal 
+			Philosir Boodes Bomical Abdhamon Abibaal 
+		}
+		female_names = {
+			Dido Sophonisba Alissa Birkana Adonica Amatbal Ashtoreth Amatashtart Imashmon Izabel Tanyth Jezebelle Zibqet Melita Barkitbal Jezebel Sisa Demna Astarte Amotmilqart Azibal Adonyah Tanith 
+			Arshut Jezibel Tanni Birkanda Anath Coryender Coriander Tanyih Arishot Ashdonbal Yasha Ummashtart Shiba Pawly Shapash Amma Mitunbaal Arashtibal Tanis Domina Izavel Quarta Tanythe Bisha
+			Nikkal Abdosir Arishat Batnoam Shayna Tamar Adiya Tabua Yapa Ytab Suhaima Huldu Mashah Gamila Asherah Iezabel Elissa Muttunbaal
+		}
+		
+		from_dynasty_prefix = "adn "
+		
+		male_patronym = "by"
+		female_patronym = "byth"
+		prefix = yes
+		
+		parent = punic
+		used_for_random = no
+		dynasty_title_names = no
+		founder_named_dynasties = yes
+		
+		#allow_looting = yes
+		seafarer = yes
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+}

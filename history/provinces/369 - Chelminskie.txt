@@ -1,0 +1,22 @@
+# 369 - Chelminskie
+
+# County Title
+title = c_chelminskie
+
+# Settlements
+max_settlements = 4
+b_chelmno = tribal
+#b_thorn = city
+#b_niedenburg = castle
+
+#b_kulm = temple
+#b_rehden = city
+#b_lobau = castle
+#b_eylau = castle
+b_briesen = temple
+
+# Misc
+culture = rugian
+religion = germanic_pagan
+
+# History 

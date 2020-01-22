@@ -1,0 +1,22 @@
+# 1699 - Medelike
+
+# County title
+title = c_medelike
+
+# Settlements
+max_settlements = 4
+b_melk = tribal
+
+# Misc
+culture = noric 
+religion = gallic
+
+# History
+
+846.1.1 = { 
+	
+	b_zelking = castle
+	b_melk = city
+	b_stpolten = city
+}
+

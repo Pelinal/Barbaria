@@ -1,0 +1,22 @@
+# 749 - Dorylaion
+
+# County Title
+title = c_dorylaion
+
+# Settlements
+max_settlements = 4
+
+b_dorylaion = castle
+b_iustinianopolis = city
+b_kotiaion = temple
+
+#b_orkistos = castle
+#b_polybotos = castle
+#b_carura = castle
+#b_germia = castle
+
+# Misc
+culture = pontic
+religion = mithraic
+
+# History

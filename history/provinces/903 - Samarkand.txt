@@ -1,0 +1,24 @@
+# 903 - Samarkand
+
+# County Title
+title = c_samarkand
+
+# Settlements
+max_settlements = 6
+b_afrasiyab = castle
+b_samarkand = city
+b_khokand = temple
+
+b_ishtikhon = city
+b_urgut = castle
+#b_koshrabot = castle
+#b_ziadin = castle
+#b_laish = castle
+
+# Misc
+culture = sogdian
+religion = khurmazta
+terrain = steppe
+
+# History
+800.1.1 = { culture = persian }

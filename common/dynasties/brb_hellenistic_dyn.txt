@@ -1,0 +1,663 @@
+### Hellenistic Dynastic Names ###
+# 1500- 2499?
+
+1500 = {
+	name = "Lagídai"
+	culture = "greek"
+	religion = "hellenic"
+	used_for_random = no
+}
+1501 = {
+	name = "Seleukídai"
+	culture = "greek"
+	religion = "hellenic"
+	used_for_random = no
+}
+1502 = {
+	name = "Agne"
+	culture = "greek"
+	religion = "hellenic"
+}
+1503 = {
+	name = "Doukas"
+	culture = "greek"
+	religion = "hellenic"
+}
+1504 = {
+	name = "Castellanos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1505 = {
+	name = "Eliopoulos"
+	culture = "greek"
+	religion = "hellenic"
+}
+
+1506 = {
+	name = "Roussos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1507 = {
+	name = "Stathos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1508 = {
+	name = "Terzi"
+	culture = "greek"
+	religion = "hellenic"
+}
+1509 = {
+	name = "Velis"
+	culture = "greek"
+	religion = "hellenic"
+}
+1510 = {
+	name = "Nikas"
+	culture = "greek"
+	religion = "hellenic"
+}
+1511 = {
+	name = "Moros"
+	culture = "greek"
+	religion = "hellenic"
+}
+1512 = {
+	name = "Gianopoulos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1513 = {
+	name = "Raptis"
+	culture = "greek"
+	religion = "hellenic"
+}
+1514 = {
+	name = "Lagana"
+	culture = "greek"
+	religion = "hellenic"
+}
+1515 = {
+	name = "Kontos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1516 = {
+	name = "Economou"
+	culture = "greek"
+	religion = "hellenic"
+}
+1517 = {
+	name = "Kairis"
+	culture = "greek"
+	religion = "hellenic"
+}
+1518 = {
+	name = "Maragos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1519 = {
+	name = "Panas"
+	culture = "greek"
+	religion = "hellenic"
+}
+1520 = {
+	name = "Vassos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1521 = {
+	name = "Patras"
+	culture = "greek"
+	religion = "hellenic"
+}
+1522 = {
+	name = "Anastos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1523 = {
+	name = "Demos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1524 = {
+	name = "Livas"
+	culture = "greek"
+	religion = "hellenic"
+}
+1525 = {
+	name = "Callas"
+	culture = "greek"
+	religion = "hellenic"
+}
+1526 = {
+	name = "Poulos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1527 = {
+	name = "Metro"
+	culture = "greek"
+	religion = "hellenic"
+}
+1528 = {
+	name = "Nicolí"
+	culture = "greek"
+	religion = "hellenic"
+}
+1529 = {
+	name = "Papadopoulos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1530 = {
+	name = "Míkos"
+	culture = "greek"
+	religion = "hellenic"
+}
+1531 = {
+	name = "Antoni"
+	culture = "greek"
+	religion = "hellenic"
+}
+1532 = {
+	name = "Loukas"
+	culture = "greek"
+	religion = "hellenic"
+}
+1533 = {
+	name = "Balaban"
+	culture = "greek"
+	religion = "hellenic"
+}
+
+1602 = {
+	name = "Agne"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1603 = {
+	name = "Doukas"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1604 = {
+	name = "Castellanos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1605 = {
+	name = "Eliopoulos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1606 = {
+	name = "Roussos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1607 = {
+	name = "Stathos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1608 = {
+	name = "Terzí"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1609 = {
+	name = "Velis"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1610 = {
+	name = "Nikas"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1611 = {
+	name = "Moros"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1612 = {
+	name = "Gianopoulos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1613 = {
+	name = "Raptis"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1614 = {
+	name = "Lagana"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1615 = {
+	name = "Kontos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1616 = {
+	name = "Economou"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1617 = {
+	name = "Kaíris"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1618 = {
+	name = "Maragos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1619 = {
+	name = "Panas"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1620 = {
+	name = "Vassos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1621 = {
+	name = "Patras"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1622 = {
+	name = "Anastos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1623 = {
+	name = "Demos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1624 = {
+	name = "Livas"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1625 = {
+	name = "Callas"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1626 = {
+	name = "Poulos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1627 = {
+	name = "Metro"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1628 = {
+	name = "Nicoli"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1629 = {
+	name = "Papadopoulos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1630 = {
+	name = "Míkos"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1631 = {
+	name = "Antoní"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1632 = {
+	name = "Loukas"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+1633 = {
+	name = "Balaban"
+	culture = "phrygian"
+	religion = "hellenic"
+}
+
+1702 = {
+	name = "Agne"
+	culture = "egyptiote"
+	
+}
+1703 = {
+	name = "Doukas"
+	culture = "egyptiote"
+	
+}
+1704 = {
+	name = "Castellanos"
+	culture = "egyptiote"
+	
+}
+1705 = {
+	name = "Eliopoulos"
+	culture = "egyptiote"
+	
+}
+1706 = {
+	name = "Roussos"
+	culture = "egyptiote"
+	
+}
+1707 = {
+	name = "Stathos"
+	culture = "egyptiote"
+	
+}
+1708 = {
+	name = "Terzi"
+	culture = "egyptiote"
+	
+}
+1709 = {
+	name = "Velis"
+	culture = "egyptiote"
+	
+}
+1710 = {
+	name = "Nikas"
+	culture = "egyptiote"
+	
+}
+1711 = {
+	name = "Moros"
+	culture = "egyptiote"
+	
+}
+1712 = {
+	name = "Gianopoulos"
+	culture = "egyptiote"
+	
+}
+1713 = {
+	name = "Raptis"
+	culture = "egyptiote"
+	
+}
+1714 = {
+	name = "Lagana"
+	culture = "egyptiote"
+	
+}
+1715 = {
+	name = "Kontos"
+	culture = "egyptiote"
+	
+}
+1716 = {
+	name = "Economou"
+	culture = "egyptiote"
+	
+}
+1717 = {
+	name = "Kairis"
+	culture = "egyptiote"
+	
+}
+1718 = {
+	name = "Maragos"
+	culture = "egyptiote"
+	
+}
+1719 = {
+	name = "Panas"
+	culture = "egyptiote"
+	
+}
+1720 = {
+	name = "Vassos"
+	culture = "egyptiote"
+	
+}
+1721 = {
+	name = "Patras"
+	culture = "egyptiote"
+	
+}
+1722 = {
+	name = "Anastos"
+	culture = "egyptiote"
+	
+}
+1723 = {
+	name = "Demos"
+	culture = "egyptiote"
+	
+}
+1724 = {
+	name = "Livas"
+	culture = "egyptiote"
+	
+}
+1725 = {
+	name = "Callas"
+	culture = "egyptiote"
+	
+}
+1726 = {
+	name = "Poulos"
+	culture = "egyptiote"
+	
+}
+1727 = {
+	name = "Metro"
+	culture = "egyptiote"
+	
+}
+1728 = {
+	name = "Nicoli"
+	culture = "egyptiote"
+	
+}
+1729 = {
+	name = "Papadopoulos"
+	culture = "egyptiote"
+	
+}
+1730 = {
+	name = "Mikos"
+	culture = "egyptiote"
+	
+}
+1731 = {
+	name = "Antoni"
+	culture = "egyptiote"
+	
+}
+1732 = {
+	name = "Loukas"
+	culture = "egyptiote"
+	
+}
+1733 = {
+	name = "Balaban"
+	culture = "egyptiote"
+	
+}
+
+1800 = {
+	name = "Mithridatikó"
+	culture = "pontic"
+	religion = "mithraic"
+	used_for_random = no
+}
+1802 = {
+	name = "Agne"
+	culture = "pontic"
+	
+}
+1803 = {
+	name = "Doukas"
+	culture = "pontic"
+	
+}
+1804 = {
+	name = "Castellanos"
+	culture = "pontic"
+	
+}
+1805 = {
+	name = "Eliopoulos"
+	culture = "pontic"
+	
+}
+1806 = {
+	name = "Roussos"
+	culture = "pontic"
+	
+}
+1807 = {
+	name = "Stathos"
+	culture = "pontic"
+	
+}
+1808 = {
+	name = "Terzi"
+	culture = "pontic"
+	
+}
+1809 = {
+	name = "Velis"
+	culture = "pontic"
+	
+}
+1810 = {
+	name = "Nikas"
+	culture = "pontic"
+	
+}
+1811 = {
+	name = "Moros"
+	culture = "pontic"
+	
+}
+1812 = {
+	name = "Gianopoulos"
+	culture = "pontic"
+	
+}
+1813 = {
+	name = "Raptis"
+	culture = "pontic"
+	
+}
+1814 = {
+	name = "Lagana"
+	culture = "pontic"
+	
+}
+1815 = {
+	name = "Kontos"
+	culture = "pontic"
+	
+}
+1816 = {
+	name = "Economou"
+	culture = "pontic"
+	
+}
+1817 = {
+	name = "Kairis"
+	culture = "pontic"
+	
+}
+1818 = {
+	name = "Maragos"
+	culture = "pontic"
+	
+}
+1819 = {
+	name = "Panas"
+	culture = "pontic"
+	
+}
+1820 = {
+	name = "Vassos"
+	culture = "pontic"
+	
+}
+1821 = {
+	name = "Patras"
+	culture = "pontic"
+	
+}
+1822 = {
+	name = "Anastos"
+	culture = "pontic"
+	
+}
+1823 = {
+	name = "Demos"
+	culture = "pontic"
+	
+}
+1824 = {
+	name = "Livas"
+	culture = "pontic"
+	
+}
+1825 = {
+	name = "Callas"
+	culture = "pontic"
+	
+}
+1826 = {
+	name = "Poulos"
+	culture = "pontic"
+	
+}
+1827 = {
+	name = "Metro"
+	culture = "pontic"
+	
+}
+1828 = {
+	name = "Nicoli"
+	culture = "pontic"
+	
+}
+1829 = {
+	name = "Papadopoulos"
+	culture = "pontic"
+	
+}
+1830 = {
+	name = "Mikos"
+	culture = "pontic"
+	
+}
+1831 = {
+	name = "Antoni"
+	culture = "pontic"
+	
+}
+1832 = {
+	name = "Loukas"
+	culture = "pontic"
+}
+1833 = {
+	name = "Balaban"
+	culture = "pontic"	
+}

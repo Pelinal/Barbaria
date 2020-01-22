@@ -1,0 +1,18 @@
+# 2035 - Sidon
+
+# County Title
+title = c_sidon
+
+# Settlements
+max_settlements = 6
+
+b_sidon = castle
+b_iyyon = city
+b_makra_kome = temple
+#b_kadasa = city
+#b_gelil_s = city
+#b_zebulun = temple
+
+#Misc
+culture = phoenician
+religion = canaanite

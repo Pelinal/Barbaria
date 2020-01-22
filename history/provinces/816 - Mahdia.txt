@@ -1,0 +1,24 @@
+# 816 - Mahdia
+
+# County Title
+title = c_mahdia
+
+# Settlements
+max_settlements = 5
+
+b_mahdia = city
+b_sfax = temple
+b_monastir = city
+b_msaken = castle
+
+#b_agareb = castle
+#b_neffatia = castle
+#b_sidimansour = castle
+#b_lalaouza = castle
+#b_lacroix = castle
+
+# Misc
+culture = carthaginian
+religion = punic
+
+# History

@@ -1,0 +1,83 @@
+## Barbaria- Formable Titles ##
+
+# Kushanshahr:
+
+k_kushansha = {
+	color = { 158 139 139 }
+	color2 = { 255 255 255 }
+	
+	capital	= 1180 # Udabhanda e.g. Taxila
+	
+	title = KUSHANSHAH
+	
+	short_name = yes
+	
+	kidarite = "Kidarite Kingdom"
+	
+	allow = {
+		hidden_tooltip = {
+			ai = no
+		}
+		OR = {	
+			culture = persian
+			culture = kidarite
+			culture = yuezhi
+			culture = xionite
+			culture = nezak
+			culture = alchon
+		}
+		
+		OR = {
+			AND = {
+				completely_controls = d_balkh
+				completely_controls = d_kabul
+				completely_controls = d_gandhara
+			}
+			AND = {
+				completely_controls = d_gandhara
+				completely_controls = d_kabul
+				completely_controls = d_kashmir
+			}
+		}
+	}
+}
+
+# Kushan Empire
+e_kushan_empire = {
+	color = { 151 173 161 }
+	color2 = { 255 255 255 }
+	
+	capital	= 1180 # Udabhanda e.g. Taxila
+	
+	title = KUSHANSHAHANSHAH
+	title_female = KUSHANSHAHBANU
+	
+	culture = yuezhi
+	
+	allow = {
+		hidden_tooltip = {
+			ai = no
+		}
+		OR = {	
+			culture = persian
+			culture = kidarite
+			culture = yuezhi
+			culture = xionite
+			culture = nezak
+			culture = alchon
+		}
+		
+		OR = {
+			AND = {
+				completely_controls = d_balkh
+				completely_controls = d_kabul
+				completely_controls = d_gandhara
+			}
+			AND = {
+				completely_controls = d_gandhara
+				completely_controls = d_kabul
+				completely_controls = d_kashmir
+			}
+		}
+	}
+}

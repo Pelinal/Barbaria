@@ -1,0 +1,200 @@
+## KIDARITE CHARACTERS ##
+## From IDS 4000-4249   ##
+
+4000 = { # 
+    name = "Yosada"
+	culture = "kidarite"
+    religion = "zoroastrian"
+    dynasty = 1250
+	
+    300.1.1 = {
+		birth = yes
+	}
+	335.1.1 = {
+		death = yes
+	}
+}
+
+4001 = { # Kidara
+    name = "Kidara"
+	culture = "kidarite"
+    religion = "zoroastrian"
+	dynasty = 1250
+	father = 4000
+	
+    320.1.1 = {
+		birth = yes
+	}
+	345.1.1 = {
+		death = yes
+	}
+}
+
+4002 = { # Peroz
+    name = "Peroz"
+	culture = "kidarite"
+    religion = "zoroastrian"
+	dynasty = 1250
+	father = 4001
+	
+    336.1.1 = {
+		birth = yes
+	}
+	360.1.1 = {
+		death = yes
+	}
+}
+
+4003 = { # Kidara I
+    name = "Kidara"
+	culture = "kidarite"
+    religion = "buddhist"
+	dynasty = 1250
+	father = 4002
+	
+	add_trait = just
+	add_trait = theologian
+	learning = 8
+	
+    352.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+4004 = { # Grumbates
+    name = "Grumbates"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4003
+	
+    370.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+
+4005 = { # Kungas?
+    name = "Kungas"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4003
+	
+    368.1.1 = {
+		birth = yes
+	}
+	419.1.1 = {
+		death = yes
+	}
+}
+
+4006 = { # Varahran 
+    name = "Varahran"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4004
+	
+    390.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+4007 = { # Goboziko 
+    name = "Goboziko"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4006
+	
+    412.1.1 = {
+		birth = yes
+	}
+	467.1.1 = {
+		death = yes
+	}
+}
+
+4008 = { # Salanavira 
+    name = "Salanavira"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4007
+	
+    431.1.1 = {
+		birth = yes
+	}
+	488.1.1 = {
+		death = yes
+	}
+}
+
+4009 = { # Vinayaditya 
+    name = "Vinayaditya"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4008
+	
+    456.1.1 = {
+		birth = yes
+	}
+	501.1.1 = {
+		death = yes
+	}
+}
+
+4010 = { # Kandik 
+    name = "Kandik"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4009
+	
+    490.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+4011 = { # Tarkhun 
+    name = "Tarkhun"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4010
+	
+    530.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+4012 = { # Kandik - 1st start date
+    name = "Kandik"
+	culture = "kidarite"
+    religion = "hephthalite"
+	dynasty = 1250
+	father = 4011
+	
+    572.1.1 = {
+		birth = yes
+	}
+	623.2.4 = {
+		death = yes
+	}
+}

@@ -1,0 +1,19 @@
+# County Title
+title = c_york
+
+# Settlements
+max_settlements = 5
+b_york = tribal
+b_st_peters = temple
+b_richmond = tribal
+
+#b_scarborough = city
+#b_middlesbrough = temple
+#b_whitby = temple
+#b_thirsk = castle
+
+# Misc
+culture = cumbric
+religion = brythonic
+
+# History

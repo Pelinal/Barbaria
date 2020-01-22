@@ -1,0 +1,22 @@
+# 849 - Canarias
+
+# County Title
+title = c_canarias
+
+# Settlements
+max_settlements = 3
+
+b_lanzarote = tribal
+
+#b_tenerife = city
+#b_lagomera = temple
+#b_fuerteventura = castle
+#b_lagraciosa = castle
+#b_alegranza = castle
+#b_lapalma = castle
+
+# Misc
+culture = mauri
+religion = berber
+
+# History

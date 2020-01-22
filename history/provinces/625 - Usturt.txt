@@ -1,0 +1,26 @@
+# 625 - Usturt
+
+# County Title
+title = c_usturt
+
+# Settlements
+max_settlements = 2
+b_bailjar = castle
+
+b_bussaga = city
+b_barsakelmos = temple
+
+#b_sengirkum = castle
+#b_sumbe = castle
+#b_akkuduk = castle
+#b_aksu = castle
+#b_karamola = castle
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History
+
+690.1.1 = { religion = zoroastrian }
+760.1.1 = { culture = persian }

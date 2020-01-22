@@ -1,0 +1,22 @@
+# 413 - Pskov
+
+# County Title
+title = c_pskov
+
+# Settlements
+max_settlements = 4
+
+b_pskov = tribal
+#b_ostrov = city
+#b_golubovo = temple
+
+#b_porkhov = castle
+#b_khilovo
+#b_dedovichi
+#b_goristo
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

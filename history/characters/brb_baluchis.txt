@@ -1,0 +1,40 @@
+## BALOCH CHARACTERS ##
+## From IDS 1250-1499   ##
+
+1250 = { # Baalaach, vassal duke of Sistan
+    name = "Baalaach"
+    religion = "zoroastrian"
+    culture = "baloch"
+    dynasty = 252
+	
+	add_trait = zealous
+	add_trait = kind
+	add_trait = chaste
+	
+	diplomacy = 10
+	
+    580.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = 1251
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1251 = { # Suha, vassal duke of Sistan's wife
+    name = "Suha"
+    religion = "zoroastrian"
+    culture = "baloch"
+    dynasty = 252
+	female = yes
+	
+    578.1.1 = {
+		birth = yes
+	}
+	643.1.1 = {
+		death = yes
+	}
+}

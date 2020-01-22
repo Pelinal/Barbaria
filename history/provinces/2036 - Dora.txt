@@ -1,0 +1,17 @@
+# 2036 - Dora
+
+# County Title
+title = c_dora
+
+# Settlements
+max_settlements = 5
+
+b_dora = castle
+b_boukolonpolis = city
+b_khefar_shuni = temple
+#b_stratonos_pyrgos = castle
+#b_apollonia_palestinae
+
+#Misc
+culture = hebrew
+religion = canaanite

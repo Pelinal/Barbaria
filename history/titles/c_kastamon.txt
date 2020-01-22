@@ -1,0 +1,4 @@
+600.1.1 = {
+	holder = 6006
+	liege = k_pontus
+}

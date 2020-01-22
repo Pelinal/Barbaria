@@ -1,0 +1,13 @@
+# 1811 - Kalaus
+
+# County Title
+title = c_kalaus
+
+# Settlements
+max_settlements = 2
+b_kalaus = tribal
+
+culture = sarmatian
+religion = heptadic
+
+# History

@@ -1,0 +1,14 @@
+# 1813 - Ryn
+
+# County Title
+title = c_ryn
+
+# Settlements
+max_settlements = 2
+b_ryn = tribal
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History

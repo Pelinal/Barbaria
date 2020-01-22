@@ -1,0 +1,16 @@
+# 1615 - Amous 
+
+#County title
+title = c_amous
+
+max_settlements = 3
+b_dole = castle
+b_jouhe = temple
+
+# Misc
+culture = gaulish
+religion = gallic
+
+# History
+750.1.1 = { capital = b_jouhe }
+986.1.1 = { capital = b_dole }

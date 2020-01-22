@@ -1,0 +1,17 @@
+# 697 - Qatara
+
+# County Title
+title = c_qatara
+
+# Settlements
+max_settlements = 4
+b_qatara = castle
+b_qatara_city = city
+#b_qatara_temple = temple
+#b_qatara_castle = castle
+
+#Misc
+culture = assyrian
+religion = zoroastrian
+
+# History

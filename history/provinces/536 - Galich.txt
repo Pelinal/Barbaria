@@ -1,0 +1,22 @@
+# 536 - Galich
+
+# County Title
+title = c_galich
+
+# Settlements
+max_settlements = 5
+
+b_galich = tribal
+#b_bykovna = city
+#b_kolomyia = temple
+
+#b_vasyliv = castle
+#b_rohatin = castle
+#b_tysmenytsia = castle
+#b_tovmach = castle
+
+# Misc
+culture = bastarnae
+religion = germanic_pagan
+
+# History

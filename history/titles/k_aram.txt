@@ -1,0 +1,47 @@
+200.1.1 = {
+	holder = 7021 # Filippos, hero of the Seleucids
+}
+222.1.1 = {
+	holder = 7020
+}
+250.1.1 = {
+	holder = 7019
+}
+300.1.1 = {
+	holder = 7018
+}
+345.1.1 = {
+	holder = 7017
+}
+392.1.1 = {
+	holder = 7016
+}
+422.1.1 = {
+	holder = 7015
+}
+471.1.1 = {
+	holder = 7014
+}
+487.1.1 = {
+	holder = 7013
+}
+550.1.1 = {
+	holder = 7012
+}
+
+# Old Rulers ^^
+580.1.1 = {
+	holder = 1005 # Antiokhos II
+}
+633.1.1 = {
+	holder = 1006 # Antiokhos III
+}
+662.1.1 = {
+	holder = 1007 # Seleukos, the last Seleucid ruler
+}
+702.1.1 = {
+	holder = 1008 # Philokleia, sister of Seleukos
+}
+703.5.1 = {
+	holder = 0
+}

@@ -1,0 +1,26 @@
+# 845 - Anti-Atlas # Safi
+
+# County Title
+title = c_anti-atlas
+
+# Settlements
+max_settlements = 5
+
+b_safi = tribal
+
+#b_agadir
+#b_argana
+#b_illrh
+#b_essaouira
+#b_akermoud
+#b_haddraa
+#b_aitelaouni
+#b_qumelaioun
+#b_aguedal
+
+# Misc
+culture = mauri
+religion = berber
+
+# History
+

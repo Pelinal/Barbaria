@@ -1,0 +1,16 @@
+# 2020 - Nippur
+
+# County Title
+title = c_nippur
+
+# Settlements
+max_settlements = 6
+
+b_nippur = castle
+#b_sharrakum = castle
+b_ekur = temple #Main Chaldean holy site
+b_marad = city
+
+#Misc
+culture = sumerian
+religion = chaldean

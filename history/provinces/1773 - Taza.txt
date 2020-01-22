@@ -1,0 +1,19 @@
+# 1773 - Taza
+
+# County Title
+title = c_taza
+
+# Settlements
+max_settlements = 4
+
+b_taza = castle
+
+#b_safsaf
+#b_geurcif
+
+# Misc
+culture = mauri
+religion = berber
+
+# History
+

@@ -1,0 +1,14 @@
+# 1968 - Syrmia
+
+# County Title
+title = c_syrmia
+
+# Settlements
+max_settlements = 3
+b_zvecan_syrmia = tribal
+
+# Misc
+culture = celto_pannonian
+religion = gallic
+
+# History

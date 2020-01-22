@@ -1,0 +1,16 @@
+# 680 - Tao
+
+# County Title
+title = c_tao
+
+# Settlements
+max_settlements = 4
+b_panaskerti = castle
+b_oshki = city
+b_akhaltsikhe = temple
+
+# Misc
+culture = armenian
+religion = khaldic
+# History
+987.1.1 = { b_khakhuli = temple }

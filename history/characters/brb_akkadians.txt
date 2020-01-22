@@ -1,0 +1,78 @@
+## AKKADIAN CHARACTERS ##
+## From IDS 1-249      ##
+
+1 = { # Sarru-kin I, ruler of Akkad
+	name = "Sarru-kin"
+	dynasty = 20
+	culture = akkadian
+	religion = chaldean
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 9
+	
+	dna = bcedirmbfcy
+	properties = aj00bc00000
+	
+	add_trait = "fortune_builder"
+	add_trait = "diligent"
+	add_trait = "greedy"
+	add_trait = "proud"
+	
+	576.2.5 = {
+		birth = yes 
+	}
+	639.6.3 = {
+		death = yes
+	}
+}
+
+2 = { # Ugurnaszir I, ruler of Akkad
+	name = "Ugurnaszir"
+	dynasty = 20
+	culture = akkadian
+	religion = chaldean
+	
+	add_trait = "strong"
+	
+	586.1.2 = {
+		birth = yes 
+	}
+	660.1.1 = {
+		give_nickname = nick_the_great
+	}
+	667.5.12 = {
+		death = yes
+	}
+}
+
+3 = { # Arahunaa, wife of Sharru-kin
+	name = "Arahunaa"
+	dynasty = 20
+	culture = akkadian
+	religion = chaldean
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 9
+	
+	add_trait = "fortune_builder"
+	add_trait = "diligent"
+	add_trait = "greedy"
+	add_trait = "proud"
+	female = yes
+	
+	579.1.1 = {
+		birth = yes 
+	}
+	599.1.1 = {
+		add_spouse = 1
+	}
+	651.1.1 = {
+		death = yes
+	}
+}

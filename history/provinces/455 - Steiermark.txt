@@ -1,0 +1,19 @@
+# 465 - Steiermark
+
+# County Title
+title = c_steiermark
+
+# Settlements
+max_settlements = 3
+b_steyr = tribal
+
+# Misc
+culture = noric 
+religion = gallic
+
+# History
+
+826.1.1 = { 
+	b_losenstein = castle
+	b_steyr = city
+}

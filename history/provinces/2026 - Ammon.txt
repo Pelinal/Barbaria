@@ -1,0 +1,15 @@
+# 2026 - Ammon
+
+# County Title
+title = c_ammon
+
+# Settlements
+max_settlements = 3
+
+b_ammon = castle
+#b_gonia = city
+b_plynos_limen = temple
+
+#Misc
+culture = nasamonian
+religion = kemetic

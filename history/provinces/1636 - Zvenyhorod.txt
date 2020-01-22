@@ -1,0 +1,22 @@
+# 1636 - Zvenyhorod
+
+# County Title
+title = c_zvenyhorod
+
+# Settlements
+max_settlements = 4
+
+b_zvenyhorod = tribal
+#b_lvov = city
+#b_butsk = temple
+
+#b_sambir = castle
+#b_udech = castle
+#b_horodok = castle
+#b_rogozhyn = castle
+
+# Misc
+culture = bastarnae
+religion = germanic_pagan
+
+# History

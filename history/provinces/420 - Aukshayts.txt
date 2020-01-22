@@ -1,0 +1,22 @@
+# 420 - Vilnius #Former Aukshayts
+
+# County Title
+title = c_aukshayts
+
+# Settlements
+max_settlements = 5
+b_vilnius = tribal
+#b_kreva = temple
+#b_trakai = city
+
+
+#b_alsenai = city
+#b_asmena = temple
+#b_eliskes = castle
+#b_medininkai = castle
+
+# Misc
+culture = aestian
+religion = baltic_pagan
+
+# History

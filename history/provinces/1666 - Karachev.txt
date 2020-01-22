@@ -1,0 +1,22 @@
+# 1666 - Karachev
+
+# County Title
+title = c_karachev
+
+# Settlements
+max_settlements = 3
+
+b_karachev = tribal		#1147
+
+#b_orel		#1566
+#b_bolkhov	#1608
+#b_naryshkino
+#b_krasnaya
+#b_khotynets
+#b_ryabinovka
+
+# Misc
+culture = polan
+religion = slavic_pagan
+
+# History

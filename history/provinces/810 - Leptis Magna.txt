@@ -1,0 +1,24 @@
+# 810 - Leptis Magna
+
+# County Title
+title = c_leptis_magna
+
+# Settlements
+max_settlements = 4
+
+b_leptismagna = castle
+b_misratah = city
+b_alhasun = temple
+
+#b_abunujaym = castle
+#b_alghiran = castle
+#b_qirdah = castle
+#b_naimah = castle
+#b_gioda = castle
+
+# Misc
+culture = libyo_phoenician
+religion = punic
+
+# History
+

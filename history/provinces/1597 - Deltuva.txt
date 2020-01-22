@@ -1,0 +1,21 @@
+# 1597 - Deltuva
+
+# County Title
+title = c_deltuva
+
+# Settlements
+max_settlements = 3
+b_deltuva = tribal
+#b_upyte = temple
+#b_ariogala = city
+
+#b_betygala = castle
+#b_junigeda = castle
+#b_velluona = castle
+#b_siauliai = castle
+
+# Misc
+culture = aestian
+religion = baltic_pagan
+
+# History

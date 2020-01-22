@@ -1,0 +1,16 @@
+# 2032 - Suksi
+
+# County Title
+title = c_suksi
+
+# Settlements
+max_settlements = 4
+
+b_suksi = castle
+b_bargylus = city
+b_karna = temple
+#b_larissa_p = city
+
+#Misc
+culture = phrygian
+religion = hellenic

@@ -1,0 +1,1902 @@
+######################################################
+##			BARBARIA - E_BABYLON TITLES 			##
+######################################################
+
+e_babylon = {
+	color={ 100 200 200 }
+	color2={ 255 255 255 }
+	
+	capital = 2023 # Babylon
+	
+	culture = akkadian
+	short_name = yes
+	
+	assyrian = "Assyrian Empire"
+	sumerian = "Greater Sumeria"
+	persian = "Asoristan"
+	
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = mesopotamian
+			}
+		}
+	}
+	
+	k_assyria = {
+		color={ 100 100 200 }
+		color2={ 255 255 255 }
+		
+		capital	= 711 # Sinjar/Assur
+		
+		title = "SARRUM"
+		title_female = "SEGALLU"
+		
+		culture = assyrian
+		
+		persian = "Asoristan"
+		kurdish = "Asoristan"
+		akkadian = "Subartu"
+		
+		semitic_grp = 1000
+		
+		d_athura = {
+			color={ 100 100 200 }
+			color2={ 255 255 255 }
+			
+			capital = 711 # Sinjar/Assur
+			
+			sumerian = "Kahlu"
+			israeli = "Calah"
+			
+			c_sinjar = {
+				color={ 100 100 200 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Assur"
+				akkadian = "Assur"
+				sumerian = "Assur"
+				
+				holy_site = chaldean
+				holy_site = chaldean_reformed
+				
+				b_sinjar = {
+					assyrian = "Assur"
+					akkadian = "Assur"
+					sumerian = "Assur"
+				}
+				b_hatra = {
+				}
+				b_telassar = {
+				}
+				b_kassidae = {
+				}
+				b_talkayf = {
+				}
+				b_baaj = {
+				}
+				b_kouyunik = {
+				}
+				b_nabiyunus = {
+				}
+			}
+			
+			c_nisibin = {
+				color={ 75 100 200 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Nusaybin"
+				assyrian = "Nisibina"
+				akkadian = "Nasibina"
+				sumerian = "Nasibina"
+				aramaic = "Nsibin"
+				armenian = "Mtsbin"
+				greek = "Nisibis"
+				phrygian = "Nisibis"
+				egyptiote = "Nisibis"
+				pontic = "Nisibis"
+				
+				b_nusaybin = {
+					bedouin_arabic = "Nusaybin"
+					assyrian = "Nisibin"
+					akkadian = "Nasibina"
+					sumerian = "Nasibina"
+					aramaic = "Nsibin"
+					armenian = "Mtsbin"
+					greek = "Nisibis"
+					phrygian = "Nisibis"
+					egyptiote = "Nisibis"
+					pontic = "Nisibis"
+				}
+				b_savur = {
+				}
+				b_dairodmorhannanyo = {
+				}
+				b_kerburan = {
+				}
+				b_cizre = {
+				}
+				b_sittiradviyyemadrasa = {
+				}
+				b_dayrodmorgabriel = {
+				}
+				b_yaqobnsibnaya = {
+				}
+			}
+			
+			c_niniveh = {
+				color={ 50 100 200 }
+				color2={ 255 255 255 }
+				
+				aramaic = "Ninwi"
+				sumerian = "Ninua"
+				akkadian = "Ninua"
+				assyrian = "Nineveh"
+				
+				b_niniveh = {
+					aramaic = "Ninua"
+					sumerian = "Ninua"
+					akkadian = "Ninua"
+					assyrian = "Nineveh"
+				}
+				b_kuyunjik = {
+				}
+				b_calah_ziggurat = {
+				}
+				b_shekhan = {
+				}
+				b_ahkrahu = {
+				}
+				b_bartella = {
+				}
+				b_bet_qopa = {
+				}
+				b_arbela = {
+				}
+			}
+			
+			c_qatara = {
+				color={ 25 100 200 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "al-Qatara"
+				phrygian = "Kitaros"
+				greek = "Kitaros"
+				akkadian = "Qatara"
+				sumerian = "Qatara"
+				assyrian = "Qatara"
+				
+				b_qatara = {
+					bedouin_arabic = "al-Qatara"
+					phrygian = "Kitaros"
+					greek = "Kitaros"
+					akkadian = "Qatara"
+					sumerian = "Qatara"
+					assyrian = "Qatara"
+				}
+				b_qatara_city = {
+				}
+				b_qatara_temple = {
+				}
+				b_qatara_castle = {
+				}
+			}
+		}
+		
+		d_adima = {
+			color={ 100 100 150 }
+			color2={ 255 255 255 }
+			
+			capital = 683 # Bira
+			
+			c_amida = {
+				color={ 100 150 150 }
+				color2={ 255 255 255 }
+				
+				greek = "Amidacia"
+				phrygian = "Amidacia"
+				pontic = "Amidacia"
+				aramaic = "Amid"
+				kurdish = "Amed"
+				assyrian = "Amida"
+				akkadian = "Amida"
+				sumerian = "Amida"
+				bedouin_arabic = "Diyabakir"
+				
+				b_kiaburc = {
+				}
+				b_amida = {
+				}
+				b_ulucamii = {
+				}
+				b_suraamede = {
+				}
+				b_mayyafarikin = {
+				}
+				b_hazretisuleymancamii = {
+				}
+				b_egil = {
+				}
+				b_idtodyolataloho = {
+				}
+			}
+			
+			c_taron = {
+				color={ 125 100 150 }
+				color2={ 255 255 255 }
+				
+				roman = "Taraunitis"
+				umbrian = "Taraunitis"
+				etruscan = "Taraunitis"
+				assyrian = "Tushpa"
+				akkadian = "Tushpa"
+				sumerian = "Tushpa"
+				
+				b_manzikert = {
+					assyrian = "Tushpa"
+					akkadian = "Tushpa"
+					sumerian = "Tushpa"
+				}
+				b_mush = {
+				}
+				b_glak = {
+				}
+				b_ararati = {
+				}
+				b_artchesh = {
+				}
+				b_arakelots = {
+				}
+				b_akhlat = {
+				}
+				b_sason = {
+				}
+			}
+		}
+		
+		d_edessa = {
+			color={ 100 100 175 }
+			color2={ 255 255 255 }
+			
+			capital = 699 # Edessa
+			
+			armenian = "Ourha"
+			aramaic = "Orhay"
+			assyrian = "Adama"
+			akkadian = "Adama"
+			sumerian = "Admi"
+			roman = "Antiochia"
+			umbrian = "Antiochia"
+			etruscan = "Antiochia"
+			
+			c_edessa = {
+				color={ 100 125 175 }
+				color2={ 255 255 255 }
+				
+				armenian = "Ourha"
+				aramaic = "Orhay"
+				assyrian = "Adama"
+				akkadian = "Adama"
+				sumerian = "Admi"
+				roman = "Antiochia"
+				umbrian = "Antiochia"
+				etruscan = "Antiochia"
+				
+				b_edessa = {
+					armenian = "Ourha"
+					aramaic = "Orhay"
+					assyrian = "Adama"
+					akkadian = "Adama"
+					sumerian = "Admi"
+					roman = "Antiochia"
+					umbrian = "Antiochia"
+					etruscan = "Antiochia"
+				}
+				b_sruk = {
+				}
+				b_bile = {
+				}
+				b_tulupe = {
+				}
+				b_kaisun = {
+				}
+				b_samsat = {
+				}
+				b_harran = {
+				}
+				b_edesurfa = {
+				}
+			}
+			c_tell_bashir = {
+				color={ 75 100 175 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Tel-Basheir"
+				assyrian = "Carchemish"
+				akkadian = "Karkemish"
+				greek = "Karkamis"
+				phrygian = "Karkamis"
+				pontic = "Karkamis"
+				sumerian = "Karkemish"
+				armenian = "Tilpasar"
+				turkish = "Tibesar"
+				
+				b_turbessel = {
+					bedouin_arabic = "Tel-Basheir"
+					assyrian = "Carchemish"
+					akkadian = "Karkemish"
+					greek = "Karkamis"
+					phrygian = "Karkamis"
+					pontic = "Karkamis"
+					sumerian = "Karkemish"
+					armenian = "Tilpasar"
+					turkish = "Tibesar"
+				}
+				b_buzaa = {
+				}
+				b_manbij = {
+				}
+				b_nizip = {
+				}
+				b_zeugma = {
+				}
+				b_makedonopolis = {
+				}
+				b_birtha = {
+				}
+				b_jarabulus = {
+				}
+			}
+			c_aintab = {
+				color={ 75 100 175 }
+				color2={ 255 255 255 }
+				
+				kurdish = "Dilok"
+				turkish = "Antep"
+				aramaic = "Ayindab"
+				assyrian = "Ayindab"
+				akkadian = "Ayindebo"
+				sumerian = "Ayindebo"
+				bedouin_arabic = "ain-Tayyib"
+				
+				b_aintab = {
+					kurdish = "Dilok"
+					turkish = "Antep"
+					aramaic = "Ayindab"
+					assyrian = "Ayindab"
+					akkadian = "Ayindebo"
+					sumerian = "Ayindebo"
+					bedouin_arabic = "ain-Tayyib"
+				}
+				b_marash = {
+				}
+				b_kyrrhos = {
+				}
+				b_ravendan = {
+				}
+				b_duluk = {
+				}
+				b_hromgla = {
+				}
+				b_raban = {
+				}
+				b_amanus = {
+				}
+			}
+		}
+		
+		d_garzarta = {
+			color={ 75 100 250 }
+			color2={ 255 255 255 }
+			
+			capital = 712 # Rahbah
+			
+			c_rahbah = {
+				color={ 75 125 250 }
+				color2={ 255 255 255 }
+			
+				b_rahbah = {
+				}
+				b_taraba = {
+				}
+				b_nimreh = {
+				}
+				b_salah = {
+				}
+				b_busan = {
+				}
+				b_tlilin = {
+				}
+				b_qummoualad = {
+				}
+				b_anah = {
+				}
+			}
+			c_al_bichri = {
+				color={ 50 100 250 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Emar"
+				akkadian = "Emar"
+				sumerian = "Emar"
+				
+				b_bichri = {
+				}
+				b_deiralzur = {
+				}
+				b_osrhoene = {
+				}
+				b_abukamal = {
+				}
+				b_shamiyya = {
+				}
+				b_mayadin = {
+				}
+				b_sirhi = {
+				}
+				b_mhaymidah = {
+				}
+			}
+			c_al_jazira = {
+				color={ 25 100 250 }
+				color2={ 255 255 255 }
+				
+				persian = "Dijzirah"
+				kurdish = "Djazirah"
+				bedouin_arabic = "al-Jazira"
+				assyrian = "Garzarto"
+				akkadian = "Garzarto"
+				sumerian = "Garzarto"
+				
+				b_hasakah = {
+				}
+				b_dayrik = {
+				}
+				b_qamishhlo = {
+				}
+				b_darbasiyah = {
+				}
+				b_teltamer = {
+				}
+				b_hamoukar = {
+				}
+				b_amuda = {
+				}
+				b_dakhiliyah = {
+				}
+			}
+		}
+	}
+	
+	k_babylon = {
+		color={ 100 200 200 }
+		color2={ 255 255 255 }
+		
+		capital	= 2023 # Babylon
+		
+		culture = akkadian
+		
+		bedouin_arabic = "Iraq"
+		assyrian = "Babel"
+		persian = "Babel"
+		
+		semitic_grp = 1500
+		
+		d_babylon = {
+			color={ 100 200 200 }
+			color2={ 255 255 255 }
+			
+			capital = 2023 # Babylon
+			
+			bedouin_arabic = "Baghdad"
+			assyrian = "Babel"
+			
+			c_babylon = {
+				color={ 100 200 200 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Babiliya"
+				assyrian = "Babel"
+				
+				holy_site = chaldean
+				holy_site = chaldean_reformed
+				
+				b_babylon = {
+					bedouin_arabic = "Baghdad"
+					assyrian = "Babel"
+				}
+				b_kazallu = {
+				}
+				b_etemenanki = {
+				}
+				b_cadimirra = {
+				}
+				b_inannam = {
+				}
+				b_esaglia = {
+				}
+				b_babil = {
+				}
+			}
+			
+			c_shurrupak = {
+				color={ 75 200 200 }
+				color2={ 255 255 255 }
+				
+				b_shurrupak = {
+				}
+				b_tepe_gawra = {
+				}
+				b_suda = {
+				}
+			}
+			
+			c_sippar = {
+				color={ 75 200 200 }
+				color2={ 255 255 255 }
+				
+				akkadian = "Sippar"
+				sumerian = "Sippar"
+				assyrian = "Sippar"
+				persian = "Sippar"
+				
+				b_sippar = {
+					akkadian = "Sippar"
+					sumerian = "Sippar"
+					assyrian = "Sippar"
+					persian = "Sippar"
+				}
+				b_kutelamara = {
+				}
+				b_wasit = {
+					sumerian = "Ebabbar"
+					akkadian = "Ebabbar"
+				}
+				b_badra = {
+				}
+				b_zurbatiyah = {
+				}
+			}
+		}
+		
+		d_euphrates = {
+			color={ 100 200 175	}
+			color2={ 255 255 255 }
+			
+			capital = 696 # Euphrates
+			
+			nabataean_arabic = "Al-Furat"
+			bedouin_arabic = "Al-Furat"
+			aramaic = "Frot"
+			assyrian = "Euranara"
+			akkadian = "Purattu"
+			sumerian = "Buranuna"
+			persian = "Ufratu"
+			
+			c_baghdad = {
+				color={ 100 200 175	}
+				color2={ 255 255 255 }
+				
+				assyrian = "Sefavayim"
+				akkadian = "Sefavayim"
+				sumerian = "Sefavayim"
+				kurdish = "Sefavayim"
+				persian = "Sefavayim"
+				
+				b_baqubah = {
+				}
+				b_bagdad = {
+					assyrian = "Sefavayim"
+					akkadian = "Sefavayim"
+					sumerian = "Sefavayim"
+					kurdish = "Sefavayim"
+					persian = "Sefavayim"
+				}
+				b_hillah = {
+				}
+				b_iskandariya = {
+				}
+				b_taji = {
+				}
+				b_babel = {
+				}
+				b_madain = {
+				}
+				b_latifiya = {
+				}
+			}
+			
+			c_euphrates = {
+				color={ 75 200 175 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Shaduppum"
+				akkadian = "Shaduppum"
+				sumerian = "Shaduppum"
+				hebrew = "Peros"
+				aramaic = "Perat"
+				persian = "Ufrat"
+				
+				b_bayji = {
+				}
+				b_tagrit = {
+				}
+				b_samarra = {
+					assyrian = "Shaduppum"
+					akkadian = "Shaduppum"
+					sumerian = "Shaduppum"
+					persian = "Ufrat"
+				}
+				b_balad = {
+				}
+				b_dujail = {
+				}
+				b_amirli = {
+				}
+				b_ishaqi = {
+				}
+				b_faris = {
+				}
+			}
+			
+			c_deir = {
+				color={ 50 200 175 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Dur-Kurigalzu"
+				akkadian = "Dur-Kurigalzu"
+				sumerian = "Dur-Kurigalzu"
+				persian = "Dur-Kurigalzu"
+				
+				b_takrit = {
+					assyrian = "Dur-Kurigalzu"
+					akkadian = "Dur-Kurigalzu"
+					sumerian = "Dur-Kurigalzu"
+					persian = "Dur-Kurigalzu"
+				}
+				b_anbar = {
+					assyrian = "Nuzi"
+					akkadian = "Nuzi"
+					sumerian = "Nuzi"
+				}
+				b_rutbah = {
+				}
+				b_rawa = {
+				}
+				b_hit = {
+				}
+				b_ramadi = {
+				}
+				b_kasra = {
+				}
+				b_nehardea = {
+				}
+			}
+		}
+		
+		d_mitanni = {
+			color={ 100 200 250	}
+			color2={ 255 255 255 }
+			
+			capital = 694 # Karbala/Mari
+			
+			c_karbala = {
+				color={ 100 200 250 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Mari"
+				akkadian = "Mari"
+				sumerian = "Mari"
+				
+				b_ainaltamur = {
+					assyrian = "Terqa"
+					akkadian = "Terqa"
+					sumerian = "Terqa"
+				}
+				b_karbala = {
+					assyrian = "Mari"
+					akkadian = "Mari"
+					sumerian = "Mari"
+				}
+				b_hindiya = {
+				}
+				b_ofak = {
+				}
+				b_hamzah = {
+				}
+				b_shamiyah = {
+				}
+				b_qisair = {
+				}
+				b_ukhaidir = {
+				}
+			}
+			
+			c_al_nadjaf = {
+				color={ 75 200 250 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Raplic"
+				akkadian = "Rapiqum"
+				sumerian = "Rapiqum"
+				aramaic = "Anat"
+
+				b_nadjaf = {
+					assyrian = "Raplic"
+					akkadian = "Rapiqum"
+					sumerian = "Rapiqum"
+					aramaic = "Anat"
+				}
+				b_kufah = {
+					akkadian = "Tel Asmar"
+					sumerian = "Tel Asmar"
+				}
+				b_taqtaqanah = {
+				}
+				b_jasim = {
+				}
+				b_midhrawi = {
+				}
+				b_rashid = {
+				}
+				b_jaarah = {
+				}
+			}
+		}
+	}
+	
+	k_sumeria = {
+		color={ 100 150 200 }
+		color2={ 255 255 255 }
+		
+		capital	= 2016 # Uruk
+		
+		culture = sumerian
+		
+		bedouin_arabic = "Basra"
+		assyrian = "Sumer"
+		akkadian = "Sumer"
+		sumerian = "Sumer"
+		persian = "Sumeru"
+		
+		semitic_grp = 1500
+		
+		d_sumeria = {
+			color={ 60 150 200 }
+			color2={ 255 255 255 }
+		
+			capital	= 2016 # Babylon
+		
+			bedouin_arabic = "Basra"
+			assyrian = "Sumer"
+			akkadian = "Sumer"
+			sumerian = "Sumer"
+			
+			c_uruk = {
+				color={ 100 150 200 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Erech"
+				aramaic = "Erech"
+				persian = "Eraq"
+				
+				holy_site = chaldean
+				holy_site = chaldean_reformed
+				
+				b_uruk = {
+					assyrian = "Erech"
+					aramaic = "Erech"
+					persian = "Eraq"
+				}
+				b_eanna = {
+				}
+				b_anu = {
+				}
+				b_kullaba = {
+				}
+				b_shutur_el_sharri = {
+				}
+				b_ziggur_inanna = {
+				}
+				b_enmerkara = {
+				}
+			}
+			
+			c_nippur = {
+				color={ 60 150 200 }
+				color2={ 255 255 255 }
+				
+				holy_site = chaldean
+				holy_site = chaldean_reformed
+				
+				b_nippur = {
+				}
+				b_sharrakum = {
+				}
+				b_ekur = {
+				}
+				b_marad = {
+				}
+			}
+			
+			c_larsa = {
+				color={ 60 150 200 }
+				color2={ 255 255 255 }
+				
+				b_larsa = {
+				}
+				b_umma = {
+				}
+				b_ningal = {
+				}
+				b_zabala = {
+				}
+			}
+			
+			c_lagash = {
+				color={ 60 150 200 }
+				color2={ 255 255 255 }
+				
+				b_lagash = {
+				}
+				b_bad_tibira = {
+				}
+				b_ninurtana = {
+				}
+				b_girsu = {
+				}
+			}
+			
+			c_ur = {
+				color={ 60 150 200 }
+				color2={ 255 255 255 }
+				
+				b_ur = {
+				}
+				b_nasiria = {
+				}
+				b_orugeia = {
+				}
+				b_etemenniguru = {
+				}
+				b_ur_nammu = {
+				}
+			}
+		}
+		
+		d_akkad = {
+			color={ 100 150 225 }
+			color2={ 255 255 255 }
+		
+			capital	= 2024 # Akkad
+			
+			aramaic = "Agade"
+			assyrian = "Agade"
+			persian = "Agade"
+			
+			c_akkad = {
+				color={ 100 150 200 }
+				color2={ 255 255 255 }
+				
+				aramaic = "Agade"
+				assyrian = "Agade"
+				persian = "Agade"
+				
+				b_akkad = {
+					aramaic = "Agade"
+					assyrian = "Agade"
+					persian = "Agade"
+				}
+				b_kutha = {
+				}
+				b_zaqqarat = {
+				}
+				b_kish = {
+				}
+				b_amnamnum = {
+				}
+				b_jemdet_nasr = {
+				}
+			}
+			
+			c_isin = {
+				color={ 80 150 200 }
+				color2={ 255 255 255 }
+				
+				b_isin = {
+				}
+				b_bet_ilisi = {
+				}
+				b_enlilan = {
+				}
+				b_daganu = {
+				}
+				b_larak = {
+				}
+			}
+		}
+		
+		d_chaldea = {
+			color={ 130	165 180 }
+			color2={ 255 255 255 }
+		
+			capital	= 655 # Eridu
+			
+			c_kufa = {
+				color={ 130	165 180}
+				color2={ 255 255 255 }
+				
+				akkadian = "Eridu"
+				assyrian = "Eridu"
+				sumerian = "Eridu"
+				persian = "Eridu"
+				
+				b_kufa = {
+					akkadian = "Eridu"
+					assyrian = "Eridu"
+					sumerian = "Eridu"
+					persian = "Eridu"
+				}
+				b_bussayyah = {
+				}
+				b_suqash = {
+				}
+				b_hammar = {
+				}
+				b_chibayish = {
+				}
+				b_alqurnah = {
+				}
+				b_shuyukh = {
+				}
+				b_ragai = {
+				}
+			}
+			c_rummah = {
+				color={ 90 165 180 }
+				color2={ 255 255 255 }
+				
+				akkadian = "Ipusma"
+				assyrian = "Ipusma"
+				sumerian = "Ipusma"
+				persian = "Ipusma"
+				
+				b_hafaralbatin = {
+					akkadian = "Ipusma"
+					assyrian = "Ipusma"
+					sumerian = "Ipusma"
+					persian = "Ipusma"
+				}
+				b_alqalt = {
+				}
+				b_samoudah = {
+				}
+				b_qaisumah = {
+				}
+				b_altheebiyah = {
+				}
+				b_arraqai = {
+				}
+				b_assuayerah = {
+				}
+				b_assufayri = {
+				}
+			}
+			c_basra = {
+				color={ 60 165 180 }
+				color2={ 255 255 255 }
+				
+				akkadian = "Charax-Spasinu"
+				assyrian = "Charax-Spasinu"
+				sumerian = "Charax-Spasinu"
+				persian = "Charax-Spasinu"
+				
+				b_basra = {
+					akkadian = "Charax-Spasinu"
+					assyrian = "Charax-Spasinu"
+					sumerian = "Charax-Spasinu"
+					persian = "Charax-Spasinu"
+				}
+				b_ummqasr = {
+				}
+				b_azzubayr = {
+				}
+				b_arah = {
+				}
+				b_mohammera = {
+				}
+				b_sukelsheyuhk = {
+				}
+				b_kalaatderat = {
+				}
+				b_qurna = {
+				}
+			}
+		}
+	}
+	
+	k_phoenicia = {
+		color={ 102 2 60 }
+		color2={ 255 255 255 }
+		
+		d_arados = {
+			color={ 228 87 122 }
+			color2={ 255 255 255 }
+			
+			capital = 2033 # Arpad
+			
+			roman = "Aradus"
+			umbrian = "Aradus"
+			samnite = "Aradus"
+			histrian = "Aradus"
+			venetic = "Aradus"
+			
+			c_ramitha = {
+				color={ 232 109 139 }
+				color2={ 255 255 255 }
+				
+				greek = "Leuke Akte"
+				phrygian = "Leuke Akte"
+				egyptiote = "Leuke Akte"
+				cyrenacian = "Leuke Akte"
+				pontic = "Leuke Akte"
+				greco_illyrian = "Leuke Akte"
+				sicilian = "Leuke Akte"
+				
+				b_ramitha = {
+					greek = "Leuke Akte"
+					phrygian = "Leuke Akte"
+					egyptiote = "Leuke Akte"
+					cyrenacian = "Leuke Akte"
+					pontic = "Leuke Akte"
+					greco_illyrian = "Leuke Akte"
+					sicilian = "Leuke Akte"
+				}
+				b_sigon = {
+				}
+				b_ugarit = {
+					greek = "Hydatos Potamoi"
+					phrygian = "Hydatos Potamoi"
+					egyptiote = "Hydatos Potamoi"
+					cyrenacian = "Hydatos Potamoi"
+					pontic = "Hydatos Potamoi"
+					greco_illyrian = "Hydatos Potamoi"
+					sicilian = "Hydatos Potamoi"
+				}
+				b_posideion = {
+				}
+				b_lysias = {
+				}
+				b_antigonia = {
+				}
+			}
+			
+			c_suksi = {
+				color={ 224 65 105 }
+				color2={ 255 255 255 }
+				
+				greek = "Soukas"
+				phrygian = "Soukas"
+				egyptiote = "Soukas"
+				cyrenacian = "Soukas"
+				pontic = "Soukas"
+				greco_illyrian = "Soukas"
+				sicilian = "Soukas"
+				
+				b_suksi = {
+					greek = "Soukas"
+					phrygian = "Soukas"
+					egyptiote = "Soukas"
+					cyrenacian = "Soukas"
+					pontic = "Soukas"
+					greco_illyrian = "Soukas"
+					sicilian = "Soukas"
+				}
+				b_bargylus = {
+				}
+				b_karna = {
+				}
+				b_larissa_p = {
+				}
+			}
+			
+			c_arpad = {
+				color={ 228 87 122 }
+				color2={ 255 255 255 }
+				
+				greek = "Arados"
+				phrygian = "Arados"
+				egyptiote = "Arados"
+				cyrenacian = "Arados"
+				pontic = "Arados"
+				greco_illyrian = "Arados"
+				sicilian = "Arados"
+				
+				roman = "Aradus"
+				umbrian = "Aradus"
+				samnite = "Aradus"
+				histrian = "Aradus"
+				venetic = "Aradus"
+				
+				b_arpad = {
+					greek = "Arados"
+					phrygian = "Arados"
+					egyptiote = "Arados"
+					cyrenacian = "Arados"
+					pontic = "Arados"
+					greco_illyrian = "Arados"
+					sicilian = "Arados"
+					
+					roman = "Aradus"
+					umbrian = "Aradus"
+					samnite = "Aradus"
+					histrian = "Aradus"
+					venetic = "Aradus"
+				}
+				b_mariamme = {
+				}
+				b_kabiosa = {
+				}
+				b_herakleia_phoinike = {
+					phoenician = "Irkata"
+					carthaginian = "Irkata"
+				}
+				b_konna = {
+				}
+				b_karna_secunda = { # Fictional, for prosperity
+				}
+				b_botrys = {
+					phoenician = "Botruna"
+					carthaginian = "Botruna"
+				}
+				b_oros_libanos = {
+					phoenician = "Emun"
+					carthaginian = "Emun"
+				}
+			}
+		}
+		
+		d_byblos = {
+			color={ 65 105 225 }
+			color2={ 255 255 255 }
+			
+			capital = 2034 # Gebal
+			
+			c_tripoli = {
+				color={ 43 88 222 }
+				color2={ 255 255 255 }
+				
+				phoenician = "Athar"
+				carthaginian = "Athar"
+				assyrian = "Mahlata"
+				greek = "Tripolis"
+				phrygian = "Tripolis"
+				egyptiote = "Tripolis"
+				cyrenacian = "Tripolis"
+				pontic = "Tripolis"
+				
+				b_syrtripoli = {
+					phoenician = "Athar"
+					carthaginian = "Athar"
+					assyrian = "Mahlata"
+					greek = "Tripolis"
+					phrygian = "Tripolis"
+					egyptiote = "Tripolis"
+					cyrenacian = "Tripolis"
+					pontic = "Tripolis"
+				}
+				b_gibelet = {
+				}
+				b_boutron = {
+				}
+				b_arqah = {
+					phoenician = "Heliopolitana"
+					carthaginian = "Heliopolitana"
+					greek = "Heliopolitana"
+					phrygian = "Heliopolitana"
+					egyptiote = "Heliopolitana"
+					cyrenacian = "Heliopolitana"
+					pontic = "Heliopolitana"
+				}
+				b_besmedin = {
+				}
+				b_alqulayat = {
+				}
+				b_nephin = {
+				}
+				b_alqadmus = {
+				}
+			}
+			
+			c_gebal = {
+				color={ 65 105 225 }
+				color2={ 255 255 255 }
+				
+				assyrian = "Gubla"
+				akkadian = "Gubla"
+				aramaic = "Gubla"
+				sumerian = "Gubla"
+				egyptian = "Kebny"
+				
+				greek = "Byblos"
+				phrygian = "Byblos"
+				egyptiote = "Byblos"
+				cyrenacian = "Byblos"
+				pontic = "Byblos"
+				greco_illyrian = "Byblos"
+				sicilian = "Byblos"
+				
+				b_gebal = {
+					assyrian = "Gubla"
+					akkadian = "Gubla"
+					aramaic = "Gubla"
+					sumerian = "Gubla"
+					egyptian = "Kebny"
+				
+					greek = "Byblos"
+					phrygian = "Byblos"
+					egyptiote = "Byblos"
+					cyrenacian = "Byblos"
+					pontic = "Byblos"
+					greco_illyrian = "Byblos"
+					sicilian = "Byblos"
+				}
+				b_berothe = {
+				}
+				b_brochoi = {
+				}
+				b_gerra = {
+				}
+			}
+			
+			c_beirut = {
+				color={ 87 122 228 }
+				color2={ 255 255 255 }
+				
+				phoenician = "Berut"
+				carthaginian = "Berut"
+				
+				greek = "Berytos"
+				phrygian = "Berytos"
+				egyptiote = "Berytos"
+				cyrenacian = "Berytos"
+				pontic = "Berytos"
+				greco_illyrian = "Berytos"
+				sicilian = "Berytos"
+				
+				b_beirut = {
+					phoenician = "Berut"
+					carthaginian = "Berut"
+					
+					greek = "Berytos"
+					phrygian = "Berytos"
+					egyptiote = "Berytos"
+					cyrenacian = "Berytos"
+					pontic = "Berytos"
+					greco_illyrian = "Berytos"
+					sicilian = "Berytos"
+				}
+				b_journie = {
+				}
+				b_abualhasan = {
+				}
+				b_cavedetyron = {
+				}
+				b_mashgarah = {
+				} 
+				b_sarepta = {
+				}
+				b_beitkfeya = {
+				}
+			}
+		}
+		
+		d_phoenicia = {
+			color={ 102 2 60 }
+			color2={ 255 255 255 }
+			
+			capital = 771 # Tyre
+			
+			c_acre = {
+				color={ 64 0 37 }
+				color2={ 255 255 255 }
+				
+				ashkenazi = "Akkoi"
+				sephardi = "Akko"
+				phoenician = "Aka"
+				carthaginian = "Aka"
+				egyptiote = "Ake"
+				greek = "Ake"
+				phrygian = "Ake"
+		
+				b_acre = {
+				}
+				b_haifa = {
+				}
+				b_syrcaesarea = {
+				}
+				b_merle = {
+				}
+				b_adelon = {
+				}
+				b_manawat = {
+				}
+				b_recordana = {
+				}
+				b_athlith = {
+				}
+			}
+			
+			c_tyrus = {
+				color={ 102 2 60 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Sur"
+				nabataean_arabic = "Sur"
+				hebrew = "Tzoir"
+				aramaic = "Tzor"
+				greek = "Tyros"
+				phrygian = "Tyros"
+				egyptiote = "Tyros"
+				cyrenacian = "Tyros"
+				pontic = "Tyros"
+				greco_illyrian = "Tyros"
+				sicilian = "Tyros"
+				
+				phoenician = "Sur"
+				carthaginian = "Sur"
+			
+				b_tyrus = {
+					bedouin_arabic = "Sur"
+					nabataean_arabic = "Sur"
+					hebrew = "Tzoir"
+					aramaic = "Tzor"
+					greek = "Tyros"
+					phrygian = "Tyros"
+					egyptiote = "Tyros"
+					cyrenacian = "Tyros"
+					pontic = "Tyros"
+					greco_illyrian = "Tyros"
+					sicilian = "Tyros"
+				
+					phoenician = "Sur"
+					carthaginian = "Sur"
+				}
+				b_sarafand = {
+				}
+				b_scandalon = {
+				}
+				b_megedel = {
+				}
+				b_syrmontfort = {
+				}
+				b_casalimbert = {
+				}
+				b_hunin = {
+				}
+				b_syrbelfort = {
+				}
+			}
+			
+			c_sidon = {
+				color={ 140 42 99 }
+				color2={ 255 255 255 }
+				
+				phoenician = "Sidun"
+				carthaginian = "Sidun"
+				bedouin_arabic = "Sayda"
+				nabataean_arabic = "Saydun"
+				
+				b_sidon = {
+					phoenician = "Sidun"
+					carthaginian = "Sidun"
+					bedouin_arabic = "Sayda"
+					nabataean_arabic = "Saydun"
+				}
+				b_iyyon = {}
+				b_makra_kome = {
+					phoenician = "Zarefat"
+					carthaginian = "Zarefat"
+				}
+				b_kadasa = {}
+				b_gelil_s = {}
+				b_zebulun = {}
+			}
+		}
+	}
+	
+	k_aram = {
+		color={ 178 51 0 }
+		color2={ 255 255 255 }
+		
+		culture = aramaic
+		
+		capital = 730 # Palmyra
+		
+		orthodox = 200 # Crusade target weight
+		muslim = 200 # Crusade target weight
+		zoroastrian_group = 500 # Crusade target weight
+		
+		aramaic = "Aram"
+		assyrian = "Aram"
+		akkadian = "Aram"
+		sumerian = "Aram"
+		
+		## colours need doing
+		
+		d_aleppo = {
+			color={ 102 30 0 }
+			color2={ 255 255 255 }
+			
+			capital = 733 # Aleppo
+			
+			bedouin_arabic = "Halab"
+			nabataean_arabic = "Halab"
+			hebrew = "Chalpe"
+			aramaic = "Chalpe"
+			greek = "Beroea"
+		
+			c_asas = {
+				color={ 90 40 0 }
+				color2={ 255 255 255 }
+			
+				b_asas = {
+				}
+				b_rakka = {
+				}
+				b_kallinikos = {
+				}
+				b_talabyad = {
+				}
+				b_tabqa = {
+				}
+				b_souriya = {
+				}
+				b_resafa = {
+				}
+				b_zaazouaa = {
+				}
+			}
+			c_archa = {
+				color={ 154 46 0 }
+				color2={ 255 255 255 }
+				
+				b_archa = {
+				}
+				b_shayzar = {
+				}
+				b_famia = {
+				}
+				b_chastelblanc = {
+				}
+				b_kafroun = {
+				}
+				b_masyaf = {
+				}
+				b_treiz = {
+				}
+				
+			}
+			c_aleppo = {
+				color={ 102 29 0 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Halab"
+				nabataean_arabic = "Halab"
+				hebrew = "Chalpe"
+				aramaic = "Chalpe"
+				greek = "Beroea"
+			
+				b_aleppo = {
+				}
+				b_azaz = {
+				}
+				b_mashala = {
+				} 
+				b_lerminet = {
+				}
+				b_sarmin = {
+				}
+				b_harim = {
+				}
+				b_qusayr = {
+				}
+				b_maaratannuman = {
+				}
+			}
+			c_homs = {
+				color={ 77 23 0 }
+				color2={ 255 255 255 }
+			
+				b_homs = {
+				}
+				b_zweitina = {
+				}
+				b_emesa = {
+				}
+				b_alkhazandar = {
+				}
+				b_qadesh = {
+				}
+				b_sadad = {
+				}
+				b_marmarita = {
+				}
+			}
+			c_hama = {
+				color={ 95 242 30 }
+				color2={ 255 255 255 }
+			
+				b_hama = {
+				}
+				b_hamath = {
+				}
+				b_mhardeh = {
+				}
+				b_qarqar = {
+				}
+				b_bara = {
+				} 
+				b_salamiyah = {
+				}
+				b_serjilla = {
+				}
+				b_kharsan = {
+				}
+			}
+		}
+		d_antioch = {
+			color={ 127 36 0 }
+			color2={ 255 255 255 }
+			
+			capital = 764 # Antioch
+		
+			c_antiocheia = {
+				color={ 127 36 0 }
+				color2={ 255 255 255 }
+
+				holy_site = orthodox
+				holy_site = miaphysite
+				holy_site = monophysite
+				
+				b_antiocheia = {
+					pentarchy = yes
+				}
+				b_latakiah = {
+				}
+				b_stsymeon = {
+				}
+				b_darbsak = {
+				}
+				b_hazart = {
+				}
+				b_saone = {
+				}
+				b_harenc = {
+				}
+				b_baghras = {
+				}
+			}
+			
+			c_ebla = {
+				color={ 51 15 0 }
+				color2={ 255 255 255 }
+				
+				b_ebla = {
+				}
+				b_khyrros = {
+				}
+				b_aliareia = {
+				}
+				b_chalkis_belos = {
+				}
+			}
+			c_alexandretta = {
+				color={ 77 22 0 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Iskandarun"
+				maghreb_arabic = "Iskandarun"
+				nabataean_arabic = "Iskandarun"
+				egyptian_arabic = "Iskandarun"
+				andalusian_arabic = "Iskandarun"
+				turkish = "Iskandarun"
+				armenian = "Hrosos"
+			
+				b_alexandretta = {
+					bedouin_arabic = "Iskandarun"
+					maghreb_arabic = "Iskandarun"
+					nabataean_arabic = "Iskandarun"
+					egyptian_arabic = "Iskandarun"
+					andalusian_arabic = "Iskandarun"
+					turkish = "Iskandarun"
+				}
+				b_rhosus = {
+					armenian = "Hrosos"
+				}
+				b_portbonnel = {
+				}
+				b_myriandros = {
+				}
+				b_portella = {
+				}
+				b_derbasak = {
+				}
+				b_sarvantikar = {
+				}
+				b_larochederissole = {
+				}
+			}
+		}
+		d_apamene = {
+			color={ 178 51 0 }
+			color2={ 255 255 255 }
+			
+			capital = 768 # Baalbek
+			
+			# removed, but might reuse later...
+			#c_tortosa = {
+			#	color={ 73 152 34 }
+			#	color2={ 255 255 255 }
+			#
+			#	b_tortosa = {
+			#	}
+			#	b_maraclea = {
+			#	}
+			#	b_balemia = {
+			#	}
+			#	b_jabala = {
+			#	}
+			#	b_valania = {
+			#	}
+			#	b_ruad = {
+			#	}
+			#	b_alkhawabi = {
+			#	}
+			#	b_margat = {
+			#	}
+			#}
+			
+			c_qatna = {
+				color={ 204 58 0 }
+				color2={ 255 255 255 }
+				
+				phoenician = "Amanthe"
+				carthaginian = "Amanthe"
+				
+				b_qatna = {
+				}
+				b_hadad = {
+				}
+				b_otthara = {
+				}
+				b_triparadesios = {
+				}
+			}
+			
+			c_safed = {
+				color={ 128 36 0 }
+				color2={ 255 255 255 }
+			
+				b_safed = {
+				}
+				b_banyas = {
+				}
+				b_chastelet = {
+				}
+				b_toron = {
+				}
+				b_subeiba = {
+				}
+				#b_karmel = {
+				#}
+				b_qatsrin = {
+				}
+				b_belvoir = {
+				}
+			}
+			
+			c_baalbek = {
+				color={ 178 51 0 }
+				color2={ 255 255 255 }
+			
+				b_baalbek = {
+				}
+				b_akkar = {
+				}
+				b_halbah = {
+				}
+				b_zahle = {
+				}
+				b_laboue = {
+				}
+				b_buissera = {
+				}
+				b_riyaq = {
+				}
+				b_chlifa = {
+				}
+				b_krakdeschevaliers = {
+				}
+			}
+		}
+		d_damascus = {
+			color={ 153 44 0 }
+			color2={ 255 255 255 }
+			
+			bedouin_arabic = "Damashq"
+			nabataean_arabic = "Damashq"
+			hebrew = "Damesheq"
+			aramaic = "Damesheq"				
+			
+			capital = 728 # Damascus
+		
+			c_damascus = {
+				color={ 153 44 0 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Damashq"
+				nabataean_arabic = "Damashq"
+				hebrew = "Damesheq"
+				aramaic = "Damesheq"			
+
+				holy_site = shiite
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
+				holy_site = qarmatian
+				
+				b_qsarbardawil = {
+				}
+				b_damascus = {
+				}
+				b_daraa = {
+				}
+				b_shahba = {
+				}
+				b_suada = {
+				}
+				b_alsanamayn = {
+				}
+				b_izra = {
+				}
+				b_duma = {
+				}
+			}
+			c_al_mafraq = {
+				color={ 204 59 0 }
+				color2={ 255 255 255 }
+			
+				b_mafraq = {
+				}
+				b_thughra = {
+				}
+				b_jarash = {
+				}
+				b_nasib = {
+				}
+				b_buwayda = {
+				}
+				b_ramtah = {
+				}
+				b_taebah = {
+				}
+				b_elemtaih = {
+				}
+			}
+			c_az_zarqa = {
+				color={ 102 29 0 }
+				color2={ 255 255 255 }
+				
+				b_zarqa = {
+				}
+				b_qasramra = {
+				}
+				b_russeifa = {
+				}
+				b_qasralhallabat = {
+				}
+				b_shabib = {
+				}
+				b_hashemiyya = {
+				}
+				b_khurqah = {
+				}
+				b_amratamad = {
+				}
+			}
+		}
+		d_palmyra = {
+			color={ 178 51 0 }
+			color2={ 255 255 255 }
+			
+			capital = 730 # Palmyra
+			
+			c_palmyra = {
+				color={ 178 51 0 }
+				color2={ 255 255 255 }
+			
+				b_arak = {
+				}
+				b_palmyra = {
+				}
+				b_arraml = {
+				}
+				b_alqasr = {
+				}
+				b_jihar = {
+				}
+				b_tiace = {
+				} 
+				b_alhuwaysis = {
+				}
+				b_khirbat = {
+				}
+			}
+			c_syria = {
+				color={ 127 36 0 }
+				color2={ 255 255 255 }
+			
+				b_amrah = {
+				}
+				b_otaybah = {
+				}
+				b_adra = {
+				}
+				b_jarba = {
+				}
+				b_qasmiye = {
+				}
+				b_hayjanah = {
+				}
+				b_buraq = {
+				}
+				b_baly = {
+				}
+			}
+			c_druz = {
+				color={ 229 66 0 }
+				color2={ 255 255 255 }
+			
+				b_salkhard = {
+				}
+				b_dibin = {
+				}
+				b_awas = {
+				}
+				b_busra = {
+				}
+				b_ghariyah = {
+				}
+				b_shannireh = {
+				}
+				b_samj = {
+				}
+				b_thoula = {
+				}
+			}
+			c_tadmor = {
+				color={ 153 44 0 }
+				color2={ 255 255 255 }
+			
+				b_husaiba = {
+				}
+				b_bukamal = {
+				}
+				b_alqaim = {
+				}
+				b_salhiyah = {
+				}
+				b_assusah = {
+				}
+				b_subaykhan = {
+				}
+				b_asharah = {
+				}
+				b_alqunjah = {
+				}
+			}
+		}
+	}
+}

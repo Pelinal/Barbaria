@@ -1,0 +1,22 @@
+# 1652 - Borovichi
+
+# County Title
+title = c_borovichi
+
+# Settlements
+max_settlements = 2
+
+b_borovichi = tribal	#1495
+
+#b_kirichi	#1693
+#b_khoromy
+#b_okulovka
+#b_lyubytino
+#b_pchevzha
+#b_vodogon
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

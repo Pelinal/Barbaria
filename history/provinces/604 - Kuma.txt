@@ -1,0 +1,22 @@
+# 604 - Kuma
+
+# County Title
+title = c_kuma
+
+# Settlements
+max_settlements = 3
+b_kizlyar = tribal
+
+#b_kuliyurt = city
+#b_tereklimekteb = temple
+
+#b_kizilyurt = castle
+#b_gums = castle
+#b_dylym = castle
+#b_arslanbek = temple
+#b_babayurt = city
+
+culture = sarmatian
+religion = heptadic
+
+# History

@@ -1,0 +1,403 @@
+## PHRYGIAN CHARACTERS ##
+## From IDS 1000-1249  ##
+
+
+1000 = { # Nikomedes,
+    name = "Nikomedes"
+    dynasty = 1605
+    culture = phrygian
+    religion = hellenic
+	
+	add_trait = arbitrary
+	add_trait = wroth
+	martial = 0
+	
+	585.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = 1001
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+1001 = { # Nikomedes' Wife
+    name = "Krateia"
+    dynasty = 1605
+    culture = phrygian
+    religion = hellenic
+    female = yes
+	
+	585.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+1002 = { # Nikomedes' Son
+    name = "Nikomedes"
+    dynasty = 1605
+    culture = phrygian
+    religion = hellenic
+	father = 1000
+	mother = 1001
+	
+	add_trait = quick
+	
+	605.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+1003 = { #Nikomedes' Daughter
+    name = "Sofia"
+    dynasty = 1605
+    culture = phrygian
+    religion = hellenic
+    female = yes
+	father = 1000
+	mother = 1001
+	
+	609.1.1 = {
+		birth = yes
+	}
+	677.1.1 = {
+		death = yes
+	}
+}
+
+1004 = { # Niketas, son of Shahrwaraz of Asoristan
+    name = "Niketas"
+    religion = zoroastrian
+    culture = persian
+	father = 350
+	mother = 353
+    dynasty = 284
+	race = persian
+	
+	diplomacy = 2
+	martial = 8
+	add_trait = tough_soldier
+	add_trait = strategist
+	
+    608.1.1 = {
+		birth = yes
+	}
+	624.1.1 = {
+		culture = phrygian
+		religion = hellenic
+		give_nickname = nick_the_persian
+	}
+	631.1.1 = {
+		effect = {
+			add_claim = e_persia
+		}
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+# Seleucids
+
+1005 = { # Antiokhos I
+	name = "Antiokhos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1009
+	
+	add_trait = lustful
+	add_trait = arbitrary
+	intrigue = 0
+	
+	576.1.1 = {
+		birth = yes 
+	}
+	633.1.1 = {
+		death = yes
+	}
+}
+1006 = { # Antiokhos II
+	name = "Antiokhos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1005
+	
+	600.1.1 = {
+		birth = yes 
+	}
+	662.1.1 = {
+		death = yes
+	}
+}
+1007 = { # Seleukos, the last Seleucid ruler
+	name = "Seleukos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1006
+	
+	add_trait = duelist
+	add_trait = quick
+	add_trait = twin
+	martial = 10
+	stewardship = 7
+	
+	637.1.1 = {
+		birth = yes 
+	}
+	700.1.1 = {
+		give_nickname = "nick_the_glorious"
+	}
+	702.1.1 = {
+		death = yes # Make it so he was killed by a Sudligoth due to Ellac's Stupidity and the Great Germanic Migration
+	}
+}
+
+1008 = { # Philokleia, sister of Seleukos
+	name = "Philokleia"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1006
+	
+	add_trait = twin
+	
+	637.1.1 = {
+		birth = yes 
+	}
+	703.5.1 = {
+		add_trait = blinded
+		## gets married off to Sudligoth king 
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+
+# old rulers
+1009 = { # Seleukos
+	name = "Seleukos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1010
+	
+	532.1.1 = {
+		birth = yes 
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+
+1010 = { # Seleukos
+	name = "Seleukos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1011
+	
+	469.1.1 = {
+		birth = yes 
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+
+1011 = { # Seleukos
+	name = "Seleukos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1012
+	
+	442.1.1 = {
+		birth = yes 
+	}
+	487.1.1 = {
+		death = yes
+	}
+}
+
+1012 = { # Nikephoros
+	name = "Nikephoros"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1013
+	
+	402.1.1 = {
+		birth = yes 
+	}
+	471.1.1 = {
+		death = yes
+	}
+}
+
+1013 = { # Alexandros
+	name = "Alexandros"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1014
+	
+	380.1.1 = {
+		birth = yes 
+	}
+	422.1.1 = {
+		death = yes
+	}
+}
+
+1014 = { # Antiokhos
+	name = "Antiokhos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1015
+	
+	333.1.1 = {
+		birth = yes 
+	}
+	392.1.1 = {
+		death = yes
+	}
+}
+
+1015 = { # Dimitrios 
+	name = "Dimitrios"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1016
+	
+	286.1.1 = {
+		birth = yes 
+	}
+	345.1.1 = {
+		death = yes
+	}
+}
+
+1016 = { # Diodotos 
+	name = "Diodotos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1017
+	
+	234.1.1 = {
+		birth = yes 
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+
+1017 = { # Diodotos 
+	name = "Diodotos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	father = 1018
+	
+	201.1.1 = {
+		birth = yes 
+	}
+	250.1.1 = {
+		death = yes
+	}
+}
+
+1018 = { # Filippos, hero of the Seleucids
+	# After the loss of territory after the rise of Parthia, the seleucids were reduced to just Cilicia, 
+	# But thanks to filipos, they now rule Syria
+	name = "Filippos"
+	dynasty = 1501
+	culture = phrygian
+	religion = hellenic
+	
+	add_trait = strong
+	add_trait = brilliant_strategist
+	
+	189.1.1 = {
+		birth = yes 
+	}
+	200.1.1 = {
+		create_bloodline = {
+			type = seleucid_blood
+			inheritance = patrilineal
+		}
+	}
+	222.1.1 = {
+		death = yes
+	}
+}
+
+# end of seleucids
+
+1019 = { # Andromachos of Cyprus
+	name = "Andromachos"
+	dynasty = 1606
+	culture = phrygian
+	religion = hellenic
+	
+	580.1.1 = {
+		birth = yes 
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+1020 = { # Machanidas of Byblos
+	name = "Machanidas"
+	dynasty = 1607
+	culture = phrygian
+	religion = hellenic
+	
+	590.1.1 = {
+		birth = yes 
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1021 = { # Timoleon of Palmyra
+	name = "Timoleon"
+	dynasty = 1608
+	culture = phrygian
+	religion = hellenic
+	
+	580.1.1 = {
+		birth = yes 
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+1022 = { # Polydoros of Aleppo
+	name = "Polydoros"
+	dynasty = 1609
+	culture = phrygian
+	religion = hellenic
+	
+	585.1.1 = {
+		birth = yes 
+	}
+	645.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,27 @@
+# 40 - Moray
+
+# County Title
+title = c_moray
+
+# Settlements
+max_settlements = 4
+b_forres = tribal
+#b_inverness = city
+b_elgin = temple
+
+#b_lochindorb = castle
+#b_nairn = castle
+#b_kinloss = castle
+#b_cawdor = castle
+#b_urquhart = castle
+
+# Misc
+culture = pictish
+religion = brythonic
+terrain = hills
+
+# History
+1000.1.1 = {
+	b_forres = castle
+	b_inverness = city
+}

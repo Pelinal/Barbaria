@@ -1,0 +1,768 @@
+###############################################
+###		Semitic Religions - Barbaria 	    ###
+###############################################
+
+## Semitic Group ##
+# Chaldean Reformed
+# Chaldean
+# Ashurist
+# Canaanite Reformed
+# Canaanite
+# Punic Reformed
+# Punic
+# Jewish
+# Samaritan
+# Karaite
+# Jesuit
+# Christian
+# Nabataean Reformed
+# Nabataean
+# Sayhadic Reformed (South Arabian)
+# Sayhadic
+
+semitic_grp = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2	# always try to convert
+	
+	interface_skin = { jews_interface zoroastrian_interface }
+	
+	chaldean_reformed = {
+		graphical_culture = persiangfx
+		alternate_start = { always = no }
+		allow_in_ruler_designer = no
+		interface_skin = { zoroastrian_interface }
+
+		icon = 3
+		heresy_icon = 2
+		
+		color = { 0.9 0.27 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_ENUMA_ELISH
+		priest_title = KALUM
+		
+		high_god_name = GOD_ENLIL
+		
+		god_names = {
+			GOD_ASHUR GOD_ANU GOD_ENKI GOD_NINURTA GOD_NERGAL GOD_INANNA GOD_NABU GOD_NANNA GOD_UTU GOD_DAGAN GOD_MARDUK
+		}
+		evil_god_names = {
+			GOD_NERGAL LAMASHTU UGGAE THE_DINGIR_XULU
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3
+		
+		pc_marriage = yes
+		bs_marriage = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = indian_group
+	}
+	
+	chaldean = {
+		graphical_culture = persiangfx
+		interface_skin = { zoroastrian_interface }
+		
+		icon = 1
+		heresy_icon = 2
+		reformed = chaldean_reformed
+		
+		color = { 0.7 0.21 0 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_ENUMA_ELISH
+		priest_title = 	KALUM
+		
+		high_god_name = GOD_ENLIL
+		
+		god_names = {
+			GOD_ASHUR GOD_ANU GOD_ENKI GOD_NINURTA GOD_NERGAL GOD_INANNA GOD_NABU GOD_NANNA GOD_UTU GOD_DAGAN GOD_MARDUK
+		}
+		evil_god_names = {
+			GOD_NERGAL LAMASHTU UGGAE THE_DINGIR_XULU
+		}
+		
+		can_grant_divorce = no
+		can_call_crusade = no
+		
+		max_consorts = 3
+		
+		pc_marriage = yes
+		bs_marriage = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = indian_group
+	}
+	
+	ashurist = {
+		graphical_culture = persiangfx
+		interface_skin = { zoroastrian_interface }
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+
+		icon = 3
+		heresy_icon = 2
+		parent = chaldean_reformed
+		
+		color = { 0.4 0.7 0.7 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_ENUMA_ELISH
+		priest_title = KALUM
+		
+		high_god_name = GOD_ASHUR
+		
+		god_names = {
+			GOD_ASHUR GOD_ANU GOD_ENKI GOD_NINURTA GOD_NERGAL GOD_INANNA GOD_NABU GOD_NANNA GOD_UTU GOD_DAGAN GOD_MARDUK
+		}
+		evil_god_names = {
+			GOD_NERGAL LAMASHTU UGGAE THE_DINGIR_XULU
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3
+		
+		pc_marriage = yes
+		bs_marriage = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = indian_group
+	}
+	
+	canaanite_reformed = {
+		alternate_start = { always = no }
+		allow_in_ruler_designer = no
+	
+		icon = 36
+		heresy_icon = 35
+	
+		color = { 0.91 0.46 0.62 }
+	
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+	
+		high_god_name = GOD_EL
+	
+		god_names = {
+			GOD_EL
+			GOD_ANAT
+			GOD_ASHERAH
+			GOD_ASTARTE
+			GOD_ESHMUN
+			GOD_MELQART
+			GOD_HADAD
+			GOD_QADESHTU
+			GOD_DAGON
+			GOD_SHED_HORON
+			GOD_KOTHAR_WA_KHASIS
+			GOD_BAALAT_GABAL
+		}
+		evil_god_names = {
+			RESHEPH
+			MOLOCH
+			MOT
+			LOTAN
+			YAM
+			ELOH_ARAPHEL
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BAAL_TEXTS
+		priest_title = KHUN
+	
+		priests_can_marry = yes
+		allow_looting = yes
+		join_crusade_if_bordering_hostile = yes
+		max_consorts = 3
+	
+		divine_blood = yes
+	
+		bs_marriage = yes 
+		pc_marriage = yes 
+		cousin_marriage = yes
+		rel_head_defense = yes
+	
+		aggression = 1.5
+	
+		short_reign_opinion_year_mult = 1
+	
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+	
+		can_call_crusade = yes
+		crusade_cb = crusade
+	
+		intermarry = semitic_grp
+	
+		dislike_tribal_organization = no
+		can_demand_religious_conversion = yes
+	}
+	
+	canaanite = {
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.71 0.36 0.48 }
+	
+		high_god_name = GOD_EL
+		
+		god_names = {
+			GOD_EL
+			GOD_ANAT
+			GOD_ASHERAH
+			GOD_ASTARTE
+			GOD_ESHMUN
+			GOD_MELQART
+			GOD_HADAD
+			GOD_QADESHTU
+			GOD_DAGON
+			GOD_SHED_HORON
+			GOD_KOTHAR_WA_KHASIS
+			GOD_BAALAT_GABAL
+		}
+		evil_god_names = {
+			RESHEPH 
+			MOLOCH 
+			MOT 
+			LOTAN 
+			YAM 
+			ELOH_ARAPHEL
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BAAL_TEXTS
+		priest_title = KHUN
+	
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+	
+		bs_marriage = yes 
+		pc_marriage = yes 
+		cousin_marriage = yes
+		
+		aggression = 1.5
+	
+		short_reign_opinion_year_mult = 1.5
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+	
+		intermarry = semitic_grp
+		
+		reformed = canaanite_reformed
+		
+		dislike_tribal_organization = no
+		can_demand_religious_conversion = no
+		
+	}
+	
+	punic_reformed = {
+		alternate_start = { always = no }
+		allow_in_ruler_designer = no
+	
+		icon = 18
+		heresy_icon = 19
+	
+		color = { 0.54 0.24 0.79 }
+	
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+	
+		high_god_name = GOD_BAAL_HAMMON
+	
+		god_names = {
+			GOD_BAAL_HAMMON
+			GOD_TANIT 
+			GOD_ASTARTE
+			GOD_ESHMUN
+			GOD_MELQART
+			GOD_HADAD
+			GOD_QADESHTU
+			GOD_DAGON
+			GOD_SHED_HORON
+			GOD_KOTHAR_WA_KHASIS
+			MOLOCH
+		}
+		evil_god_names = {
+			RESHEPH
+			MOLOCH
+			MOT
+			LOTAN
+			YAM
+			ELOH_ARAPHEL
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BAAL_TEXTS
+		priest_title = KHUN
+	
+		priests_can_marry = yes
+		allow_looting = yes
+		join_crusade_if_bordering_hostile = yes
+		max_consorts = 3
+	
+		divine_blood = yes
+	
+		bs_marriage = yes 
+		pc_marriage = yes 
+		cousin_marriage = yes
+		rel_head_defense = yes
+	
+		aggression = 1.5
+	
+		short_reign_opinion_year_mult = 1
+	
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+	
+		can_call_crusade = yes
+		crusade_cb = crusade
+	
+		intermarry = semitic_grp
+	
+		dislike_tribal_organization = no
+		can_demand_religious_conversion = yes
+	}
+	
+	punic = { #CARTHAGINIAN
+		icon = 18
+		heresy_icon = 19
+		
+		color = { 0.44 0.14 0.7 }
+	
+		high_god_name = GOD_BAAL_HAMMON
+		
+		god_names = {
+			GOD_BAAL_HAMMON
+			GOD_TANIT 
+			GOD_ASTARTE
+			GOD_ESHMUN
+			GOD_MELQART
+			GOD_HADAD
+			GOD_QADESHTU
+			GOD_DAGON
+			GOD_SHED_HORON
+			GOD_KOTHAR_WA_KHASIS
+			MOLOCH
+		}
+		evil_god_names = {
+			RESHEPH 
+			MOLOCH 
+			MOT 
+			LOTAN 
+			YAM 
+			ELOH_ARAPHEL
+		}
+	
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BAAL_TEXTS
+		priest_title = KHUN
+	
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+	
+		bs_marriage = yes 
+		pc_marriage = yes 
+		cousin_marriage = yes
+		
+		aggression = 1.5
+	
+		short_reign_opinion_year_mult = 1.5
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+	
+		intermarry = semitic_grp
+		
+		reformed = punic_reformed
+		
+		dislike_tribal_organization = no
+		can_demand_religious_conversion = no
+		
+	}
+	
+	jewish = {
+		graphical_culture = jewishgfx
+		
+		icon = 10
+		heresy_icon = 11
+		
+		color = { 0 0.5 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD ADONAI
+		}
+		evil_god_names = {
+			SATAN
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = samaritan
+		intermarry = karaite
+	}
+	
+	samaritan = {
+		graphical_culture = jewishgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		
+		icon = 10
+		heresy_icon = 11
+		
+		color = { 0.5 0.75 1.0 }
+		
+		parent = jewish
+		
+		crusade_name = GREAT_HOLY_WAR
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = jewish
+		intermarry = karaite
+	}
+	
+	karaite = {
+		graphical_culture = jewishgfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		
+		icon = 10
+		heresy_icon = 11
+		
+		color = { 0.3 0.5 0.7 }
+		
+		parent = jewish
+		
+		crusade_name = GREAT_HOLY_WAR
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = samaritan
+		intermarry = jewish
+	}
+	
+	jesuit = {
+		graphical_culture = westerngfx
+		alternate_start = { always = no }
+		allow_in_ruler_designer = no
+
+		icon = 8
+		heresy_icon = 9
+		
+		color = { 0.8 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_JESUS
+		
+		god_names = {
+			GOD_JESUS GOD_THE_SON GOD_GOD GOD_THE_LORD GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		rel_head_defense = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		
+		intermarry = christian
+		parent = christian
+	}
+	
+	christian = {
+		graphical_culture = westerngfx
+		alternate_start = { always = no }
+		allow_in_ruler_designer = no
+
+		icon = 8
+		heresy_icon = 9
+		
+		color = { 0.8 0.7 0.5 }
+		#parent = jewish
+		
+		crusade_name = CRUSADE
+		#use_new_crusade = yes
+		#crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		rel_head_defense = yes
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		intermarry = jesuit
+	}
+	
+	nabataean_reformed = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+		interface_skin = { muslim_interface }
+
+		icon = 13
+		heresy_icon = 14
+		
+		color = { 0.5 0.7 0.6 }
+		color = { 0.55 0.65 0.55 }
+		
+		high_god_name = GOD_DUSHARA
+		
+		unit_modifier = {
+			attrition = -0.25
+			days_of_supply = 60
+		}
+		
+		god_names = {
+			GOD_DUSHARA GOD_AL_UZZA GOD_ALLAT GOD_MANAT GOD_BAALSHAMIN GOD_TYCHE GOD_ISIS GOD_AL_KUTBAY
+		}
+		evil_god_names = {
+			GOD_MANOTU THE_GHOULS
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BETYLITIC_TEXTS
+		priest_title = KAHIN
+		
+		max_wives = 4
+		uses_decadence = yes
+		uses_jizya_tax = yes
+		can_grant_divorce = yes
+		
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = no
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		allow_in_ruler_designer = no
+		can_demand_religious_conversion = yes
+	}
+	nabataean = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+
+		reformed = nabataean_reformed
+		interface_skin = { muslim_interface }
+
+		icon = 12
+		heresy_icon = 14
+		
+		color = { 0.5 0.6 0.5 }
+		
+		unit_modifier = {
+			attrition = -0.125
+			days_of_supply = 30
+		}
+		
+		high_god_name = GOD_DUSHARA
+		
+		god_names = {
+			GOD_DUSHARA GOD_AL_UZZA GOD_ALLAT GOD_MANAT GOD_BAALSHAMIN GOD_TYCHE GOD_ISIS GOD_AL_KUTBAY
+		}
+		evil_god_names = {
+			GOD_MANOTU THE_GHOULS
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_BETYLITIC_TEXTS
+		priest_title = AFKAL
+		
+		uses_jizya_tax = no
+		defensive_attrition = yes
+		max_wives = 4
+		uses_decadence = yes
+		
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = no
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		can_demand_religious_conversion = no
+	}
+	
+	sayhadic_reformed = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+		
+		interface_skin = { muslim_interface }
+		
+		icon = 16
+		heresy_icon = 17
+		
+		color = { 0.55 1 0.46 }
+		
+		high_god_name = GOD_ATHTAR
+		
+		unit_modifier = {
+			attrition = -0.25
+			days_of_supply = 60
+		}
+		
+		god_names = {
+			GOD_ATHTAR GOD_ALMAQAH GOD_WADD GOD_AMM GOD_HAUBAS GOD_TALAB GOD_HAUKIM GOD_UZZAYAN GOD_BASAMUM
+		}
+		evil_god_names = {
+			GOD_MANOTU THE_GHOULS
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SACRED_TABLETS
+		priest_title = AFKAL
+		
+		defensive_attrition = yes
+		max_wives = 4
+		uses_decadence = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = yes
+		
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		uses_jizya_tax = no
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		allow_in_ruler_designer = no
+		can_demand_religious_conversion = yes
+	}
+	sayhadic = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+
+		reformed = sayhadic_reformed
+		
+		interface_skin = { muslim_interface }
+		
+		icon = 15
+		heresy_icon = 17
+		
+		color = { 0.56 0.87 0.51 }
+		
+		unit_modifier = {
+			attrition = -0.125
+			days_of_supply = 30
+		}
+		
+		high_god_name = GOD_ATHTAR
+		
+		god_names = {
+			GOD_ATHTAR GOD_ALMAQAH GOD_WADD GOD_AMM GOD_HAUBAS GOD_TALAB GOD_HAUKIM GOD_UZZAYAN GOD_BASAMUM
+		}
+		evil_god_names = {
+			GOD_MANOTU THE_GHOULS
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_SACRED_TABLETS
+		priest_title = AFKAL
+		
+		defensive_attrition = yes
+		max_wives = 4
+		uses_decadence = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		uses_jizya_tax = no
+		
+		priests_can_marry = yes
+		priests_can_inherit = no
+		female_temple_holders = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		can_demand_religious_conversion = no
+	}
+}

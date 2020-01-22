@@ -1,0 +1,17 @@
+# 2018 - Ur
+
+# County Title
+title = c_ur
+
+# Settlements
+max_settlements = 5
+
+b_ur = castle
+b_nasiria = city
+#b_orugeia = castle
+b_etemenniguru = temple #Chaldean holy site
+b_ur_nammu = castle
+
+#Misc
+culture = persian
+religion = zoroastrian

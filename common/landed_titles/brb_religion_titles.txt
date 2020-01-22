@@ -1,0 +1,50 @@
+######################################################
+##			BARBARIA - RELIGIOUS TITLES 		    ##
+######################################################
+
+d_chaldean_reformed = {
+   color = { 100 100 150 }
+   color2={ 255 255 255 }
+   
+   short_name = yes
+   title = "ENU"
+   title_female = "ENUTU"
+   foa = "ENU_FOA"
+   
+   capital = 2020 # Nippur
+   
+   dynasty_title_names = no
+   
+   landless = yes
+   primary = yes
+   
+   religion = chaldean_reformed
+   controls_religion = chaldean_reformed
+
+   dignity = 100
+   
+   allow = { always = no }
+}
+
+d_inannas_chosen = {
+	color = { 125 100 150 }
+	
+	capital = 2020 # Nippur
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	landless = yes
+	holy_order = yes
+	
+	culture = akkadian
+	religion = chaldean_reformed
+	
+	primary = yes
+	
+	monthly_income = 4
+
+	mercenary_type = inanna_composition
+	
+	allow = { always = no }
+}

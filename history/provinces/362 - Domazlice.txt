@@ -1,0 +1,25 @@
+# 362 - Domazlice - South Bohemia
+
+# County Title
+title = c_domazlice
+
+# Settlements
+max_settlements = 5
+
+b_prachen = tribal
+
+#b_doudleby = city
+#b_chynov = castle
+#b_hohenfurth = temple
+#b_rosenberg = castle
+#b_budejovice = city
+#b_pisek = castle
+#b_krumlov = castle
+#b_goldenkron = temple
+
+# Misc
+
+culture = thuringian
+religion = germanic_pagan
+
+# History

@@ -1,0 +1,136 @@
+###############################################
+###		Balkan Religions - Barbaria 	    ###
+###############################################
+
+## Balkan Group ##
+# Zalmoxian
+
+balkan_grp = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	#color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+	
+	zalmoxian_reformed = {
+		graphical_culture = norsegfx
+		alternate_start = { always = no }
+		
+		secondary_event_pictures = slavic_pagan
+
+		icon = 79
+		heresy_icon = 80
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 1 0.6 0.6 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST #CTSISTAT
+		
+		high_god_name = GOD_ZALMOXIS
+		
+		god_names = {
+			GOD_ZALMOXIS GOD_PLEISTOROS GOD_SABAZIOS GOD_DERZELAS GOD_BASSAREUS
+			GOD_BENDIS GOD_SEMELE GOD_COTYS
+		}
+		evil_god_names = {
+			EN CRONUS GOD_DERZELAS
+		}
+		
+		unit_modifier = {
+			levy_size = 0.4
+			retinuesize_perc = 0.55
+			
+			key = "OFF_RELIGION"
+		}
+		
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		defensive_attrition = no
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25
+		
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+		
+		dislike_tribal_organization = no
+		can_demand_religious_conversion = yes
+
+		intermarry = pagan_group
+	}
+	
+	zalmoxian = {
+		graphical_culture = norsegfx
+		alternate_start = {
+			OR = {
+				year < 1100
+				has_alternate_start_parameter = { key = religion value = full_random }
+			}
+		}
+
+		icon = 78
+		heresy_icon = 80
+		
+		color = { 1 0.5 0.5 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		
+		high_god_name = GOD_ZALMOXIS
+		
+		god_names = {
+			GOD_ZALMOXIS GOD_PLEISTOROS GOD_SABAZIOS GOD_DERZELAS GOD_BASSAREUS
+			GOD_BENDIS GOD_SEMELE GOD_COTYS
+		}
+		evil_god_names = {
+			EN CRONUS GOD_DERZELAS
+		}
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			retinuesize_perc = 0.5
+			
+			key = "OFF_RELIGION"
+		}
+		
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = zalmoxian_reformed
+		
+		aggression = 1.75 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 2
+		
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+		
+		intermarry = pagan_group
+		
+		dislike_tribal_organization = yes
+		can_demand_religious_conversion = no
+	}
+}

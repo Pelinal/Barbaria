@@ -1,0 +1,23 @@
+# 439 - Plzen
+
+# County Title
+title = c_plzen
+
+# Settlements
+max_settlements = 4
+b_plzen = tribal
+
+#b_plasy = temple
+#b_stribo = city
+#b_klatovy = castle
+#b_primda = castle
+#b_kladruby = temple
+#b_domazlice = city
+
+
+# Misc
+culture = thuringian
+religion = germanic_pagan
+
+# History
+

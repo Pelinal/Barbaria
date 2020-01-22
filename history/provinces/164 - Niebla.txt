@@ -1,0 +1,21 @@
+# 164 - Niebla
+
+# County Title
+title = c_niebla
+
+# Settlements
+max_settlements = 4
+b_niebla  = castle
+#b_nerva = castle
+b_almonte = city
+#b_lasrocinas = temple 	
+#b_pilas = city
+#b_ostilia = castle
+#b_aroche = castle
+
+#Misc
+culture = iberian
+religion = iberic
+
+# History
+1277.1.1 = { capital = b_niebla }

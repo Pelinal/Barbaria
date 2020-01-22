@@ -1,0 +1,28 @@
+# 762 - Adana
+
+# County Title
+title = c_adana
+
+# Terrain
+terrain = hills
+
+# Settlements
+max_settlements = 4
+b_adana = castle
+b_anazarba = temple
+#b_sis = castle
+#b_mopsuestia = castle
+b_mamistra = city
+#b_lajazzo = castle
+#b_trazak = castle
+#b_vahka = castle
+
+# Misc
+culture = phrygian
+religion = hellenic
+
+# History
+
+760.1.1 = { b_sis = castle }
+830.1.1 = { capital = b_sis } 
+900.1.1 = { trade_post = b_faliero }

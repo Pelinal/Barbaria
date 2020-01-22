@@ -1,0 +1,22 @@
+# 1581 - Dobrzynska
+
+# County Title
+title = c_dobrzynska
+
+# Settlements
+max_settlements = 3
+
+b_dobrzyn = tribal
+#b_wloclawek = city
+#b_lipno = temple
+
+#b_rypin = castle
+#b_skepe = castle
+#b_michalowo = castle
+#b_kikot = castle
+
+# Misc
+culture = burgundian
+religion = germanic_pagan
+
+# History

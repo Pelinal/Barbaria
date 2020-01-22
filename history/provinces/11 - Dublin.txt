@@ -1,0 +1,34 @@
+# 11 - Dublin
+
+# County Title
+title = c_dublin
+
+# Settlements
+max_settlements = 5
+b_ath_cliath = tribal
+#b_dublin = city
+b_mellifont = temple
+
+#b_christ_church = temple
+#b_wicklow = city
+#b_clondalkin = castle
+#b_finglas = castle
+#b_mellifont = temple
+#b_trim = castle
+
+# Misc
+culture = irish
+religion = danuic
+
+# History
+1000.1.1 = {
+	b_ath_cliath = castle
+	b_dublin = city
+
+	b_ath_cliath = ca_keep_1
+	b_ath_cliath = ca_militia_barracks_1
+	b_ath_cliath = ca_wall_1
+	b_ath_cliath = ca_shipyard_1
+	b_dublin = ct_port_1
+}
+1337.1.1 = { b_trim = castle }

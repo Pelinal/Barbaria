@@ -1,0 +1,200 @@
+##= Cultures Localisation =##
+
+##= Aksumite =##
+aksumite;Aksumite;;;;;;;;;;;;x
+blemmye;Blemmyan;;;;;;;;;;;;x
+ethiopian;Aksumite;;;;;;;;;;;;x
+somali;Macrobian;;;;;;;;;;;;x
+
+## Altaic =##
+altaic;Altaic;;;;;;;;;;;;x
+hunnic;Hunnic;;;;;;;;;;;;x
+turkish;Turkish;;;;;;;;;;;;x
+pecheneg;Pecheneg;;;;;;;;;;;;x
+cuman;Cuman;;;;;;;;;;;;x
+khazar;Khazar;;;;;;;;;;;;x
+bolghar;Bolghar;;;;;;;;;;;;x
+avar;Avar;;;;;;;;;;;;x
+karluk;Karluk;;;;;;;;;;;;x
+kirghiz;Kirghiz;;;;;;;;;;;;x
+uyghur;Uyghur;;;;;;;;;;;;x
+mongol;Mongol;;;;;;;;;;;;x
+khitan;Khitan;;;;;;;;;;;;x
+jurchen;Jurchen;;;;;;;;;;;;x
+
+##= Arabic =##
+arabic;Arabic;;;;;;;;;;;;x
+bedouin_arabic;Bedouin;;;;;;;;;;;;x
+nabataean_arabic;Nabataean;;;;;;;;;;;;x
+himyarite;Himyarite;;;;;;;;;;;;x
+
+##= Bactrian =##
+bactrian_group;Bactrian;;;;;;;;;;;;x
+sogdian;Sogdian;;;;;;;;;;;;x
+xionite;Xionite;;;;;;;;;;;;x
+bactrian;Bactrian;;;;;;;;;;;;x
+kidarite;Kidarite;;;;;;;;;;;;x
+nezak;Nezak;;;;;;;;;;;;x
+alchon;Alchon;;;;;;;;;;;;x
+wusun;Wusun;;;;;;;;;;;;x
+
+##= Balkan =##
+balkan;Balkan;;;;;;;;;;;;x
+illyrian;Illyrian;;;;;;;;;;;;x
+dacian;Dacian;;;;;;;;;;;;x
+thracian;Thracian;;;;;;;;;;;;x
+
+##= British =##
+british;British;;;;;;;;;;;;x
+briton;Briton;;;;;;;;;;;;x
+cumbric;Cumbric;;;;;;;;;;;;x
+pictish;Pict;;;;;;;;;;;;x
+
+##= Caucasian =##
+caucasian;Caucasian;;;;;;;;;;;;x
+armenian;Armenian;;;;;;;;;;;;x
+georgian;Ibero;;;;;;;;;;;;x
+colchian;colchian;;;;;;;;;;;;x
+albanian;Albanian;;;;;;;;;;;;x
+
+##= Chinese/Tibetan =##
+# leave, incase i add more...
+
+##= Finno-Ugric =##
+finnish;Finnish;;;;;;;;;;;;x
+lappish;Lappish;;;;;;;;;;;;x
+komi;Komi;;;;;;;;;;;;x
+khanty;Khanty;;;;;;;;;;;;x
+samoyed;Samoyed;;;;;;;;;;;;x
+mordvin;Mordvin;;;;;;;;;;;;x
+meshchera;Meshchera;;;;;;;;;;;;x
+ugricbaltic;Setonian;;;;;;;;;;;;x
+
+##= Gaelic =##
+gaelic_group;Gaelic;;;;;;;;;;;;x
+irish;Irish;;;;;;;;;;;;x
+gaelic;Gaelic;;;;;;;;;;;;x
+thulean;Thulean;;;;;;;;;;;;x
+
+##= Gallic =##
+gallic_group;Continental Celtic;;;;;;;;;;;;x
+armorican;Armorican;;;;;;;;;;;;x
+gaulish;Gaulish;;;;;;;;;;;;x
+galatian;Galatian;;;;;;;;;;;;x
+belgic;Belgic;;;;;;;;;;;;x
+noric;Noric;;;;;;;;;;;;x
+helvetian;Helvetian;;;;;;;;;;;;x
+celtiberian;Celtiberian;;;;;;;;;;;;x
+celto_pannonian;Celto-Pannonian;;;;;;;;;;;;x
+
+##= Germanic =##
+germanic;Germanic;;;;;;;;;;;;x
+norse;Norse;;;;;;;;;;;;x
+frankish;Frankish;;;;;;;;;;;;x
+gothic;Gothic;;;;;;;;;;;;x
+suebi;Suebi;;;;;;;;;;;;x
+saxon;Anglo-Saxon;;;;;;;;;;;;x
+old_saxon;Saxon;;;;;;;;;;;;x
+frisian;Frisian;;;;;;;;;;;;x
+thuringian;Thuringian;;;;;;;;;;;;x
+angle;Angle;;;;;;;;;;;;x
+burgundian;Burgundian;;;;;;;;;;;;x
+vandal;Vandal;;;;;;;;;;;;x
+alemanni;Alemanni;;;;;;;;;;;;x
+rugian;Rugian;;;;;;;;;;;;x
+quadi;Quadi;;;;;;;;;;;;x
+scirii;Scirian;;;;;;;;;;;;x
+bastarnae;Bastarnae;;;;;;;;;;;;x
+
+##= Hellenistic =##
+hellenic_grp;Hellenistic;;;;;;;;;;;;x
+greek;Greek;;;;;;;;;;;;x
+spartan;Spartan;;;;;;;;;;;;x
+cyrenacian;Cyrenacian;;;;;;;;;;;;x
+sicilian;Siceliote;;;;;;;;;;;;x
+egyptiote;Egyptiote;;;;;;;;;;;;x
+phrygian;Phrygian;;;;;;;;;;;;x
+pontic;Pontic;;;;;;;;;;;;x
+greco_illyrian;Graeco-Illyrian;;;;;;;;;;;;x
+massalian;Massalian;;;;;;;;;;;;x
+bosporan;Bosporan;;;;;;;;;;;;x
+
+##= Iberian =##
+iberian_group;Iberian;;;;;;;;;;;;x
+iberian;Iberian;;;;;;;;;;;;x
+
+##= Iranian =##
+iranian;Iranian;;;;;;;;;;;;x
+persian;Persian;;;;;;;;;;;;x
+kurdish;Kurdish;;;;;;;;;;;;x
+baloch;Baloch;;;;;;;;;;;;x
+parthian_culture;Parthian;;;;;;;;;;;;x
+
+##= Indian =##
+# leave if i decide to add more..
+
+##= Italic =##
+italic_grp;Latin;;;;;;;;;;;;x
+roman;Roman;;;;;;;;;;;;x
+etruscan;Etruscan;;;;;;;;;;;;x
+rhaetian;Rhaetian;;;;;;;;;;;;x
+umbrian;Umbrian;;;;;;;;;;;;x
+samnite;Samnite;;;;;;;;;;;;x
+ligurian;Ligurian;;;;;;;;;;;;x
+catari;Catari;;;;;;;;;;;;x
+venetic;Venetic;;;;;;;;;;;;x
+histrian;Histrian;;;;;;;;;;;;x
+
+##= Mesopotamian =##
+mesopotamian;Mesopotamian;;;;;;;;;;;;x
+aramaic;Aramaic;;;;;;;;;;;;x
+assyrian;Assyrian;;;;;;;;;;;;x
+akkadian;Akkadian;;;;;;;;;;;;x
+sumerian;Sumerian;;;;;;;;;;;;x
+
+#= Nilotic =##
+nilotic;Nilotic;;;;;;;;;;;;x
+garamantian;Garamantic;;;;;;;;;;;;x
+egyptian;Egyptian;;;;;;;;;;;;x
+kushite;Meroitic;;;;;;;;;;;;x
+nasamonian;Nasamonian;;;;;;;;;;;;x
+
+#= Numidian =##
+numidian_group;Numidian;;;;;;;;;;;;x
+numidian;Numidian;;;;;;;;;;;;x
+mauri;Mauri;;;;;;;;;;;;x
+gaetulian;Gaetulian;;;;;;;;;;;;x
+
+##= Pre-Indo-European =##
+pre_indo_european;Vasconic;;;;;;;;;;;;x
+vasconian;Vascon;;;;;;;;;;;;x
+nuragic;Nuragic;;;;;;;;;;;;x
+aquitani;Aquitani;;;;;;;;;;;;x
+
+##= Scythian Group =##
+scythian_grp;Scythian;;;;;;;;;;;;x
+tocharian;Tocharian;;;;;;;;;;;;x
+saka;Khotanese;;;;;;;;;;;;x
+sarmatian;Sarmatian;;;;;;;;;;;;x
+scythian;Scythian;;;;;;;;;;;;x
+dahae;Dahae;;;;;;;;;;;;x
+yuezhi;Yuezhi;;;;;;;;;;;;x
+
+##= Semitic =##
+semitic;Semitic;;;;;;;;;;;;x
+hebrew;Hebrew;;;;;;;;;;;;x
+carthaginian;Carthaginian;;;;;;;;;;;;x
+phoenician;Phoenician;;;;;;;;;;;;x
+libyo_phoenician;Libyo-Phoenician;;;;;;;;;;;;x
+phoeniciberian;Shapani;;;;;;;;;;;;x
+
+##= Slavic =##
+slavic;Slavic;;;;;;;;;;;;x
+venedi;Venedi;;;;;;;;;;;;x
+polan;Polan;;;;;;;;;;;;x
+sclaveni;Sclaveni;;;;;;;;;;;;x
+aestian;Aestian;;;;;;;;;;;;x
+wendish;Wendish;;;;;;;;;;;;x
+
+##= Sub-Saharan African =##
+sub_saharan;Sub-Saharan;;;;;;;;;;;;x

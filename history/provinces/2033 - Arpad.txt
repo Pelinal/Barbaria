@@ -1,0 +1,20 @@
+# 2033 - Arpad
+
+# County Title
+title = c_arpad
+
+# Settlements
+max_settlements = 4
+
+b_arpad = castle
+b_mariamme = city
+b_kabiosa = temple
+b_herakleia_phoinike = city
+#b_konna = temple
+#b_karna_secunda = castle
+#b_botrys = city
+#b_oros_libanos = castle
+
+#Misc
+culture = phoenician
+religion = hellenic

@@ -1,0 +1,24 @@
+# 373 - Kurs
+
+# County Title
+title = c_kurs
+
+# Terrain
+terrain = forest
+
+# Settlements
+max_settlements = 5
+b_grobin = tribal
+#b_medze = city
+#b_vartaja = temple
+
+#b_kuldiga = castle
+#b_aizpute = castle
+#b_apule = castle
+#b_impilte = city
+
+# Misc
+culture = aestian
+religion = baltic_pagan
+
+# History

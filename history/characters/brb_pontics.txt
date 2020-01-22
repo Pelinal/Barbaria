@@ -1,0 +1,129 @@
+## PONTIC CHARACTERS ##
+## From IDS 6000-6249
+
+6000 = { # Mithridates of Pontus
+	name = "Mithridatis"
+	dynasty = 1800 # Mithridatic
+	culture = pontic
+	religion = mithraic
+	
+	470.1.1 = {
+		birth = yes 
+	}
+	535.1.1 = {
+		death = yes
+	}
+}
+
+6001 = { # Polemon of Pontus
+	name = "Polemon"
+	dynasty = 1800 # Mithridatic
+	culture = pontic
+	religion = mithraic
+	father = 6000
+	
+	490.1.1 = {
+		birth = yes 
+	}
+	557.1.1 = {
+		death = yes
+	}
+}
+
+6002 = { # Mithridates 'II' of Pontus
+	name = "Mithridatis"
+	dynasty = 1800 # Mithridatic
+	culture = pontic
+	religion = mithraic
+	father = 6001
+	
+	532.1.1 = {
+		birth = yes 
+	}
+	588.1.1 = {
+		death = yes
+	}
+}
+
+6003 = { # Mithridates 'III' of Pontus
+	name = "Mithridatis"
+	dynasty = 1800 # Mithridatic
+	culture = pontic
+	religion = mithraic
+	father = 6002
+	
+	564.1.1 = {
+		birth = yes 
+	}
+	614.1.1 = {
+		death = yes
+	}
+}
+
+6004 = { # Mithridates 'IV' of Pontus
+	name = "Mithridatis"
+	dynasty = 1800 # Mithridatic
+	culture = pontic
+	religion = mithraic
+	father = 6003
+	
+	591.1.1 = {
+		birth = yes 
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+6005 = { # Peroidas of Trebizond
+	name = "Peroidas"
+	dynasty = 1832
+	
+	culture = "pontic"
+	religion = "mithraic"
+	
+	stewardship = 9
+	add_trait = honest
+	add_trait = just
+	
+	587.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+6006 = { # Aiakides of Kastamon
+	name = "Aiakides"
+	dynasty = 1831
+	
+	culture = "pontic"
+	religion = "mithraic"
+	
+	593.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+
+6007 = { # Stepanoz of Guria (not actually pontic but eh)
+	name = "Stepanoz"
+	dynasty = 1830
+	
+	culture = "colchian"
+	religion = "mithraic"
+	
+	add_trait = robust
+	add_trait = tough_soldier
+	martial = 7
+	
+	556.1.1 = {
+		birth = yes
+	}
+	619.1.1 = {
+		death = yes
+	}
+}

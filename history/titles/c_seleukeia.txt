@@ -1,0 +1,4 @@
+580.1.1 = {
+	holder = 1000
+	liege = k_aram
+}

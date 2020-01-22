@@ -1,0 +1,3 @@
+606.1.1 = {
+	holder = 2033 # Smbat I, King of Armenia
+}

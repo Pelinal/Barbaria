@@ -1,0 +1,14 @@
+# 1691 - Pettau 
+
+# County title
+title = c_pettau
+
+# Max settlements 
+max_settlements = 4
+b_pettau = tribal
+
+# Misc
+culture = catari
+religion = italic
+
+# History

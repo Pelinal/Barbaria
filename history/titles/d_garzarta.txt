@@ -1,0 +1,7 @@
+610.1.1 = {
+	holder = 4500
+	set_tribute_suzerain = { who = e_persia percentage = 0.21 }
+}
+650.1.1 = {
+	holder = 4501
+}

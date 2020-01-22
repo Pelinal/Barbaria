@@ -1,0 +1,22 @@
+# 700 - Niniveh
+
+# County Title
+title = c_niniveh
+
+# Settlements
+max_settlements = 6
+b_niniveh = castle
+b_kuyunjik = city
+b_calah_ziggurat = temple
+
+#b_shekhan = castle
+#b_ahkrahu = castle
+b_bartella = city
+#b_bet_qopa = castle
+#b_arbela = temple
+
+#Misc
+culture = assyrian
+religion = zoroastrian
+
+# History

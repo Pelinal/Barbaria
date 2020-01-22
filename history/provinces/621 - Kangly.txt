@@ -1,0 +1,23 @@
+# 621 - Kangly
+
+# County Title
+title = c_kangly
+
+# Settlements
+max_settlements = 3
+b_kangly = tribal
+
+#b_akkube = city
+#b_koshkar = temple
+#b_akbulak = castle
+
+#b_makat = castle
+#b_bakachi = castle
+#b_qulsary = castle
+#b_kizay = castle
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History

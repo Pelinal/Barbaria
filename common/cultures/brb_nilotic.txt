@@ -1,0 +1,116 @@
+###############################################
+###		Nilotic Cultures - Barbaria 		###
+###############################################
+
+## colour: 0.9 0.81 0
+# Garamantic
+# Egyptian
+# Kushite/Merotic
+# Nasamonian
+
+nilotic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }
+	
+	garamantian = {
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.9 0.81 0 }
+
+		male_names = {
+			Amyrteos Ankhmachis Anemhor Aratos Arganos Charias Djedhor Ezena Horemakhet Isocrates Khabbabash Leonippus Lydiadas Manetho Massiva
+			Nakhthoreb Naravas Nefaarud Neferibre Nesisti Nicias Nicodemus Oezalces Oxyntas Pedubast Peneus Perdiccas Philocrates 
+			Philotheos Polyperchon Psherenamun Psherenptah Psammuthes Ptolemy Theocritus Therapon Timoleon Xanthos Xenon Zeteres Zosimus Ahmes
+			Ahmose Alarus Amasus Ameny Bakenrenef Cleomenes Euclid Harsiotef Henut Ibi Khabash Lagus Nectanebo Kheperkare Neferkare Nehi Osorkon Pami
+			Petubastis Teos
+		}
+		female_names = {
+			Agape Agathoclea Amanishabheto Antigone Apame Apollonia Aristomache Artemisia Aspacia Athenais Berenice Charis Cleopatra Cynna
+			Demetria Elpis Eirene Eudocia Eunice Euphemia Eurydice Euthalia Hypatia Nysa Oenanthe Olympia Phila Phile Sostrate Stratonice Thais
+			Theophila Thetima Thessaloniki Thorakis Timo Arsinoe Lysandra Kiya Qelhata
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	egyptian = {
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.9 0.81 0 }
+
+		male_names = {
+			Ahmose Akhenaten Akhenaton Amenemhet Amenhotep Amosis Ahmose Djehutimesu Djehutimose Iahmesu Imhotep Menes Rameses Ramessu Rameses Seti Set Thutmose Tutankhamon Tutankhamun
+			
+			## Additional, not entirely accurate
+			Asesa Thothmoses Khuenpthah Pa-dus Arsaphes Barukatatau Chemtatef Anubis Harsiesis Amenthes Nehara Psametikkhu Osorhe Bakaa Tutu Barukatatau Nechepso Skhemka Pisaei Harakhty 
+			Hruamen Penseskhemet Nebpu Horpetuankhi Samta Cynocephalus Tata Alim Aaheru Huischera Pasenpthah Uahmaniamen Pashet Psenio Rameiamen Anaa Salih Neferkara Aia Hotephimat Ankhsnef 
+			Mernebpthah Psenio Khonsem Osahar Herhetsu Ra-kheperka Shaufsa-karta Asychis Menkhetu Kaa Chaires Rekhkhetsa Piouer Pili Nebertcher Caesarion Anhurnekht Aanekhtou 
+		}
+		female_names = {
+			Aat Ahhotep Amenirdis Amunet Aneksi Ankenespepi Ankhesenamun Ankhesenpaaten Baketmut Beketamun Beketaten Benerib Betrest Bintanath Djedjetamen Djefatnebti Duathathor Gautseshen
+			Haankhes Hathorhotep Hekenuhedjet Henutmehyt Henutmire Henutsen Henuttadesh Henuttamehu Henuttaneb Henuttaway Herneith Hetepenamun Hetepheres Ibi Isetemkheb Iset Isetnofret Joba
+			Khamerernebty Khenemetibamun Khedebneithrbinet Khenemetneferhedjet Khenthap Khufuankh Kiya Maat-Hor Maathorneferure Mayet Meketaten Nefertiti Meresamun
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	kushite = {
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.9 0.81 0 }
+
+		male_names = {
+			Ahmose Akhenaten Akhenaton Amenemhet Amenhotep Amosis Ahmose Djehutimesu Djehutimose Iahmesu Imhotep Menes Rameses Ramessu Rameses Seti Set Thutmose Tutankhamon Tutankhamun
+			
+			## Additional, not entirely accurate
+			Asesa Thothmoses Khuenpthah Pa-dus Arsaphes Barukatatau Chemtatef Anubis Harsiesis Amenthes Nehara Psametikkhu Osorhe Bakaa Tutu Barukatatau Nechepso Skhemka Pisaei Harakhty 
+			Hruamen Penseskhemet Nebpu Horpetuankhi Samta Cynocephalus Tata Alim Aaheru Huischera Pasenpthah Uahmaniamen Pashet Psenio Rameiamen Anaa Salih Neferkara Aia Hotephimat Ankhsnef 
+			Mernebpthah Psenio Khonsem Osahar Herhetsu Ra-kheperka Shaufsa-karta Asychis Menkhetu Kaa Chaires Rekhkhetsa Piouer Pili Nebertcher Caesarion Anhurnekht Aanekhtou 
+		}
+		female_names = {
+			Aat Ahhotep Amenirdis Amunet Aneksi Ankenespepi Ankhesenamun Ankhesenpaaten Baketmut Beketamun Beketaten Benerib Betrest Bintanath Djedjetamen Djefatnebti Duathathor Gautseshen
+			Haankhes Hathorhotep Hekenuhedjet Henutmehyt Henutmire Henutsen Henuttadesh Henuttamehu Henuttaneb Henuttaway Herneith Hetepenamun Hetepheres Ibi Isetemkheb Iset Isetnofret Joba
+			Khamerernebty Khenemetibamun Khedebneithrbinet Khenemetneferhedjet Khenthap Khufuankh Kiya Maat-Hor Maathorneferure Mayet Meketaten Nefertiti Meresamun
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	nasamonian = {
+		graphical_cultures = { africangfx westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.9 0.81 0 }
+
+		male_names = {
+			Amyrteos Ankhmachis Anemhor Aratos Arganos Charias Djedhor Ezena Horemakhet Isocrates Khabbabash Leonippus Lydiadas Manetho Massiva
+			Nakhthoreb Naravas Nefaarud Neferibre Nesisti Nicias Nicodemus Oezalces Oxyntas Pedubast Peneus Perdiccas Philocrates 
+			Philotheos Polyperchon Psherenamun Psherenptah Psammuthes Ptolemy Theocritus Therapon Timoleon Xanthos Xenon Zeteres Zosimus Ahmes
+			Ahmose Alarus Amasus Ameny Bakenrenef Cleomenes Euclid Harsiotef Henut Ibi Khabash Lagus Nectanebo Kheperkare Neferkare Nehi Osorkon Pami
+			Petubastis Teos
+		}
+		female_names = {
+			Agape Agathoclea Amanishabheto Antigone Apame Apollonia Aristomache Artemisia Aspacia Athenais Berenice Charis Cleopatra Cynna
+			Demetria Elpis Eirene Eudocia Eunice Euphemia Eurydice Euthalia Hypatia Nysa Oenanthe Olympia Phila Phile Sostrate Stratonice Thais
+			Theophila Thetima Thessaloniki Thorakis Timo Arsinoe Lysandra Kiya Qelhata
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+}

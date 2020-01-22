@@ -1,0 +1,23 @@
+# 1640 - Chilia
+
+# County Title
+title = c_chilia
+
+# Settlements
+max_settlements = 3
+
+b_chilia = tribal
+#b_oblucita = city	#"Izmail" in turkish
+b_tigheci = temple
+
+#b_reni_ro = castle
+#b_cahul = castle
+#b_lisky = castle
+#b_palada = castle
+
+# Misc
+culture = hunnic
+religion = zalmoxian
+terrain = marsh
+
+# History

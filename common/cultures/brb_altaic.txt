@@ -1,0 +1,434 @@
+###############################################
+###		Altaic Cultures - Barbaria  		###
+###############################################
+
+## colour; 0.85 0.75 0.50
+# Hunnic
+# Turkish
+# Pecheneg
+# Cuman
+# Khazar
+# Bolghar
+# Avar
+# Karluk
+# Kirghiz
+# Uyghur
+# Mongol
+# Khitan
+# Jurchen
+
+altaic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
+	
+	################
+	
+	hunnic = {
+		graphical_cultures = { mongolgfx }
+		alternate_start = {
+			always = no
+		}
+		
+		horde = yes
+		
+		used_for_random = no
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Akhad Alburia Alypbi Askungur Attila Aybat Babai Balamber Belk Bleda Bu-Timer Bu-Urgan Chelbir Dengizich Djilka Djurash Ellec Ermak Gazan Gostun Hernach Khinialon Kurbat Kutrigur Labertam 
+			Octar Rugila Sandlikh Shambat Sinnion Sulabi Tat-Ugek_Tat-Ugek Tat-Utyak Tatra Tingiz Tuldila Uldin_Uldin Uturgur Vund_Vund Zabergan
+			Alfrid_Alfred Boghoris_Bogoris Gaskar_Gaskar Ildus_Ildus Ilgiz_Ilgiz Irek_Irek Rawil_Rawil Timer_Timer Zinetula_Zinetula Rostam_Rostam
+		}
+		female_names = {
+			N'Kara Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin
+			Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Toregene Yesugun Yesui Hoelun
+			Aibanu_Aibanu Alsu_Alsu Chachak_Chachak Firaya_Firaya Guzalia_Guzalia Ilsat_Ilsat Wenera Tansilu_Tansilu Maftukha_Maftukha
+		}
+		
+		from_dynasty_prefix = "ve "
+		
+		male_patronym = "y fyrt"
+		female_patronym = "y chyzg"
+		prefix = no
+		founder_named_dynasties = yes
+		count_titles_hidden = yes
+		#duke_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		allow_in_ruler_designer = no
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	################
+	
+	
+	turkish = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Cagri Caka Afsin Ahmet_Ahmad Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz Aydin Aydogan Aydogdu Aytekin Boru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend
+			Davud_David Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan_Hasan Hizir Ibrahim_Abraham Ilgazi Inal Iskender_Alexander Kurboga Kaikaus Kaikhusraw Kaiqobad Kara Karatay Kasim Kaya Kaytun Kemal Kilic Korkut Kutalmis Kutay Kutlug Mursel Mahmud_Mahmud Mehmed_Muhammad Meliksah Mengucek Mesud_Masud Murad_Morad Mustafa_Mustafa Orhan Osman Porsuk Rustem Ramazan_Ramadan Ridvan Sobuk Sokmen Sonmez Suleyman_Solomon Saim Saltuk Saruca Savtekin Savur Sehinsah_Shahanshah Selcuk Selim_Salim Sencer Sinan Tanrivermis Tekin Timurtas Togay Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluc Umur Yakut Yaman Yinal Yunus_Jonah
+		}
+		female_names = {
+			Cicek_Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Aslihan Ayasun Ayla Ayse Ayten Azize Bahar Banu Bozcin Canan Ceylan Dunya Dilber Dilek Emine
+			Esin Fatma_Fatima Firuze Gulcicek_Gulcicek Gulay Gulbahar Gulfem Gulsum Gumus Gunduz Gundes Gunes Hatice Hayat Huriye Ilkay Ilknur Ipek Ipekel Irge
+			Karacik Lale Leyla_Laila Mala Mansure Merve Mutlu Nagihan Nergis Neslihan Nilufer Nur Peksen Terkhen Samur Sarica Sati Sehnaz Serap Serife Sevilay
+			Sevindik Sibel_Sibylla Sirin Sirma Songul Sumru Tekce Tura Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal
+		}
+		
+		from_dynasty_prefix = "ve "
+		
+		male_patronym = "oglu"
+		prefix = no
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	pecheneg = { # Oghuz Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+            Celgil Aba Baitzas Balgor Batan Batas Bator Bayca Bickili Bizel Boru Bula Giazis Ildey Ipa Ipaos Kabuksin Karaca Kaydum Kegen Konel  
+			Korkutan Kortan Kostas Kourkoutai Kuerci Kugel Kure Sol Suru Tatus Teber Temir_Timur Tyrach Yavdi Yazi Yeke
+		}
+		female_names = {
+			Cicek_Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekce Tura Umay Usunbike Yasar Yeldem Yildiz
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	cuman = { # Kipchak Turkish
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Cilbu Aepak Asalup Asep Atrak Bonek Bachman Begluk Blush Bonyak Borc Eldecyuk Etrek Girgen Gzi Itlar Ituk Koncek Kobyak Kopti Kotyan Koza
+			Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenc Sircan Sokal Sotan Sugr Tortogul Togli Tolun Tugor Uzluk Uzur
+		}
+		female_names = {
+			Cicek_Cicek Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekce Tura Umay Usunbike Yasar Yeldem Yildiz
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	khazar = { # Oghur Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Alp Araslan_Arslan Bagha Baghatur Balgici Barjik Barsbek Bastu Bashtwa Bihor Bori Bugha Bulan Bulcan Busir Buzer Cat Cat'n Corpan Ilik Iltabar Itakh Kamaj Karadakh Kayghalagh Khatir Khuterkin
+			Kibar Kisa Kundaciq Kundac Manar Manas Menumarot Otemis Papacyz Samsam Sartac Simsam Tabar Tabghac Tarkhan Tarmac Tuzniq Vakrim Yabghu Yavantey Yencepi Yerneslu Yectirek Yilig
+			Belet Ezra Hanukkah Hezekiah Isaac_Isaac Manasseh_Manasseh Nisi Yavdi Zebulun
+		}
+		female_names = {
+			Cicak_Cicek Ceceppi Cecki Cectilet Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcicak_Gulcicek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+			Karacik Katyarikka Kelnissa Kelyamal Khatun Larkka Lyukha Mala Maturkka Mutlu Naca Parsbit Patiyer Paykelti Peksen Puyantay Samur Sarantay Sara Sarica Sarikel 
+			Sati Savacka Savkelti Savtilek Savilay_Sevilay Savintik_Sevindik Shurkka Sibel Sirin Sirma Songul Tahtani Tekce Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek 
+		}
+		
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	bolghar = { # Oghur Turkish
+		graphical_cultures = { turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+		
+		male_names = {
+			Almish Alzek Anzi Apskhih Araslan_Arslan Asparukh Balamber_Balambar Bars Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh 
+			Dizeng Dometa Dristar Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh Ispor Kalac Kano Karan Karaton
+			Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi 
+			Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar_Bakhtiar Paval Praksa Rassate Rugila Sabin Sandil Sandilkh Sarkhan Sartac Savin Sevar Shilki 
+			Sondoke Tahtaman Tarasiy Taridin Tatra Telec Telerig Tervel Timer_Timur Timerec Timerpalat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor Uturgur Vakrim Venda Vetam Vinekh Yani 
+			Yavantey Yencepi Yerneslu Yectirek Zabergan Zenti Tukiy Aydar Irkhan Batir
+
+		}
+		female_names = {
+			Cecek_Cicek Ceceppi Cecki Cectilet Cilen Ciltanesi Ozgul Ozlem Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulcecek_Gulcicek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+			Karacik Katyarikka Kelnissa Kelyamal Larkka Lyukha Mala Maturkka Mutlu Naca Patiyer Paykelti Peksen Puyantay Samur Sarantay Sara Sarica Sarikel 
+			Sati Savacka Savkelti Savtilek Savilay_Sevilay Savintik_Sevindik Shurkka Sibel Sirin Sirma Songul Tahtani Tekce Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek 
+		}
+
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	avar = { # Oghur Turkish
+		graphical_cultures = { turkishgfx easterngfx }
+		secondary_event_pictures = bedouin_arabic
+
+		color = { 0.85 0.75 0.50 }
+		alternate_start = {
+			OR = {
+				year < 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+
+		male_names = {
+			Almish Alp Alzek Anzi Apskhih Araslan_Arslan Asparukh Bagha Baghatur Balambar_Balambar Barjik Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha Bughra Bulan Bulger Bulcan Busir Buzan Buzer Balgici Bori 
+			Chepa Chinialush Dengizikh Dizeng Dometa Dristar Drong Dukum Elemag Ellak Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Ilik Iltabar Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh Karan Karaton Kardam Kayghalagh Kharaton Khatir Khinialon 
+			Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundac Kundaciq Kurt Kutrigur Kalac Labertam Magotin Malamir Mugel Manar Manas Menumarot Odolgan Okhsi Okhsun Okors Omurtag Onegavon Organ Organa Ornag 
+			Oshi Ostro Pagan Pakhtiyar_Bakhtiar Papacyz Paval Praksa Rassate Rugila Sabin Samsam Sandil Sandilkh Sarkhan Sartac Savin Sevar Shilki Simsam Sondoke Tabghac Tarasiy Taridin Tarkhan Tarmac Tatra Telec Telerig Tervel Timer_Timur Timerec Timerpalat 
+			Tingiz Tiradin Toghan Toghril_Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Tabar_Teber Tahtaman Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yencepi Yerneslu Yectirek Yilig Zabergan Zenti Cat Cat'n Corpan Otemis
+
+		}
+		female_names = {
+			Akgul Asli Ayasun Ayten Bozcin Dilek Esin Gulay Gulcicak_Gulcicek Gundes Gunduz Gunes Ikalay Ilkay Ipek Ipekel Irge Karacik Khatun Katyarikka Kelnissa Kelyamal Lyukha Larkka Mala Maturkka Mutlu Naca Parsbit Patiyer Paykelti Peksen 
+			Puyantay Samur Sarantay Sarica Sarikel Sara Sati Savacka Savilay_Sevilay Savintik_Sevindik Savkelti Savtilek Shurkka Sibel Sirin Sirma Songul Tekce Tura Tahtani Umay Usunbike Yartilek Yasar Yeldem Yildiz Ceceppi Cecki
+			Cectilet Cilen Ciltanesi Cicak_Cicek Ozgul Ozlem
+		}
+
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	karluk = {
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Adigh Adigh Aghuliq Agut Alip Alipqutlugh Alipshalci Alipshul Aliptegin Anar Apit Aqunci Arslan Aruq Asuq Aydaq Aycur Bagha Baghir Barcuq Baris 
+		 	Barisbek Baytash Bayca Bayirqu Bazir Bilge Bilga Bilgategin Boyla Bughra Bughracuq Bumin Bumin Buqa Buqacuq Buquq Buyruq Bogu Bokiye Bori 
+            Boritegin Bortil Bulin Bulun Buri Ebiztir Elig Eltugun Elci Eneligcur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke Etmish Ecshun Hidir 
+            Iletmish Ilmish Ilterish Iltughun Ilcur Inancu Inek Inel Isbar Istami Jegen Jegin Jelme Jukun Jukuntirig Jurkun Jurukum Juz Juzyapiq Juci Jami 
+            Kara Ketim Kecig Kutsha Kilic Kokmish Koksagun Kopek Kortile Kugir Kul Kulbilga Kultegin Kultudun Kulcur Kulug Kuni Kurebir Kurtel Kucarslan 
+            Kuclug Kucuri Maqarac Maqrac Mukan Manlik Oghlan Oghul Oghulbaris Oghulcak Ontutuq Ozmush Pulun Qapaghan Qarabaris Qazghaq Qumash Quni Qutlugh 
+            Saghunaq Saghciq Sagun Satuq Satuqbughra Sebuk Sebuktegin Senram Shalci Shughur Shonuz Shumul Soge Suluk Sucug Tabgac Tadqish Tadqishcor Tafac 
+            Tamgac Tamghan Tamghancur Tapa Tardu Tardush Tarqan Tatpar Tegin Tekesh Tersin Tenirikan Tinsi Tirig Toghan Toghril Togluq Tojgan Torghul Tonga 
+            Tonra Tonrategin Tonuz Tugan Tughrul Tugun Tunyuquq Tutuq Toles Tomur Tuzmish Udun Udur Umac Uqugh Urun Ushlik Yaghizcor Yaghici Yamtar 
+            Yaraq Yaruq Yaruqtegin Yarish Yigencur Yola Yollughtegin Yolluq Yorcin Yilqi Caghri Caca Can Cekun Cecem Cigshi Cigsu Cor Cuci Cuciburi Ïshbara 
+            Ïtaciq Oge Ogune Orge Ozmish Oztoghdi Ozyegen Ozuge Ozuncu Ocen Uge Ulug Ucsi
+		}
+		female_names = {
+		 	Artuc Azgan Beslik Bulit Burtam Elbeslik Ershen Ilbeslik Ilbilga Kadin Katun Otqan Qaraqaz Sarigha
+			Teken Tenriken Terek Tecush Tograk 
+            Umay Yiltis Yigash Yilgun Yilqi Cecek Orun Otuken Ukukun
+		}
+		
+		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	kirghiz = {
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Aday Adigh Adigh Aghuliq Agut Aka Alas Alcibay Alip Alipshalci Alipshul Amas Anar Anis Apit Aqunci Arslan Aruk Aruq Astaanci Astam Asuq Aya 
+            Ayaltin Ayan Ayas Aydaq Aydas Aycur Bagha Baghir Barsbeg Barcuq Baris Barisbek Bayca Bayirqu Bilge Bilga Boyla Bughra Bumin Bumin Buqa Buqacuq 
+            Buquq Buyruq Bogu Bokiye Bori Bortil Bulin Bulun Buri Ebiztir Elig Eltugun Elci Eneligcur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke 
+            Etmish Ecshun Hozan Iletmish Ilterish Iltughun Ilcur Inancu Inek Inel Isbar Istami Jaglaqar Jegen Jegin Jelme Jukun Jukuntirig Jurkun Jurukum 
+            Juz Juzyapiq Juci Jami Kanza Kara Karol Ketim Kecig Kokan Kokotoy Kokmish Kopek Kortile Kugir Kul Kultegin Kultudun Kulcur Kulug Kuni Kurebir 
+            Kurtel Kuske Kuclug Kucuri Manas Maqarac Maqrac Mukan Mukka Mustakkay Manlik Oghlan Oghul Oghulbaris Ontutuq Oudun Ozmush Ocan Parush Pulun 
+            Qapaghan Qarabaris Qazghaq Qumash Quni Qutlugh Saghunaq Saghciq Sanaan Sappash Seitek Semetei Senram Shadrash Shalci Shapkay Sheltrek Shughur 
+            Shonuz Shumul Sodan Sucug Tadqish Tadqishcor Talay Tamghan Tamghancur Tapa Tardu Tardush Tarqan Tatpar Tegin Tekesh Tersin Tenirikan Tinsi Tirig 
+            Toghan Toghril Togluq Tojgan Tolday Torday Tottolush Tonra Tonrategin Tonuz Tugan Tugun Tunyuquq Tutuq Toles Tomur Tulgu Tuzmish Udun Udur Ulug 
+            Ulugbash Umac Uqugh Urun Yaghizcor Yaghici Yamtar Yapiq Yaraq Yaruq Yaruqtegin Yarish Yigencur Yola Yollughtegin Yolluq Yorcin Yilqi Cabas Calbah 
+            Cama Carkop Cayah Caca Can Cekun Cecem Cigshi Cigsu Ciis Cola Colbanah Cor Cortah Cudan Cuhul Cuci Cuciburi Cinma Ïshbara Ïtaciq Oge Ogune Orge 
+            Ozmish Oztoghdi Ozyegen Ozuge Ozuncu Ocen Uge Ulug Ucsi
+			Manas Semetei Seitek Barsbeg Kokotoy Jaglaqar Tardush
+		}
+		female_names = {
+			Begayim Jibek
+			Ancak Artuc Atlas Azgan Begayim Beslik Bulit Burtam Elbeslik Ershen Ilbeslik Ilbilga Jibek Kadin Karligash Katun Manu Otqan Pekash Qaraqaz Sarigha Teken Terek
+            Tecush Tenriken Tograk Umay Yiltis Yigash Yilgun Yilqi Cecek Cibak Coonhis Custuk Cabalka Cacah Cahayah Cohiray Ïzigas Ïzirga Ïzirgacah Orun Otuken Ukukun
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+		
+		male_patronym = " uulu"
+		female_patronym = " kyzy"
+		prefix = no # The patronym is added as a suffix
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	uyghur = {
+		graphical_cultures = { cumangfx turkishgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Bilge Cor Uge Barchuq Tomur Bars Adigh Buqa Manglik Ozmish
+			Adigh Aghuliq Agut Alip Alipqutlugh Alipshalci Alipshul Anar Apategin Apit Aqunci Arslan Aruq Asuq Atutuq Aydaq Aycur Baatur Bagha Baghir Barchuq 
+            Barghut Bars Barcuk Barcuq Baris Barisbek Basmil Bayan Bayancur Bayca Bayirqu Bilge Bilga Boyla Bughra Bumin Bumin Buqa Buqacuq Buquq Buyruq 
+            Bogu Bogubilga Bokiye Bori Bortil Bora Bulin Bulun Buri Ebiztir Elig Eltugun Elci Eneligcur Enoz Erdem Eregje Erin Erkin Esdem Eshime Eshinke Etmish 
+            Ecshun Ilbilga Iletmish Iltamur Ilterish Iltughun Ilcur Inancu Inek Inel Irkin Isbar Istami Jegen Jegin Jelme Jukun Jukuntirig Jurkun Jurukum Juz Juzyapiq 
+            Juci Jami Kara Kesmez Ketim Kecig Kirasiz Kutan Kanciq Kokmish Koncog Kopek Kortile Kugir Kul Kultegin Kultudun Kulcur Kulug Kuni Kurebir Kurtel 
+            Kuclug Kucuri Mamuraq Maqarac Maqrac Moyancur Mukan Manglik Manlik Neguril Oghlan Oghul Oghulbaris Ontutuq Ormizt Ormuz Ozmush Pulun Qapaghan Qarabaris 
+            Qaya Qazghaq Qoshun Qosqar Qumash Quni Qutadmish Qutlugh Rukshin Saghunaq Saghciq Salindi Sengi Senram Shalci Shughur Shonuz Shumul Sucug Sunulug 
+            Tadqish Tadqishcor Tamghan Tamghancur Tapa Tardu Tardush Tarkhan Tarqan Tatpar Taypindu Tamirbuqa Tegin Tekesh Tersin Tenribogu Tenirikan Tigin Timur Tinsi 
+            Tirig Toghan Toghril Togluq Tojgan Tonra Tonrategin Tonuz Tugan Tugun Tunyuquq Tutun Tutuq Tamir Tamirbuqa Toles Tomur Tuzmish Udun Udur Umac 
+            Uqugh Urun Yaghizcor Yaghici Yamtar Yapiq Yaraq Yargat Yaruq Yaruqtegin Yarish Yasu Yigencur Yola Yollughtegin Yolluq Yorcin Yilqi Caca Can 
+            Cekun Cecem Cigshi Cigsu Cintimur Cor Cuci Cuciburi Ïshbara Ïtaciq Oge Oghrunc Ogune Orge Ozmish Oztoghdi Ozyegen Ozuge Ozuncu Ocen Uge Ulug Uluk Ucsi
+		}
+		female_names = {
+			 Artuc Azgan Beslik Bulit Burtam Elbeslik Ershen Ilbeslik Ilbilga Kadin Katun Lahpciq Marjan Nayintay Otqan Qaraqaz Sarigha Sutqiz Teken 
+            Terek Tecush Tenriken Tograk Umay Yiltis Yigash Yilgun Yilqi Cecek Orun Otuken Ukukun
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+
+	mongol = {
+		graphical_cultures = { mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		horde = yes
+		
+		color = {0.85 0.75 0.50 }
+
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
+			Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu
+			Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen 
+			Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin
+			Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur_Timur
+			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+		}
+		female_names = {
+			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Toregene Yesugun Yesui Hoelun
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+	
+	khitan = {
+		graphical_cultures = { chinesegfx mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		horde = yes
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Abaoji Abugu Aguo Alian Anduan Axin Baling Bancai Bei Biegute Bishe Chala Chucai Dashi Deguang Dilie Dilu Dinianzhuli Duba Duolubu Duoluo Fuguzhi Gaoqi Gou'er Gou’er Gunai Guozhe Hanshe Hechen Heluwo Helu 
+			Hongji Hougu Hudugu Hudujin Jilujuan Jing Jinshan Julu Juqu Kailuo Keling Ketuyu Kuge Lihu Liuge Loguo Mergan Mohuai Mohuba Mohui Mopei Muyan Nieli Noulisi Nuohebo Nuosi Pidi Pidie Pogu Puhui Qidegui Qinde 
+			Qinu Qizhen Quju Qulu Qushu Rian Rilujuan RuanSuogu Saba Salade Saladi Shancai Shaogu Shefuchen Shegui Shifang Shihuo Shilu Shouguonu Shulu Sibu Sougu Tanmozhe Tiande Tiebu Tongguyu Tuyu Wenshunu Wogan Wolila 
+			Wuge Wuwuchen Wuyu Xian Xibaxiong Xiduguan Xiuge Xi’er Xi’erzhi Xuedu Yali Yaliguo Yanchege Yanxi Yaogu Yaoshinu Yexian Yidougui Yilie Yudu Yudugu Yundeshi Zhengge Zhigu Zhiligu Zhilugu Zhongyuan Zhulie Zongzhen
+		}
+		female_names = {
+			Bage Boshi Changshou Chaogui Cuiba Dianni Jiuge Kedun Lubugu Noujin Ping Pusuwan Saige Shige Shuge Shuogu Sokhatai Tabuyan Taige Taoge Xiao Xiao-Wen Xingge Yalixin Yange Yanmu Yanyan Yingtian Yueliduo
+		}
+		
+		dynasty_title_names = yes
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+
+	jurchen = {
+		graphical_cultures = { chinesegfx mongolgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
+		dynasty_name_first = yes
+
+		horde = yes
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {			
+			Abaohan Abulang Agu Aguda Agunai Aguo Aha Ahacu Ahai Ahaibaifu Aisi Aisiha Ajungha Albasaeri Ali Alihan Alihemen Alin Alu Alubu Aludai Aluhan Aluobuhua Aluwan Ancen Ancu Andahai Aodi Asur Asentan Asingha Bahai Bahei Bahulu Baifu Baoci Baohuoli Barha Beilu Biefoga Bugil Bulo Bulaegaemaihu Cala Cangho Caoha Cenhulagae Cotoya Cunggelo Caegae Caejae Caendapan Caenhulagae Daijuhu Daisu Dalunha Dasin Digunai Diku Dili Diligi Dingge Dingju Disun Dorbi Dumu Dusi Dzhin Ecu Eiyeku Eiaelu Eliduo Elu Elubu Eluguan Elun Fanca Fannu Faensi Giahuci Giohua Gioli Guantu Gulan Gusa Gaecibuhua Gaejeae Hacaha Hadar Hanpu Hansi Hasaiae Haaeu Heda Hela Helibo Hesun Heye Hezhe Hezhenbao Hesi Hesitan Hubosu Hudun Huihou Hulijia Hulu Hulubu Hushahu Hushida Husurugai Husuraegai Hutunla Hutuwa Hucienu Husa Ibaha Icigae Ihalaci Iji Ilungha Inginggia Ingjina Irnuraeu Isiha Jabingia Jahodai Jahudai Jaligi Jogosang Juguta Julae Jilunggusu Kunaha Kunuma Kusinu Labuda Loloho Lousi Manduhe Mangda Mapo Meng’an Mentemu Miesinu Moliye Muha Mutalu Mutawuta Maedeae'ae Naduosi Nanhe Nianhan Nibuci Nigae Nijaengae Ninggisa Ninggujua Ningji Ningjiasu Nudaegae Nuhu Nujaenge Nulinai Ohaenaegae Oon Pandu Pocisu Pudu Puladu Pulihei Puluhu Pusulie Sagai Sagezhou Sahamieae Sahani Saiha Sain Salinian Satsi Soli Songge Sonu Souru Suike Sungida Siaoha Tege Telin Tudu Tugesu Tunon Tusinge Cala Cinu Uda Udaun Udisa'ae Uhuwae Ulu Usinha Weicin Wennu Woben Wodai Wohu Wolibu Wolie Woli’an Wolu Wolun Wosai Woye Wozhe Wucimai Wudubu Wugucu Wugunai Wulie Wuyasu Wuzhu Waeuanjae Yacinggia Yangdai Yangha Yangmudau Yansun Yawuta Yingge Yinzhuke Yongji Yunji Zhanmeihe Zhusennu Aelijesaenae Aenciaeng Aesuraeku Aetae Salungha Sangnggu Sengguo Sensi’abu Sentumen Siebucu Siekude Sielihu Sielu Sieyibao Sigiyanu Sigunai Sijianu Silu Silula Sinde Sinilie Sisihuan Sunian Suntcing Sibua Silangha Silu Silungha Singsi Sipuni
+		}
+		female_names = {			
+			Abha Abuha Aciburu Aihuma Alan Alihu Ambala Amban Ancun Ania Baiyang Bia Bira Boroaeri Buctunggi Bugu Buiyemei Bulaehei Buraeki Caca Cicihei Dahumo Dala Diben Dirgara Dohomo Dorhon Dulun Dunuke Duwaebae Eihaen Feicen Fonto Fontomo Fulagiaen Giahun Gluma Gorhon Guifala Gulmahai Gaetilae Indahong Inaenggi Jabu Jalur Jaolamai Juhae Jaeku Jirijihaei Liwaha Laefu Meihae Miehae Minggan Monon Morin Mudur Mudusae Mulan Munggan Muwae Maecu Maedaeri Maejilaen Maejilaenbae Nadan Nailahu Narhun Ngauyahu Nienieaeri Niogohae Nionieha Nongiaen Orho Orhoda Orin Oso Osiha Pula Puluhuzhi Sadugai Saimanggi Samao Sibiehung Sisaeri Sogiaen Songgi Suan Sufa Suhae Saekae Tasha Tugi Tumaen Tunggi Tuwaeri Ulhu Ulin Ulu Ulya Unduhung Uyewun Usin Wanduhung Weihan Wulu Yewuju Zhusiban Zhusihui Aerdae Sagulizhen Sigge Sigu Sigu’er Soun Sumu Sunja Saenun Silasun Silaeun Singae Sirha
+
+		}
+		
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+}

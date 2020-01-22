@@ -1,0 +1,22 @@
+# 685 - Urmia
+
+# County Title
+title = c_urmia
+
+# Settlements
+max_settlements = 6
+b_urmia = castle
+b_khoy = city
+b_gilzan = temple
+
+#b_modiriyyat = castle
+#b_chaldiran = castle
+#b_charekelisa = temple
+b_salmas = castle
+#b_mahabad = city
+
+#Misc
+culture = kurdish
+religion = zoroastrian
+
+# History

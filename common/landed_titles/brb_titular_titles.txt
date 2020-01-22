@@ -1,0 +1,23 @@
+######################################################
+##			BARBARIA - TITULAR TITLES	    	    ##
+######################################################
+d_gaeldom = {
+	culture = gaelic
+	religion = danuic
+	
+	color={ 65 158 139 }
+	color2={ 255 255 255 }
+	capital = 49 #Carrick
+	
+	gaelic = "Gaelchultúr"
+	irish = "Gaelchultúr"
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip  = {
+			ai = no
+		}
+		culture = gaelic
+		num_of_count_titles = 4
+	}
+}

@@ -1,0 +1,16 @@
+# 1727 - Arigh
+
+# County Title
+title = c_arigh
+
+# Settlements
+max_settlements = 2
+
+b_arigh = castle
+#b_ajlu
+
+# Misc
+religion = berber
+culture = numidian
+
+# History

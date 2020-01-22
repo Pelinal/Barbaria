@@ -1,0 +1,23 @@
+# 559 - Crimea
+
+# County Title
+title = c_crimea
+
+# Settlements
+max_settlements = 5
+b_bakhchisaray = tribal
+b_aqmescit = temple
+
+#b_dzhankoy = city
+
+#b_saq = castle
+#b_perekop = castle
+#b_qarasuvbazar = castle
+#b_kezlev = castle
+#b_qurman = castle
+
+# Misc
+culture = gothic
+religion = germanic_pagan
+
+# History

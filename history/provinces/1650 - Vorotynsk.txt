@@ -1,0 +1,22 @@
+# 1650 - Vorotynsk
+
+# County Title
+title = c_vorotynsk
+
+# Settlements
+max_settlements = 3
+
+b_vorotynsk = tribal	#1155
+
+#b_mchensk	#1147
+#b_odoyev	#XIVth
+#b_suvorova	#XVth
+#b_plavsk
+#b_chern
+#b_somovo
+
+# Misc
+culture = polan
+religion = slavic_pagan
+
+# History

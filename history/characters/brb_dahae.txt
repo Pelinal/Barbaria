@@ -1,0 +1,51 @@
+## DAHAE CHARACTERS ##
+## From IDS 1750-1999   ##
+
+1750 = { # Pravare, vassal duke of Merv
+    name = "Pravare"
+    religion = "zoroastrian"
+    culture = "dahae"
+    dynasty = 111
+	
+	add_trait = cynical
+	add_trait = theologian
+	
+    584.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = 1751
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1751 = { # Arjuna, vassal duke of Merv's wife
+    name = "Arjuna"
+    religion = "heptadic"
+    culture = "dahae"
+	female = yes
+	
+	add_trait = fair
+	
+    584.1.1 = {
+		birth = yes
+	}
+	643.1.1 = {
+		death = yes
+	}
+}
+
+1752 = { # Uposathe of Urgench
+    name = "Uposathe"
+    religion = "zoroastrian"
+    culture = "dahae"
+	
+    590.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}

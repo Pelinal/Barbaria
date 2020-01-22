@@ -1,0 +1,16 @@
+# 2038- Ebla
+
+# County Title
+title = c_ebla
+
+# Settlements
+max_settlements = 4
+
+b_ebla = castle
+b_khyrros = city
+#b_aliareia = temple
+#b_chalkis_belos = temple
+
+#Misc
+culture = phrygian
+religion = hellenic

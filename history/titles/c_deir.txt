@@ -1,0 +1,19 @@
+540.1.1 = {
+	liege = e_persia
+	holder = 352 # Golon Mihran
+}
+574.1.1 = {
+	holder = 350 # Shahrwaraz Mihran
+}
+630.4.28 = {
+	holder = 351 # Shapur Mihran
+}
+630.6.2 = {
+	holder = 353 # Mirhran, wife of Shahrwaraz
+}
+635.1.1 = {
+	holder = 1004 # Niketas, greek son of Shahrwaraz
+}
+670.1.1 = {
+	holder = 0
+}

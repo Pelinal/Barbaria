@@ -1,0 +1,22 @@
+# 2016 - Uruk
+
+# County Title
+title = c_uruk
+
+# Settlements
+max_settlements = 7
+
+b_uruk = castle
+b_eanna = city
+b_anu = temple #Chaldean holy site
+b_kullaba = city
+#b_shutur_el_sharri = city
+#b_ziggur_inanna = temple 
+#b_enmerkara = temple
+
+
+#Misc
+culture = sumerian
+religion = chaldean
+
+974.1.1 = { b_enmerkara = temple }

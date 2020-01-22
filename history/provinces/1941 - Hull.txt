@@ -1,0 +1,19 @@
+# County Title
+title = c_hull
+
+# Settlements
+max_settlements = 4
+b_stamford_bridge = tribal
+b_beverley = temple
+b_wyke = tribal
+
+#b_hull = castle
+#b_guildhall = castle
+#b_bridlington = city
+#b_hornsea = castle
+
+# Misc
+culture = cumbric
+religion = brythonic
+
+# History

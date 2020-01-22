@@ -1,0 +1,15 @@
+# 1815 - Yeruslan
+
+# County title
+title = c_yeruslan
+
+# Settlements
+max_settlements = 2
+b_yeruslan = tribal
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History
+

@@ -1,0 +1,400 @@
+### Mesopotamian Dynastic Names ###
+# e.g. Akkadian, Aramaic, Assyrian and Sumerian
+# 1- 99?
+
+# Akkadian Dynasties
+1 = {
+	name = "Ayyabuti"
+	culture = "akkadian"
+}
+2 = {
+	name = "Ayyakki"
+	culture = "akkadian"
+}
+3 = {
+	name = "Azamriti"
+	culture = "akkadian"
+}
+4 = {
+	name = "Azari"
+	culture = "akkadian"
+}
+5 = {
+	name = "Babalti"
+	culture = "akkadian"
+}
+6 = {
+	name = "Babari"
+	culture = "akkadian"
+}
+7 = {
+	name = "Balati"
+	culture = "akkadian"
+}
+8 = {
+	name = "Niptsi"
+	culture = "akkadian"
+}
+9 = {
+	name = "Nitsirti"
+	culture = "akkadian"
+}
+10 = {
+	name = "Ninmul"
+	culture = "akkadian"
+}
+11 = {
+	name = "Shaddui"
+	culture = "akkadian"
+}
+12 = {
+	name = "Shagimi"
+	culture = "akkadian"
+}
+13 = {
+	name = "Shahapi"
+	culture = "akkadian"
+}
+14 = {
+	name = "Shunnati"
+	culture = "akkadian"
+}
+15 = {
+	name = "Taqqiti"
+	culture = "akkadian"
+}
+16 = {
+	name = "Taqridi"
+	culture = "akkadian"
+}
+17 = {
+	name = "Taqrubti"
+	culture = "akkadian"
+}
+18 = {
+	name = "Targagi"
+	culture = "akkadian"
+}
+19 = {
+	name = "Tarkubti"
+	culture = "akkadian"
+}
+20 = { # Vassal Akkadian Dynasty
+	name = "Bit-Uri"
+	culture = "akkadian"
+	used_for_random = no
+}
+
+# Sumerian Dynasties
+21 = {
+	name = "Ayyabuti"
+	culture = "sumerian"
+}
+22 = {
+	name = "Ayyakki"
+	culture = "sumerian"
+}
+23 = {
+	name = "Azamriti"
+	culture = "sumerian"
+}
+24 = {
+	name = "Azari"
+	culture = "sumerian"
+}
+25 = {
+	name = "Babalti"
+	culture = "sumerian"
+}
+26 = {
+	name = "Babari"
+	culture = "sumerian"
+}
+27 = {
+	name = "Balati"
+	culture = "sumerian"
+}
+28 = {
+	name = "Niptsi"
+	culture = "sumerian"
+}
+29 = {
+	name = "Nitsirti"
+	culture = "sumerian"
+}
+30 = {
+	name = "Ninmul"
+	culture = "sumerian"
+}
+31 = {
+	name = "Shaddui"
+	culture = "sumerian"
+}
+32 = {
+	name = "Shagimi"
+	culture = "sumerian"
+}
+33 = {
+	name = "Shahapi"
+	culture = "sumerian"
+}
+34 = {
+	name = "Shunnati"
+	culture = "sumerian"
+}
+35 = {
+	name = "Taqqiti"
+	culture = "sumerian"
+}
+36 = {
+	name = "Taqridi"
+	culture = "sumerian"
+}
+37 = {
+	name = "Taqrubti"
+	culture = "sumerian"
+}
+38 = {
+	name = "Targagi"
+	culture = "sumerian"
+}
+39 = {
+	name = "Tarkubti"
+	culture = "sumerian"
+}
+40 = { # Vassal Sumerian Dynasty
+	name = "Shinnari"
+	culture = "sumerian"
+	used_for_random = no
+}
+
+# Assyrian Dynasties
+41 = {
+	name = "Bukhtishu"
+	culture = "assyrian"
+}
+42 = {
+	name = "Qatwa"
+	culture = "assyrian"
+}
+43 = {
+	name = "Nimreh"
+	culture = "assyrian"
+}
+44 = {
+	name = "Gazarta"
+	culture = "assyrian"
+}
+45 = {
+	name = "Salamas"
+	culture = "assyrian"
+}
+46 = {
+	name = "Zakho"
+	culture = "assyrian"
+}
+47 = {
+	name = "Arbilaya"
+	culture = "assyrian"
+}
+48 = {
+	name = "Sharar"
+	culture = "assyrian"
+}
+49 = {
+	name = "Ablahat"
+	culture = "assyrian"
+}
+50 = {
+	name = "Aboona"
+	culture = "assyrian"
+}
+51 = {
+	name = "Alamasha"
+	culture = "assyrian"
+}
+52 = {
+	name = "Alawerdy"
+	culture = "assyrian"
+}
+53 = {
+	name = "Amu"
+	culture = "assyrian"
+}
+54 = {
+	name = "Antar"
+	culture = "assyrian"
+}
+55 = {
+	name = "Aprim"
+	culture = "assyrian"
+}
+56 = {
+	name = "Asfar"
+	culture = "assyrian"
+}
+57 = {
+	name = "Ashouri"
+	culture = "assyrian"
+}
+58 = {
+	name = "Baaba"
+	culture = "assyrian"
+}
+59 = {
+	name = "Barkho"
+	culture = "assyrian"
+}
+60 = {
+	name = "Bidawid"
+	culture = "assyrian"
+}
+61 = {
+	name = "de Baz"
+	culture = "assyrian"
+}
+62 = {
+	name = "de Kelaitia"
+	culture = "assyrian"
+}
+63 = {
+	name = "Desho"
+	culture = "assyrian"
+}
+64 = {
+	name = "Duman"
+	culture = "assyrian"
+}
+65 = {
+	name = "Ellaus"
+	culture = "assyrian"
+}
+66 = { # Assyrian Vassal Dynasty 1
+	name = "Es-Haq"
+	culture = "assyrian"
+	used_for_random = no
+}
+67 = {
+	name = "Geevargis"
+	culture = "assyrian"
+}
+68 = {
+	name = "Hasso"
+	culture = "assyrian"
+}
+69 = {
+	name = "Ibrahimi"
+	culture = "assyrian"
+}
+70 = {
+	name = "Jatou"
+	culture = "assyrian"
+}
+71 = { # Assyrian Vassal Dynasty 2
+	name = "Solaimon"
+	culture = "assyrian"
+	used_for_random = no
+}
+72 = {
+	name = "Shimun"
+	culture = "assyrian"
+}
+73 = {
+	name = "Tamraz"
+	culture = "assyrian"
+}
+74 = {
+	name = "Wyrda"
+	culture = "assyrian"
+}
+75 = {
+	name = "Yawalaha"
+	culture = "assyrian"
+}
+76 = {
+	name = "Yukhannan"
+	culture = "assyrian"
+}
+
+# Aramaic Dynasties
+80 = {
+	name = "Tabnaz"
+	culture = "aramaic"
+	used_for_random = no
+}
+81 = {
+	name = "Bokhtishu"
+	culture = "aramaic"
+}
+82 = {
+	name = "Qatwah"
+	culture = "aramaic"
+}
+83 = {
+	name = "Nimreh"
+	culture = "aramaic"
+}
+84 = {
+	name = "Gazarta"
+	culture = "aramaic"
+}
+85 = {
+	name = "Salamas"
+	culture = "aramaic"
+}
+86 = {
+	name = "Zakhu"
+	culture = "aramaic"
+}
+87 = {
+	name = "Arbilaya"
+	culture = "aramaic"
+}
+88 = {
+	name = "Sharar"
+	culture = "aramaic"
+}
+89 = {
+	name = "Ablahat"
+	culture = "aramaic"
+}
+90 = {
+	name = "Abuuna"
+	culture = "aramaic"
+}
+91 = {
+	name = "Alamasha"
+	culture = "aramaic"
+}
+92 = {
+	name = "Alaverdi"
+	culture = "aramaic"
+}
+93 = {
+	name = "Amu"
+	culture = "aramaic"
+}
+94 = {
+	name = "Antar"
+	culture = "aramaic"
+}
+95 = {
+	name = "Aprem"
+	culture = "aramaic"
+}
+96 = {
+	name = "Asfar"
+	culture = "aramaic"
+}
+97 = {
+	name = "Ashourai"
+	culture = "aramaic"
+}
+98 = {
+	name = "Baaba"
+	culture = "aramaic"
+}
+99 = {
+	name = "Barkha"
+	culture = "aramaic"
+}

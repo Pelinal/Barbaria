@@ -1,0 +1,22 @@
+# 1667 - Kholm
+
+# County Title
+title = c_kholm
+
+# Settlements
+max_settlements = 2
+
+b_kholm = tribal
+
+#b_molvotitsy
+#b_lychkovo
+#b_nevskaya
+#b_suchki
+#b_yazhelbitsy
+#b_fishovo
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

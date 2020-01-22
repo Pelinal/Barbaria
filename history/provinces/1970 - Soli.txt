@@ -1,0 +1,15 @@
+# 1970 - Usora
+
+# County Title
+title = c_soli
+
+# Settlements
+max_settlements = 4
+b_doboj = tribal
+
+# Misc
+culture = greco_illyrian
+religion = hellenic
+terrain = mountain
+
+# History

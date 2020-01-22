@@ -1,0 +1,136 @@
+###################################################
+###		Graeco-Italic Religions - Barbaria 	    ###
+###################################################
+
+## Graeco-Italic Group ##
+# Hellenic
+# Italic
+
+graeco_italic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	#color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { hellenic_interface }
+	
+	hellenic = {
+		graphical_culture = hellenicgfx
+
+		icon = 21
+		heresy_icon = 22
+		
+		color = { 0.3 0.37 1 }
+		
+		high_god_name = GOD_ZEUS
+		
+		god_names = {
+			GOD_ZEUS GOD_HERA GOD_HADES GOD_POSEIDON GOD_DEMETER GOD_ATHENA GOD_APOLLO GOD_ARTEMIS GOD_ARES GOD_APHRODITE GOD_HEPHAESTUS GOD_HERMES
+		}
+		evil_god_names = {
+			GOD_CRONUS GOD_DIONYSUS GOD_HADES GOD_TYPHON GOD_ECHIDNA
+		}
+		# Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Aphrodite, Hephaestus, Hermes, and either Hestia or Dionysus.
+		crusade_name = GREAT_HOLY_WAR
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_LEGENDS
+		priest_title = HEIREOS
+		
+		priests_can_marry = no
+		priests_can_inherit = no
+		female_temple_holders = yes
+		
+		pentarchy = yes
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+		
+		allow_in_ruler_designer = yes
+	}
+	
+	mithraic = {
+		graphical_culture = persiangfx
+
+		icon = 21
+		heresy_icon = 22
+		parent = hellenic
+		
+		color = { 54 79 129 }
+		
+		high_god_name = GOD_MITHRAS
+		
+		god_names = {
+			GOD_MITHRAS GOD_ILIO_AITTITI GOD_INVINCIBLE_SUN GOD_THE_SUN
+		}
+		evil_god_names = {
+			AHRIMAN ANGRA_MAINYU
+		}
+		
+		crusade_name = SUN_WAR
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_LEGENDS
+		priest_title = HEIREOS
+		
+		priests_can_marry = yes
+		female_temple_holders = no
+		
+		pentarchy = yes
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		allow_in_ruler_designer = yes
+	}
+	
+	italic = {
+		graphical_culture = hellenicgfx
+
+		icon = 23
+		heresy_icon = 24
+		
+		color = { 0.75 0.07 0.07 }
+		
+		high_god_name = GOD_JUPITER
+		
+		god_names = {
+			GOD_JUPITER GOD_NEPTUNE GOD_PLUTO GOD_JUNO GOD_CERES GOD_MINERVA GOD_MARS GOD_VULCAN GOD_VENUS GOD_APOLLO GOD_DIANA GOD_VESTA
+		}
+		evil_god_names = {
+			GOD_SATURN GOD_BACCHUS GOD_PLUTO GOD_MERCURY GOD_TYPHON
+		}
+		# Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Aphrodite, Hephaestus, Hermes, and either Hestia or Dionysus.
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = AUGUR
+		
+		priests_can_marry = no
+		priests_can_inherit = no
+		female_temple_holders = yes
+		
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+		
+		allow_in_ruler_designer = yes
+	}
+}

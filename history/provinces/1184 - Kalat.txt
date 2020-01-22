@@ -1,0 +1,16 @@
+# 1184 - Kalat
+
+# County Title
+title = c_kalat
+
+# Settlements
+max_settlements = 2
+b_kalat = castle
+
+#b_talq
+
+# Misc
+culture = afghan
+religion = zun_pagan_reformed
+
+# History

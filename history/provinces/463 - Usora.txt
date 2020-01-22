@@ -1,0 +1,15 @@
+# 463 - Donji Kraji
+
+# County Title
+title = c_usora
+
+# Settlements
+max_settlements = 3
+b_banjaluka = tribal
+
+# Misc
+culture = catari
+religion = italic
+terrain = mountain
+
+#history

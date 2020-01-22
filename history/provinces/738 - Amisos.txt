@@ -1,0 +1,22 @@
+# 738 - Amisos
+
+# County Title
+title = c_amisos
+
+# Settlements
+max_settlements = 5
+b_amisos = castle
+b_amasia = city
+b_thermodon = temple
+
+#b_eupatoria = caslte
+#b_phadisane = castle
+#b_neokaisarea = city
+
+# Misc
+culture = pontic
+religion = mithraic
+terrain = mountain
+
+# History
+843.1.1 = { b_eupatoria = castle } 

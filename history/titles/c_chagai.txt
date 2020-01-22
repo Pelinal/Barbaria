@@ -1,0 +1,4 @@
+590.1.1 = {
+	liege = k_baluchistan
+	holder = 1250
+}

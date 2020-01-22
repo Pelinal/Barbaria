@@ -1,0 +1,22 @@
+# 1657 - Voin
+
+# County Title
+title = c_voin
+
+# Settlements
+max_settlements = 2
+
+b_voin = tribal		#russian settlement between 900-1000
+
+b_zolotonosha = tribal
+#b_drabiv		#1680
+#b_chornobai	#1656
+#b_irkliiv		#?
+#b_bohodukhivka	#?
+#b_pishchane	#?
+
+# Misc
+culture = hunnic
+religion = tengri_pagan
+
+# History

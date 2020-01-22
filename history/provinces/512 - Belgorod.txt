@@ -1,0 +1,23 @@
+# 512 - Belgorod
+
+# County Title
+title = c_belgorod
+
+# Settlements
+max_settlements = 4
+
+b_cetatea_alba = tribal
+#b_belgorod = city
+b_tighina = temple	#"Bender" in Turkish
+
+#b_capriana = temple
+#b_chisinau = temple
+#b_causeni = castle
+#b_cedaesti = castle
+
+# Misc
+culture = hunnic
+religion = zalmoxian
+terrain = marsh
+
+# History

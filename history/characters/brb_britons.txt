@@ -1,0 +1,1973 @@
+## BRITON CHARACTERS ##
+## From IDs 3000 -  ##
+
+#Historical Dynasties
+3001 = {
+	name="Gwerthefyr"
+	dynasty=750 #Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=300
+	455.1.1={
+		birth="455.1.1"
+	}
+	540.1.1={
+		death="540.1.1"
+	}
+}
+
+3002 = {
+	name="Cyngar"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3001
+	500.1.1={
+		birth="500.1.1"
+	}
+	570.1.1={
+		death="570.1.1"
+	}
+}
+
+3003 = {
+	name="Pedr"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3002
+	530.1.1={
+		birth="530.1.1"
+	}
+	595.1.1={
+		death="595.1.1"
+	}
+}
+
+3004 = {
+	name="Arthwr"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3003
+	550.1.1={
+		birth="550.1.1"
+	}
+	620.1.1={
+		death="620.1.1"
+	}
+}
+
+3005 = {
+	name="Nowy" # I 
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3004
+	565.1.1={
+		birth="565.1.1"
+	}
+	650.1.1={
+		give_nickname = nick_the_old
+	}
+	650.1.1={
+		death="650.1.1"
+	}
+}
+3006 = {
+	name="Gwlyddien" #Cloten
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3005
+	590.1.1={
+		birth="590.1.1"
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+3007 = {
+	name="Cathen"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3006
+	mother=159330
+	625.1.1={
+		birth="625.1.1"
+	}
+	690.1.1={
+		death="690.1.1"
+	}
+}
+3008 = {
+	name="Cadwgan" # Tredylig
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3007
+	650.1.1={
+		birth="650.1.1"
+	}
+	710.1.1={
+		death="710.1.1"
+	}
+}
+3009 = {
+	name="Rhain"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3008
+	670.1.1={
+		birth="670.1.1"
+	}
+	730.1.1={
+		death="730.1.1"
+	}
+}
+3010 = {
+	name="Tewdos"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3009
+	700.1.1={
+		birth="700.1.1"
+	}
+	760.1.1={
+		death="760.1.1"
+	}
+}
+3011 = {
+	name="Maredudd"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3010
+	730.1.1={
+		birth="730.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+3012 = {
+	name="Owain"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3011
+	760.1.1={
+		birth="760.1.1"
+	}
+	811.1.1={
+		death="811.1.1"
+	}
+}
+3013 = {
+	name="Tangwystyl"
+	female = yes
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3012
+	790.1.1={
+		birth="790.1.1"
+	}
+	850.1.1={
+		death="850.1.1"
+	}
+}
+3014 = {
+	name="Bledrig"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3024
+	790.1.1={
+		birth="790.1.1"
+	}
+	850.1.1={
+		death="850.1.1"
+	}
+}
+3015 = {
+	name="Hyfaidd"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3014
+	mother=3013
+	810.1.1={
+		birth="810.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+3016 = {
+	name="Llywarch"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3015
+	850.1.1={
+		birth="850.1.1"
+	}
+	904.1.1={
+		death="904.1.1"
+	}
+}
+3017 = {
+	name="Elen"
+	female = yes
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3016
+	880.1.1={
+		birth="880.1.1"
+	}
+	904.1.1={
+		add_spouse=81823
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+}
+3018 = {
+	name="Rhain"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3011
+	755.1.1={
+		birth="755.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}
+}
+3019 = {
+	name="Triffyn"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3018
+	770.1.1={
+		birth="770.1.1"
+	}
+	810.1.1={
+		death="810.1.1"
+	}
+}
+3020 = {
+	name="Awst"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3008
+	680.1.1={
+		birth="680.1.1"
+	}
+	730.1.1={
+		death="730.1.1"
+	}
+}
+3021 = {
+	name="Elwystyl"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3020
+	710.1.1={
+		birth="710.1.1"
+	}
+	750.1.1={
+		death="750.1.1"
+	}
+}
+3022 = {
+	name="Tewdwr"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3009
+	701.1.1={
+		birth="701.1.1"
+	}
+	750.1.1={
+		death="750.1.1"
+	}
+}
+3023 = {
+	name="Rhodri"
+	dynasty=750 # Dyfed
+	religion="brythonic"
+	culture="briton"
+	father=3015
+	851.1.1={
+		birth="851.1.1"
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+
+3024 = {
+	name="Iudon"
+	religion="brythonic"
+	culture="briton"
+	dynasty=750 # Dyfed
+	father=3011
+	760.1.1={
+		birth="760.1.1"
+	}
+	827.1.1={
+		death="827.1.1"
+	}
+}
+
+3100 = {
+	name="Argentocoxos"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	187.1.1={
+		birth=yes
+	}
+	248.1.1={
+		death=yes
+	}
+}
+
+3101 = {
+	name="Ru"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3100
+	212.1.1={
+		birth=yes
+	}
+	271.1.1={
+		death=yes
+	}
+}
+
+3102 = {
+	name="Buthut"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3101
+	236.1.1={
+		birth=yes
+	}
+	295.1.1={
+		death=yes
+	}
+}
+
+3103 = {
+	name="Ganant" #Gartnait Ioc
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3101
+	242.1.1={
+		birth=yes
+	}
+	304.1.1={
+		death=yes
+	}
+}
+
+3104 = {
+	name="Breth"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3102
+	260.1.1={
+		birth=yes
+	}
+	311.1.1={
+		death=yes
+	}
+}
+
+3015 = {
+	name="Uipoig"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3103
+	268.1.1={
+		birth=yes
+	}
+	341.1.1={
+		death=yes
+	}
+}
+
+3016 = {
+	name="Canutulachama"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3103
+	275.1.1={
+		birth=yes
+	}
+	345.1.1={
+		death=yes
+	}
+}
+
+3017 = {
+	name="Uuredach"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3015
+	286.1.1={
+		birth=yes
+	}
+	347.1.1={
+		death=yes
+	}
+}
+
+3018 = {
+	name="Ganant"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3017
+	305.1.1={
+		birth=yes
+	}
+	387.1.1={
+		death=yes
+	}
+}
+
+3019 = {
+	name="Ceother"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3017
+	308.1.1={
+		birth=yes
+	}
+	388.1.1={
+		death=yes
+	}
+}
+
+3020 = {
+	name="Aniel"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3016
+	298.1.1={
+		birth=yes
+	}
+	389.1.1={
+		death=yes
+	}
+}
+
+3021 = {
+	name="Telurg"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3020
+	373.1.1={
+		birth=yes
+	}
+	456.1.1={
+		death=yes
+	}
+}
+
+3022 = {
+	name="Telurg"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3019
+	337.1.1={
+		birth=yes
+	}
+	412.1.1={
+		death=yes
+	}
+}
+
+3023 = {
+	name="Uuirp"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3018
+	347.1.1={
+		birth=yes
+	}
+	415.1.1={
+		death=yes
+	}
+}
+
+3024 = {
+	name="Drest"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3023
+	377.1.1={
+		birth=yes
+	}
+	452.1.1={
+		death=yes
+	}
+}
+
+3025 = {
+	name="Naiton"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3023
+	410.1.1={
+		birth=yes
+	}
+	480.1.1={
+		death=yes
+	}
+}
+
+3026 = {
+	name="Brude"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3022
+	375.1.1={
+		birth=yes
+	}
+	442.1.1={
+		death=yes
+	}
+}
+
+3027 = {
+	name="Drest"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3026
+	438.1.1={
+		birth=yes
+	}
+	510.1.1={
+		death=yes
+	}
+}
+
+3028 = {
+	name="Galam"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3026
+	440.1.1={
+		birth=yes
+	}
+	522.1.1={
+		death=yes
+	}
+}
+
+3029 = {
+	name="Uudrost"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3027
+	462.1.1={
+		birth=yes
+	}
+	520.1.1={
+		death=yes
+	}
+}
+
+3030 = {
+	name="Drest"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3029
+	480.1.1={
+		birth=yes
+	}
+	530.1.1={
+		death=yes
+	}
+}
+
+3031 = {
+	name="Girom"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3028
+	462.1.1={
+		birth=yes
+	}
+	514.1.1={
+		death=yes
+	}
+}
+
+3032 = {
+	name="Drest"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3031
+	484.1.1={
+		birth=yes
+	}
+	531.1.1={
+		death=yes
+	}
+}
+
+3033 = {
+	name="Ganant"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3031
+	487.1.1={
+		birth=yes
+	}
+	537.1.1={
+		death=yes
+	}
+}
+
+3034 = {
+	name="Caltram"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3031
+	487.1.1={
+		birth=yes
+	}
+	538.1.1={
+		death=yes
+	}
+}
+
+3035 = {
+	name="Murtolic"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3031
+	486.1.1={
+		birth=yes
+	}
+	530.1.1={
+		death=yes
+	}
+}
+
+3036 = {
+	name="Manath"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3031
+	489.1.1={
+		birth=yes
+	}
+	528.1.1={
+		death=yes
+	}
+}
+
+3037 = {
+	name="Telurg"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3035
+	502.1.1={
+		birth=yes
+	}
+	549.1.1={
+		death=yes
+	}
+}
+
+3038 = {
+	name="Drest"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3036
+	505.1.1={
+		birth=yes
+	}
+	550.1.1={
+		death=yes
+	}
+}
+
+3039 = {
+	name="Galam" #Galam Cennalath
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3038
+	526.1.1={
+		birth=yes
+	}
+	580.1.1={
+		death=yes
+	}
+}
+
+3040 = {
+	name="Aniel"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3039
+	553.1.1={
+		birth=yes
+	}
+	627.1.1={
+		death=yes
+	}
+}
+
+3041 = {
+	name="Telurg"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3040
+	581.1.1={
+		birth=yes
+	}
+	668.1.1={
+		death=yes
+	}
+}
+
+3042 = {
+	name="Mor"
+	female=yes
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3041
+	605.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+
+3042 = {
+	name="Lutrin"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3041
+	644.1.1={
+		birth=yes
+	}
+	687.1.1={
+		death=yes
+	}
+}
+
+
+3043 = {
+	name="Galam"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3042
+	668.1.1={
+		birth=yes
+	}
+	712.1.1={
+		death=yes
+	}
+}
+
+3044 = {
+	name="Uuredach"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3043
+	694.1.1={
+		birth=yes
+	}
+	737.1.1={
+		death=yes
+	}
+}
+
+3045 = {
+	name="Uuroid"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3043
+	697.1.1={
+		birth=yes
+	}
+	742.1.1={
+		death=yes
+	}
+}
+
+3047 = {
+	name="Ciniod"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3044
+	723.1.1={
+		birth=yes
+	}
+	775.1.1={
+		death=yes
+	}
+}
+
+3048 = {
+	name="Elpin"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3045
+	720.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+3049 = {
+	name="Tarla"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3047
+	744.1.1={
+		birth=yes
+	}
+	785.1.1={
+		death=yes
+	}
+}
+
+3050 = {
+	name="Canuall"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3049
+	760.1.1={
+		birth=yes
+	}
+	807.1.1={
+		death=yes
+	}
+}
+
+3051 = {
+	name="Uthoil"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3048
+	737.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+
+3052 = {
+	name="Telurg"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3051
+	765.1.1={
+		birth=yes
+	}
+	837.7.1={
+		death=yes
+	}
+}
+
+3053 = {
+	name="Bargoit"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3050
+	784.1.1={
+		birth=yes
+	}
+	839.1.1={
+		death=yes
+	}
+}
+
+3054 = {
+	name="Uurad"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3053
+	802.1.1={
+		birth=yes
+	}
+	842.1.1={
+		death=yes
+	}
+}
+
+3055 = {
+	name="Bridei"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3051
+	773.1.1={
+		birth=yes
+	}
+	845.1.1={
+		death=yes
+	}
+}
+
+3056 = {
+	name="Bridei"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3054
+	818.1.1={
+		birth=yes
+	}
+	843.7.1={
+		death=yes
+	}
+}
+
+3057 = {
+	name="Ciniod"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3054
+	820.1.1={
+		birth=yes
+	}
+	844.1.1={
+		death=yes
+	}
+}
+
+3058 = {
+	name="Drest"
+	dynasty=950
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="brythonic"
+	culture="pictish"
+	father=3054
+	822.1.1={
+		birth=yes
+	}
+	848.1.1={
+		death=yes
+	}
+}
+
+3059 = {
+	name="Prasutagus" #Prasutagus
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	10.1.1={
+		birth=yes
+	}
+	36.1.1={
+		add_spouse=3070
+	}
+	60.1.1={
+		death=yes
+	}
+}
+3070 = {
+	name="Boudica" #Boudica/Buddug
+	female=yes
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	trait=brave
+	trait=strong
+	trait=fair
+	trait=inspiring_leader
+	trait=aggressive_leader
+	20.1.1={
+		birth=yes
+	}
+	61.1.1={
+		death=yes
+	}
+}
+3071 = {
+	name="Isolda" #unnamed daughter
+	female=yes
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3059
+	mother=3070
+	42.1.1={
+		birth=yes
+	}
+	61.1.1={
+		death=yes
+	}
+}
+3072 = {
+	name="Siora" #unnamed daughter
+	female=yes
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3059
+	mother=3070
+	44.1.1={
+		birth=yes
+	}
+	61.1.1={
+		death=yes
+	}
+}
+
+3073 = {
+	name="Vertiscus"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	mother = 3072
+	500.1.1={
+		birth="500.1.1"
+	}
+	571.1.1={
+		death="571.1.1"
+	}
+}
+3074 = {
+	name="Venutius"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3073
+	520.1.1={
+		birth="520.1.1"
+	}
+	578.1.1={
+		death="578.1.1"
+	}
+}
+3075 = {
+	name="Tasgetius"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3074
+	550.1.1={
+		birth="550.1.1"
+	}
+	616.1.1={
+		death="616.1.1"
+	}
+}
+3076 = {
+	name="Orgetorix"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3075
+	570.1.1={
+		birth="570.1.1"
+	}
+	627.1.1={
+		death="627.1.1"
+	}
+}
+3077 = {
+	name="Elitovius"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3075
+	590.1.1={
+		birth="590.1.1"
+	}
+	630.1.1={
+		death="630.1.1"
+		religion="brythonic"
+	}
+}
+3078 = {
+	name="Sinorix"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3075
+	591.1.1={
+		birth="591.1.1"
+	}
+	634.1.1={
+		death="634.1.1"
+	}
+}
+3079 = {
+	name="Epatticus"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3075
+	571.1.1={
+		birth="571.1.1"
+	}
+	627.1.1={
+		death="627.1.1"
+	}
+}
+3080 = {
+	name="Acco"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3079
+	590.1.1={
+		birth="590.1.1"
+	}
+	654.1.1={
+		death="654.1.1"
+	}
+}
+3081 = {
+	name="Aneroestes"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3079
+	592.1.1={
+		birth="592.1.1"
+	}
+	655.11.15={
+		death="655.11.15"
+	}
+}
+3082 = {
+	name="Arvirargus"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3079
+	595.1.1={
+		birth="595.1.1"
+	}
+	664.1.1={
+		death="664.1.1"
+	}
+}
+3083 = {
+	name="Etitovius"
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3079
+	600.1.1={
+		birth="600.1.1"
+	}
+	636.1.1={
+		death="636.1.1"
+	}
+}
+3084 = {
+	name="Guiderius" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3083
+	635.1.1={
+		birth="635.1.1"
+	}
+	713.1.1={
+		death="713.1.1"
+	}
+}
+3085 = {
+	name="Inammicus" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3084
+	675.1.1={
+		birth="675.1.1"
+	}
+	749.1.1={
+		death="749.1.1"
+	}
+}
+3086 = {
+	name="Boiorix" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3085
+	700.1.1={
+		birth="700.1.1"
+	}
+	760.1.1={
+		death="760.1.1"
+	}
+}
+3087 = {
+	name="Addedomarus" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3085
+	702.1.1={
+		birth="702.1.1"
+	}
+	761.1.1={
+		death="761.1.1"
+	}
+}
+3088 = {
+	name="Aneroestes" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3086
+	725.1.1={
+		birth="725.1.1"
+	}
+	779.1.1={
+		death="779.1.1"
+	}
+}
+3089 = {
+	name="Arverus" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3088
+	750.1.1={
+		birth="750.1.1"
+	}
+	794.1.1={
+		death="794.1.1"
+	}
+}
+3090 = {
+	name="Adminius" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3087
+	725.1.1={
+		birth="725.1.1"
+	}
+	780.1.1={
+		death="780.1.1"
+	}
+}
+3091 = {
+	name="Arverus" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3090
+	751.1.1={
+		birth="751.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+3092 = {
+	name="Andecombogius" 
+	dynasty=751
+	religion="brythonic"
+	culture="briton"
+	father=3091
+	769.1.1={
+		birth="769.1.1"
+	}
+	820.1.1={
+		death="820.1.1"
+	}
+}
+
+#Generic Pictish Characters
+3093 = {
+	name="Cattulanus"
+	dynasty=951
+	religion="brythonic"
+	culture="pictish"
+	581.1.1={
+		birth=yes
+	}
+	636.1.1={
+		death=yes
+	}
+}
+3094 = {
+	name="Aiorix"
+	dynasty=952
+	religion="brythonic"
+	culture="pictish"
+	593.1.1={
+		birth=yes
+	}
+	648.1.1={
+		death=yes
+	}
+}
+3095 = {
+	name="Dumnacus"
+	dynasty=953
+	religion="brythonic"
+	culture="pictish"
+	572.1.1={
+		birth=yes
+	}
+	615.1.1={
+		death=yes
+	}
+}
+3096 = {
+	name="Iccius"
+	dynasty=954
+	religion="brythonic"
+	culture="pictish"
+	591.1.1={
+		birth=yes
+	}
+	615.1.1={
+		death=yes
+	}
+}
+3097 = {
+	name="Carvilius"
+	dynasty=955
+	religion="brythonic"
+	culture="pictish"
+	550.1.1={
+		birth=yes
+	}
+	615.1.1={
+		death=yes
+	}
+}
+3098 = {
+	name="Galba"
+	dynasty=956
+	religion="brythonic"
+	culture="pictish"
+	587.1.1={
+		birth=yes
+	}
+	635.1.1={
+		death=yes
+	}
+}
+3099 = {
+	name="Talorc"
+	dynasty=957
+	religion="brythonic"
+	culture="pictish"
+	547.1.1={
+		birth=yes
+	}
+	620.1.1={
+		death=yes
+	}
+}
+3100 = {
+	name="Segovax"
+	dynasty=958
+	religion="brythonic"
+	culture="pictish"
+	565.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}
+}
+3101 = {
+	name="Dumnorix"
+	dynasty=959
+	religion="brythonic"
+	culture="pictish"
+	582.1.1={
+		birth=yes
+	}
+	638.1.1={
+		death=yes
+	}
+}
+3102 = {
+	name="Togodumnus"
+	dynasty=960
+	religion="brythonic"
+	culture="pictish"
+	573.1.1={
+		birth=yes
+	}
+	628.1.1={
+		death=yes
+	}
+}
+3103 = {
+	name="Kimarcus"
+	dynasty=961
+	religion="brythonic"
+	culture="pictish"
+	579.1.1={
+		birth=yes
+	}
+	632.1.1={
+		death=yes
+	}
+}
+
+#Generic Cumbric Characters
+3014 = {
+	name="Drappes"
+	dynasty=850
+	religion="brythonic"
+	culture="cumbric"
+	541.1.1={
+		birth=yes
+	}
+	617.1.1 = {
+		add_spouse = 3015	
+	}
+	632.1.1={
+		death=yes
+	}
+}
+3015 = {
+	name="Lovernisca"
+	dynasty=850
+	female = yes
+	religion="brythonic"
+	culture="cumbric"
+	spouse = 3015
+	558.1.1={
+		birth=yes
+	}
+	632.1.1={
+		death=yes
+	}
+}
+3016 = {
+	name="Guiderius"
+	dynasty=850
+	religion="brythonic"
+	culture="cumbric"
+	father = 3014
+	mother = 3015
+	607.1.1={
+		birth=yes
+	}
+	674.1.1={
+		death=yes
+	}
+}
+3017= {
+	name="Lucterius"
+	dynasty=851
+	religion="brythonic"
+	culture="cumbric"
+	574.1.1={
+		birth=yes
+	}
+	640.1.1={
+		death=yes
+	}
+}
+3018 = {
+	name="Mascelio"
+	dynasty=852
+	religion="brythonic"
+	culture="cumbric"
+	586.1.1={
+		birth=yes
+	}
+	637.1.1={
+		death=yes
+	}
+}
+3019 = {
+	name="Viridorix"
+	dynasty=853
+	religion="brythonic"
+	culture="cumbric"
+	570.1.1={
+		birth=yes
+	}
+	642.1.1={
+		death=yes
+	}
+}
+
+#Generic Briton Characters
+3020 = {
+	name = "Galba"
+	dynasty = 752
+	religion="brythonic"
+	culture="briton"
+	564.1.1={
+		birth=yes
+	}
+	627.1.1={
+		death=yes
+	}
+}
+3021 = {
+	name = "Mandubracius"
+	dynasty = 753
+	religion="brythonic"
+	culture="briton"
+	582.1.1={
+		birth=yes
+	}
+	648.1.1={
+		death=yes
+	}
+}
+3022 = {
+	name = "Taximagulus"
+	dynasty = 754
+	religion="brythonic"
+	culture="briton"
+	573.1.1={
+		birth=yes
+	}
+	619.1.1={
+		death=yes
+	}
+}
+3023 = {
+	name = "Mallaius"
+	dynasty = 755
+	religion="brythonic"
+	culture="briton"
+	591.1.1={
+		birth=yes
+	}
+	655.1.1={
+		death=yes
+	}
+}
+3024 = {
+	name = "Mallaius"
+	dynasty = 755
+	religion="brythonic"
+	culture="briton"
+	591.1.1={
+		birth=yes
+	}
+	655.1.1={
+		death=yes
+	}
+}
+3025 = {
+	name = "Mallaius"
+	dynasty = 755
+	religion="brythonic"
+	culture="briton"
+	591.1.1={
+		birth=yes
+	}
+	655.1.1={
+		death=yes
+	}
+}
+3026 = {
+	name = "Diviciacus"
+	dynasty = 756
+	religion = "brythonic"
+	culture = "briton"
+	573.1.1 = {
+		birth = yes	
+	}
+	646.1.1 = {
+		death = yes
+	}
+}
+3027 = {
+	name = "Vodenos"
+	dynasty = 757
+	religion = "brythonic"
+	culture = "briton"
+	590.1.1 = {
+		birth = yes	
+	}
+	663.1.1 = {
+		death = yes
+	}
+}
+3028 = {
+	name = "Boduognatus"
+	dynasty = 758
+	religion = "brythonic"
+	culture = "briton"
+	559.1.1 = {
+		birth = yes	
+	}
+	612.1.1 = {
+		death = yes
+	}
+}
+3029 = {
+	name = "Dubnovellaunus"
+	dynasty = 759
+	religion = "brythonic"
+	culture = "briton"
+	572.1.1 = {
+		birth = yes	
+	}
+	631.1.1 = {
+		death = yes
+	}
+}
+3030 = {
+	name = "Sinatus"
+	dynasty = 760
+	religion = "brythonic"
+	culture = "briton"
+	545.1.1 = {
+		birth = yes	
+	}
+	614.1.1 = {
+		death = yes
+	}
+}
+3031 = {
+	name = "Tasciovanus"
+	dynasty = 761
+	religion = "brythonic"
+	culture = "briton"
+	566.1.1 = {
+		birth = yes	
+	}
+	627.1.1 = {
+		death = yes
+	}
+}
+3032 = {
+	name = "Duratios"
+	dynasty = 762
+	religion = "brythonic"
+	culture = "briton"
+	539.1.1 = {
+		birth = yes	
+	}
+	611.1.1 = {
+		death = yes
+	}
+}
+3033 = {
+	name = "Concolitanus"
+	dynasty = 763
+	religion = "brythonic"
+	culture = "briton"
+	571.1.1 = {
+		birth = yes	
+	}
+	638.1.1 = {
+		death = yes
+	}
+}
+3034 = {
+	name = "Atis"
+	dynasty = 764
+	religion = "brythonic"
+	culture = "briton"
+	578.1.1 = {
+		birth = yes	
+	}
+	657.1.1 = {
+		death = yes
+	}
+}
+3035 = {
+	name = "Cavarinus"
+	dynasty = 765
+	religion = "brythonic"
+	culture = "briton"
+	583.1.1 = {
+		birth = yes	
+	}
+	656.1.1 = {
+		death = yes
+	}
+}
+3036 = {
+	name = "Inammicus"
+	dynasty = 766
+	religion = "brythonic"
+	culture = "briton"
+	547.1.1 = {
+		birth = yes	
+	}
+	624.1.1 = {
+		death = yes
+	}
+}
+3037 = {
+	name = "Epatticus"
+	dynasty = 767
+	religion = "brythonic"
+	culture = "briton"
+	595.1.1 = {
+		birth = yes	
+	}
+	665.1.1 = {
+		death = yes
+	}
+}

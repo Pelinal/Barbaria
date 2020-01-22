@@ -1,0 +1,28 @@
+# 1548 - Khaylam
+
+# County Title
+title = c_khaylam
+
+# Settlements
+max_settlements = 4
+
+b_khaylam = castle
+b_akhsikath = city
+b_wankath = temple
+#b_kasan = city
+#b_miyanrudhan = castle
+#b_ardalankath = city
+#b_najm = castle
+
+# Misc
+culture = xionite
+religion = hephthalite
+
+# History
+680.1.1 = { religion = khurmazta }
+700.1.1 = { culture = sogdian }
+900.1.1 = { culture = karluk }
+
+1070.1.1 = { religion = manichean }
+
+1230.1.1 = { culture = mongol }

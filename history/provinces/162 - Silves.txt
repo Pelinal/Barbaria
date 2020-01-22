@@ -1,0 +1,20 @@
+# 162 - Silves
+
+# County Title
+title = c_silves
+
+# Settlements
+max_settlements = 4
+b_silves = castle
+b_lagos = city
+b_alvor = castle
+#b_aljezur = castle
+#b_arrifana = temple
+#b_monchique = castle
+#b_almodovar = castle
+
+
+culture = celtiberian
+religion = gallic
+
+# History

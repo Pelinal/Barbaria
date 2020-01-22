@@ -1,0 +1,9 @@
+### Bactrian Dynastic Names ###
+# e.g. Sogdian, Bactrian, Xionite, Kidarite, Nezak, Alchon and Wusun
+# 1250- 1499?
+
+# Kidarite Dynasties
+1250 = {
+	name = "Kidaran"
+	culture = "kidarite"
+}

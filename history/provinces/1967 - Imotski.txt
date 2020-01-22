@@ -1,0 +1,14 @@
+# 1967 - Imotski
+
+# County Title
+title = c_imotski
+
+# Settlements
+max_settlements = 3
+b_topana = tribal
+
+# Misc
+culture = greco_illyrian
+religion = hellenic
+
+# History

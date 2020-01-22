@@ -1,0 +1,250 @@
+### Gaelic Dynastic Names ###
+# e.g. Irish, Gaelic, Thulean
+# 1000 - 1250
+
+#Irish Dynasties
+1000 = {
+	name = "Bolgi"
+	culture = "irish"
+	religion = "danuic"
+}
+1001 = {
+	name = "Cruitini"
+	culture = "irish"
+	religion = "danuic"
+}
+1002 = {
+	name = "Dairini"
+	culture = "irish"
+	religion = "danuic"
+}
+1003 = {
+	name = "Deblanni"
+	culture = "irish"
+	religion = "danuic"
+}
+1004 = {
+	name = "Deirgtini"
+	culture = "irish"
+	religion = "danuic"
+}
+1005 = {
+	name = "Domgnanni"
+	culture = "irish"
+	religion = "danuic"
+}
+1006 = {
+	name = "Ecmacti"
+	culture = "irish"
+	religion = "danuic"
+}
+1007 = {
+	name = "Eranni"
+	culture = "irish"
+	religion = "danuic"
+}
+1008 = {
+	name = "Gamagnragni"
+	culture = "irish"
+	religion = "danuic"
+}
+1009 = {
+	name=  "Laggigni"
+	culture = "irish"
+	religion = "danuic"
+}
+1010 = {
+	name = "Laiggisi"
+	culture = "irish"
+	religion = "danuic"
+}
+1011 = {
+	name = "Moggagni"
+	culture = "irish"
+	religion = "danuic"
+}
+1012 = {
+	name = "Sogagni"
+	culture = "irish"
+	religion = "danuic"
+}
+1013 = {
+	name = "Tadegni"
+	culture = "irish"
+	religion = "danuic"
+}
+1014 = {
+	name = "Uaitani"
+	culture = "irish"
+	religion = "danuic"
+}
+1015 = {
+	name = "Ultacci"
+	culture = "irish"
+	religion = "danuic"
+}
+
+#Gaelic Dynasties
+1100 = {
+	name = "Bolgi"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1101 = {
+	name = "Cruitini"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1102 = {
+	name = "Dairini"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1103 = {
+	name = "Deblanni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1104 = {
+	name = "Deirgtini"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1105 = {
+	name = "Domgnanni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1106 = {
+	name = "Ecmacti"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1107 = {
+	name = "Eranni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1108 = {
+	name = "Gamagnragni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1109 = {
+	name=  "Laggigni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1110 = {
+	name = "Laiggisi"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1111 = {
+	name = "Moggagni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1112 = {
+	name = "Sogagni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1113 = {
+	name = "Tadegni"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1114 = {
+	name = "Uaitani"
+	culture = "gaelic"
+	religion = "danuic"
+}
+1115 = {
+	name = "Ultacci"
+	culture = "gaelic"
+	religion = "danuic"
+}
+
+#Thulean Dynasties
+1200 = {
+	name = "Bolgi"
+	culture = "thulean"
+	religion = "danuic"
+}
+
+1201 = {
+	name = "Cruitini"
+	culture = "thulean"
+	religion = "danuic"
+}
+1202 = {
+	name = "Dairini"
+	culture = "thulean"
+	religion = "danuic"
+}
+1203 = {
+	name = "Deblanni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1204 = {
+	name = "Deirgtini"
+	culture = "thulean"
+	religion = "danuic"
+}
+1205 = {
+	name = "Domgnanni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1206 = {
+	name = "Ecmacti"
+	culture = "thulean"
+	religion = "danuic"
+}
+1207 = {
+	name = "Eranni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1208 = {
+	name = "Gamagnragni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1209 = {
+	name=  "Laggigni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1210 = {
+	name = "Laiggisi"
+	culture = "thulean"
+	religion = "danuic"
+}
+1211 = {
+	name = "Moggagni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1212 = {
+	name = "Sogagni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1213 = {
+	name = "Tadegni"
+	culture = "thulean"
+	religion = "danuic"
+}
+1214 = {
+	name = "Uaitani"
+	culture = "thulean"
+	religion = "danuic"
+}
+1215 = {
+	name = "Ultacci"
+	culture = "thulean"
+	religion = "danuic"
+}

@@ -1,0 +1,26 @@
+# 626 - Khiva
+
+# County Title
+title = c_khiva
+
+# Settlements
+max_settlements = 7
+b_darvaza = castle
+b_khiva = city
+b_kuskupir = temple
+b_kath = city
+
+#b_tahta = castle
+#b_kizketken = castle
+#b_atajab = castle
+#b_sumanay = castle
+
+# Misc
+culture = dahae
+religion = heptadic
+terrain = steppe
+
+# History
+800.1.1 = {
+	religion = heptadic
+}

@@ -1,0 +1,25 @@
+# 431 - Poznanskie
+
+# County Title
+title = c_poznanskie
+
+# Terrain
+terrain = forest
+
+# Settlements
+max_settlements = 6
+b_poznan = tribal
+#b_oborniki = city
+#b_czarnkow = temple
+
+#b_koscian = castle
+#b_miedzyrzecz = castle
+#b_walcz = castle
+#b_wschowa = castle
+
+# Misc
+culture = rugian
+religion = germanic_pagan
+
+# History
+

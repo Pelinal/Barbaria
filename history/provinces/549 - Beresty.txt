@@ -1,0 +1,24 @@
+# 549 - Beresty
+
+# County Title
+title = c_beresty
+
+# Settlements
+max_settlements = 4
+
+b_beresty = tribal
+#b_kobryn = city
+#b_bielsk = temple
+
+#b_kamyanyets = castle
+#b_mielnik = castle
+#b_koden = city
+#b_wlodawa = castle
+#b_parwa = castle
+
+# Misc
+culture = vandal
+religion = germanic_pagan
+
+# History
+

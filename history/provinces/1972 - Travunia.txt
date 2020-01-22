@@ -1,0 +1,19 @@
+# 1972 - Travunia
+
+# County Title
+title = c_travunia
+
+# Settlements
+max_settlements = 4
+b_travunia = tribal
+
+# Misc
+culture = greco_illyrian
+religion = hellenic
+terrain = mountain
+
+# History
+760.1.1 = {
+	b_travunia = castle
+	b_kotor = city
+}

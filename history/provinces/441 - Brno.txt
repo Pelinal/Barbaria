@@ -1,0 +1,23 @@
+# 441 - Brno
+
+# County Title
+title = c_brno
+
+# Settlements
+max_settlements = 4
+b_veligrad = tribal
+#b_mikulcice = city
+b_rajhrad = temple
+
+#b_brno = castle
+#b_svitavy = castle
+#b_zdar = temple
+#b_pernstejn = castle
+#b_hodonin = city
+#b_boskovice = city
+
+# Misc
+culture = burgundian
+religion = germanic_pagan
+
+# History

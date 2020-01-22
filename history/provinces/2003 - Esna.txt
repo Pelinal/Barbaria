@@ -1,0 +1,18 @@
+# 2003 - Esna
+
+# County Title
+title = c_esna
+
+# Settlements
+max_settlements = 3
+b_esna = castle
+b_armant = city
+b_edfu = temple
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+
+800.1.1 = { culture = egyptiote }

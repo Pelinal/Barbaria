@@ -1,0 +1,14 @@
+# 1852 - Utva
+
+# County Title
+title = c_utva
+
+# Settlements
+max_settlements = 2
+b_utva = tribal
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History

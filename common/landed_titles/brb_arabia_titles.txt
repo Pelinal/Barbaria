@@ -1,0 +1,980 @@
+######################################################
+##			BARBARIA - E_ARABIA TITLES 		       ##
+######################################################
+
+e_arabia = {
+	color={ 32 150 85 }
+	color2={ 255 255 255 }
+	
+	capital = 728 # Damascus
+	
+	culture = bedouin_arabic
+	
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = arabic
+			}
+		}
+	}
+	
+	short_name = yes
+
+	k_israel = {
+		color = { 20 138 255 }
+		
+		capital = 774 # Jerusalem
+
+		roman = "Judea"
+
+		title = "KING"
+		title_female = "QUEEN"
+
+		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+		allow = {
+			always = no # Only created through special event
+		}
+	}
+
+	k_arabia = {
+		color={ 124 199 50 }
+		color2={ 255 255 255 }
+		
+		capital = 719 # Mecca
+		
+		culture = bedouin_arabic
+		
+		muslim = 4000 # Crusade target weight
+		zoroastrian_group = 500 # Crusade target weight
+	
+		d_arabia_petrae = {
+			color={ 121 196 2 }
+			color2={ 255 255 255 }
+			
+			capital = 783 # Maan
+			
+			c_amman = {
+				color={ 131 255 12 }
+				color2={ 255 255 255 }
+			
+				b_amman = {
+				}
+				b_dhiban = {
+				}
+				b_salt = {
+				}
+				b_mahis = {
+				}
+				b_fuheis = {
+				}
+				b_deir_alla = {
+				}
+				b_jerash = {
+				}
+				b_al_balqa = {
+				}
+			}
+			
+			#c_ar_ar = { # Shaka
+			#	color={ 97 208 137 }
+			#	color2={ 255 255 255 }
+			#	
+			#	b_shaka = {
+			#	}
+			#	b_ammaryah = {
+			#	}
+			#	b_dumat_al_jundal = {
+			#	}
+			#	b_umm_kunsur = {
+			#	}
+			#	b_ruthiyah = {
+			#	}
+			#	b_qasa = {
+			#	}
+			#	b_uwayquilah = {
+			#	}
+			#	b_judaidah = {
+			#	}
+			#}
+			c_maan = {
+				color={ 127 202 8 }
+				color2={ 255 255 255 }
+			
+				b_maan = {
+				}
+				b_mutah = {
+				}
+				b_shubak = {
+				}
+				b_maanaljafr = {
+				}
+				b_buseira = {
+				}
+				b_maanalhasa = {
+				}
+				b_afra = {
+				}
+				b_bubeita = {
+				}
+			}
+			c_tabuk = {
+				color={ 130 205 11 }
+				color2={ 255 255 255 }
+			
+				b_tabuk = {
+				}
+				b_duba = {
+				}
+				b_mariyiat = {
+				}
+				b_muwaylih = {
+				}
+				b_abu_ujayyijat = {
+				}
+				b_gabouk = {
+				}
+				b_shaghab = {
+				}
+				b_sharmah = {
+				}
+			}
+			#c_petra = {
+			#	color={ 133 208 14 }
+			#	color2={ 255 255 255 }
+			#
+			#	b_tophel = {
+			#	}
+			#	b_petra = {
+			#	}
+			#	b_wadi_musa = {
+			#	}
+			#	b_bozrah = {
+			#	}
+			#	b_shoubak = {
+			#	}
+			#	b_abdelliya = {
+			#	}
+			#	b_hamza = {
+			#	}
+			#	b_husseiniya = {
+			#	}
+			#}
+			c_al_jawf = {
+				color={ 154 253 47 }
+				color2={ 255 255 255 }
+			
+				b_al_jawf = {
+				}
+				b_sakakah = {
+				}
+				b_aladan = {
+				}
+				b_dumat_al_jandal = {
+				}
+				b_radifah = {
+				}
+				b_tuwayr = {
+				}
+				b_tyer = {
+				}
+				b_qurayyat = {
+				}
+			}
+			c_al_aqabah = {
+				color={ 124 199 5 }
+				color2={ 255 255 255 }
+			
+				b_aqabah = {
+				}
+				b_reeshah = {
+				}
+				b_quwairah = {
+				}
+				b_mazraa = {
+				}
+				b_feifa = {
+				}
+				b_samar = {
+				}
+				b_elifaz = {
+				}
+				b_yotvata = {
+				}
+			}
+			c_hijaz = {
+				color={ 158 253 51 }
+				color2={ 255 255 255 }
+			
+				b_al_ola = {
+				}
+				b_tayma = {
+				}
+				b_leuke_kome = {
+				}
+				b_higra = {
+				}
+				b_madain_salih = {
+				}
+				b_mughayra = {
+				}
+				b_samur = {
+				}
+				b_tawala = {
+				}
+			}
+		}
+		d_medina = {
+			color={ 150 249 43 }
+			color2={ 255 255 255 }
+			
+			capital = 719 # Mecca
+			
+			muslim = 500 # Crusade target weight
+			
+			c_medina = {
+				color={ 162 253 55 }
+				color2={ 255 255 255 }
+				
+				muslim = 500 # Crusade target weight
+
+				holy_site = sunni
+				holy_site = shiite
+				holy_site = ibadi
+				
+				b_medina = {
+				}
+				b_kuba = {
+				}
+				b_farsh = {
+				}
+				b_sidi_hamzah = {
+				}
+				b_milha = {
+				}
+				b_batn_nakhl = {
+				}
+				b_al_usayla = {
+				}
+			}
+			c_mecca = {
+				color={ 166 253 59 }
+				color2={ 255 255 255 }
+				
+				muslim = 1000 # Crusade target weight
+
+				holy_site = sunni
+				holy_site = shiite
+				holy_site = pagan
+				holy_site = yazidi
+				holy_site = ibadi
+				
+				b_mecca = {
+				}
+				b_taif = {
+				}
+				b_al_johfa = {
+				}
+				b_turubah = {
+				}
+				b_jmumum = {
+				}
+				b_qarn = {
+				}
+				b_al_ukaz = {
+				}
+			}
+			c_khaybar = {
+				color={ 172 253 45 }
+				color2={ 255 255 255 }
+				
+				b_khaybar = {
+				}
+				b_badr = {
+				}
+				b_rabig = {
+				}
+				b_yanbu = {
+				}
+				b_haura = {
+				}
+				b_soridan = {
+				}
+				b_algiar = {
+				}
+			}
+			c_jeddah = {
+				color={ 176 243 59 }
+				color2={ 255 255 255 }
+				
+				b_jeddah = {
+				}
+				b_khulays = {
+				}
+				b_as_sirrayn = {
+				}
+				b_al_lith = {
+				}
+				b_qunfudhah = {
+				}
+				b_bahrah = {
+				}
+				b_usfan = {
+				}
+			}
+			c_asir = {
+				color={ 170 253 63 }
+				color2={ 255 255 255 }
+			
+				b_tabala = {
+				}
+				b_kuthba = {
+				}
+				b_kamaran = {
+				}
+				b_bahah = {
+				}
+				b_sadah = {
+				}
+				b_hajjah = {
+				}
+				b_dam = {
+				}
+			}
+			c_tihama = {
+				color={ 170 253 63 }
+				color2={ 255 255 255 }
+				
+				b_hali = {
+				}
+				b_as_suqaiq = {
+				}
+				b_attar = {
+				}
+				b_bays = {
+				}
+				b_harad = {
+				}
+				b_hamr = {
+				}
+				b_abs = {
+				}
+			}
+		}
+		d_oman = {
+			color={ 93 196 2 }
+			color2={ 255 255 255 }
+			
+			capital = 868 # Muscat
+		
+			c_dhu_zabi = { # Julfar
+				color={ 96 199 5 }
+				color2={ 255 255 255 }
+			
+				b_sohar = {
+				}
+				b_dibba = {
+				}
+				b_qutuf = {
+				}
+				b_dhuzabi = {
+				}
+				b_khorfakkan = {
+				}
+				b_dubai = {
+				}
+				b_julfar = {
+				}
+				b_sharjah = {
+				}
+			}
+			c_hajar = { # Suhar/Suhár
+				color={ 98 201 7 }
+				color2={ 255 255 255 }
+				
+				holy_site = ibadi
+				
+				b_suhar = {
+				}
+				b_alhamra = {
+				}
+				b_ibri = {
+				}
+				b_jabrin = {
+				}
+				b_haran = {
+				}
+				b_masruq = {
+				}
+				b_yanqui = {
+				}
+			}
+			c_muscat = {
+				color={ 100 203 9 }
+				color2={ 255 255 255 }
+			
+				b_muscat = {
+				}
+				b_sur = {
+				}
+				b_samail = {
+				}
+				b_adam = {
+				}
+				b_ibra = {
+				}
+				b_sabt = {
+				}
+				b_lizq = {
+				}
+				b_shiya = {
+				}
+			}
+			c_duqm = { # Nizwa
+				color={ 102 205 11 }
+				color2={ 255 255 255 }
+			
+				b_duqm = {
+				}
+				b_aljazir = {
+				}
+				b_bank = {
+				}
+				b_harima = {
+				}
+				b_nimr = {
+				}
+				b_mahut = {
+				}
+				b_hubara = {
+				}
+				b_masirah = {
+				}
+				b_nizwa = {
+				}
+			}
+		}
+		d_nefoud = {
+			color={ 17 228 10 }
+			color2={ 255 255 255 }
+			
+			capital = 863 # Hajr
+			
+			c_rafha = {
+				color={ 174 253 67 }
+				color2={ 255 255 255 }
+			
+				b_rafha = {
+				}
+				b_aljumaymah = {
+				}
+				b_timiat = {
+				}
+				b_markuz = {
+				}
+				b_lawqah = {
+				}
+				b_duwayd = {
+				}
+				b_uwayqilah = {
+				}
+				b_ashshir = {
+				}
+			}
+			c_hail = {
+				color={ 178 253 71 }
+				color2={ 255 255 255 }
+			
+				b_hail = {
+				}
+				b_asshinan = {
+				}
+				b_alghazalah = {
+				}
+				b_baqa = {
+				}
+				b_iqdah = {
+				}
+				b_mawqaq = {
+				}
+				b_murayfiq = {
+				}
+				b_saban = {
+				}
+			}
+			c_hajr = {
+				color={ 182 253 75 }
+				color2={ 255 255 255 }
+			
+				b_alhudaydah = {
+				}
+				b_assalif = {
+				}
+				b_almaqah = {
+				}
+				b_abha = {
+				}
+				b_khamismushait = {
+				}
+				b_bisha = {
+				}
+				b_baljurashi = {
+				}
+				b_jizan = {
+				}
+			}
+			c_halaban = {
+				color={ 186 253 79 }
+				color2={ 255 255 255 }
+			
+				b_afif = {
+				}
+				b_badaiidyan = {
+				}
+				b_alqaiyah = {
+				}
+				b_aljammaniyah = {
+				}
+				b_albijadiyah = {
+				}
+				b_almaklah = {
+				}
+				b_albaharah = {
+				}
+				b_arradum = {
+				}
+			}
+			c_dariya = {
+				color={ 181 255 99 }
+				color2={ 255 255 255 }
+				
+				b_dariya = {
+				}
+				b_fayd = {
+				}
+				b_al_ajfur = {
+				}
+				b_an_nibaj = {
+				}
+				b_al_qaryatan = {
+				}
+				b_at_talabiya = {
+				}
+				b_zubala = {
+				}
+			}
+		}
+		d_amman = { # Al Bahrain
+			color = { 32 127 30 }
+			color2={ 255 255 255 }
+			
+			persian = "Gerrha"
+			akkadian = "Gerrha"
+			sumerian = "Gerrha"
+			baloch = "Gerrha"
+			
+			capital = 652 # Al Hasa
+			
+			c_kuwait = {
+				color={ 80 170 5 }
+				color2={ 255 255 255 }
+				
+				b_kuwait = {
+				}
+				b_ikaros = {
+				}
+				b_alwafra = {
+				}
+				b_khinan = {
+				}
+				b_arrawdatayn = {
+				}
+				b_ashshuaybah = {
+				}
+				b_anthemusias = {
+				}
+				b_alfalalheel = {
+				}
+			}
+			c_damman = { # Qatif
+				color = { 30 132 37 }
+				color2={ 255 255 255 }
+				
+				b_avan = {
+				}
+				b_najmah = {
+				}
+				b_qatif = {
+				}
+				b_damman = {
+				} 
+				b_jubail = {
+				}
+				b_alaba = {
+				}
+				b_alhinnah = {
+				}
+				b_abuhadriya = {
+				}
+			}
+			c_al_hasa = {
+				color = { 30 112 20 }
+				color2={ 255 255 255 }
+				
+				holy_site = qarmatian
+				
+				b_alhasa = {
+				}
+				b_holuf = {
+				}
+				b_foda = {
+				}
+				b_khobar = {
+				}
+				b_almubarraz = {
+				}
+				b_aloyoon = {
+				}
+				b_alomran = {
+				}
+				b_ghunan = {
+				}
+				b_abqaiq = {
+				}
+			}
+			c_bahrein = {
+				color = { 20 99 30 }
+				color2={ 255 255 255 }
+				
+				persian = "Gerrha"
+				akkadian = "Gerrha"
+				sumerian = "Gerrha"
+				baloch = "Gerrha"
+				
+				b_batn_ardasir = {
+				}
+				b_al_masqar = {
+				}
+				b_murwab = {
+				}
+				b_zubarah = {
+				}
+				b_al_naman = {
+				}
+				b_al_khuwayr = {
+				}
+				b_turaynah = { # Fictional, for prosperity
+				}
+			}
+			c_uwal = {
+				color = { 30 89 35 }
+				color2={ 255 255 255 }
+				
+				b_muharraq = {
+				}
+				b_manama = {
+				}
+				b_umm_al_nasan = {
+				}
+				b_sitra = {
+				}
+				b_jidda = {
+				}
+				b_ummalsabaan = {
+				}
+				b_hamala = {
+				}
+				b_aldur = {
+				}
+			}
+		}
+	}
+	
+	k_yemen = {
+		color={ 218 234 33 }
+		color2={ 255 255 255 }
+		
+		capital = 859 # Taizz
+		
+		culture = bedouin_arabic
+		
+		hebrew = "Himyar"
+		aramaic = "Himyar"
+		
+		muslim = 3000 # Crusade target weight
+		zoroastrian_group = 300 # Crusade target weight
+		
+		d_sanaa = {
+			color={ 215 180 20 }
+			color2={ 255 255 255 }
+			
+			capital = 860 # Sanaa
+			
+			c_sanaa = {
+				color={ 215 180 20 }
+				color2={ 255 255 255 }
+			
+				b_sanaa = {
+				}
+				b_marib = {
+				}
+				b_qataba = {
+				}
+				b_dhamar = {
+				}
+				b_jabalannabishuayb = {
+				}
+				b_jabaltiyal = {
+				}
+				b_hodeida = {
+				}
+				b_harib = {
+				}
+			}
+			c_najran = {
+				color={ 185 180 20 }
+				color2={ 255 255 255 }
+				
+				b_najran = {
+				}
+				b_sada = {
+				}
+				b_huth = {
+				}
+				b_ribakhah = { # Fictional - For Prosperity
+				}
+				b_hasakat = { # Fictional - For Prosperity
+				}
+				b_az_zawwah = { # Fictional - For Prosperity
+				}
+				b_dahal_jalal = { # Fictional - For Prosperity
+				}
+			}
+			c_al_ahqaf = {
+				color={ 199 170 29 }
+				color2={ 255 255 255 }
+				
+				b_al_ahqaf = {
+				}
+				b_al_abr = {
+				}
+				b_sabwa = {
+				}
+				b_katabiya = { # Fictional - For Prosperity
+				}
+				b_alan = { # Fictional - For Prosperity
+				}
+				b_al_jayat = { # Fictional - For Prosperity
+				}
+				b_bujan = { # Fictional - For Prosperity
+				}
+			}
+		}
+		d_taizz = {
+			color={ 195 220 40 }
+			color2={ 255 255 255 }
+			
+			capital = 859 # Taizz
+			
+			c_taizz = {
+				color={ 195 220 40 }
+				color2={ 255 255 255 }
+			
+				b_ibb = {
+				}
+				b_mocha = {
+				}
+				b_taizz = {
+				}
+				b_zafar = {
+				}
+				b_perim = {
+				}
+				b_shuqra = {
+				}
+				b_jibla = {
+				}
+				b_dhisufal = {
+				}
+			}
+			c_aden = {
+				color={ 175 220 46 }
+				color2={ 255 255 255 }
+			
+				b_aden = {
+				}
+				b_lahej = {
+				}
+				b_dhala = {
+				}
+				b_alawbhali = {
+				}
+				b_jaar = {
+				}
+				b_alkawd = {
+				}
+				b_almilah = {
+				}
+				b_alarbadi = {
+				}
+			}
+			c_zabid = {
+				color={ 220 200 40 }
+				color2={ 255 255 255 }
+				
+				b_zabid = {
+				}
+				b_fasal = {
+				}
+				b_al_mahjam = {
+				}
+				b_mukha = {
+				}
+				b_mawr = {
+				}
+				b_ghalafiqa = {
+				}
+				b_hays = {
+				}
+			}
+			c_bayda = {
+				color={ 185 230 20 }
+				color2={ 255 255 255 }
+			
+				b_bayda = {
+				}
+				b_habban = {
+				}
+				b_ashshubaykah = {
+				}
+				b_timna = {
+				}
+				b_ataq = {
+				}
+				b_zinjibar = {
+				}
+				b_alkhabr = {
+				}
+				b_yashbum = {
+				}
+			}
+		}
+		d_socotra = {
+			color={ 142 255 85 }
+			color2={ 255 255 255 }
+			
+			capital = 1369 # Socotra
+			
+			dignity = 10
+			
+			c_socotra = {
+				color={ 142 255 55 }
+				color2={ 255 255 255 }
+			
+				b_qualnsiyah = {
+				}
+				b_tamrida = {
+				}
+				b_qadub = {
+				}
+				b_steroh = {
+				}
+				b_asma = {
+				}
+				b_siqirah = {
+				}
+				b_qashiu = {
+				}
+			}
+		}
+		d_hadramut = {
+			color={ 206 190 55 }
+			color2={ 255 255 255 }
+			
+			capital = 856 # Hadramawt
+			
+			bedouin_arabic = "Hadramawt"
+			maghreb_arabic = "Hadramawt"
+			levantine_arabic = "Hadramawt"
+			egyptian_arabic = "Hadramawt"
+			andalusian_arabic = "Hadramawt"
+			
+			c_kathiri = {
+				color={ 140 255 53 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Hadramawt"
+				maghreb_arabic = "Hadramawt"
+				levantine_arabic = "Hadramawt"
+				egyptian_arabic = "Hadramawt"
+				andalusian_arabic = "Hadramawt"
+				
+				b_shabwa = {
+				}
+				b_lodar = {
+				}
+				b_qana = {
+				}
+				b_seiyun = {
+				}
+				b_mukalla = {
+				}
+				b_shihar = {
+				}
+				b_nisab = {
+				}
+				b_azzan = {
+				}
+			}
+			c_dhofar = {
+				color={ 104 207 13 }
+				color2={ 255 255 255 }
+
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
+				
+				b_salalah = {
+				}
+				b_thamarit = {
+				}
+				b_raysut = {
+				}
+				b_amal = {
+				}
+				b_shisr = {
+				}
+				b_dawkah = {
+				}
+				b_durrah = {
+				}
+				b_harzan = {
+				}
+			}
+			c_mahra = {
+				color={ 106 214 15 }
+				color2={ 255 255 255 }
+			
+				b_ghaydah = {
+				}
+				b_nishtun = {
+				}
+				b_damqwat = {
+				}
+				b_qishn = {
+				}
+				b_haswayn = {
+				}
+				b_itab = {
+				}
+				b_alkurah = {
+				}
+				b_alhalya = {
+				}
+			}
+		}
+	}
+	
+	
+}

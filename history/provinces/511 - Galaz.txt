@@ -1,0 +1,23 @@
+# 511 - Galaz
+
+# County Title
+title = c_galaz
+
+# Settlements
+max_settlements = 4
+
+b_galaz = castle
+b_falciu = city
+b_husi = temple	# Slavic Pagan Holy site
+
+#b_oancea = castle
+#b_beresti = castle
+#b_targu_bujor = castle
+#b_murgeni = castle
+
+# Misc
+culture = dacian
+religion = zalmoxian
+terrain = marsh
+
+# History

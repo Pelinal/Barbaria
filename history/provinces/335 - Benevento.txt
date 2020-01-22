@@ -1,0 +1,25 @@
+# 335 - Benevento
+
+# County Title
+title = c_benevento
+
+# Settlements
+max_settlements = 4
+b_benevento = castle
+b_ascoli = temple
+b_avellino = city
+
+
+#b_montemarono = temple
+#b_frigento = castle
+#b_trevico = castle
+#b_conza = castle
+#b_sanangelo = castle
+
+# Misc
+culture = sicilian
+religion = hellenic
+
+# History
+890.1.1 = { capital = b_ascoli }
+1000.1.1 = { culture = samnite }

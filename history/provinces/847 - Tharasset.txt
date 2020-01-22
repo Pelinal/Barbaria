@@ -1,0 +1,27 @@
+# 847 - Tharasset # Sous
+
+# County Title
+title = c_tharasset
+
+# Settlements
+max_settlements = 3 
+
+b_igilliz = tribal
+
+#b_tiznit = city
+#b_ouaouteit = temple
+
+#b_rgab
+#b_guelmim
+#b_mihrleft
+#b_belkassem
+#b_taroudaut
+#b_tata
+#b_biourga
+
+# Misc
+culture = mauri
+religion = berber
+
+# History
+

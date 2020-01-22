@@ -1,0 +1,15 @@
+# 1789 - Kyzyl Su
+
+# County Title
+title = c_kyzyl-su
+
+# Settlements
+max_settlements = 2
+b_kyzyl-su = castle
+
+# Misc
+culture = dahae
+religion = zoroastrian
+
+# History
+800.1.1 = { culture = persian }

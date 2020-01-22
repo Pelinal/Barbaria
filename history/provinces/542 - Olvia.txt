@@ -1,0 +1,22 @@
+# 542 - Olvia
+
+# County Title
+title = c_olvia
+
+# Settlements
+max_settlements = 1
+
+b_olvia = tribal
+
+#b_ochakiv		#1492
+#b_veselynove	#end of XVIIIth
+#b_voznesensk	#1795
+#b_kobleve
+#b_stavky
+#b_rybakivka
+
+# Misc
+culture = hunnic
+religion = tengri_pagan
+
+# History

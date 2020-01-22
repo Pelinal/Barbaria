@@ -1,0 +1,375 @@
+###################################################
+###		Zoroastrian Religions - Barbaria 	    ###
+###################################################
+
+## Zoroastrian Group ##
+# Zoroastrian
+# Mazdaki
+# Manichean
+# Kurmazta
+# Khaldic Reformed
+# Khaldic
+# Hephthalite
+
+zoroastrian_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2	# always try to convert
+	
+	color = { 0.5 0.7 0.2 }
+	
+	interface_skin = { zoroastrian_interface muslim_interface }
+	
+	# Names given only to Zoroastrian characters (base names)
+	male_names = {
+		Hormazd Maziar Shapur Vandad Zartosht
+	}
+
+	zoroastrian = {
+		graphical_culture = persiangfx
+		secondary_event_pictures = sunni
+		
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0.16 0.65 0.72 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GATHAS
+		priest_title = HERBAD
+		
+		high_god_name = GOD_AHURA_MAZDA
+		
+		god_names = {
+			GOD_AHURA_MAZDA GOD_ZURVAN GOD_OHRMAZD GOD_MANAH PROPHET_ZOROASTER
+		}
+		evil_god_names = {
+			AHRIMAN ANGRA_MAINYU
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
+		pc_marriage = yes # Parent/child marriage allowed
+		bs_marriage = yes # Brother/sister marriage allowed
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		#intermarry = zoroastrian
+		intermarry = mazdaki
+		intermarry = manichean
+		intermarry = khurmazta
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+		intermarry = nestorian
+		intermarry = buddhist
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+	}
+	
+	mazdaki = {
+		graphical_culture = persiangfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		
+		secondary_event_pictures = zoroastrian
+		
+		icon = 4
+		heresy_icon = 5
+		parent = zoroastrian
+		
+		color = { 0.36 0.68 0.72 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GREAT_SECRET
+		
+		high_god_name = GOD_AHURA_MAZDA
+		
+		god_names = {
+			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_MAZDAK
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = manichean
+		intermarry = khurmazta
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+		intermarry = nestorian
+		intermarry = buddhist
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+	}
+	
+	manichean = {
+		graphical_culture = persiangfx
+		
+		secondary_event_pictures = sunni
+		
+		icon = 6
+		heresy_icon = 7
+		
+		color = { 203 214 235 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_EVANGELION
+		
+		priest_title = DIDASKOLOS
+		
+		high_god_name = GOD_ZURVAN
+		
+		god_names = {
+			GOD_ZURVAN GOD_OHRMAZD PROPHET_MANI GOD_MIHRYAZD
+		}
+		
+		evil_god_names = {
+			THE_DEMIURGE
+		}
+		
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 0 # Can take concubines
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = mazdaki
+		intermarry = khurmazta
+		
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = taoist
+		intermarry = bon
+		intermarry = bon_reformed
+		intermarry = nestorian
+		intermarry = buddhist
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+	}
+	
+	khurmazta = {
+		graphical_culture = persiangfx
+		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+		
+		secondary_event_pictures = sunni
+		
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0.12 0.54 0.6 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GATHAS
+		
+		priest_title = VAYNPAT
+		
+		high_god_name = GOD_ZARVANA
+		
+		god_names = {
+			GOD_KHURMAZTA GOD_WESHPARKAR GOD_WISHAGHN GOD_NANAIYA
+		}
+		
+		parent = zoroastrian
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = mazdaki
+		intermarry = manichean
+		
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+		intermarry = nestorian
+		intermarry = buddhist
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+	}
+	
+	khaldic_reformed = {
+		graphical_culture = hellenicgfx
+		alternate_start = { always = no }
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.6 0.2 0.4 }
+		
+		high_god_name = GOD_KHALDI
+		
+		god_names = {
+			GOD_KHALDI GOD_THEISPAS GOD_SHIVINI GOD_ARUBANI GOD_EPANINAUE GOD_DSVININAUE GOD_BAGVARTI GOD_HUBA GOD_SELARDI
+		}
+		evil_god_names = {
+			GOD_SARIS GOD_AL THE_DEVS THE_NHANG VISHAP
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = HERBAD
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
+		pc_marriage = yes # Parent/child marriage allowed
+		bs_marriage = yes # Brother/sister marriage allowed
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = mazdaki
+		intermarry = manichean
+		intermarry = khurmazta
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+		intermarry = nestorian
+		intermarry = buddhist
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		
+		allow_in_ruler_designer = no
+	}
+	khaldic = {
+		graphical_culture = hellenicgfx
+
+		icon = 43
+		heresy_icon = 45
+		reformed = khaldic_reformed
+		
+		color = { 0.5 0.17 0.33 }
+		
+		high_god_name = GOD_KHALDI
+		
+		god_names = {
+			GOD_KHALDI GOD_THEISPAS GOD_SHIVINI GOD_ARUBANI GOD_EPANINAUE GOD_DSVININAUE GOD_BAGVARTI GOD_HUBA GOD_SELARDI
+		}
+		evil_god_names = {
+			GOD_SARIS GOD_AL THE_DEVS THE_NHANG VISHAP
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = HERBAD
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
+		pc_marriage = yes # Parent/child marriage allowed
+		bs_marriage = yes # Brother/sister marriage allowed
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = zoroastrian
+		intermarry = mazdaki
+		intermarry = manichean
+		intermarry = khurmazta
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		intermarry = bon
+		intermarry = bon_reformed
+		intermarry = nestorian
+		intermarry = buddhist
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+	}
+	
+	hephthalite = {
+		graphical_culture = persiangfx
+		secondary_event_pictures = zoroastrian
+
+		icon = 4
+		heresy_icon = 5
+		
+		color = { 0.75 0.3 0.3 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GATHAS
+		priest_title = HERBAD
+		
+		high_god_name = GOD_AHURA_MAZDA
+		god_names = {
+			GOD_AHURA_MAZDA GOD_ZURVAN GOD_OHRMAZD GOD_MANAH PROPHET_ZOROASTER GOD_THE_TIRTHANKARAS GOD_RISHABH GOD_AJINATH GOD_SAMBHAVANATH 
+		}
+		evil_god_names = {
+			AHRIMAN ANGRA_MAINYU
+		}
+
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		allow_looting = yes
+
+		max_consorts = 3 # Can take concubines
+		
+		ai_convert_same_group = 0 # Never
+		ai_convert_other_group = 0 # Never
+		
+		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
+		pc_marriage = yes
+		bs_marriage = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		intermarry = indian_group
+	}
+}

@@ -1,0 +1,19 @@
+# 801 - Buhairya
+
+# County Title
+title = c_buhairya
+
+# Settlements
+max_settlements = 2
+b_buhairya = castle
+b_budhkula = city
+
+#b_abuminqar = castle
+
+# Misc
+culture = egyptian
+religion = kemetic
+
+# History
+
+770.1.1 = { culture = egyptiote }

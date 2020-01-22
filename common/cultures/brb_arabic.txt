@@ -1,0 +1,184 @@
+###############################################
+###		Arabic Cultures - Barbaria  		###
+###############################################
+
+## colour;0.56 0.87 0.51
+# Bedouin
+# Nabataean
+# Himyarite
+
+arabic = {
+	alternate_start = {
+		NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } }
+		always = no
+	}
+	graphical_cultures = { muslimgfx }
+	
+	bedouin_arabic = { 
+		graphical_cultures = { arabicgfx muslimgfx }
+		alternate_start = {
+			always = no
+		}
+		
+		used_for_random = no
+		
+		color = {0.56 0.87 0.51 }
+
+		male_names = {
+			Aretas Malichus Obodas Rabbel Abbas Bahadur Bahij Bakr Baqi Baqir Barak Barakat Basil Basim Basit Bassam Bilal Binyamin_Benjamin Bulus_Paul Burhan Butrus_Peter Dana 
+			Dawud_David Duha Fadi Fadil Fadl Fahd Fahim Faiz Fakhri Farah Faraj Farid Faris Faruq Fathi Fatin Fawzi Fayiz Faysal Fihr Fikri 
+			Firdaus Fuad Ghalib Ghassan Ghayth Ghufran Ghulam Habib Habiballah Hadi Hafiz Haidar Hakim Halim Hamid Hamza Hani Hanif Harith 
+			Harun_Aaron Hasan Hashim Hasib Hasim Hassan Hatim Haytham Hikmat Hisham Husam Husan Husn Uzza Al-Uzza
+			
+			Abiyasa Abraha Alhan Amdan Amkarib Ammdhakhar
+			Ammshafiq Ammyitha Abkarib Abyada Bi-athtar
+			Dhamarali Dhamarkarib Farakarib Ghaylan Hasan
+			Hawfi'amm Hawfiathat Hayu Hufn Il-azz Ilrayum
+			Ilsama Ilsharah Ilyafa Karib-il Khalkarib Ma'ad-il
+			Ma'adkarib Mabhad Malikkarib Marthad Marthad-ilum
+			Masud Muhaqim Muratta Nabat Nabatali Nashakarib
+			Ra'ab-il Rabbshams Sadshams Shahr Shamdar Shammar
+			Sharah-il Simyafa Sumhu-ali Sumhuyafa Tharan
+			Tubbakarib Wahab Waqah-il Waraw-il Watar Yada-ab
+			Yada-ib Yada-il Yadhmurmalik Yakribmalik Yashhur_il
+			Yashhurmalik Yasir Yasuduq-il Yazil Yigal Yitha'amar
+			Yitha-il Yuhaqam Yuhar-il Yusuf
+		}
+		female_names = {
+			Gamilat Haganu Hagru Huldu Shaqilat Abla Adila Afaf Afra Aisha Alina Aliyah_Aliyah Alya Aminah Amirah Amna Anisa Aqila Arij Arwa Ashraqat Asma Asmaa Asra Atifa Atiya Ayda 
+			Azra Bahija Bahiyya Basima Basira Basma Batul Budur Dalal Dana Daniyah Dima Dua Duha Fadia Fadila Fahima Faiza Fajr Fakriyya 
+			Farah Farida Fariha Fatimah Fatin Fawziyya Fayruz Fidda Fikriyya Ghada Ghadir Ghaliya Ghufran Habiba Hadil Hadiya Hadiyya Hafsa 
+			Hajar_Hagar Hala_Hila Halima Hamida Hana_Anna Hanan Hanifa Haniyya Hasna Hawa_Eva Hayfa Hiba Hikmat Hind Huda Husna Husniya 
+			I'tidal I'timad Ibtihaj Ibtisam Ihab Ihsan Ikram Ilham
+			
+			Adiyya Baslu Dhabibat Dharqa Gamilath Hind Huldu Layla Mamat Maryam Masat Mawiyya Shagilath Shamsi Suhaimat Tabua Te_lkhunu Yapa Yathi_et Yutab Zabibah Zarga
+		}
+		
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+		
+		allow_in_ruler_designer = yes
+	}
+	
+	nabataean_arabic = { 
+		graphical_cultures = { arabicgfx muslimgfx }
+		alternate_start = {
+			always = no
+		}
+		
+		used_for_random = no
+		
+		color = {0.56 0.87 0.51 }
+
+		male_names = {
+			Aretas Malichus Obodas Rabbel Abbas Bahadur Bahij Bakr Baqi Baqir Barak Barakat Basil Basim Basit Bassam Bilal Binyamin_Benjamin Bulus_Paul Burhan Butrus_Peter Dana 
+			Dawud_David Duha Fadi Fadil Fadl Fahd Fahim Faiz Fakhri Farah Faraj Farid Faris Faruq Fathi Fatin Fawzi Fayiz Faysal Fihr Fikri 
+			Firdaus Fuad Ghalib Ghassan Ghayth Ghufran Ghulam Habib Habiballah Hadi Hafiz Haidar Hakim Halim Hamid Hamza Hani Hanif Harith 
+			Harun_Aaron Hasan Hashim Hasib Hasim Hassan Hatim Haytham Hikmat Hisham Husam Husan Husn Uzza Al-Uzza
+			
+			Abiyasa Abraha Alhan Amdan Amkarib Ammdhakhar
+			Ammshafiq Ammyitha Abkarib Abyada Bi-athtar
+			Dhamarali Dhamarkarib Farakarib Ghaylan Hasan
+			Hawfi'amm Hawfiathat Hayu Hufn Il-azz Ilrayum
+			Ilsama Ilsharah Ilyafa Karib-il Khalkarib Ma'ad-il
+			Ma'adkarib Mabhad Malikkarib Marthad Marthad-ilum
+			Masud Muhaqim Muratta Nabat Nabatali Nashakarib
+			Ra'ab-il Rabbshams Sadshams Shahr Shamdar Shammar
+			Sharah-il Simyafa Sumhu-ali Sumhuyafa Tharan
+			Tubbakarib Wahab Waqah-il Waraw-il Watar Yada-ab
+			Yada-ib Yada-il Yadhmurmalik Yakribmalik Yashhur_il
+			Yashhurmalik Yasir Yasuduq-il Yazil Yigal Yitha'amar
+			Yitha-il Yuhaqam Yuhar-il Yusuf
+		}
+		female_names = {
+			Gamilat Haganu Hagru Huldu Shaqilat Abla Adila Afaf Afra Aisha Alina Aliyah_Aliyah Alya Aminah Amirah Amna Anisa Aqila Arij Arwa Ashraqat Asma Asmaa Asra Atifa Atiya Ayda 
+			Azra Bahija Bahiyya Basima Basira Basma Batul Budur Dalal Dana Daniyah Dima Dua Duha Fadia Fadila Fahima Faiza Fajr Fakriyya 
+			Farah Farida Fariha Fatimah Fatin Fawziyya Fayruz Fidda Fikriyya Ghada Ghadir Ghaliya Ghufran Habiba Hadil Hadiya Hadiyya Hafsa 
+			Hajar_Hagar Hala_Hila Halima Hamida Hana_Anna Hanan Hanifa Haniyya Hasna Hawa_Eva Hayfa Hiba Hikmat Hind Huda Husna Husniya 
+			I'tidal I'timad Ibtihaj Ibtisam Ihab Ihsan Ikram Ilham
+			
+			Adiyya Baslu Dhabibat Dharqa Gamilath Hind Huldu Layla Mamat Maryam Masat Mawiyya Shagilath Shamsi Suhaimat Tabua Te_lkhunu Yapa Yathi_et Yutab Zabibah Zarga
+		}
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+	}
+	
+	himyarite = { 
+		graphical_cultures = { arabicgfx muslimgfx }
+		alternate_start = {
+			always = no
+		}
+		
+		used_for_random = no
+		
+		color = {0.56 0.87 0.51 }
+
+		male_names = {
+			Aretas Malichus Obodas Rabbel Abbas Bahadur Bahij Bakr Baqi Baqir Barak Barakat Basil Basim Basit Bassam Bilal Binyamin_Benjamin Bulus_Paul Burhan Butrus_Peter Dana 
+			Dawud_David Duha Fadi Fadil Fadl Fahd Fahim Faiz Fakhri Farah Faraj Farid Faris Faruq Fathi Fatin Fawzi Fayiz Faysal Fihr Fikri 
+			Firdaus Fuad Ghalib Ghassan Ghayth Ghufran Ghulam Habib Habiballah Hadi Hafiz Haidar Hakim Halim Hamid Hamza Hani Hanif Harith 
+			Harun_Aaron Hasan Hashim Hasib Hasim Hassan Hatim Haytham Hikmat Hisham Husam Husan Husn Uzza Al-Uzza
+			
+			Abiyasa Abraha Alhan Amdan Amkarib Ammdhakhar
+			Ammshafiq Ammyitha Abkarib Abyada Bi-athtar
+			Dhamarali Dhamarkarib Farakarib Ghaylan Hasan
+			Hawfi'amm Hawfiathat Hayu Hufn Il-azz Ilrayum
+			Ilsama Ilsharah Ilyafa Karib-il Khalkarib Ma'ad-il
+			Ma'adkarib Mabhad Malikkarib Marthad Marthad-ilum
+			Masud Muhaqim Muratta Nabat Nabatali Nashakarib
+			Ra'ab-il Rabbshams Sadshams Shahr Shamdar Shammar
+			Sharah-il Simyafa Sumhu-ali Sumhuyafa Tharan
+			Tubbakarib Wahab Waqah-il Waraw-il Watar Yada-ab
+			Yada-ib Yada-il Yadhmurmalik Yakribmalik Yashhur_il
+			Yashhurmalik Yasir Yasuduq-il Yazil Yigal Yitha'amar
+			Yitha-il Yuhaqam Yuhar-il Yusuf
+		}
+		female_names = {
+			Gamilat Haganu Hagru Huldu Shaqilat Abla Adila Afaf Afra Aisha Alina Aliyah_Aliyah Alya Aminah Amirah Amna Anisa Aqila Arij Arwa Ashraqat Asma Asmaa Asra Atifa Atiya Ayda 
+			Azra Bahija Bahiyya Basima Basira Basma Batul Budur Dalal Dana Daniyah Dima Dua Duha Fadia Fadila Fahima Faiza Fajr Fakriyya 
+			Farah Farida Fariha Fatimah Fatin Fawziyya Fayruz Fidda Fikriyya Ghada Ghadir Ghaliya Ghufran Habiba Hadil Hadiya Hadiyya Hafsa 
+			Hajar_Hagar Hala_Hila Halima Hamida Hana_Anna Hanan Hanifa Haniyya Hasna Hawa_Eva Hayfa Hiba Hikmat Hind Huda Husna Husniya 
+			I'tidal I'timad Ibtihaj Ibtisam Ihab Ihsan Ikram Ilham
+			
+			Adiyya Baslu Dhabibat Dharqa Gamilath Hind Huldu Layla Mamat Maryam Masat Mawiyya Shagilath Shamsi Suhaimat Tabua Te_lkhunu Yapa Yathi_et Yutab Zabibah Zarga
+		}
+		
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+		
+		allow_looting = yes
+		seafarer = yes
+		
+		allow_in_ruler_designer = yes
+	}
+}

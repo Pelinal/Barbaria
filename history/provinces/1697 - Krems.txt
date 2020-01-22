@@ -1,0 +1,15 @@
+# 1697 - Krems
+
+# County title
+title = c_krems
+
+# Settlements
+max_settlements = 3
+
+b_gars = tribal
+
+# Misc
+culture = burgundian
+religion = germanic_pagan
+
+# History

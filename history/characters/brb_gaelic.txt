@@ -1,0 +1,108 @@
+3125 = {
+	name="Icorics"
+	dynasty=1200
+	culture = "thulean"
+	religion = "danuic"
+	577.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+3126 = {
+	name="Dovagnas"
+	dynasty=1001
+	culture = "irish"
+	religion = "danuic"
+	555.1.1 = {
+		birth = yes
+	}
+	621.1.1 = {
+		death = yes
+	}
+}
+3127 = {
+	name="Ircittis"
+	dynasty=1002
+	culture = "irish"
+	religion = "danuic"
+	564.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+3128 = {
+	name="Verdiadas"
+	dynasty=1003
+	culture = "irish"
+	religion = "danuic"
+	588.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+3129 = {
+	name="Dovatuca"
+	dynasty=1004
+	culture = "irish"
+	religion = "danuic"
+	542.1.1 = {
+		birth = yes
+	}
+	612.1.1 = {
+		death = yes
+	}
+}
+3130 = {
+	name="Gamicu"
+	dynasty=1005
+	culture = "irish"
+	religion = "danuic"
+	579.1.1 = {
+		birth = yes
+	}
+	625.1.1 = {
+		death = yes
+	}
+}
+3131 = {
+	name="Barrivendas"
+	dynasty=1006
+	culture = "irish"
+	religion = "danuic"
+	562.1.1 = {
+		birth = yes
+	}
+	631.1.1 = {
+		death = yes
+	}
+}
+3132 = {
+	name="Ercagnas"
+	dynasty=1007
+	culture = "irish"
+	religion = "danuic"
+	591.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+3133 = {
+	name="Rittavvecs"
+	dynasty=1008
+	culture = "irish"
+	religion = "danuic"
+	577.1.1 = {
+		birth = yes
+	}
+	615.1.1 = {
+		death = yes
+	}
+}

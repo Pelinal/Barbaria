@@ -1,0 +1,14 @@
+# 456 - Kärnten
+
+# County Title
+title = c_karnten
+b_villach = tribal
+
+# Settlements
+max_settlements = 4
+
+# Misc
+culture = rhaetian
+religion = italic
+
+# History

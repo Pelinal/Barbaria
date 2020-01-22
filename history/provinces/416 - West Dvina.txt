@@ -1,0 +1,24 @@
+# 416 - West Dvina
+
+# County Title
+title = c_west_dvina
+
+# Settlements
+max_settlements = 4
+b_kreuzburg = tribal
+
+#b_erle = temple
+
+#b_daugavpils = city
+#b_balvi = temple
+#b_kraslava = castle
+#b_vilaka = castle
+#b_varakjani = castle
+#b_ludza = city
+#b_rezekne = city
+
+# Misc
+culture = aestian
+religion = baltic_pagan
+
+# History

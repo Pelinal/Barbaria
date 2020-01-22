@@ -1,0 +1,22 @@
+# 1672 - Zoubtsov
+
+# County Title
+title = c_zoubtsov
+
+# Settlements
+max_settlements = 2
+
+b_zoubtsov = tribal		#1216
+
+#b_yesinka
+#b_verigino
+#b_batakovo
+#b_papino
+#b_vysokino
+#b_ulyankovo
+
+#Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

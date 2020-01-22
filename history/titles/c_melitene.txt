@@ -1,0 +1,16 @@
+1.1.1 = {
+	holder = 2001
+}
+17.1.1 = {
+	holder = 2002
+}
+72.1.1 = {
+	holder = 2004
+}
+92.1.1 = {
+	holder = 0
+}
+600.1.1 = {
+	liege = k_armenia
+	holder = 2037
+}

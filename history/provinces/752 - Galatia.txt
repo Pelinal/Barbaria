@@ -1,0 +1,25 @@
+# 752 - Galatia
+
+# County Title
+title = c_galatia
+
+# Settlements
+max_settlements = 4
+
+b_mikissos = castle
+b_asponia = city
+
+b_tavia = temple
+
+#b_carissa = castle
+#b_kochisar = castle
+#b_karacaviran = castle
+#b_garsaura = castle
+
+# Misc
+culture = galatian
+religion = gallic
+
+# History
+715.1.1 = { religion = hellenic }
+800.8.26 = { culture = phyrgian }

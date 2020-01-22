@@ -1,0 +1,23 @@
+# 437 - Praha
+
+# County Title
+title = c_praha
+
+# Settlements
+max_settlements = 7
+b_praha = tribal
+
+#b_stare_mesto = city
+#b_vysehrad = castle
+#b_brevnov = temple
+#b_kourim = castle
+#b_kolin = city
+#b_sazava = temple
+#b_zbraslav = temple
+#b_kuttenberg = city
+
+# Misc
+culture = thuringian
+religion = germanic_pagan
+
+# History

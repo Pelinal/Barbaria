@@ -1,0 +1,25 @@
+# 1188 - Khuttal
+
+# County Title
+title = c_khuttal
+
+# Settlements
+max_settlements = 5
+
+b_kulob = castle
+b_halaward = city
+b_washjird = temple
+
+#b_vakash = castle
+#b_qobadhiyan = castle
+#b_rasht = castle
+#b_munk = city
+
+# Misc
+culture = sogdian
+religion = khurmazta
+
+# History
+900.1.1 = {
+	culture = persian
+}

@@ -1,0 +1,15 @@
+# 2029 - Echinos
+
+# County Title
+title = c_echinos
+
+# Settlements
+max_settlements = 3
+
+b_echinos = tribal
+#b_arumantos = city
+b_philonos = temple
+
+#Misc
+culture = nasamonian
+religion = kemetic

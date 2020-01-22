@@ -1,0 +1,42 @@
+bm_attilas_legacy = {
+	name = "BM_ATTILAS_LEGACY_ERA"
+	desc = "BM_ATTILAS_LEGACY_INFO"
+	date = 610.3.6
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_brb_1
+	
+	selectable_character = {
+		id = 1 # Sharru-kin
+		age = 34
+		name = BRB_ERA_CHAR_NAME_1
+		title = d_akkad
+		title_name = AKKAD
+		
+		character = {
+			dna = bcedirmbfcy
+			properties = aj00bc00000
+			religion = chaldean
+			culture = akkadian
+			government = feudal_government
+			dynasty = 1
+		}
+	}
+	
+	selectable_character = {
+		id = 350 # Shahrwaraz Mihran
+		age = 40
+		name = BRB_ERA_CHAR_NAME_2
+		title = k_assyria
+		title_name = ASORISTAN
+		
+		character = {
+			dna = 0aiic0bcba0
+			properties = pf0fij00000
+			religion = zoroastrian
+			culture = persian
+			government = feudal_government
+			dynasty = 284
+		}
+	}
+}

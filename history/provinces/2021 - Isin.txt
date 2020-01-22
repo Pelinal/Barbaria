@@ -1,0 +1,17 @@
+# 2021 - Isin
+
+# County Title
+title = c_isin
+
+# Settlements
+max_settlements = 5
+
+b_isin = castle
+#b_bet_ilisi = castle
+#b_enlilan = temple
+b_daganu = temple # Chaldean holy site
+b_larak = city
+
+#Misc
+culture = sumerian
+religion = chaldean

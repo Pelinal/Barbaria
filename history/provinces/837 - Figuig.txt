@@ -1,0 +1,19 @@
+# 837 - Figuig
+
+# County Title
+title = c_figuig
+
+# Settlements
+max_settlements = 2
+
+b_figuig = castle
+
+#b_bouarfa
+#b_ich
+
+# Misc
+religion = berber
+culture = numidian
+
+# History
+

@@ -1,0 +1,20 @@
+# 576 - Bryansk
+
+# County Title
+title = c_bryansk
+
+# Settlements
+max_settlements = 3
+
+b_bryansk = tribal	#1147
+b_pochep = temple # Baltic pagan holy site
+
+#b_trubetsk	#1164
+#b_suponevo
+#b_kokino
+#b_vygonichi
+#b_bezichi
+
+# Misc
+culture = polan
+religion = slavic_pagan

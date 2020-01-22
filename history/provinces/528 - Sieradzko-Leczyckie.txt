@@ -1,0 +1,24 @@
+# 528 - Sieradzko-Leczyckie
+
+# County Title
+title = c_sieradzko-leczyckie		#With HF = Czersk, Warsaw, Gostynin, Rawa
+
+# Settlements
+max_settlements = 5
+
+b_gostynin = tribal
+
+#b_lowicz
+#b_warszawa
+
+#b_czersk
+#b_sochaczew
+#b_grojec
+#b_rawska
+
+# Misc
+culture = burgundian
+religion = germanic_pagan
+
+# History
+

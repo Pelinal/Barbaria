@@ -1,0 +1,17 @@
+# 1724 - Nalut
+
+# County Title
+title = c_nalut
+
+# Settlements
+max_settlements = 2
+
+b_nalut = tribal
+#b_fursata
+
+# Misc
+culture = garamantian
+religion = berber
+terrain = desert
+
+# History

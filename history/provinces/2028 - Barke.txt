@@ -1,0 +1,17 @@
+# 2028 - Barke
+
+# County Title
+title = c_barke
+
+# Settlements
+max_settlements = 6
+
+b_barke = castle
+b_chairekla = city
+b_balagrai = temple
+b_hesperidon = castle
+#b_zau_taberna = castle
+
+#Misc
+culture = cyrenacian
+religion = hellenic

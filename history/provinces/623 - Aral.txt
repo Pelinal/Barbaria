@@ -1,0 +1,23 @@
+# 623 - Aral
+
+# County Title
+title = c_aral
+
+# Settlements
+max_settlements = 3
+b_kassarma = tribal
+
+#b_kuljandi = city
+#b_dawletgirei = temple
+
+#b_kaszkarata = castle
+#b_aszczeatrik = city
+#b_kosbulak = castle
+#b_sokyrbulak = castle
+#b_karakul = castle
+
+# Misc
+culture = scythian
+religion = heptadic
+
+# History

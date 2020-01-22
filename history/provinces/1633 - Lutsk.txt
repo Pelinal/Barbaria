@@ -1,0 +1,22 @@
+# 1633 - Lutsk
+
+# County Title
+title = c_lutsk
+
+# Settlements
+max_settlements = 4
+
+b_lutsk = tribal
+#b_dubno = city
+#b_peresopnytsia = temple
+
+#b_shumsk
+#b_rivne
+#b_pochaiv
+#b_kivertsi
+
+# Misc
+culture = sclaveni
+religion = slavic_pagan
+
+# History

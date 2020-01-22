@@ -1,0 +1,22 @@
+# 514 - Turnu
+
+# County Title
+title = c_turnu
+
+# Settlements
+max_settlements = 4
+
+b_turnu = castle
+b_giurgiu = city
+#b_comana = temple
+
+#b_zimnicea = castle
+#b_bucuresti = city
+#b_rosiorriidevede = castle
+#b_glavacioc = temple
+
+# Misc
+culture = dacian
+religion = zalmoxian
+
+# History

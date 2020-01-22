@@ -1,0 +1,23 @@
+# 753 - Ankyra
+
+# County Title
+title = c_ankyra
+
+# Settlements
+max_settlements = 4
+b_ankyra = castle
+b_germa = city
+b_gordoservon = temple
+
+#b_gordoservon = castle
+#b_nakoleia = castle
+#b_gordium = castle
+#b_amorion = castle
+#b_haymana = castle
+
+# Misc
+culture = galatian
+religion = gallic
+
+# History
+720.1.1 = { religion = hellenic } # iconoclast

@@ -1,0 +1,17 @@
+# 1930 - Claudiopolis
+
+# County Title
+title = c_claudiopolis
+
+# Settlements
+max_settlements = 3
+b_claudiopolis = castle
+b_iuliopolis = temple
+b_bithynium = city
+
+
+# Misc
+culture = pontic
+religion = hellenic
+
+# History

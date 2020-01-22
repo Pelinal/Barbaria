@@ -1,0 +1,400 @@
+### Iranian Dynastic Names ###
+# e.g. Persian, Kurdish, Baloch, Afgan, Sogdian, Armenian, and Ibero
+# 250- 749?
+
+# Persian Dynasties
+250 = {
+	name = "Karawan"
+	culture = "persian"
+	religion = "zoroastrian"
+	used_for_random = no
+}
+251 = {
+	name = "Jorjani"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+252 = {
+	name = "Saravani"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+253 = { #orginal: 7510
+	name = "Faravid"
+	culture = "persian"
+	religion = "zoroastrian"
+	coat_of_arms={
+		data = { 0 0 0 2 0 7 7 }
+		religion = "zoroastrian"
+	}
+}
+254 = { #orginal: 7511
+	name = "Karen"
+	culture = "persian"
+	religion = "zoroastrian"
+	coat_of_arms = {
+		data = { 0 7 0 29 0 0 0 }
+		religion = "catholic"
+	}
+	forced_coa_religiongroup = "zoroastrian_group"
+}
+255 = {
+	name = "Ashkayada"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+256 = {
+	name = "Yoishta"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+257 = { #Fars vassal
+	name = "Kazeruni"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+
+258 = {
+	name = "Aramid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+259 = {
+	name = "Arid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+260 = {
+	name = "Arkhid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+261 = {
+	name = "Asinid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+262 = {
+	name = "Arsacid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+263 = { 
+	name = "Menid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+264 = {
+	name = "Pacorid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+265 = {
+	name = "Savacid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+266 = { 
+	name = "Vardanid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+267 = { # Eastern vassal
+	name = "Suren"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+268 = {
+	name = "Karin"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+269 = { 
+	name = "Gaumatid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+270 = {
+	name = "Gobryasid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+271 = { 
+	name = "Hydarnid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+272 = {
+	name = "Smerdid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+273 = {
+	name = "Vivanid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+274 = { 
+	name = "Xerxid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+275 = {
+	name = "Abadanid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+276 = {
+	name = "Orontid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+277 = {
+	name = "Mithridatid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+278 = {
+	name = "Artiaxid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+279 = { 
+	name = "Chosroid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+280 = {
+	name = "Bagabignid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+281 = { 
+	name = "Cambysid"
+	culture = "persian"
+	religion = "zoroastrian"
+}
+282 = {
+	name="Sassanid"
+	culture="persian"
+	religion="zoroastrian"
+	coat_of_arms={ 
+		data={0 0 0 8 5 1 2 0 0 0 0 1 2}
+		religion="zoroastrian" 
+	}
+	forced_coa_religiongroup="zoroastrian_group"
+	used_for_random = no
+}
+283 = { 
+	name = "Farazid"
+	culture = "persian"
+	religion = "zoroastrian"
+	forced_coa_religiongroup="zoroastrian_group"
+}
+284 = {
+	name="Mihran"
+	culture="persian"
+	religion="zoroastrian"
+	coat_of_arms = {
+		data = { 0 0 0 7 1 12 10 }
+		religion = "zoroastrian"
+	}
+	forced_coa_religiongroup="zoroastrian_group"
+	used_for_random = no
+}
+285 = {
+	name = "Khozasi"
+	culture = "persian"
+	religion = "mazdaki"
+	used_for_random = no
+}
+286 = {
+	name = "Mashadid"
+	culture = "persian"
+	religion = "zoroastrian"
+	used_for_random = no
+}
+287 = { ## MOVE TO ARMENIANS LATER
+	name = "ve Hakyaberd"
+	culture = "armenian"
+	religion = "zoroastrian"
+	used_for_random = no
+}
+288 = {
+	name="Arsacid"
+	culture="persian"
+	religion="zoroastrian"
+	coat_of_arms={
+		data={ 0 1 0 7 11 1 13 }
+		religion="zoroastrian"
+	}
+	forced_coa_religiongroup="zoroastrian_group"
+}
+289 = {
+	name = "Gushnasp"
+	culture = "persian"
+	religion = "zoroastrian"
+	used_for_random = no
+}
+
+# Afghan Dynasties
+300 = {
+	name = "Zunbil"
+	culture = "afghan"
+	religion = "zun_pagan_reformed"
+	coat_of_arms = {
+		data = { 0 8 0 51 0 0 0 }
+		religion = "zun_pagan_reformed"
+	}
+}
+301 = {
+	name = "Jindin"
+	culture = "afghan"
+	religion = "zoroastrian"
+}
+302 = {
+	name = "Zarbil"
+	culture = "afghan"
+	religion = "zun_pagan_reformed"
+}
+303 = {
+	name = "Mateen"
+	culture = afghan
+	religion = zoroastrian
+}
+304 = {
+	name = "Akravid"
+	culture = afghan
+	religion = zoroastrian
+}
+305 = {
+	name="Shir"
+	culture="afghan"
+	religion="zoroastrian"
+}
+306 = {
+	name="Lawik"
+	culture="afghan"
+	religion="zoroastrian"
+}
+307 = {
+	name="Aflah"
+	culture="afghan"
+	religion="zoroastrian"
+}
+308 = {
+	name="Daud"
+	culture="afghan"
+	religion="zoroastrian"
+}
+309 = {
+	name = "Bahmanid"
+	culture = "afghan"
+	religion = "zoroastrian"
+	coat_of_arms = {
+		data = { 0 1 0 6 2 1 12 }
+		religion = "zoroastrian"
+	}
+}
+310 = {
+	name = "Khattak"
+	culture = "afghan"
+	religion = "zoroastrian"
+}
+
+# Armenian Dynasties
+350 = {
+	name = "Bagratuni"
+	culture = "armenian"
+	coat_of_arms = {
+		data = { 0 0 0 14 5 3 3 }
+		religion = khaldic
+	}
+	used_for_random = no
+}
+351 = {
+	name = "Hayastani"
+	culture = "armenian"
+	religion = "zoroastrian"
+}
+352 = {
+	name = "Orontid"
+	culture = "armenian"
+	religion = "hellenic"
+}
+353 = {
+	name = "Arshakuni"
+	culture = "armenian"
+	religion = "khaldic"
+	used_for_random = no
+}
+354 = {
+	name = "Herodi"
+	culture = "armenian"
+	religion = "khaldic"
+	used_for_random = no
+}
+355 = {
+	name = "Akopyan"
+	culture = "armenian"
+}
+356 = {
+	name = "Markarian"
+	culture = "armenian"
+}
+357 = {
+	name = "Bailan"
+	culture = "armenian"
+}
+358 = {
+	name = "Manssian"
+	culture = "armenian"
+}
+359 = {
+	name = "Grigoryan"
+	culture = "armenian"
+}
+360 = {
+	name = "Avakian"
+	culture = "armenian"
+}
+361 = {
+	name = "Azarian"
+	culture = "armenian"
+}
+362 = {
+	name = "Babayan"
+	culture = "armenian"
+}
+363 = {
+	name = "Bagdasarian"
+	culture = "armenian"
+}
+364 = {
+	name = "Donabeiyan"
+	culture = "armenian"
+}
+365 = {
+	name = "Demirjian"
+	culture = "armenian"
+}
+366 = {
+	name = "Marzmanian"
+	culture = "armenian"
+}
+367 = {
+	name = "Kurkjian"
+	culture = "armenian"
+}
+368 = {
+	name = "Ohanian"
+	culture = "armenian"
+}
+369 = {
+	name = "Papazian"
+	culture = "armenian"
+}
+370 = {
+	name = "Varzdayan"
+	culture = "armenian"
+}

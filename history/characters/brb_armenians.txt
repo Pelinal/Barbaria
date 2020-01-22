@@ -1,0 +1,592 @@
+## ARMENIAN & CAUCASIAN CHARACTERS ##
+## From IDS 2000-2249   ##
+
+2000 = { # Tachat, duke of Persiarmenia
+    name = "Tachat"
+    religion = "khaldic"
+    culture = "persian"
+    dynasty = 287 # ve Hakyaberd
+	
+    589.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+### ORONTIDS AND BAGRATUNIS ###
+
+2001 = { # Antiochus III, king of Commagene
+    name = "Antiochus"
+    religion = "hellenic"
+    culture = "armenian"
+    dynasty = 352 # Orontid
+	
+    1.1.1 = {
+		birth = yes
+	}
+	17.1.1 = {
+		death = yes
+	}
+}
+
+2002 = { # Antiochus IV, king of Commagene
+    name = "Antiochus"
+    religion = "hellenic"
+    culture = "armenian"
+    dynasty = 352 # Orontid
+	father = 2001
+	
+    14.1.1 = {
+		birth = yes
+	}
+	38.1.1 = {
+		give_nickname = nick_the_glorious
+		add_spouse = 2003
+	}
+	72.1.1 = {
+		death = yes
+	}
+}
+
+2003 = {
+    name = "Iotapa"
+    religion = "hellenic"
+    culture = "armenian"
+    dynasty = 352 # Orontid
+	father = 2001
+	
+    20.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+
+2004 = { # Antiochus V, prince of Commagene
+    name = "Antiochus"
+    religion = "armenian"
+    culture = "hellenic"
+    dynasty = 352 # Orontid
+	father = 2002
+	mother = 2003
+	
+    40.1.1 = {
+		birth = yes
+	}
+	92.1.1 = {
+		death = yes
+	}
+}
+
+2005 = { # Callinicus I, prince of Commagene
+    name = "Callinicus"
+    religion = "hellenic"
+    culture = "armenian"
+    dynasty = 352 # Orontid
+	father = 2002
+	mother = 2003
+	
+    42.1.1 = {
+		birth = yes
+	}
+	80.1.1 = {
+		death = yes
+	}
+}
+
+2006 = { # Tigranes, king of Armenia
+    name = "Tigranes"
+    religion = "hellenic"
+    culture = "armenian"
+    dynasty = 354 # Herodian
+	
+    34.1.1 = {
+		birth = yes
+	}
+	66.1.1 = {
+		death = yes
+	}
+}
+
+2007 = { # Sanatruces I, king of Armenia
+    name = "Sanatruces"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 1514 # not actually true
+	
+    68.1.1 = {
+		birth = yes
+	}
+	110.1.1 = {
+		death = yes
+	}
+}
+
+2008 = {
+	name="Xusrew" # Khosrov II of Armenia
+	dynasty=353
+	religion="khaldic"
+	culture="armenian"
+	father=1520
+	217.1.1={
+		birth=yes
+	}
+	268.1.1={
+		death=yes
+	}
+}
+
+2009 = {
+	name="Tiridates" # Tiridates III 'the Great' of Armenia
+	dynasty=353
+	religion="zoroastrian"
+	culture="armenian"
+	father=2008
+	252.1.1={
+		birth=yes
+	}
+	260.1.1 = {
+		give_nickname = nick_the_great
+	}
+	330.1.1={
+		death=yes
+	}
+}
+
+2010 = { # Khosrov III 'the Small', king of Armenia
+    name = "Xusrew"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2009
+	
+    285.1.1 = {
+		birth = yes
+	}
+	330.1.1 = {
+		give_nickname = nick_the_small
+	}
+	339.1.1 = {
+		death = yes
+	}
+}
+2011 = { # Tiran I, king of Armenia
+    name = "Tiran"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2010
+	
+    305.1.1 = {
+		birth = yes
+	}
+	358.1.1 = {
+		death = yes
+	}
+}
+2012 = { # Arshak II, king of Armenia
+    name = "Arshak"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2011
+	
+    320.1.1 = {
+		birth = yes
+	}
+	369.1.1 = {
+		death = yes
+	}
+}
+2013 = { # Pap I, king of Armenia
+    name = "Pap"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2012
+	
+    350.1.1 = {
+		birth = yes
+	}
+	374.1.1 = {
+		death = yes
+	}
+}
+2014 = { # Anob, prince of Armenia
+    name = "Anob"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2012
+	
+    353.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+2015 = { # Varazdat, king of Armenia
+    name = "Varazdat"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2014
+	
+    362.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		death = yes
+	}
+}
+2016 = { # Arshak III, king of Armenia
+    name = "Arshak"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2012
+	
+    371.1.1 = {
+		birth = yes
+	}
+	389.1.1 = {
+		add_spouse = 2024
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+2017 = { # Khosrov IV, king of Armenia
+    name = "Xusrew"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2015
+	
+    338.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+2018 = { # Vramshapuh I, king of Armenia
+    name = "Vramshapuh"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2015
+	
+    343.1.1 = {
+		birth = yes
+	}
+	414.1.1 = {
+		death = yes
+	}
+}
+
+2019 = { # Artaxias IV, last Arsacid king of Armenia
+    name = "Artaxias"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 353 # Arshakuni
+	father = 2018
+	
+    404.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+
+### BAGRATUNIS ###
+
+2020 = { # Founder of dynasty
+	name = "Smbat"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	
+    265.1.1 = {
+		birth = yes
+	}
+	314.1.1 = {
+		death = yes
+	}
+}
+2021 = { 
+	name = "Bagrat"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2020
+	
+    298.1.1 = {
+		birth = yes
+	}
+	353.1.1 = {
+		death = yes
+	}
+}
+2022 = { 
+	name = "Smbat"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2021
+	
+    329.1.1 = {
+		birth = yes
+	}
+	374.1.1 = {
+		death = yes
+	}
+}
+2023 = { 
+	name = "Sahak"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2022
+	
+    367.1.1 = {
+		birth = yes
+	}
+	388.1.1 = {
+		death = yes
+	}
+}
+2024 = { 
+	name = "Margarid"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2023
+	female = yes
+	
+    375.1.1 = {
+		birth = yes
+	}
+	401.1.1 = {
+		death = yes
+	}
+}
+
+2025 = { 
+	name = "Smbat"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2023
+	
+    379.1.1 = {
+		birth = yes
+	}
+	423.1.1 = {
+		death = yes
+	}
+}
+
+2026 = { 
+	name = "Tirots"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2025
+	
+    408.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		death = yes
+	}
+}
+
+2027 = { # Temporary governor of Armenia
+	name = "Sahak" 
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2026
+	
+    430.1.1 = {
+		birth = yes
+	}
+	482.1.1 = {
+		death = yes
+	}
+}
+
+2028 = { 
+	name = "Sanpdiat"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2027
+	
+    456.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+
+2029 = { 
+	name = "Varaztirots"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2028
+	
+    478.1.1 = {
+		birth = yes
+	}
+	534.1.1 = {
+		death = yes
+	}
+}
+
+2030 = { 
+	name = "Ashot"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2029
+	
+    517.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+2031 = { 
+	name = "Manvel"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2029
+	
+    523.1.1 = {
+		birth = yes
+	}
+	588.1.1 = {
+		death = yes
+	}
+}
+
+2032 = { 
+	name = "Pap"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2030
+	
+    531.1.1 = {
+		birth = yes
+	}
+	596.1.1 = {
+		death = yes
+	}
+}
+
+2033 = { # Smbat I of Armenia
+	name = "Smbat"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2031
+	
+	add_trait = just
+	add_trait = kind
+	
+    564.1.1 = {
+		birth = yes
+	}
+	617.1.1 = {
+		death = yes
+	}
+}
+
+2034 = { # Varaztirots I of Armenia
+	name = "Varaztirots"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 350 # Bagratuni
+	father = 2033
+	
+	add_trait = curious
+	add_trait = rowdy
+	
+    598.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		death = yes
+	}
+}
+
+2035 = { # Artashir, duke of Azerbaijan
+	name = "Artashir"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 355
+	
+    586.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+2036 = { # Hethum, duke of 'Mesopotamia'
+	name = "Hethum"
+    religion = "khaldic"
+    culture = "armenian"
+    dynasty = 356
+	
+    582.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+2037 = { # Oshin, duke of Coloneia
+	name = "Oshin"
+    religion = "cybelene"
+    culture = "armenian"
+    dynasty = 357
+	
+    576.1.1 = {
+		birth = yes
+	}
+	632.1.1 = {
+		death = yes
+	}
+}
+
+2038 = { # Bagrat, count of edessa
+	name = "Oshin"
+    religion = "zoroastrian"
+    culture = "armenian"
+    dynasty = 357
+	
+    580.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}

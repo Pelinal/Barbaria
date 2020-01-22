@@ -1,0 +1,24 @@
+# 547 - Kiev
+
+# County Title
+title = c_kiev
+
+# Settlements
+max_settlements = 7
+
+b_kiev = tribal			#Vth century
+b_zhytomyr = temple		#884
+
+#b_vyshhorod = city		#946
+
+#b_vasykliv = castle	#988
+#b_yuriev = castle		#1032  #Today called "Bila Tserkva"
+#b_kaniv = castle		#1078
+#b_fastiv = castle		#1390
+
+# Misc
+culture = sclaveni
+religion = slavic_pagan
+terrain = plains
+
+# History

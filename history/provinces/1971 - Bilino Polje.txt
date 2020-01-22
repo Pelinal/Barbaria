@@ -1,0 +1,15 @@
+# 1971 - Vrhbosna
+
+# County Title
+title = c_bilino_polje
+
+# Settlements
+max_settlements = 3
+b_visoki = tribal
+
+# Misc
+culture = greco_illyrian
+religion = hellenic
+terrain = mountain
+
+# History

@@ -1,0 +1,2 @@
+nick_the_boar = {}
+nick_the_persian = {}

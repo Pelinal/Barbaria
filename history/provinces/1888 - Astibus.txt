@@ -1,0 +1,15 @@
+# 1888 - Astibus
+
+# County Title
+title = c_astibus
+
+# Settlements
+max_settlements = 3
+b_astibus = castle
+b_veles = city
+
+# Misc
+culture = greek
+religion = hellenic
+
+# History

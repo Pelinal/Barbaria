@@ -1,0 +1,14 @@
+# 1805 - Balanjar
+
+# County title 
+title = c_balanjar 
+
+# Settlements 
+max_settlements = 3
+b_balanjar = tribal
+
+# Misc
+culture = albanian
+religion = armazic
+
+# History

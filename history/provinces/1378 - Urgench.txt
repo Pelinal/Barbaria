@@ -1,0 +1,21 @@
+# 1378 - Urgench
+
+# County Title
+title = c_urgench
+
+# Settlements
+max_settlements = 4
+
+b_kungrat = castle
+b_madminiya = city
+b_kizil_agir = temple
+
+# b_kungrat
+# b_ulkun
+
+# Misc
+culture = dahae
+religion = heptadic
+terrain = steppe
+
+# History

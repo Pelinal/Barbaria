@@ -1,0 +1,18 @@
+# 1931 - Amorion
+
+# County Title
+title = c_amorion
+
+# Terrain
+terrain = hills
+
+# Settlements
+max_settlements = 3
+b_amorion = castle
+b_polybotos = temple
+
+# Misc
+culture = pontic
+religion = hellenic
+# History
+

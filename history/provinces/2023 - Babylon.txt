@@ -1,0 +1,19 @@
+# 2023 - Babylon
+
+# County Title
+title = c_babylon
+
+# Settlements
+max_settlements = 7
+
+b_babylon = castle
+b_kazallu = city
+b_etemenanki = temple #Chaldean holy site
+b_cadimirra = castle
+#b_inannam = city
+b_esaglia = temple
+#b_babil = castle
+
+#Misc
+culture = akkadian
+religion = chaldean

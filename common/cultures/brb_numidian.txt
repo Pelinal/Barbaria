@@ -1,0 +1,58 @@
+###############################################
+###		Scythian Cultures - Barbaria 		###
+###############################################
+
+## colour: 0.7 0.45 0.35
+# Numidian
+# Mauri
+# Gaetulian
+
+numidian_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }
+	
+	numidian = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.7 0.45 0.35 }
+		
+		male_names = {
+			Adherbal Bomilcar Ezena	Gauda Gulussa Hiempsal Iampsas Jugurtha	Masinissa Massiva Mastanabal Micipsa
+            Nabdalsa Naravas Oxyntas Sypax Syphax Tacfarinas Tychaeus Vermina Zeteres Gala Amastan Mastan
+		}
+		female_names = {
+			Anno Salammbo Sophonisba Panisba Ena Palema Synno Narva Enno Adhierno Ballanba
+		}
+	}
+	
+	mauri = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.7 0.45 0.35 }
+		
+		male_names = {
+			Adherbal Bomilcar Ezena	Gauda Gulussa Hiempsal Iampsas Jugurtha	Masinissa Massiva Mastanabal Micipsa
+            Nabdalsa Naravas Oxyntas Sypax Syphax Tacfarinas Tychaeus Vermina Zeteres Gala Amastan Mastan
+		}
+		female_names = {
+			Anno Salammbo Sophonisba Panisba Ena Palema Synno Narva Enno Adhierno Ballanba
+		}
+	}
+	
+	gaetulian = {
+		graphical_cultures = { westafricangfx africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.7 0.45 0.35 }
+		
+		male_names = {
+			Adherbal Bomilcar Ezena	Gauda Gulussa Hiempsal Iampsas Jugurtha	Masinissa Massiva Mastanabal Micipsa
+            Nabdalsa Naravas Oxyntas Sypax Syphax Tacfarinas Tychaeus Vermina Zeteres Gala Amastan Mastan
+		}
+		female_names = {
+			Anno Salammbo Sophonisba Panisba Ena Palema Synno Narva Enno Adhierno Ballanba
+		}
+	}
+}

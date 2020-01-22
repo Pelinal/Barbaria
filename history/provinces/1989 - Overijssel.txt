@@ -1,0 +1,17 @@
+# 1989 - Overijssel
+
+# County Title
+title = c_overijssel
+
+# Settlements
+max_settlements = 4
+b_zwolle = castle
+b_enschede = city
+b_deventer = temple
+
+# Misc
+culture = frisian
+religion = germanic_pagan
+
+# History
+1066.1.1 = { capital = b_deventer }

@@ -1,0 +1,24 @@
+# 813 - Djerba
+
+# County Title
+title = c_djerba
+
+# Settlements
+max_settlements = 3
+
+b_houmtsouk = tribal
+b_ajim = temple
+
+#b_midoun = city
+#b_aghir = castle
+#b_abarda = castle
+#b_elmey = castle
+#b_cedriane = castle
+#b_taguermess = castle
+
+# Misc
+culture = libyo_phoenician
+religion = punic
+terrain = desert
+
+# History

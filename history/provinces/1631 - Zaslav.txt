@@ -1,0 +1,22 @@
+# 1631 - Zaslav
+
+# County Title
+title = c_zaslav
+
+# Settlements
+max_settlements = 4
+
+b_zaslav = tribal
+#b_kremyanets = city
+#b_plisnesk = temple
+
+#b_buzhesk
+#b_ostroh
+#b_chepetivka
+#b_slavuta
+
+# Misc
+culture = sclaveni
+religion = slavic_pagan
+
+# History

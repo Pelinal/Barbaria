@@ -1,0 +1,23 @@
+# 568 - Smolensk
+
+# County Title
+title = c_smolensk
+
+# Settlements
+max_settlements = 4
+
+b_smolensk = tribal		#863
+
+#b_gnyozdovo  #based on historical viking site Gnezdovo
+#b_krasny	#1165
+#b_velizh	#1536
+#b_yartsevo	#1610
+#b_netrizovo
+#b_ray
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History
+

@@ -1,0 +1,19 @@
+# 1545 - Nakhshab
+
+# County Title
+title = c_nakhshab
+
+# Settlements
+max_settlements = 3
+b_nakhsab = castle
+b_paykand = city
+b_paykand = temple
+
+
+
+# Misc
+culture = dahae
+religion = zoroastrian
+terrain = steppe
+
+# History

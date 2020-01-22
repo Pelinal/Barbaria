@@ -1,0 +1,24 @@
+# 627 - Kara-Kum
+
+# County Title
+title = c_kara-kum
+
+# Settlements
+max_settlements = 4
+b_farava = castle
+
+b_kyzylsu = city
+#b_gazanjyk = 
+#b_bekdas = 
+#b_cheleken = 
+#b_ohk = 
+#b_dzhanga = 
+#b_awaza = 
+#b_yangadzha = 
+
+# Misc
+culture = dahae
+religion = zoroastrian
+
+# History
+

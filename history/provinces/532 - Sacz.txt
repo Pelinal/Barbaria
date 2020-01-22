@@ -1,0 +1,23 @@
+# 532 - Sacz
+
+# County Title
+title = c_sacz
+
+# Settlements
+max_settlements = 4
+b_nowysacz = tribal
+b_szczyrzycz = temple
+#b_gorlice = city
+
+
+#b_tarnow = city
+#b_pilzno = castle
+#b_mielec = castle
+#b_biecz = castle
+
+# Misc
+culture = vandal
+religion = germanic_pagan
+
+# History
+

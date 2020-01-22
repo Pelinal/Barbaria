@@ -1,0 +1,16 @@
+# 2017 - Larsa
+
+# County Title
+title = c_larsa
+
+# Settlements
+max_settlements = 4
+
+b_larsa = castle
+b_umma = city
+b_ningal = temple
+#b_zabala = castle
+
+#Misc
+culture = sumerian
+religion = chaldean

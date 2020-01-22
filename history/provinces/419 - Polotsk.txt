@@ -1,0 +1,22 @@
+# 419 - Polotsk
+
+# County Title
+title = c_polotsk
+
+# Settlements
+max_settlements = 4
+
+b_polotsk = tribal	#862
+
+#b_haradok	#XIIIrd
+#b_rassony	#1552
+#b_obol		#XVIth
+#b_douza	#unsure
+#b_sirotino	#unsure
+#b_leskovichi	#unsure
+
+# Misc
+culture = venedi
+religion = slavic_pagan
+
+# History

@@ -1,0 +1,23 @@
+# 363 - Litomerice
+
+# County Title
+title = c_litomerice
+
+# Settlements
+max_settlements = 6
+b_litomerice = tribal
+
+#b_melnik = city
+#b_mnichovo_hradiste = temple
+#b_zitava = castle
+#b_duba_litomerice = castle
+#b_decin = castle
+#b_boleslav = city
+#b_ceskalipa = castle
+#b_nymburk = city
+
+# Misc
+culture = thuringian
+religion = germanic_pagan
+
+# History

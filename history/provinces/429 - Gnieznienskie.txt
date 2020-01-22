@@ -1,0 +1,21 @@
+# 429 - Gnieznienskie
+
+# County Title
+title = c_gnieznienskie
+
+# Settlements
+max_settlements = 2
+b_naklo = tribal
+#b_kamien = temple
+
+#b_kcynia = city
+#b_pila = castle
+#b_lubiewo = castle
+#b_podgaje = castle
+#b_bialaziema = castle
+
+# Misc
+culture = rugian
+religion = germanic_pagan
+
+# History

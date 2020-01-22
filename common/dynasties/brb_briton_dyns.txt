@@ -1,0 +1,366 @@
+### British Dynastic Names ###
+# e.g. Briton, Cumbric, and Pictish
+# 750- 999?
+
+# Briton Dynasties
+750 = {
+	name = "Dyvet"
+	culture = "briton"
+	religion = "brythonic"
+	used_for_random = no
+}
+751 = {
+	name = "Iceni"
+	culture = "briton"
+	religion = "brythonic"
+	used_for_random = no
+}
+752 = {
+	name = "Correia"
+	culture = "briton"
+	religion = "brythonic"
+}
+753 = {
+	name = "Divica"
+	culture = "briton"
+	religion = "brythonic"
+}
+754 = {
+	name = "Durata"
+	culture = "briton"
+	religion = "brythonic"
+}
+755 = {
+	name = "Elitova"
+	culture = "briton"
+	religion = "brythonic"
+}
+756 = {
+	name = "Galba"
+	culture = "briton"
+	religion = "brythonic"
+}
+757 = {
+	name = "Iaca"
+	culture = "briton"
+	religion = "brythonic"
+}
+758 = {
+	name = "Margana"
+	culture = "briton"
+	religion = "brythonic"
+}
+759 = {
+	name = "Sinata"
+	culture = "briton"
+	religion = "brythonic"
+}
+760 = {
+	name = "Vodenosa"
+	culture = "briton"
+	religion = "brythonic"
+}
+761 = {
+	name = "Caractacus"
+	culture = "briton"
+	religion = "brythonic"
+}
+762 = {
+	name = "Venuta"
+	culture = "briton"
+	religion = "brythonic"
+}
+763 = {
+	name = "Bolgia"
+	culture = "briton"
+	religion = "brythonic"
+}
+764 = {
+	name = "Celata"
+	culture = "briton"
+	religion = "brythonic"
+}
+765 = {
+	name = "Accus"
+	culture = "briton"
+	religion = "brythonic"
+}
+766 = {
+	name = "Sinora"
+	culture = "briton"
+	religion = "brythonic"
+}
+767 = {
+	name = "Cresca"
+	culture = "briton"
+	religion = "brythonic"
+}
+768 = {
+	name = "Inammici"
+	culture = "briton"
+	religion = "brythonic"
+}
+769 = {
+	name = "Urceia"
+	culture = "briton"
+	religion = "brythonic"
+}
+770 = {
+	name = "Oconia"
+	culture = "briton"
+	religion = "brythonic"
+}
+771 = {
+	name = "Velba"
+	culture = "briton"
+	religion = "brythonic"
+}
+772 = {
+	name = "Orgetora"
+	culture = "briton"
+	religion = "brythonic"
+}
+
+# Cumbric Dynasties
+850 = {
+	name = "Briganti"
+	culture = "cumbric"
+	religion = "brythonic"
+	used_for_random = no
+}
+851 = {
+	name = "Parisas"
+	culture = "cumbric"
+	religion = "brythonic"
+	used_for_random = no
+}
+852 = {
+	name = "Correia"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+853 = {
+	name = "Divica"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+854 = {
+	name = "Durata"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+855 = {
+	name = "Elitova"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+856 = {
+	name = "Galba"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+857 = {
+	name = "Iaca"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+858 = {
+	name = "Margana"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+859 = {
+	name = "Sinata"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+860 = {
+	name = "Vodenosa"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+861 = {
+	name = "Caractacus"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+862 = {
+	name = "Venuta"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+863 = {
+	name = "Bolgia"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+864 = {
+	name = "Celata"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+865 = {
+	name = "Accus"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+866 = {
+	name = "Sinora"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+867 = {
+	name = "Cresca"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+868 = {
+	name = "Inammici"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+869 = {
+	name = "Urceia"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+870 = {
+	name = "Oconia"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+871 = {
+	name = "Velba"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+872 = {
+	name = "Orgetora"
+	culture = "cumbric"
+	religion = "brythonic"
+}
+
+# Pictish Dynasties
+950 = {
+	name = "Uib"
+	culture = "pictish"
+	religion = "brythonic"
+	coat_of_arms=
+	{
+		data=
+		{
+0 8 0 4 0 0 0 			}
+		religion="catholic"
+	}
+}
+951 = {
+	name = "Uerba"
+	culture = "pictish"
+	religion = "brythonic"
+	used_for_random = no
+}
+952 = {
+	name = "Correia"
+	culture = "pictish"
+	religion = "brythonic"
+}
+953 = {
+	name = "Divica"
+	culture = "pictish"
+	religion = "brythonic"
+}
+954 = {
+	name = "Durata"
+	culture = "pictish"
+	religion = "brythonic"
+}
+955 = {
+	name = "Elitova"
+	culture = "pictish"
+	religion = "brythonic"
+}
+956 = {
+	name = "Galba"
+	culture = "pictish"
+	religion = "brythonic"
+}
+957 = {
+	name = "Iaca"
+	culture = "pictish"
+	religion = "brythonic"
+}
+958 = {
+	name = "Margana"
+	culture = "pictish"
+	religion = "brythonic"
+}
+959 = {
+	name = "Sinata"
+	culture = "pictish"
+	religion = "brythonic"
+}
+960 = {
+	name = "Vodenosa"
+	culture = "pictish"
+	religion = "brythonic"
+}
+961 = {
+	name = "Caractacus"
+	culture = "pictish"
+	religion = "brythonic"
+}
+962 = {
+	name = "Venuta"
+	culture = "pictish"
+	religion = "brythonic"
+}
+963 = {
+	name = "Bolgia"
+	culture = "pictish"
+	religion = "brythonic"
+}
+964 = {
+	name = "Celata"
+	culture = "pictish"
+	religion = "brythonic"
+}
+965 = {
+	name = "Accus"
+	culture = "pictish"
+	religion = "brythonic"
+}
+966 = {
+	name = "Sinora"
+	culture = "pictish"
+	religion = "brythonic"
+}
+967 = {
+	name = "Cresca"
+	culture = "pictish"
+	religion = "brythonic"
+}
+968 = {
+	name = "Inammici"
+	culture = "pictish"
+	religion = "brythonic"
+}
+969 = {
+	name = "Urceia"
+	culture = "pictish"
+	religion = "brythonic"
+}
+970 = {
+	name = "Oconia"
+	culture = "pictish"
+	religion = "brythonic"
+}
+971 = {
+	name = "Velba"
+	culture = "pictish"
+	religion = "brythonic"
+}
+972 = {
+	name = "Orgetora"
+	culture = "pictish"
+	religion = "brythonic"
+}

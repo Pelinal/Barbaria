@@ -1,0 +1,22 @@
+# XXX - Opava
+
+# County Title
+title = c_opava
+
+# Settlements
+max_settlements = 3
+
+b_opava = tribal
+#b_krnov = city
+b_bruntal = temple
+
+#b_hradec_nad_moravici = castle
+#b_hlubcice = city
+#b_holasovice = castle
+#b_oldrisov = city
+
+# Misc
+culture = burgundian
+religion = germanic_pagan
+
+# History

@@ -1,0 +1,22 @@
+# 356 - Venezia
+
+# County Title
+title = c_venezia
+
+# Settlements
+max_settlements = 7
+b_venezia = city
+b_pallestrina = castle
+b_rialto = temple
+b_jesolo = city
+b_lido = city
+
+#b_murano = city
+#b_torcello = city
+#b_fusina = city
+
+# Misc
+culture = venetic
+religion = italic
+
+# History

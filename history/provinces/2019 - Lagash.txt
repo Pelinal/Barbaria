@@ -1,0 +1,16 @@
+# 2019 - Lagash
+
+# County Title
+title = c_lagash
+
+# Settlements
+max_settlements = 4
+
+b_lagash = castle
+#b_bad_tibira = castle
+#b_ninurtana = temple
+b_girsu = city
+
+#Misc
+culture = persian
+religion = zoroastrian

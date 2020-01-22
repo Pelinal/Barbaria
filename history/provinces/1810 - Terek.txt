@@ -1,0 +1,13 @@
+# 1810 - Terek
+
+# County title 
+title = c_terek
+
+# Settlements
+max_settlements = 2
+b_terek = tribal
+
+culture = sarmatian
+religion = heptadic
+
+# History

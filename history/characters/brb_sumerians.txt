@@ -1,0 +1,149 @@
+## SUMERIAN CHARACTERS ##
+## From IDS 500-749   ##
+
+500 = { # Pu-Dagan, ruler of persian sumeria
+	name = "Pu-Dagan"
+	dynasty = 40
+	culture = sumerian
+	religion = zoroastrian
+
+	add_trait = "misguided_warrior"
+	add_trait = "zealous"
+	add_trait = "greedy"
+	
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+501 = { #Wife
+	name = "Endukagga"
+	dynasty = 40
+	culture = sumerian
+	religion = chaldean
+	
+	add_trait = "strong"
+
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+502 = { #Son
+	name = "Bunu-Ishtar"
+	dynasty = 40
+	culture = sumerian
+	religion = zoroastrian
+	
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+503 = { #Daughter
+	name = "Ninlil"
+	dynasty = 40
+	culture = sumerian
+	religion = chaldean
+        female = yes
+	
+	add_trait = "strong"
+
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+504 = { 
+	name = "Nanna"
+	dynasty = 40
+	culture = sumerain
+	religion = chaldean
+	female = yes
+
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+505 = { 
+	name = "Zummabu"
+	dynasty = 40
+	culture = sumerian
+	religion = chaldean
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 9
+	
+	
+	add_trait = "fortune_builder"
+	add_trait = "diligent"
+	add_trait = "greedy"
+	add_trait = "proud"
+	
+	576.2.5 = {
+		birth = yes 
+	}
+}
+
+506 = { 
+	name = "Arahunaa"
+	dynasty = 40
+	culture = sumerian
+	religion = chaldean
+        female = yes
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 6
+	learning = 9
+	
+	add_trait = "fortune_builder"
+	add_trait = "diligent"
+	add_trait = "greedy"
+	add_trait = "proud"
+
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+507 = { 
+	name = "Delondra"
+	dynasty = 40
+	culture = sumerian
+	religion = chaldean
+        female = yes
+	
+	add_trait = "strong"
+
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}
+
+508 = { 
+	name = "Asharru"
+	dynasty = 40
+	culture = sumerian
+	religion = chaldean
+        female = yes
+	
+	add_trait = "strong"
+
+	576.2.5 = {
+		birth = yes 
+	}
+	
+}

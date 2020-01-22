@@ -1,0 +1,548 @@
+## GREEK-HELLENISTIC CHARACTERS ##
+## From IDS 6900-6999
+
+6900 = { # Ptolemy I
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = greek
+	religion = hellenic
+	
+	add_trait = brilliant_strategist
+	add_trait = zealous
+	
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6901 = { # Ptolemy II
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = greek
+	religion = hellenic
+	father = 6900
+	
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6902 = { # Ptolemy III
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = greek
+	religion = hellenic
+	father = 6901
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6903 = { # Ptolemy IV
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = greek
+	religion = hellenic
+	father = 6902
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6904 = { # Ptolemy V
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = greek
+	religion = hellenic
+	father = 6903
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6905 = { # Ptolemy VI
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = greek
+	religion = hellenic
+	father = 6904
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6906 = { # Cleopatra VII
+	name = "Kleopatra"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	female = yes
+	father = 6912
+	2.1.1 = {
+		birth = yes 
+	}
+	40.1.1 = {
+		death = yes
+	}
+}
+6907 = { # Ptolemy VII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6905
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6908 = { # Ptolemy VIII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6907
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6909 = { # Ptolemy IX
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6908
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6910 = { # Ptolemy X
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6909
+	
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6911 = { # Ptolemy XI
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6910
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6912 = { # Ptolemy XII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6911
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6913 = { # Ptolemy XIII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6912
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6914 = { # Ptolemy XIV
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6913
+	1.1.1 = {
+		birth = yes 
+	}
+	50.1.1 = {
+		death = yes
+	}
+}
+6915 = { # Ptolemy XV
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6914
+	2.1.1 = {
+		birth = yes 
+	}
+	30.1.1 = {
+		death = yes
+	}
+}
+
+### start of actual history
+6917 = { # Ptolemy XVI
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6915
+	29.1.1 = {
+		birth = yes 
+	}
+	80.1.1 = {
+		death = yes
+	}
+}
+6918 = { # Ptolemy XVII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6917
+	50.1.1 = {
+		birth = yes 
+	}
+	110.1.1 = {
+		death = yes
+	}
+}
+6919 = { # Ptolemy XVIII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6918
+	90.1.1 = {
+		birth = yes 
+	}
+	160.1.1 = {
+		death = yes
+	}
+}
+6920 = { # Ptolemy XIX
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6919
+	add_trait = inbred
+	add_trait = cruel
+	add_trait = feeble
+	
+	130.1.1 = {
+		birth = yes 
+	}
+	200.1.1 = {
+		death = yes
+	}
+}
+6921 = { # Ptolemy XX
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6920
+	diplomacy = 10
+	add_trait = kind
+	
+	170.1.1 = {
+		birth = yes 
+	}
+	245.1.1 = {
+		death = yes
+	}
+}
+6922 = { # Ptolemy XXI
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6921
+	210.1.1 = {
+		birth = yes 
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+6923 = { # Ptolemy XXII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6922
+	250.1.1 = {
+		birth = yes 
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+6924 = { # Ptolemy XXIII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6923
+	300.1.1 = {
+		birth = yes 
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+6925 = { # Ptolemy XXIV
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6924
+	340.1.1 = {
+		birth = yes 
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+6926 = { # Ptolemy XXV 'the Old'
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6925
+	add_trait = sturdy
+	give_nickname = nick_the_old
+	
+	360.1.1 = {
+		birth = yes 
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+6927 = { # Ptolemy XXVI
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6926
+	420.1.1 = {
+		birth = yes 
+	}
+	490.1.1 = {
+		death = yes
+	}
+}
+6928 = { # Ptolemy XXVII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6927
+	435.1.1 = {
+		birth = yes 
+	}
+	515.1.1 = {
+		death = yes
+	}
+}
+6929 = { # Ptolemy XXVIII
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6928
+	470.1.1 = {
+		birth = yes 
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+6930 = { # Ptolemy XXIX
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6929
+	530.1.1 = {
+		birth = yes 
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+6931 = { # Ptolemy XXX
+	name = "Ptolemaios"
+	dynasty = 1500 #Lagid
+	culture = egyptiote
+	religion = kemetic
+	father = 6930
+	stewardship = 9
+	diplomacy = 4
+	learning = 4
+	martial = 2
+	intrigue = 0
+	
+	add_trait = just
+	add_trait = fortune_builder
+	add_trait = diligent
+	
+	575.1.1 = {
+		birth = yes 
+	}
+	625.1.1 = {
+		death = yes
+	}
+}
+
+###### NON PTOLEMAIC PEOPLE ######
+
+7000 = {
+	name = "Philotas"
+	dynasty = 101
+	culture = egyptiote
+	religion = kemetic
+	
+	590.1.1 = {
+		birth = yes 
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+7001 = {
+	name = "Agathon"
+	dynasty = 102
+	culture = egyptiote
+	religion = kemetic
+	
+	590.1.1 = {
+		birth = yes 
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+7002 = {
+	name = "Alexandros"
+	dynasty = 103
+	culture = egyptiote
+	religion = kemetic
+	
+	590.1.1 = {
+		birth = yes 
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+7003 = {
+	name = "Ramesses"
+	dynasty = 104
+	culture = egyptian
+	religion = kemetic
+	
+	576.1.1 = {
+		birth = yes 
+	}
+	643.1.1 = {
+		death = yes
+	}
+}
+7004 = {
+	name = "Orestes"
+	dynasty = 105
+	culture = egyptiote
+	religion = kemetic
+	
+	590.1.1 = {
+		birth = yes 
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+7005 = {
+	name = "Antipatros"
+	dynasty = 106
+	culture = egyptiote
+	religion = kemetic
+	
+	590.1.1 = {
+		birth = yes 
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+7006 = {
+	name = "Isakios"
+	dynasty = 107
+	culture = egyptiote
+	religion = kemetic
+	
+	add_trait = elusive_shadow
+	add_trait = cynical
+	intrigue = 8
+	
+	570.1.1 = {
+		birth = yes 
+	}
+	615.1.1 = {
+		death = yes
+	}
+}
+
+7007 = {
+	name="Mariam"
+	# wife of Khorau II
+	female=yes
+	dynasty=1022184
+	religion="orthodox"
+	culture="greek"
+	father=70510
+	570.1.1={
+		birth="570.1.1"
+	}
+	630.1.1={
+		death="630.1.1"
+	}
+}

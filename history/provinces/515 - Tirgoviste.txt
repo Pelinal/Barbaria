@@ -1,0 +1,23 @@
+## 515 - Tirgoviste
+
+# County Title
+title = c_tirgoviste
+
+# Settlements
+max_settlements = 3
+
+b_targoviste = castle
+b_tabla_butii = city
+
+#b_snagov = temple
+#b_bucov = castle
+#b_ramnicu_sarat = castle
+#b_buzau = castle
+#b_valeni = city
+
+# Misc
+culture = dacian
+religion = zalmoxian
+
+# History
+

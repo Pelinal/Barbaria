@@ -1,0 +1,15 @@
+# 1933 - Nyssa
+
+# County Title
+title = c_nyssa
+
+# Settlements
+max_settlements = 3
+b_nyssa = castle
+b_archelais = city
+
+# Misc
+culture = galatian
+religion = hellenic
+
+# History

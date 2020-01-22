@@ -1,0 +1,22 @@
+# 814 - Gabes
+
+# County Title
+title = c_gabes
+
+# Settlements
+max_settlements = 4
+
+b_gabes = castle
+b_medenine = city
+b_kebili = temple
+
+#b_haddej
+#b_steftimi
+#b_alqalah
+#b_al_hamma
+
+# Misc
+culture = libyo_phoenician
+religion = punic
+
+# History

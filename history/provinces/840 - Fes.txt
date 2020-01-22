@@ -1,0 +1,23 @@
+# 840 - Fes
+
+# County Title
+title = c_fes
+
+# Settlements
+max_settlements = 6
+
+b_fes = castle
+b_enjil = city
+b_zerhoun = temple
+b_elhajeb = castle
+b_subu = city
+b_izerhan = temple
+
+#b_bouanane = castle
+
+# Misc
+culture = mauri
+religion = berber
+
+# History
+

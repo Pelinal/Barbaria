@@ -1,0 +1,15 @@
+start_date = 610.3.6
+last_start_date = 1089.1.1
+end_date = 1453.1.1
+
+character = {
+}
+
+diplomacy = {
+}
+
+economy = {
+}
+
+military = {
+}

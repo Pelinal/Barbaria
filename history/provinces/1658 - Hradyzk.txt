@@ -1,0 +1,24 @@
+# 1658 - Hradyzk
+### capital of hunnia
+
+# County Title
+title = c_hradyzk
+
+# Settlements
+max_settlements = 4
+
+b_hradyzk = tribal	#865
+
+b_poltava = tribal
+b_khorol = temple
+#b_lubny		#1107
+
+#b_kremenchuk	#1571
+#b_myrhorod		#1575
+#b_kobeliaky	#1620
+
+# Misc
+culture = hunnic
+religion = tengri_pagan
+
+# History

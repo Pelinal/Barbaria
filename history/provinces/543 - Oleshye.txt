@@ -1,0 +1,22 @@
+# 543 - Oleshye
+
+# County Title
+title = c_oleshye
+
+# Settlements
+max_settlements = 2
+
+b_dnieprkherson = tribal
+
+#b_kamiansk		#1750
+#b_kryvyi_rih	#1775
+#b_dnipro		#1776
+#b_nikopol		#1782
+#b_mykolaiv		#1789
+#b_marhanets	#modern
+
+# Misc
+culture = hunnic
+religion = tengri_pagan
+
+# History

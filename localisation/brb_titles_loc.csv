@@ -1,0 +1,539 @@
+##= Titles Localisation =##
+
+#= Actual Titles =#
+d_persiarmenia;Persarmenia;;;;;;;;;;;;x
+d_persiarmenia;Persarmenian;;;;;;;;;;;;x
+d_colchis;Colchis;;;;;;;;;;;;x
+d_albania_cauc;Albania;;;;;;;;;;;;x
+k_caucasus;Caucasus;;;;;;;;;;;;x
+d_iberia;Iberia;;;;;;;;;;;;x
+d_nabataean_reformed;Betylitic Order;;;;;;;;;;;;x
+d_nabataean_reformed_adj;Betylitic;;;;;;;;;;;;x
+d_sayhadic_reformed;The Munaqisayyum;;;;;;;;;;;;x
+d_sayhadic_reformed_adj;Sayhadic;;;;;;;;;;;;x
+e_ptolemaic;Ptolemaic Empire;;;;;;;;;;;;x
+e_ptolemaic_adj;Ptolemaic;;;;;;;;;;;;x
+c_ammon;Ammon;;;;;;;;;;;;x
+b_ammon;Ammon;;;;;;;;;;;;x
+b_gonia;Gonia;;;;;;;;;;;;x
+b_plynos_limen;Plynos Limen;;;;;;;;;;;;x
+c_serapion;Serapion;;;;;;;;;;;;x
+b_serapion;Serapion;;;;;;;;;;;;x
+b_kainon;Kainon;;;;;;;;;;;;x
+b_noetu;Noetu;;;;;;;;;;;;x
+b_amastor;Amastor;;;;;;;;;;;;x
+b_agdon;Agdon;;;;;;;;;;;;x
+c_barke;Barke;;;;;;;;;;;;x
+b_barke;Barke;;;;;;;;;;;;x
+b_chairekla;Chairekla;;;;;;;;;;;;x
+b_balagrai;Balagrai;;;;;;;;;;;;x
+b_hesperidon;Hesperidon;;;;;;;;;;;;x
+b_zau_taberna;Zau Taberna;;;;;;;;;;;;x
+c_echinos;Echinos;;;;;;;;;;;;x
+b_echinos;Echinos;;;;;;;;;;;;x
+b_arumantos;Arumantos;;;;;;;;;;;;x
+b_philonos;Philonos;;;;;;;;;;;;x
+c_notia;Notia;;;;;;;;;;;;x
+b_notia;Notia;;;;;;;;;;;;x
+b_batrachos;Batrachos;;;;;;;;;;;;x
+b_petras_mikros;Petras Mikros;;;;;;;;;;;;x
+b_miceris;Miceris;;;;;;;;;;;;x
+k_cyrenacia;Cyrenacia;;;;;;;;;;;;x
+k_cyrenacia_adj;Cyrenacian;;;;;;;;;;;;x
+d_barka;Barka;;;;;;;;;;;;x
+d_barka_adj;Barkan;;;;;;;;;;;;x
+d_marmarica;Marmarica;;;;;;;;;;;;x
+d_marmarica_adj;Marmarican;;;;;;;;;;;;x
+d_ammon;Ammon;;;;;;;;;;;;x
+d_ammon_adj;Ammonian;;;;;;;;;;;;x
+b_euseperides;Euseperides;;;;;;;;;;;;;x
+c_ramitha;Ramitha;;;;;;;;;;;;x
+b_ramitha;Ramitha;;;;;;;;;;;;x
+b_ugarit;Ugarit;;;;;;;;;;;;x
+b_ugarit_adj;Ugaritic;;;;;;;;;;;;x
+b_sigon;Sigon;;;;;;;;;;;;x
+b_posideion;Poseideion;;;;;;;;;;;;x
+b_lysias;Lysias;;;;;;;;;;;;x
+b_antigoni;Antigonia;;;;;;;;;;;;x
+b_suksi;Suksi;;;;;;;;;;;;x
+b_bargylus;Bargylus;;;;;;;;;;;;x
+b_karna;Karna;;;;;;;;;;;;x
+b_larissa_p;Larissa;;;;;;;;;;;;x
+c_arpad;Arpad;;;;;;;;;;;;x
+b_arpad;Arpad;;;;;;;;;;;;x
+b_mariamme;Mariamme;;;;;;;;;;;;x
+b_kabiosa;Kabiosa;;;;;;;;;;;;x
+b_herakleia_phoinike;Herakleia Phoinike;;;;;;;;;;;;x
+b_konna;Konna;;;;;;;;;;;;x
+b_karna_secunda;Karna Secunda;;;;;;;;;;;;x
+b_botrys;Botrys;;;;;;;;;;;;x
+b_oros_libanos;Oros Libanos;;;;;;;;;;;;x
+c_gebal;Gebal;;;;;;;;;;;;x
+b_gebal;Gebal;;;;;;;;;;;;x
+b_berothe;Berothe;;;;;;;;;;;;x
+b_brochoi;Brochoi;;;;;;;;;;;;x
+b_gerra;Gerra;;;;;;;;;;;;x
+d_byblos;Byblos;;;;;;;;;;;;x
+d_byblos_adj;Bybline;;;;;;;;;;;;x
+c_sidon;Sidon;;;;;;;;;;;;x
+b_sidon;Sidon;;;;;;;;;;;;x
+b_iyyon;Iyyon;;;;;;;;;;;;x
+b_makra_kome;Makra Kome;;;;;;;;;;;;x
+b_gelil_s;Gelil;;;;;;;;;;;;x
+b_zebulun;Zebulun;;;;;;;;;;;;x
+d_apamene;Apamene;;;;;;;;;;;;x
+c_dan;Dan;;;;;;;;;;;;x
+b_dan;Dan;;;;;;;;;;;;x
+b_maked;Maked;;;;;;;;;;;;x
+b_segeira;Segeira;;;;;;;;;;;;x
+b_karnaia;Karnaia;;;;;;;;;;;;x
+c_dora;Dora;;;;;;;;;;;;;x
+b_dora;Dora;;;;;;;;;;;;;x
+b_boukolonpolis;Boukolonpolis;;;;;;;;;;;;;x
+b_khefar_shuni;Khefar Shuni;;;;;;;;;;;;;x
+b_apollonia_palestinae;Apollonia Palestinae;;;;;;;;;;;;;x
+b_stratonos_pyrgos;Stratonos Pyrgos;;;;;;;;;;;;;x
+c_samaria;Samaria;;;;;;;;;;;;x
+b_samaria_barony;Samaria;;;;;;;;;;;;x
+b_akraba;Akraba;;;;;;;;;;;;x
+b_salem;Salem;;;;;;;;;;;;x
+b_shekhem;Shekhem;;;;;;;;;;;;x
+b_antipatris;Antipatris;;;;;;;;;;;;x
+b_narbata;Narbata;;;;;;;;;;;;x
+b_emmaus;Emmaus;;;;;;;;;;;;x
+c_qatna;Qatna;;;;;;;;;;;;x
+b_qatna;Qatna;;;;;;;;;;;;x
+b_hadad;Hadad;;;;;;;;;;;;x
+b_otthara;Otthara;;;;;;;;;;;;x
+b_triparadesios;Triparadesios;;;;;;;;;;;;x
+c_ebla;Ebla;;;;;;;;;;;;x
+b_ebla;Ebla;;;;;;;;;;;;x
+b_khyrros;Khyrros;;;;;;;;;;;;x
+b_aliareia;Aliareia;;;;;;;;;;;;x
+b_chalkis_belos;Chalkis Belos;;;;;;;;;;;;x
+d_arados;Arados;;;;;;;;;;;;x
+d_arados_adj;Aradosian;;;;;;;;;;;;x
+d_phoenicia;Phoinike;;;;;;;;;;;;x
+d_phoenicia_adj;Phoenician;;;;;;;;;;;;x
+k_phoenicia;Phoenicia;;;;;;;;;;;;x
+d_chaldean_reformed;Congress of Ekur;;;;;;;;;;;;x
+d_chaldean_reformed_adj;Chaldean;;;;;;;;;;;;x
+d_anuic_order;Anuic Order;;;;;;;;;;;;x
+d_anuic_order_adj;Anuic;;;;;;;;;;;;x
+d_inannas_chosen;Inanna's Chosen;;;;;;;;;;;;x
+d_inannas_chosen_adj;Inanna's;;;;;;;;;;;;x
+e_babylon;Babylonian Empire;;;;;;;;;;;;x
+e_babylon_adj;Babylonian;;;;;;;;;;;;x
+k_assyria;Assyria;;;;;;;;;;;;x
+k_assyria_adj;Assyrian;;;;;;;;;;;;x
+SARRUM;Sarrum;;;;;;;;;;;;x
+SEGALLU;Segallu;;;;;;;;;;;;x
+d_athura;Athura;;;;;;;;;;;;x
+d_athura_adj;Athuran;;;;;;;;;;;;x
+c_niniveh;Nineveh;;;;;;;;;;;;x
+c_niniveh_adj;Nineveyan;;;;;;;;;;;;x
+b_niniveh;Niniveh;;;;;;;;;;;;x
+b_kuyunjik;Kuyunjik;;;;;;;;;;;;x
+b_calah_ziggurat;Calah;;;;;;;;;;;;x
+b_ahkrahu;Ahkrahu;;;;;;;;;;;;x
+b_bet_qopa;Bet Qopa;;;;;;;;;;;;x
+b_arbela;Arbela;;;;;;;;;;;;x
+c_urmia;Urmia;;;;;;;;;;;;x
+c_urmia_adj;Urmian;;;;;;;;;;;;x
+b_urmia;Urmia;;;;;;;;;;;;x
+b_gilzan;Gilzan;;;;;;;;;;;;x
+b_modiriyyat;Modiriyyat;;;;;;;;;;;;x
+b_kassidae;Kassidae;;;;;;;;;;;;x
+d_garzarta;Garzarta;;;;;;;;;;;;x
+d_garzarta_adj;Garzartan;;;;;;;;;;;;x
+k_babylon;Babylonia;;;;;;;;;;;;x
+k_babylon_adj;Babylonian;;;;;;;;;;;;x
+d_babylon;Babylonia;;;;;;;;;;;;x
+b_shutur_el_sharri;Shutur Eli Sharri;;;;;;;;;;;;x
+b_ziggur_inanna;Inanna;;;;;;;;;;;;x
+b_enmerkara;Enmekara;;;;;;;;;;;;x
+c_larsa;Larsa;;;;;;;;;;;;x
+b_larsa;Larsa;;;;;;;;;;;;x
+b_umma;Umma;;;;;;;;;;;;x
+b_ningal;Ningal;;;;;;;;;;;;x
+b_zabala;Zabala;;;;;;;;;;;;x
+c_ur;Ur;;;;;;;;;;;;x
+b_ur;Ur;;;;;;;;;;;;x
+b_nasiria;Nasiria;;;;;;;;;;;;x
+b_orugeia;Orugeia;;;;;;;;;;;;x
+b_etemenniguru;Etemenniguru;;;;;;;;;;;;x
+b_ur_nammu;Ur-Nammu;;;;;;;;;;;;x
+c_lagash;Lagash;;;;;;;;;;;;x
+b_lagash;Lagash;;;;;;;;;;;;x
+b_girsu;Girsu;;;;;;;;;;;;x
+b_bad_tibira;Bad-Tibira;;;;;;;;;;;;x
+b_ninurtana;Ninurtana;;;;;;;;;;;;x
+c_nippur;Nippur;;;;;;;;;;;;x
+b_nippur;Nippur;;;;;;;;;;;;x
+b_sharrakum;Sharrakum;;;;;;;;;;;;x
+b_marad;Marad;;;;;;;;;;;;x
+b_ekur;Ekur;;;;;;;;;;;;x
+c_isin;Isin;;;;;;;;;;;;x
+b_isin;Isin;;;;;;;;;;;;x
+b_daganu;Daganu;;;;;;;;;;;;x
+b_larak;Larak;;;;;;;;;;;;x
+b_bet_ilisi;Bet Islisi;;;;;;;;;;;;x
+b_enlilan;Enilan;;;;;;;;;;;;x
+c_shurrupak;Shuruppak;;;;;;;;;;;;x
+b_shurrupak;Shuruppak;;;;;;;;;;;;x
+b_tepe_gawra;Tepugarra;;;;;;;;;;;;x
+b_suda;Suda;;;;;;;;;;;;x
+c_babylon;Babylon;;;;;;;;;;;;x
+b_babylon;Babylon;;;;;;;;;;;;x
+b_cadimirra;Ca-Dimirra;;;;;;;;;;;;x
+b_etemenanki;Etemenanki;;;;;;;;;;;;x
+b_esaglia;Esaglia;;;;;;;;;;;;x
+b_babil;Babil;;;;;;;;;;;;x
+b_kazallu;Kazallu;;;;;;;;;;;;x
+b_inannam;Inannam;;;;;;;;;;;;x
+c_akkad;Akkad;;;;;;;;;;;;x
+b_akkad;Akkad;;;;;;;;;;;;x
+b_kutha;Kutha;;;;;;;;;;;;x
+b_kish;Kish;;;;;;;;;;;;x
+b_zaqqarat;Zaqqarat;;;;;;;;;;;;x
+b_amnamnum;Amnamnum;;;;;;;;;;;;x
+b_jemdet_nasr;Jemdet Nasr;;;;;;;;;;;;x
+c_qatara;Qatara;;;;;;;;;;;;x
+b_qatara;Qatara;;;;;;;;;;;;x
+b_qatara_city;Uttiuzat;;;;;;;;;;;;x
+b_qatara_temple;Shezum;;;;;;;;;;;;x
+b_qatara_castle;Jema;;;;;;;;;;;;x
+c_sippar;Sippar;;;;;;;;;;;;x
+b_sippar;Sippar;;;;;;;;;;;;x
+d_mitanni;Mari;;;;;;;;;;;;x
+d_mitanni_adj;Mitanni;;;;;;;;;;;;x
+d_adima;Adima;;;;;;;;;;;;x
+d_adima_adj;Adima;;;;;;;;;;;;x
+k_sumeria;Sumeria;;;;;;;;;;;;x
+k_sumeria_adj;Sumerian;;;;;;;;;;;;x
+d_sumeria;Sumeria;;;;;;;;;;;;x
+d_sumeria_adj;Sumerian;;;;;;;;;;;;x
+b_eanna;Eanna;;;;;;;;;;;;x
+b_anu;Anu;;;;;;;;;;;;x
+b_kullaba;Kullaba;;;;;;;;;;;;x
+d_akkad;Akkad;;;;;;;;;;;;x
+d_akkad_adj;Akkadian;;;;;;;;;;;;x
+d_chaldea;Chaldea;;;;;;;;;;;;x
+d_chaldea_adj;Chaldean;;;;;;;;;;;;x
+d_euphrates;Euphrates;;;;;;;;;;;;x
+d_euphrates_adj;Euphratic;;;;;;;;;;;;x
+b_eshnunna;Eshnunna;;;;;;;;;;;;x
+b_zabe;Zabe;;;;;;;;;;;;x
+b_kaske;Kaske;;;;;;;;;;;;x
+c_ctesiphon;Ctesiphon;;;;;;;;;;;;x
+c_ctesiphon_adj;Ctesiphonic;;;;;;;;;;;;x
+d_ctesiphon;Ctesiphon;;;;;;;;;;;;x
+d_ctesiphon_adj;Ctesiphonic;;;;;;;;;;;;x
+b_ctesiphon;Ctesiphon;;;;;;;;;;;;x
+b_weh_antiok;Weh Antiok;;;;;;;;;;;;x
+b_selucia;Selucia;;;;;;;;;;;;x
+b_daremehr;Daremehr;;;;;;;;;;;;x
+k_aram;Syria;;;;;;;;;;;;x
+k_aram;Syriac;;;;;;;;;;;;x
+c_uruk;Uruk;;;;;;;;;;;;x
+b_uruk;Uruk;;;;;;;;;;;;x
+k_italic;Collegium Pontificum;Collegium Pontificum;Kardinalskollegium;;Collegium pontificum;;;;;;;;;x
+k_italic_adj;Pontifical;pontificale;Päpstlich;;pontificio;;;;;;;;;x
+d_samaria;Samaria;;;;;;;;;;;;x
+d_samaria_adj;Samaritan;;;;;;;;;;;;x
+c_kara_kum_desert;Dasoguz;;;;;;;;;;;;x
+b_dasoguz_castle;Dashoguz;;;;;;;;;;;;x
+b_dasoguz_city;Darvaza;;;;;;;;;;;;x
+k_parthia;Parthia;;;;;;;;;;;;x
+k_persia;Persis;;;;;;;;;;;;x
+k_kushanshahr;Kushanshahr;;;;;;;;;;;;x
+k_bactria;Bactria;;;;;;;;;;;;x
+k_padishkhwargar;Padishkhwargar;;;;;;;;;;;;x
+e_gaul;Gaul;;;;;;;;;;;;x
+k_narbonensis;Narbonensis;;;;;;;;;;;;x
+k_aquitania;Aquitania;;;;;;;;;;;;x
+k_celtica;Celtica;;;;;;;;;;;;x
+k_armorica;Armorica;;;;;;;;;;;;x
+k_belgica;Belgica;;;;;;;;;;;;x
+b_kyzylsu;Farava;;;;;;;;;;;;x
+b_gazanjyk;Gazanjyk;;;;;;;;;;;;x
+b_bekdas;Bekdas;;;;;;;;;;;;x
+b_cheleken;Cheleken;;;;;;;;;;;;x
+b_ohk;Ohk;;;;;;;;;;;;x
+b_dzhanga;Dzhanga;;;;;;;;;;;;x
+b_awaza;Awaza;;;;;;;;;;;;x
+b_yangadzha;Yangadzha;;;;;;;;;;;;x
+
+### UN-USED BRITON PLACENAMES
+c_venta;Venta;;;;;;;;;;;;x
+b_venta;Venta;;;;;;;;;;;;x
+b_adurnia;Adurnia;;;;;;;;;;;;x
+b_clausentum;Clausentum;;;;;;;;;;;;x
+b_onna;Onna;;;;;;;;;;;;x
+b_bitterne;Bitterne;;;;;;;;;;;;x
+b_iping;Iping;;;;;;;;;;;;x
+b_magna_portus;Magnus Portus;;;;;;;;;;;;x
+d_atrebatia;Atrebatia;;;;;;;;;;;;x
+c_vectis;Vectis;;;;;;;;;;;;x
+b_ictin;Ictin;;;;;;;;;;;;x
+b_ventnor;Ventnor;;;;;;;;;;;;x
+b_vectis;Vectis;;;;;;;;;;;x
+b_cogidubnua;Cogidubnua;;;;;;;;;;;;x
+c_calleva;Calleva;;;;;;;;;;;;x
+b_calleva;Calleva;;;;;;;;;;;;x
+b_arebatum;Atrebatum;;;;;;;;;;;;x
+b_spinis;Spinis;;;;;;;;;;;;x
+b_leucomagus;Leucomagus;;;;;;;;;;;;x
+b_vindomis;Vindomis;;;;;;;;;;;;x # Literally Farnham Bruh
+b_sorviodunum;Sorviodunum;;;;;;;;;;;;x
+b_cunetio;Cunetio;;;;;;;;;;;;x
+b_thatcha;Thatcha;;;;;;;;;;;;x
+d_durotriges;Durotrigia;;;;;;;;;;;;x
+
+############# ADD TO brb_flavourtitles_loc.csv ################
+
+#= Character Titles =#
+### arabic religions ###
+ALKAHIN;Al-Kahin;;;;;;;;;;;;x
+APKALLATU;Apkallatu;;;;;;;;;;;;x
+ALKAHIN_FOA;Your Utmost Grace;;;;;;;;;;;;x
+MUNAQISA;Munaqisa;;;;;;;;;;;;x
+MUNAQISIYA;Munaqisiya;;;;;;;;;;;;x
+MUNAQISA_FOA;Your Utmost Grace;;;;;;;;;;;;x
+job_chancellor_nabataean;Tetrarch;;;;;;;;;;;;x
+job_chancellor_nabataean_reformed;Tetrarch;;;;;;;;;;;;x
+city_job_chancellor_nabataean;Tetrarch;;;;;;;;;;;;x
+city_job_chancellor_nabataean_reformed;Tetrarch;;;;;;;;;;;;x
+job_marshal_nabataean;Alqayad;;;;;;;;;;;;x
+job_marshal_nabataean_reformed;Alqayad;;;;;;;;;;;;x
+city_job_marshal_nabataean;Alqayad;;;;;;;;;;;;x
+city_job_marshal_nabataean_reformed;Alqayad;;;;;;;;;;;;x
+job_spiritual_nabataean;Kahin;;;;;;;;;;;;x
+job_spiritual_nabataean_reformed;Kahin;;;;;;;;;;;;x
+city_job_spiritual_nabataean;Kahin;;;;;;;;;;;;x
+city_job_spiritual_nabataean_reformed;Kahin;;;;;;;;;;;;x
+job_spymaster_nabataean;Maswuwl;;;;;;;;;;;;x
+job_spymaster_nabataean_reformed;Maswuwl;;;;;;;;;;;;x
+city_job_spymaster_nabataean;Maswuwl;;;;;;;;;;;;x
+city_job_spymaster_nabataean_reformed;Maswuwl;;;;;;;;;;;;x
+job_treasurer_nabataean;Gerusia;;;;;;;;;;;;x
+job_treasurer_nabataean_reformed;Gerusia;;;;;;;;;;;;x
+city_job_treasurer_nabataean;Gerusia;;;;;;;;;;;;x
+city_job_treasurer_nabataean_reformed;Gerusia;;;;;;;;;;;;x
+job_chancellor_sayhadic;Tetrarch;;;;;;;;;;;;x
+job_chancellor_sayhadic_reformed;Tetrarch;;;;;;;;;;;;x
+city_job_chancellor_sayhadic;Tetrarch;;;;;;;;;;;;x
+city_job_chancellor_sayhadic_reformed;Tetrarch;;;;;;;;;;;;x
+job_marshal_sayhadic;Alqayad;;;;;;;;;;;;x
+job_marshal_sayhadic_reformed;Alqayad;;;;;;;;;;;;x
+city_job_marshal_sayhadic;Alqayad;;;;;;;;;;;;x
+city_job_marshal_sayhadic_reformed;Alqayad;;;;;;;;;;;;x
+job_spiritual_sayhadic;Kahin;;;;;;;;;;;;x
+job_spiritual_sayhadic_reformed;Kahin;;;;;;;;;;;;x
+city_job_spiritual_sayhadic;Kahin;;;;;;;;;;;;x
+city_job_spiritual_sayhadic_reformed;Kahin;;;;;;;;;;;;x
+job_spymaster_sayhadic;Maswuwl;;;;;;;;;;;;x
+job_spymaster_sayhadic_reformed;Maswuwl;;;;;;;;;;;;x
+city_job_spymaster_sayhadic;Maswuwl;;;;;;;;;;;;x
+city_job_spymaster_sayhadic_reformed;Maswuwl;;;;;;;;;;;;x
+job_treasurer_sayhadic;Gerusia;;;;;;;;;;;;x
+job_treasurer_sayhadic_reformed;Gerusia;;;;;;;;;;;;x
+city_job_treasurer_sayhadic;Gerusia;;;;;;;;;;;;x
+city_job_treasurer_sayhadic_reformed;Gerusia;;;;;;;;;;;;x
+temple_baron_nabataean;Kahin;;;;;;;;;;;;x
+temple_baron_female_nabataean;Kahina;;;;;;;;;;;;x
+temple_baron_nabataean_reformed;Kahin;;;;;;;;;;;;x
+temple_baron_female_nabataean_reformed;Kahina;;;;;;;;;;;;x
+temple_barony_of_nabataean;Temple of;;;;;;;;;;;x
+temple_barony_of_nabataean_reformed;Temple of;;;;;;;;;;;x
+baron_nabataean;Albarun;;;;;;;;;;;;x
+baron_female_nabataean;Baruna;;;;;;;;;;;;x
+barony_of_nabataean;Qalaea of;;;;;;;;;;;;x
+count_nabataean;Muqta;;;;;;;;;;;;x
+count_female_nabataean;Muqta Sidiya;;;;;;;;;;;;x
+county_of_nabataean;Muqtat of;;;;;;;;;;;;x
+duke_nabataean;Duq;;;;;;;;;;;;x
+duke_female_nabataean;Dawqa;;;;;;;;;;;;x
+duchy_of_nabataean;Duqdom of;;;;;;;;;;;;x
+king_nabataean;Malik;;;;;;;;;;;;x
+king_female_nabataean;Malika;;;;;;;;;;;;x
+kingdom_of_nabataean;Malikate of;;;;;;;;;;;;x
+emperor_nabataean;Keysar;;;;;;;;;;;;x
+emperor_female_nabataean;Kiyisa;;;;;;;;;;;;x
+empire_of_nabataean;Imbirutiyya of;;;;;;;;;;;;x
+baron_nabataean_reformed;Albarun;;;;;;;;;;;;x
+baron_female_nabataean_reformed;Baruna;;;;;;;;;;;;x
+barony_of_nabataean_reformed;Qalaea of;;;;;;;;;;;;x
+count_nabataean_reformed;Muqta;;;;;;;;;;;;x
+count_female_nabataean_reformed;Muqta Sidiya;;;;;;;;;;;;x
+county_of_nabataean_reformed;Muqtat of;;;;;;;;;;;;x
+duke_nabataean_reformed;Duq;;;;;;;;;;;;x
+duke_female_nabataean_reformed;Dawqa;;;;;;;;;;;;x
+duchy_of_nabataean_reformed;Duqdom of;;;;;;;;;;;;x
+king_nabataean_reformed;Malik;;;;;;;;;;;;x
+king_female_nabataean_reformed;Malika;;;;;;;;;;;;x
+kingdom_of_nabataean_reformed;Malikate of;;;;;;;;;;;;x
+emperor_nabataean_reformed;Keysar;;;;;;;;;;;;x
+emperor_female_nabataean_reformed;Kiyisa;;;;;;;;;;;;x
+empire_of_nabataean_reformed;Imbirutiyya of;;;;;;;;;;;;x
+temple_baron_sayhadic;Afkal;;;;;;;;;;;;x
+temple_baron_female_sayhadic;Afkala;;;;;;;;;;;;x
+temple_baron_sayhadic_reformed;Afkal;;;;;;;;;;;;x
+temple_baron_female_sayhadic_reformed;Afkala;;;;;;;;;;;;x
+temple_barony_of_sayhadic;Kalate of;;;;;;;;;;;x
+temple_barony_of_sayhadic_reformed;Kalate of;;;;;;;;;;;x
+baron_sayhadic;Albarun;;;;;;;;;;;;x
+baron_female_sayhadic;Baruna;;;;;;;;;;;;x
+barony_of_sayhadic;Qalaea of;;;;;;;;;;;;x
+count_sayhadic;Muqta;;;;;;;;;;;;x
+count_female_sayhadic;Muqta Sidiya;;;;;;;;;;;;x
+county_of_sayhadic;Muqtat of;;;;;;;;;;;;x
+duke_sayhadic;Duq;;;;;;;;;;;;x
+duke_female_sayhadic;Dawqa;;;;;;;;;;;;x
+duchy_of_sayhadic;Duqdom of;;;;;;;;;;;;x
+king_sayhadic;Malik;;;;;;;;;;;;x
+king_female_sayhadic;Malika;;;;;;;;;;;;x
+kingdom_of_sayhadic;Malikate of;;;;;;;;;;;;x
+emperor_sayhadic;Keysar;;;;;;;;;;;;x
+emperor_female_sayhadic;Kiyisa;;;;;;;;;;;;x
+empire_of_sayhadic;Imbirutiyya of;;;;;;;;;;;;x
+baron_sayhadic_reformed;Albarun;;;;;;;;;;;;x
+baron_female_sayhadic_reformed;Baruna;;;;;;;;;;;;x
+barony_of_sayhadic_reformed;Qalaea of;;;;;;;;;;;;x
+count_sayhadic_reformed;Muqta;;;;;;;;;;;;x
+count_female_sayhadic_reformed;Muqta Sidiya;;;;;;;;;;;;x
+county_of_sayhadic_reformed;Muqtat of;;;;;;;;;;;;x
+duke_sayhadic_reformed;Duq;;;;;;;;;;;;x
+duke_female_sayhadic_reformed;Dawqa;;;;;;;;;;;;x
+duchy_of_sayhadic_reformed;Duqdom of;;;;;;;;;;;;x
+king_sayhadic_reformed;Malik;;;;;;;;;;;;x
+king_female_sayhadic_reformed;Malika;;;;;;;;;;;;x
+kingdom_of_sayhadic_reformed;Malikate of;;;;;;;;;;;;x
+emperor_sayhadic_reformed;Keysar;;;;;;;;;;;;x
+emperor_female_sayhadic_reformed;Kiyisa;;;;;;;;;;;;x
+empire_of_sayhadic_reformed;Imbirutiyya of;;;;;;;;;;;;x
+city_duke_sayhadic;Madina-Amir;Madina-Amir;;;;;;x
+city_duchy_of_sayhadic;Madina-Qabayla of;Madina-Qabayla de;;;;;;;x
+city_duke_nabataean;Madina-Amir;Madina-Amir;;;;;;x
+city_duchy_of_nabataean;Madina-Qabayla of;Madina-Qabayla de;;;;;;;x
+### hellenic / italic ###
+temple_baron_hellenic;Hierarch;;;;;;;;;;;;x
+temple_female_baron_hellenic;Hierarchess;;;;;;;;;;;;x
+temple_barony_of_hellenic;Hierarchy of;;;;;;;;;;;;x
+temple_count_hellenic;Archierarch;;;;;;;;;;;;x
+temple_female_count_hellenic;Archierarchess;;;;;;;;;;;;x
+temple_county_of_hellenic;Archierarchy of;;;;;;;;;;;;x
+temple_duke_hellenic;Prophet;;;;;;;;;;;;x
+temple_female_duke_hellenic;Sibyl;;;;;;;;;;;;x
+temple_duchy_of_hellenic;Sibylate of;;;;;;;;;;;;x
+temple_baron_italic;Flamen;Flamen;Flamen;;Flamen;;;;;;;;;x
+temple_baron_female_italic;Vestal;Vestale;Vestal;;Vestal;;;;;;;;;x
+temple_count_italic;High Augur;Grand augure;Hoher Augur;;Alto augur;;;;;;;;;x
+temple_count_female_italic;High Vestal;Grande vestale;Hohe Seherin;;Alta vestal;;;;;;;;;x
+temple_duke_italic;Pontifex;Pontifex;Pontifex;;Pontífice;;;;;;;;;x
+temple_duke_female_italic;Pontifex;Pontifex;Pontifex;;Pontífice;;;;;;;;;x
+job_spiritual_hellenic;Hierarch;;;;;;;;;;;;;x
+job_spiritual_female_hellenic;Oracle;;;;;;;;;;;;;x
+job_spiritual_italic;Augur;Augure;Augur;;Augur;;;;;;;;;x
+job_spiritual_female_italic;Seeress;Voyante;Seherin;;Vidente;;;;;;;;;x
+### chaldean/mesopotamian ###
+emperor_chaldean;Lugal Kurkur;;;;;;;;;;;;;x
+emperor_female_chaldean;Issinin;;;;;;;;;;;;;x
+empire_of_chaldean;Empire of;;;;;;;;;;;;;x
+king_chaldean;Lugal;;;;;;;;;;;;x
+king_female_chaldean;Nin;;;;;;;;;;;;x
+kingdom_of_chaldean;Lugalum of ;;;;;;;;;;;;x
+duke_chaldean;Ensi;;;;;;;;;;;;;x
+duke_female_chaldean;Ensia;;;;;;;;;;;;;x
+duchy_of_chaldean;Ensidom of;;;;;;;;;;;;;x
+count_chaldean;Diku;;;;;;;;;;;;;x
+count_female_chaldean;Dikutu;;;;;;;;;;;;;x
+county_of_chaldean;Dikut of;;;;;;;;;;;;;x
+baron_chaldean;Belum;;;;;;;;;;;;;x
+baron_female_chaldean;Belisa;;;;;;;;;;;;;x
+barony_of_chaldean;Belutum of;;;;;;;;;;;;;x
+emperor_chaldean_reformed;Lugal Kurkur;;;;;;;;;;;;;x
+emperor_female_chaldean_reformed;Issi Eresum;;;;;;;;;;;;;x
+empire_of_chaldean_reformed;Empire of;;;;;;;;;;;;;x
+king_chaldean_reformed;Lugal;;;;;;;;;;;;x
+king_female_chaldean_reformed;Eresum;;;;;;;;;;;;x
+kingdom_of_chaldean_reformed;Lugalum of ;;;;;;;;;;;;x
+duke_chaldean_reformed;Ensi;;;;;;;;;;;;;x
+duke_female_chaldean_reformed;Ensia;;;;;;;;;;;;;x
+duchy_of_chaldean_reformed;Ensidom of;;;;;;;;;;;;;x
+count_chaldean_reformed;Diku;;;;;;;;;;;;;x
+count_female_chaldean_reformed;Dikutu;;;;;;;;;;;;;x
+county_of_chaldean_reformed;Dikut of;;;;;;;;;;;;;x
+baron_chaldean_reformed;Belum;;;;;;;;;;;;;x
+baron_female_chaldean_reformed;Belisa;;;;;;;;;;;;;x
+barony_of_chaldean_reformed;Belutum of;;;;;;;;;;;;;x
+temple_county_chaldean;Passis;;;;;;;;;;;;x
+temple_county_female_chaldean;Passisut;;;;;;;;;;;;x
+temple_county_of_chaldean;Passisate of;;;;;;;;;;;;x
+temple_baron_chaldean;Kalum;;;;;;;;;;;;x
+temple_baron_female_chaldean;Kalua;;;;;;;;;;;;x
+temple_barony_of_chaldean;Ziggurat of;;;;;;;;;;;;x
+temple_county_chaldean_reformed;Passis;;;;;;;;;;;;x
+temple_county_female_chaldean_reformed;Passisut;;;;;;;;;;;;x
+temple_county_of_chaldean_reformed;Passisate of;;;;;;;;;;;;x
+temple_baron_chaldean_reformed;Kalum;;;;;;;;;;;;x
+temple_baron_female_chaldean_reformed;Kalua;;;;;;;;;;;;x
+temple_barony_of_chaldean_reformed;Ziggurat of;;;;;;;;;;;;x
+job_chancellor_chaldean;Siris;;;;;;;;;;;;x
+job_chancellor_chaldean_reformed;Siris;;;;;;;;;;;;x
+city_job_chancellor_chaldean;Siris;;;;;;;;;;;;x
+city_job_chancellor_chaldean_reformed;Siris;;;;;;;;;;;;x
+job_marshal_chaldean;Muma'irru;;;;;;;;;;;;x
+job_marshal_chaldean_reformed;Muma'irru;;;;;;;;;;;;x
+city_job_marshal_chaldean;Muma'irru;;;;;;;;;;;;x
+city_job_marshal_chaldean_reformed;Muma'irru;;;;;;;;;;;;x
+job_spiritual_chaldean;Sangu Mah;;;;;;;;;;;;x
+job_spiritual_chaldean_reformed;Sangu Mah;;;;;;;;;;;;x
+city_job_spiritual_chaldean;Sangu Mah;;;;;;;;;;;;x
+city_job_spiritual_chaldean_reformed;Sangu Mah;;;;;;;;;;;;x
+job_spymaster_chaldean;Halilum;;;;;;;;;;;;x
+job_spymaster_chaldean_reformed;Halilum;;;;;;;;;;;;x
+city_job_spymaster_chaldean;Halilum;;;;;;;;;;;;x
+city_job_spymaster_chaldean_reformed;Halilum;;;;;;;;;;;;x
+job_treasurer_chaldean;Abarakku;;;;;;;;;;;;x
+job_treasurer_chaldean_reformed;Abarakku;;;;;;;;;;;;x
+city_job_treasurer_chaldean;Abarakku;;;;;;;;;;;;x
+city_job_treasurer_chaldean_reformed;Abarakku;;;;;;;;;;;;x
+title_prince_chaldean;Mar Sarrim;;;;;;;;;;;;x
+title_prince_female_chaldean;Mar'at Sarri;;;;;;;;;;;;x
+ENU;Enu;;;;;;;;;;;;x
+ENUTU;Enutu;;;;;;;;;;;;x
+ENU_FOA;Speaker for the gods;;;;;;;;;;;;x
+### celtic religions ###
+temple_baron_druidic;Sagart;Sagart;;;;;;;;;;x
+temple_count_druidic;Druid;Druide;;;;;;;;;;x
+temple_duke_druidic;Sorceror;;;;;;;;;;;x
+temple_duke_female_druidic;Sorceress;;;;;;;;;;;x
+temple_king_druidic;Archdruid;Archidruide;;;;;;;;;;;;x
+temple_emperor_druidic;Druid-King;Druide-Roi;;;;;;;;;;x
+temple_barony_of_druidic;Temple of;;;;;;;;;;;x
+temple_county_of_druidic;Druidric of;;;;;;;;;;;x
+temple_duchy_of_druidic;Sorcerate of;Sorcerate de;;;;;;;;;;x
+temple_kingdom_of_druidic;Archdruidric of;Archedruiderie de;;;;;;;;;;x
+temple_empire_of_druidic;Theocracy of;;;;;;;;;;;x
+job_spiritual_druidic;Court Druid;Druide de la Cour;;;;;;;;;;x
+temple_count_brythonic;Dryad;;;;;;;;;;;x
+temple_king_brythonic;Archdryad;;;;;;;;;;;;;x
+temple_county_of_brythonic;Dryadric of;;;;;;;;;;;x
+temple_kingdom_of_brythonic;Archdryadric of;;;;;;;;;;;;;x
+temple_count_brythonic_reformed;Dryad;;;;;;;;;;;x
+temple_king_brythonic_reformed;Archdryad;;;;;;;;;;;;;x
+temple_county_of_brythonic_reformed;Dryadric of;;;;;;;;;;;x
+temple_kingdom_of_brythonic_reformed;Archdryadric of;;;;;;;;;;;;;x
+### scythian pagan ###
+temple_baron_heptadic;Enarei;Enarée;;;;;;;;;;x
+job_spiritual_heptadic;Grand Enarei;Grand Enarée;;;;;;;;;;x
+d_heptadic_reformed;Tabitian Council;L'Église Tabitienne;;;;;;;;;;x
+d_heptadic_reformed_DESC;Heptadic;Heptadien;;;;;;;;;;x
+d_wasilla_guardians;Guardians of Wasilla;Gardiens de Wasilla;;;;;;;x
+d_xucau_warriors;Warriors of Xucaua;Guerriers de Xucaua;;;;;;x
+HEAD_ENAREI;High Enarei;Haut Enarei;;;;;;x
+## TWEAK DESC HERE vvv
+
+temple_baron_vasconic;Zai;Zai;;;;;;;;;;x
+d_vasconic_reformed;Zai Gorena;Zai Gorena;Zai Gorena;;Zai Gorena;;;;;;;;;x

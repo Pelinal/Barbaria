@@ -1,0 +1,59 @@
+## ASSYRIAN CHARACTERS ##
+## From IDS 750-999    ##
+
+750 = { # Assyrian Vassal in Persia
+    name = "Chunya"
+    dynasty = 66
+    religion = "chaldean"
+    culture = "assyrian"
+    
+	580.1.1 = {
+		birth = yes
+    }
+	600.1.1 = {
+		add_spouse = 751
+	}
+	650.1.1 = {
+		death = yes
+    }
+}
+
+751 = { #Wife
+    name = "Anina"
+    dynasty = 66
+    religion = "chaldean"
+    culture = "assyrian"
+	female = yes
+    
+	580.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+    }
+}
+
+752 = { # Lazarus the Great - the leader of the 666 AD revolt of Chaldean peoples 
+    name = "Lazarus"
+    dynasty = 66
+    religion = "chaldean"
+    culture = "assyrian"
+	
+	stewardship = 8
+	add_trait = shrewd
+	add_trait = conscientious
+	add_trait = fussy
+	add_trait = sturdy
+	
+	health = 10
+	
+    609.12.25 = {
+		birth = yes
+    }
+	666.6.6 = {
+		give_nickname = nick_the_great
+	}
+	700.1.1 = {
+		death = yes
+    }
+}

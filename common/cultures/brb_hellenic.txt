@@ -1,0 +1,587 @@
+###############################################
+###		Hellenic Cultures - Barbaria  		###
+###############################################
+
+### color: 0.3 0.37 1
+# Greek 
+# Spartan
+# Cyrenacian
+# Sicilian
+# Egyptiote
+# Phrygian
+# Pontic
+# Graeco-Illyrian
+# Massalian
+# Bosporan
+
+hellenic_grp = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures =  { easterngfx }
+	
+	greek = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	spartan = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris Gorgo
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	cyrenacian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	sicilian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	egyptiote = { #greco-egyptian
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "psen"
+		#female_patronym = "tsen"
+        prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 0
+		father_name_chance = 90
+
+		modifier = default_culture_modifier
+	}
+	
+	phrygian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		from_dynasty_prefix = "of "
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	pontic = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	greco_illyrian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	massalian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	bosporan = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.3 0.37 1 }
+		
+		male_names = {
+			Abreas Achaios Aineias Airopos Agaios Agatharchides Agathokles Agathon Agelaos Agenor Agesipolis Agis Aiakides Aischines Aknonios Akrotatos Alexandros Alexarchos Alketas Alkimachos Alkimos
+			Amantas Amphoteros Amyntas Anaxarchos Anaxikrates Anaximandros Anaxippos Andragoras Andromachos Andromenes Andronikos Androsthenes Antenor Antialkidas Antigonos Antikles Antimachos Antiochos 
+			Antipatros Antiphates Antiphilos Antisthenes Aphrodisios Apollodoros Apollodotos Apollonios Apollophanes Aratos Archagathos Archebios Archelaos Archias Archidamos Archimedes Archippos Aretas
+			Areus Aristarchos Aristobulos Aristodemos Aristogeiton Aristomachos Ariston Aristonikos Aristophanes Aristophon Aristoteles Arrhabaios Arrhidaios Arseas Artemidoros Artemidotos Asandros
+			Asklepiades Athanadoros Athenodoros Attalos Audoleon Bakchides Balakros Bikon Bryaxis Chabrias Chairestratos Chairondas Chares Charidemos Charikles Charinos Chremes Chremonides Chrysippos 
+			Damokrates Damophon Damoteles Deimachos Deinippos Demades Demaratos Demetrios Demochares Demodamas Demogenes Demokleides Demokritos Demophanes Demosthenes Derdas Deriades Didas Dikaiarchos 
+			Dikaios Dimnos Diodoros Diodotos Diogenes Diomedes Dion Dionysios Dropidas Echekrates Eisigonos Ekdemos Empedokles Epameinondas Epandros Epikuros Epikydes Epimenes Epokillos Erasistratos 
+			Eratosthenes Erigyios Euainetos Euandros Eubulos Eudamidas Eudoxos Euhemeros Eukleides Eukrates Eukratides Euktemon Eumenes Eupolemos Euripides Eurylochos Euthydemos Euthykrates Euthykritos 
+			Eutychides Euxenippos Gelon Glaukias Gorgias Gorgippos Gorgos Gylippos Hagesandros Halkyoneus Harpalos Hegemachos Hegesias Hekataios Hektor Helenos Heliodoros Heliokles Hephaistion Herakleides 
+			Herakon Hermaios Hermarchos Hermesianax Hermias Hermogenes Hermolaos Herodas Heromenes Herophilos Hierax Hieron Hieronymos Hiketas Hippalos Hipparchos Hippokrates Hippostratos Hyakinthos Hyperbatas 
+			Hypereides Ikadion Iollas Iphikrates Ismenias Isokrates Kalas Kalliarchos Kallines Kallisthenes Kallistratos Kallixeinos Karneades Karsis Kassandros Kebalinos Kephalon Kephisodoros Kephisodotos 
+			Kephisophon Kineas Kleandros Kleanthes Klearchos Kleitos Kleombrotos Kleomenes Kleonymos Koinos Koroibos Krateros Krates Krateuas Krenides Ktesikles Lachares Laomedon Leonidas Leonnatos Leontios 
+			Leosthenes Leostratos Leukon Lydiadas Lykurgos Lysandridas Lysandros Lysias Lysimachos Lysippos Lysistratos Machanidas Machatas Magas Makartatos Marsyas Megaleas Megasthenes Meleagros Memnon 
+			Menandros Menedemos Menelaos Menes Menidas Menippos Menon Menos Metrodoros Metron Milon Mnaseas Mnesidemos Molon Nabis Neaichmos Nearchos Neoptolemos Nikagoras Nikandros Nikanor Nikarchos 
+			Nikephoros Nikeratos Niketes Nikias Nikodoros Nikokles Nikokrates Nikokreon Nikomachos Nikomedes Nikostratos Numenios Olympiodoros Onomarchos Onomastos Ophellas Orestes Paionios Pairisades 
+			Pantaleon Pantauchos Pantordanos Parmenion Patrokles Pausanias Peithagoras Peithon Pelopidas Pelops Perdikkas Peroidas Perseus Peukestas Peukolaos Pherekles Philemon Philetairos Philetas Philinos 
+			Philippos Philokles Philon Philonides Philopoimenos Philotas Philoxenos Phrynichos Phylarkhos Phyromachos Platon Pleistarchos Polemon Polybios Polydamas Polydoros Polyeuktos Polygnotos Polyperchon 
+			Poseidippos Poseidonios Praxibulos Praxiteles Prepelaos Proteas Ptolemaios Ptolemais Ptolemaeus Pyrrhias Pyrrhos Pytheas Pythodelos Satyros Seleukos Simmias Simonides Sophytes Sopolis Sosistratos Sosthenes
+			Sostratos Sotas Spalyris Spartokos Stasanor Stilpon Stratokles Straton Stratonikos Taurion Tauriskos Teisikrates Telesarchos Thearidas Themistios Theodamas Theodoros Theodotos Theokritos Theophilos 
+			Theophrastos Thoas Thoinias Thoinon Thrasykles Timaios Timarchos Timoleon Timotheos Tryphon Xanthippos Xenares Xenokrates Xenophon Zeionises Zenon Zeuxis Zoilos Zopyrion
+		}
+		female_names = {
+			Charis Demetria Diantha Dionysia Agathokleia Agiatis Antiochis Apame Apame Apollonia Ariadne Arsinoe Artemisia Athenais Belistiche Berenike Damarate Daphne Demo Elpis Eirene Euphemia Euthalia 
+			Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile Eurydike Histieia Isidora Kalliope Kallista Kellanthis Kleio Kleopatra Kratesikleia Lanassa Laodike Laodike Libys 
+			Lysandra Lysis Mestris Monime Nephoris Oinanthe Pamphile Phila Philotera Phthia Ptolema Sofia Sostrate Thais Theophila Thetima Timo Xanthe Xene Xenia Ptolemais Selene Sophe Stratonike Theoxene
+			Thoeris Tryphaina Zosime Ada Aigyptia Anthis Antigona Antigone Aphrodisia Archestrate Archilla Archippe Aristagora Ariste Aristion Aristo Aristoboule Aristodike Aristokleia Aristokrateia Aristomache 
+			Aristonike Aristylla Artemis Aspasia Beroaia Biote Boidion Chairestrate Chairippe Choirine Chrysilla Chrysis Cleopatra Deidamia Demokrateia Demostrate Diokleia Doris Dorkas Eukleia Eukoline Euphrosyne 
+			Euporia Eutychis Glykera Hedeia Hediste Hedyle Hedyline Herais Hiero Hierokleia Hippostrate Homolois Kadmeia Kallimache Kallippe Kallis Kallistion Kallisto Kallistomache Kallistrate Kleagora Kleariste
+			Kleino Kleito Kleo Kleopatra Kleostrate Krateia Laodike Leaina Leontis Lysimache Lysistrate Malthake Mania Melissa Melitta Menestrate Meniske Metrodora Mika Mnesarete Mnesistrate Murrhine Nausistrate 
+			Nikagora Nikaia Nikareta Nikarete Nikeso Niko Nikomache Nikostrate Olympias Pamphile Parthenis Patrokleia Phanagora Phano Phanostrate Philainis Phileia Philias Philinna Philippa Philista Phillo
+			Philokleia Philostrate Philotera Philotis Philoumene Philoxena Plangon Plathane Pythias Rhode Satyra Sima Simale Simon Sostrate Syra Theano Theodora Theodote Thessalonike Thraitta Timagora Timarete 
+			Timokleia Timostrate Troias Xeno Xenokrateia Zopyra Zopyris
+		}
+		
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+}

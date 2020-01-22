@@ -1,0 +1,17 @@
+# 1712 - Catanzaro
+
+# County title
+title = c_catanzaro
+
+# Settlements
+max_settlements = 3
+b_belcastro = castle
+b_catanzaro = city
+b_crotone = temple
+
+# Misc
+culture = sicilian
+religion = hellenic
+terrain = hills
+
+# History

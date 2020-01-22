@@ -1,0 +1,20 @@
+# 350 - Ancona
+
+# County Title
+title = c_ancona
+
+# Settlements
+max_settlements = 4
+
+b_matelica = castle
+b_ancona = city
+b_osimo = castle
+#b_fermo = castle
+#b_recanati = castle
+#b_camerino = castle
+
+# Misc
+culture = samnite
+religion = italic
+
+# History

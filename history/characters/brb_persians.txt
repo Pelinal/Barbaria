@@ -1,0 +1,1574 @@
+## PERSIAN CHARACTERS ##
+## From IDS 250-499   ##
+
+
+##### SASSANID DYNASTY #####
+
+250 = { 
+	name="Sasan" # II
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	130.11.1={
+		birth="130.11.1"
+		create_bloodline = {
+			type = sassanid
+			has_dlc = "Holy Fury"
+		}
+	}
+	200.1.1={
+		death="200.1.1"
+	}
+}
+
+251 = { 
+	name="Babak" # II
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=250
+	150.11.1={
+		birth="150.11.1"
+	}
+	222.1.1={
+		death="222.1.1"
+	}
+}
+
+252 = { 
+	name="Ardeshir" # I
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=251
+	180.11.1={
+		birth="180.11.1"
+	}
+	241.1.1={
+		death="241.1.1"
+	}
+}
+253 = { 
+	name="Ardeshir" # I
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=252
+	215.11.1={
+		birth="215.11.1"
+	}
+	272.1.1={
+		death="272.1.1"
+	}
+}
+
+254 = {
+	name="Shapur"
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=251
+	177.1.1={
+		birth="177.1.1"
+	}
+	208.1.1={
+		death="208.1.1"
+	}
+}
+255 = {
+	name="Raidashir"
+	dynasty=282
+	religion="manichean"
+	culture="persian"
+	father=251
+	182.1.1={
+		birth="182.1.1"
+	}
+	245.1.1={
+		death="245.1.1"
+	}
+}
+256 = {
+	name="Shapur"
+	# Shapur I, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=252
+	215.1.1={
+		birth="215.1.1"
+	}
+	272.1.1={
+		death="272.1.1"
+	}
+}
+257 = {
+	name="Hormazd"
+	# Hormazd I, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=256
+	246.1.1={
+		birth="246.1.1"
+	}
+	273.1.1={
+		death="273.1.1"
+	}
+}
+258 = {
+	name="Bahram"
+	# Bahram I, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=256
+	240.1.1={
+		birth="240.1.1"
+	}
+	276.1.1={
+		death="276.1.1"
+	}
+}
+259 = {
+	name="Bahram"
+	# Bahram II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=258
+	260.1.1={
+		birth="260.1.1"
+	}
+	293.1.1={
+		death="293.1.1"
+	}
+}
+260 = {
+	name="Bahram"
+	# Bahram III, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=259
+	285.1.1={
+		birth="285.1.1"
+	}
+	293.4.1={
+		death="293.4.1"
+	}
+}
+261 = {
+	name="Narseh"
+	# Narseh, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=256
+	244.1.1={
+		birth="244.1.1"
+	}
+	305.1.1={
+		death="305.1.1"
+	}
+}
+262 = {
+	name="Hormazd"
+	# Hormazd II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=261
+	268.1.1={
+		birth="268.1.1"
+	}
+	309.1.1={
+		death="309.1.1"
+	}
+}
+263 = {
+	name="Hormazd"
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=262
+	299.1.1={
+		birth="299.1.1"
+	}
+	368.1.1={
+		death="368.1.1"
+	}
+}
+264 = {
+	name="Hormazd"
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=263
+	325.1.1={
+		birth="325.1.1"
+	}
+	375.1.1={
+		death="375.1.1"
+	}
+}
+265 = {
+	name="Ardeshir"
+	# Ardeshir II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=262
+	307.1.1={
+		birth="307.1.1"
+	}
+	383.1.1={
+		death="383.1.1"
+	}
+}
+266 = {
+	name="Zruanduxt"
+	# wife of Khosrov IV of Armenia
+	female=yes
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=265
+	330.1.1={
+		birth="330.1.1"
+	}
+	380.1.1={
+		death="380.1.1"
+	}
+}
+267 = {
+	name="Shapur"
+	# Shapur III, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=268
+	333.1.1={
+		birth="333.1.1"
+	}
+	388.1.1={
+		death="388.1.1"
+	}
+}
+268 = {
+	name="Shapur"
+	# Shapur II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=262
+	309.1.1={
+		birth="309.1.1"
+	}
+	379.1.1={
+		death="379.1.1"
+	}
+}
+269 = {
+	name="Bahram"
+	# Bahram IV, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=267
+	339.1.1={
+		birth="339.1.1"
+	}
+	399.1.1={
+		death="399.1.1"
+	}
+}
+270 = {
+	name="Yazdegerd"
+	# Yazdegerd I, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=267
+	369.1.1={
+		birth="369.1.1"
+	}
+	421.1.1={
+		death="421.1.1"
+	}
+}
+271 = {
+	name="Bahram"
+	# Bahram V, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=270
+	393.1.1={
+		birth="393.1.1"
+	}
+	438.1.1={
+		death="438.1.1"
+	}
+}
+272 = {
+	name="Yazdegerd"
+	# Yazdegerd II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=271
+	417.1.1={
+		birth="417.1.1"
+	}
+	457.1.1={
+		death="457.1.1"
+	}
+}
+273 = {
+	name="Hormazd"
+	# Hormazd III, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=272
+	436.1.1={
+		birth="436.1.1"
+	}
+	459.1.1={
+		death="459.1.1"
+	}
+}
+274 = {
+	name="Balash"
+	# Balash, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=272
+	440.1.1={
+		birth="440.1.1"
+	}
+	488.1.1={
+		death="488.1.1"
+	}
+}
+275 = {
+	name="Peroz"
+	# Peroz I, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=272
+	438.1.1={
+		birth="438.1.1"
+	}
+	484.6.1={
+		death="484.6.1"
+	}
+}
+276 = {
+	name="Djamasp"
+	# Djamasp, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=275
+	470.1.1={
+		birth=yes
+	}
+	535.1.1={
+		death=yes
+	}
+}
+277 = {
+	name="Perozdukt"
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=275
+	female = yes
+	466.1.1={
+		birth="466.1.1"
+	}
+	485.1.1={
+		death="485.1.1"
+	}
+}
+278 = {
+	name="Kavadh"
+	# Kavadh I, Emperor of Persia
+	dynasty=282
+	religion="mazdaki"
+	culture="persian"
+	father=275
+	469.1.1={
+		birth=yes
+	}
+	531.9.1={
+		death=yes
+	}
+}
+279 = {
+	name="Khosrau"
+	# Khosrau I, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=278
+	505.1.1={
+		birth=yes
+	}
+	579.1.1={
+		death=yes
+	}
+}
+280 = {
+	name="Bistam"
+	# pretender to throne of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=279
+	532.1.1={
+		birth="532.1.1"
+	}
+	596.1.1={
+		death="596.1.1"
+	}
+}
+281 = {
+	name="Hormazd"
+	# Hormazd IV, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=279
+	528.1.1={
+		birth="528.1.1"
+	}
+	590.1.1={
+		death="590.1.1"
+	}
+}
+444 = { 
+	name="Bahram"
+	# Bahram VI, Emperor of Persia
+	dynasty=284
+	religion="zoroastrian"
+	culture="persian"
+	father = 352
+	
+	553.1.1={
+		birth="553.1.1"
+		create_bloodline = {
+			type = parthian
+			has_dlc = "Holy Fury"
+		}
+	}
+	592.1.1={
+		death="592.1.1"
+	}
+}
+282 = {
+	name="Khosrau"
+	# Khosrau II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=281
+	560.1.1={
+		birth="560.1.1"
+	}
+	589.1.1={
+		add_spouse=7007
+	}
+	628.2.28={
+		death="628.2.28"
+	}
+}
+283 = {
+	name="Kavadh"
+	# Kavadh II, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=282
+	590.1.1={
+		birth="590.1.1"
+	}
+	628.6.1={
+		death="628.6.1"
+	}
+}
+284 = {
+	name="Ardeshir"
+	# Ardeshir III, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=283
+	621.1.1={
+		birth="621.1.1"
+	}
+	630.4.27={
+		death="630.4.27"
+	}
+}
+285 = {
+	name="Purandokht"
+	# Purandokht, Empress of Persia
+	female=yes
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=282
+	592.1.1={
+		birth="592.1.1"
+	}
+	631.5.1={
+		death="631.5.1"
+	}
+}
+286 = {
+	name="Azarmidokht"
+	# Azarmidokht, Empress of Persia
+	female=yes
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=282
+	593.1.1={
+		birth="593.1.1"
+	}
+	631.9.1={
+		death="631.9.1"
+	}
+}
+287 = {
+	name="Shahryar"
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=282
+	mother=7007
+	595.1.1={
+		birth="595.1.1"
+	}
+	628.5.1={
+		death="628.5.1"
+	}
+}
+288 = {
+	name="Yazdegerd"
+	# Yazdegerd III, Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=287
+	617.1.1={
+		birth="617.1.1"
+	}
+	651.1.1={
+		death="651.1.1"
+	}
+}
+289 = {
+	name="Shahrbanu"
+	# possible wife of Husayn ibn Ali
+	female=yes
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=288
+	643.1.1={
+		birth="643.1.1"
+	}
+	700.1.1={
+		death="700.1.1"
+	}
+}
+290 = {
+	name="Izdunand"
+	# wife of Bustanai ben Haninai
+	female=yes
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=288
+	648.1.1={
+		birth="648.1.1"
+	}
+	700.1.1={
+		death="700.1.1"
+	}
+}
+291 = {
+	name="Peroz"
+	# Peroz II, would-be Emperor of Persia
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=288
+	645.1.1={
+		birth="645.1.1"
+	}
+	710.1.1={
+		death="710.1.1"
+	}
+}
+292 = {
+	name="Narsieh"
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=291
+	675.1.1={
+		birth="675.1.1"
+	}
+	730.1.1={
+		death="730.1.1"
+	}
+}
+
+293 = {
+	name="Kawus" 
+	dynasty=282 #Sassanid
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="mazdaki"
+	culture="persian"
+	father=278
+	504.1.1={
+		birth=yes
+	}
+	571.9.1={
+		death=yes
+	}
+}
+
+294 = {
+	name="Hurmat" # fictional daughter of Khosrau I
+	female=yes
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=279
+	570.1.1={
+		birth=yes
+	}
+	630.1.1={
+		death=yes
+	}
+}
+
+295 = {
+	name="Bahram" # Bahram VII claimant to Sassanid throne
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	father=288
+	647.1.1={
+		birth=yes
+	}
+	710.1.1={
+		death=yes
+	}
+}
+296 = {
+	name="Khosrau" # reported son of Bahram VII
+	dynasty=282
+	religion="zoroastrian"
+	culture="persian"
+	trait=tough_soldier
+	father=295
+	677.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+
+##################END OF SASSANID DYNASTY##################################
+
+
+350 = { # Shahrwaraz, 1st Governor of Asoristan
+    name = "Shahrwaraz"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 284
+	father = 444
+	dna="0aiic0bcba0"
+	properties="pf0fij000000000000"
+	
+	trait = strong
+	trait = skilled_tactician
+	trait = just
+	
+    580.1.1={
+		birth = yes
+		effect = {
+			add_claim = e_persia
+		}
+	}
+	596.1.1={
+		add_spouse = 353
+	}
+	600.1.1={
+		give_nickname = nick_the_boar
+	}
+	630.4.28={
+		death={ death_reason = death_executed killer = 285 }
+	}
+}
+351 = { # Shapur-i Shahrwaraz, 2nd Governor of Asoristan and the last of the Mihran dynasty in persia
+    name = "Shapur"
+    religion="zoroastrian"
+    culture="persian"
+	father=350
+	mother=353
+    dynasty = 284
+	
+    600.1.1={
+		birth=yes
+	}
+	631.1.1={
+		effect = {
+			add_claim = e_persia
+		}
+	}
+	630.6.2={
+		death={ death_reason = death_executed killer = 285 }
+	}
+}
+
+352 = { # Golon, former governor of Asoristan
+    name = "Golon"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 284
+	father = 442
+	
+    523.1.1={
+		birth = yes
+	}
+	574.1.1={
+		death = yes
+	}
+}
+
+353 = { # Mirhran, wife of Shahrwaraz 
+    name = "Mirhran"
+    religion = "zoroastrian"
+    culture = "persian"
+	female = yes
+	father = 281
+    
+	575.1.1 = {
+		birth = yes
+		effect = {
+			add_claim = e_persia
+		}
+	}
+	635.1.1={
+		death = yes
+	}
+}
+
+354 = { # Hormazd I of Fars
+    name = "Hormazd"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 257
+	
+    580.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = 355
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+355 = { # 354's wife
+    name = "Donya"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 258
+	female = yes
+	
+    583.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+356 = { # Hormazd II of Fars
+    name = "Hormazd"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 257
+	father = 354
+	mother = 355
+	
+    604.1.1 = {
+		birth = yes
+	}
+	676.1.1 = {
+		death = yes
+	}
+}
+
+357 = { # Kurush I of Baluchistan
+	name = "Kurush"
+	dynasty=253 
+	martial=7
+	diplomacy=4
+	intrigue=5
+	stewardship=7
+	religion="zoroastrian"
+	culture="persian"
+	trait=tough_soldier
+	
+	589.1.1={
+		birth=yes
+	}
+	642.1.1={
+		death=yes
+	}
+}
+
+358 = { # Varshasb, duke of Mafaza
+	name = "Varshasb"
+	dynasty=250 
+	religion="zoroastrian"
+	culture="persian"
+	
+	570.1.1={
+		birth=yes
+	}
+	612.1.1={
+		death=yes
+	}
+}
+
+359 = { # Jahanshah, duke of Jibal
+	name = "Jahanshah"
+	dynasty=283 
+	religion="zoroastrian"
+	culture="persian"
+	
+	add_trait = chaste
+	add_trait = zealous
+	
+	591.1.1={
+		birth=yes
+	}
+	676.1.1={
+		give_nickname = nick_the_old
+	}
+	681.1.1={
+		death=yes
+	}
+}
+
+##= Karen Dynasty =##
+401 = {
+	name="Qarin" 
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=402
+	780.1.1={
+		birth=yes
+	}
+	816.1.1={
+		death=yes
+	}
+}
+402 = {
+	name="Vandad Hormozd" 
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=404
+	trait=zealous
+	trait=tough_soldier
+	740.1.1={
+		birth=yes
+	}
+	815.1.1={
+		death=yes
+	}
+}
+403 = {
+	name="Vindaspagan" # historical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=404
+	trait=tough_soldier
+	741.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+404 = {  
+	name="Karen" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=405
+	680.1.1={ #postponed from 660
+		birth=yes
+	}
+	742.1.1={ #postponed from 737
+		death=yes
+	}
+}
+405 = {
+	name="Vandad" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=406
+	635.1.1={
+		birth=yes
+	}
+	700.1.1={
+		death=yes
+	}
+}
+406 = {
+	name="Balash" 
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=407
+	600.1.1={
+		birth=yes
+	}
+	673.1.1={
+		death=yes
+	}
+}
+407 = {
+	name="Alanda" 
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=408
+	560.1.1={
+		birth=yes
+	}
+	635.1.1={
+		death=yes
+	}
+}
+408 = {
+	name="Karen" 
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=409
+	520.1.1={
+		birth=yes
+	}
+	600.1.1={
+		death=yes
+	}
+}
+409 = {
+	name="Sukhra" 
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=410
+	480.1.1={
+		birth=yes
+	}
+	550.1.1={
+		death=yes
+	}
+}
+410 = {
+	name="Zarmihr" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=411
+	440.1.1={
+		birth=yes
+	}
+	500.1.1={
+		death=yes
+	}
+}
+411 = {
+	name="Alanda" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=412
+	410.1.1={
+		birth=yes
+	}
+	490.1.1={
+		death=yes
+	}
+}
+412 = {
+	name="Sukhra" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=413
+	370.1.1={
+		birth=yes
+	}
+	450.1.1={
+		death=yes
+	}
+}
+413 = {
+	name="Balash" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=414
+	335.1.1={
+		birth=yes
+	}
+	400.1.1={
+		death=yes
+	}
+}
+414 = {
+	name="Zarmihr" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=415
+	300.1.1={
+		birth=yes
+	}
+	375.1.1={
+		death=yes
+	}
+}
+415 = {
+	name="Karen" #unhistorical
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=159557 #Karen-Pahlav lineage
+	245.1.1={
+		birth=yes
+	}
+	330.1.1={
+		death=yes
+	}
+}
+
+416 = {
+	name="Reza" #Historical unnamed son of  Vandad
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=402
+	782.1.1={
+		birth=yes
+	}
+	824.1.1={
+		death=yes
+	}
+}
+
+417 = {
+	name="Vinda-Umid" #Historical uncle of Mazyar
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=416
+	800.1.1={
+		birth=yes
+	}
+	826.1.1={
+		death=yes
+	}
+}
+
+418 = {
+	name="Gurdzad" #Possible historical member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=417
+	824.1.1={
+		birth=yes
+	}
+	867.1.1={
+		death=yes
+	}
+}
+
+419 = {
+	name="Baduspan" #Historical member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=418
+	846.1.1={
+		birth=yes
+	}
+	910.1.1={
+		death=yes
+	}
+}
+
+420 = {
+	name="Shahriyar" #Historical member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=419
+	trait=sympathy_islam
+	880.1.1={
+		birth=yes
+	}
+	917.1.1={
+		death=yes
+	}
+}
+
+421 = {
+	name="Muhammad" # Historical member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=420
+	901.1.1={
+		birth=yes
+	}
+	936.1.1={
+		add_claim=c_daylam # historical claim
+	}
+	960.1.1={
+		death=yes # unknown 
+	}
+}
+
+422 = {
+	name="Vandad" # Fictional member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=421
+	930.1.1={
+		birth=yes
+	}
+	1000.1.1={
+		death=yes 
+	}
+}
+
+423 = {
+	name="Qarin" # Fictional member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=422
+	960.1.1={
+		birth=yes
+	}
+	1020.1.1={
+		death=yes
+	}
+}
+
+424 = {
+	name="Shahriyar" # Fictional member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=423
+	990.1.1={
+		birth=yes
+	}
+	1050.1.1={
+		death=yes
+	}
+}
+
+425 = {
+	name="Mazyar" # Fictional member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=424
+	1020.1.1={
+		birth=yes
+	}
+	1070.1.1={
+		death=yes
+	}
+}
+
+426 = {
+	name="Balash" # Fictional member of Karen dynasty
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=425
+	1050.1.1={
+		birth=yes
+	}
+	1105.1.1={
+		death=yes
+	}
+}
+
+427 = {
+	name="Amir" # Last known ruler of house Karen
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father=425
+	1090.1.1={
+		birth=yes
+	}
+	1130.1.1={
+		death=yes
+	}
+}
+
+428 = { 
+	name="Quhyar" # Historical
+	dynasty=254
+	martial=7
+	religion="zoroastrian"
+	culture="persian"
+	trait="deceitful"
+	trait=sympathy_islam
+	father=401
+	802.1.1={
+		birth="802.1.1"
+	}
+	839.1.1={
+		death="839.7.7" # Killed by his own soldiers
+	}
+}
+
+429 = { 
+	name="Vandad" # Fictional leader of the House of Karen at the time
+	dna = xqndnvqyari
+	properties = fo0edd000000000000
+	dynasty=254 # Karen
+	martial=7
+	diplomacy=5
+	intrigue=5
+	stewardship=4
+	religion=zoroastrian
+	culture=persian
+	trait=tough_soldier
+	father = 431
+	830.1.1={
+		birth=yes
+	}
+	
+	867.1.1 = {
+		# The last hope of the Zoroastrians
+		effect = {
+			spawn_unit = {
+				province = 633 # Gurgan
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					light_infantry = { 625 625 }
+					heavy_infantry = { 479 479 }
+					pikemen = { 30 30 }
+					archers = { 254 254 }
+					light_cavalry = { 132 132 }
+					knights = { 4 4 }
+					horse_archers = { 12 12 }
+				}
+				attrition = 0.5
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+				spawn_unit = {
+					province = 633 # Gurgan
+					owner = ROOT
+					#leader = THIS
+					troops = {
+						light_infantry = { 625 625 }
+						heavy_infantry = { 479 479 }
+						pikemen = { 30 30 }
+						archers = { 254 254 }
+						light_cavalry = { 132 132 }
+						knights = { 4 4 }
+						horse_archers = { 12 12 }
+					}
+					attrition = 0.5
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 27
+				attributes = {
+					martial = 6
+				}
+				trait = skilled_tactician
+			}
+			new_character = {
+				spawn_unit = {
+					province = 633 # Gurgan
+					owner = ROOT
+					#leader = THIS
+					troops = {
+						light_infantry = { 625 625 }
+						heavy_infantry = { 479 479 }
+						pikemen = { 30 30 }
+						archers = { 254 254 }
+						light_cavalry = { 132 132 }
+						knights = { 4 4 }
+						horse_archers = { 12 12 }
+					}
+					attrition = 0.5
+				}
+			}
+		}
+	}
+	
+	890.1.1={
+		death=yes
+	}
+}
+
+430 = { 
+	name="Farah" # Fictional
+	female = yes
+	dynasty=254
+	religion="zoroastrian"
+	culture="persian"
+	father = 431
+	835.1.1={
+		birth="835.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+
+431 = { 
+	name="Mazyar" # Historical. Died in revolt against the Caliph
+	dynasty=254
+	martial=7
+	religion="zoroastrian"
+	culture="persian"
+	trait="skilled_tactician"
+	father=401
+	800.1.1={
+		birth="800.1.1"
+	}
+	839.1.1={
+		death="839.1.1"
+	}
+}
+
+432 = { # Hafez I of Khozistan
+    name = "Hafez"
+    religion = "mazdaki"
+    culture = "persian"
+    dynasty = 257
+	
+    580.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+433 = { # Mashad I of Jibal
+    name = "Mashad"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 286
+	
+    570.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+434 = { # Zartosht I of Kerman
+    name = "Zartosht"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 267
+	
+    580.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+435 = {
+    name = "Kamran"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 261
+	
+    580.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+436 = {
+    name = "Abbas"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 264
+	
+    575.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+437 = {
+    name = "Ghobad"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 265
+	
+    580.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+438 = { # Vandad I of Tabaristan and Gilan
+    name = "Vandad"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 266
+	
+    580.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+439 = { # Farroukh, vassal lord of Charax-Spasinu
+    name = "Farroukh"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 272
+	
+    567.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+440 = { # Rostam, duke of Al Bahrein a.k.a. Gerrha
+    name = "Rostam"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 269
+	
+    573.1.1 = {
+		birth = yes
+	}
+	644.1.1 = {
+		death = yes
+	}
+}
+
+441 = { # Adhur Gushnasp, historical marzban of Sassanid Armenia
+    name = "Adhur"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 289 # Gushnasp
+	
+    445.1.1 = {
+		birth = yes
+	}
+	482.1.1 = {
+		death = { death_reason = death_battle killer = 2027 }
+	}
+}
+
+442 = { # Shapur Mihran, former governor of Armenia
+    name = "Shapur"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 284
+	father = 443
+	
+	add_trait = skilled_tactician
+	add_trait = robust
+	
+    462.1.1={
+		birth = yes
+	}
+	533.1.1={
+		death = yes
+	}
+}
+
+443 = { # Mihran, founder of Mihran Dynasty
+    name = "Mihran"
+    religion = "zoroastrian"
+    culture = "persian"
+    dynasty = 284
+	
+    432.1.1={
+		birth = yes
+	}
+	484.1.1={
+		death = yes
+	}
+}
+
+## 444 already in use ##
+

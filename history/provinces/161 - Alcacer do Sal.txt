@@ -1,0 +1,23 @@
+# 161 - Alcacer do Sal
+
+# County Title
+title = c_alcacer_do_sal
+
+# Settlements
+max_settlements = 4
+b_alcacerdosal = castle
+b_santiagodocacem = castle
+#b_aljustrel = temple
+#b_castroverde = castle
+b_ourique = city
+#b_odemira = castle
+#b_alvalade = castle
+
+
+# Misc
+culture = celtiberian
+religion = gallic
+
+# History
+
+

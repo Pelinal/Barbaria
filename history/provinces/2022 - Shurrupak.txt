@@ -1,0 +1,15 @@
+# 2022 - Shurrupak
+
+# County Title
+title = c_shurrupak
+
+# Settlements
+max_settlements = 3
+
+b_shurrupak = castle
+b_tepe_gawra = city
+#b_suda = temple
+
+#Misc
+culture = akkadian
+religion = chaldean

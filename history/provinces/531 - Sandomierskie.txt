@@ -1,0 +1,21 @@
+# 531 - Sandomierskie
+
+# County Title
+title = c_sandomierskie
+
+# Settlements
+max_settlements = 5
+b_sandomierz = tribal
+#b_radom = city
+#b_kielce = temple
+
+#b_olescnica = castle
+#b_wislica = castle
+#b_opoczno = castle
+#b_opatow = castle
+
+# Misc
+culture = vandal
+religion = germanic_pagan
+
+# History

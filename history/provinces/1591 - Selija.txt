@@ -1,0 +1,21 @@
+# 1591 - Selija
+
+# County Title
+title = c_selija
+
+# Settlements
+max_settlements = 2
+b_selpils = tribal
+#b_dignaja = city
+#b_dubenou = temple
+
+#b_rackiska = castle
+#b_lichsta = castle
+#b_rurezeme = castle
+#b_ozikel = castle
+
+# Misc
+culture = aestian
+religion = baltic_pagan
+
+# History

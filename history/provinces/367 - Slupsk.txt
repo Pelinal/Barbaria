@@ -1,0 +1,22 @@
+# 367 - Slupsk
+
+# County Title
+title = c_slupsk
+
+# Settlements
+max_settlements = 4
+b_schlawe = tribal
+
+#b_slupsk = city
+#b_colberg = temple
+#b_gerwin = castle
+#b_corlin = castle
+#b_ustka = temple
+#b_belgard = castle
+#b_rugenwalde = castle
+
+# Misc
+culture = rugian
+religion = germanic_pagan
+
+# History

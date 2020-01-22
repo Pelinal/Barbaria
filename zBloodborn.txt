@@ -1,0 +1,16 @@
+##### Bloodborn - Title History Things #####
+
+NOTE(S):
+ - Rulers of kingdoms and empires will have all of the dejure counties of the captial duchy, unless one of its counties is specifically given to someone else.
+ - Focus on TITLE hisotry, and just make characters that will be the holders of those titles.
+ - Unless specified otherwise, only make the male ruler of a dynasty and the game should auto-generate a family.
+ - For now, put ALL OF YOUR character history in one file (so that i can still edit the same files), and i will sort it later
+	As a result of this, start from ID 9000 and ill fix those too (dynasties should still be accurate ids)
+
+##= Title History =##
+- See Arabia_Map.jpg in mod folder for overview
+(Obviously the map will not match the game too well, so if you just give the characters the 
+ nearest duchy and the counties that more or less represent the map that will work fine and names can be changed later)
+ 
+P.S. If there aren't enough duchies to match the map, then just have independant counts where needed.
+P.P.S. Ignore Oman, I will do that personally, and let me know before you move out of the arabian peninsular.

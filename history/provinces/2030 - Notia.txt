@@ -1,0 +1,16 @@
+# 2030 - Notia
+
+# County Title
+title = c_notia
+
+# Settlements
+max_settlements = 4
+
+b_notia = castle
+b_batrachos = city
+b_petras_mikros = temple
+#b_miceris = city
+
+#Misc
+culture = egyptiote
+religion = kemetic

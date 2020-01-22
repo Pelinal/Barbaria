@@ -1,0 +1,19 @@
+# 2037 - Samaria
+
+# County Title
+title = c_samaria
+
+# Settlements
+max_settlements = 5
+
+b_samaria_barony = castle
+b_akraba = city
+b_salem = temple
+b_shekhem = temple
+#b_antipatris = castle
+#b_narbata = castle
+#b_emmaus = city
+
+#Misc
+culture = hebrew
+religion = jewish

@@ -1,0 +1,21 @@
+# 423 - Sudovia
+
+# County Title
+title = c_sudovia
+
+# Settlements
+max_settlements = 3
+b_merkine = tribal
+#b_rudamina = city
+#b_liskiava = temple
+
+#b_hrodna = city
+#b_suvalkai = castle
+#b_augustavas = castle
+#b_seiniai = temple
+
+# Misc
+culture = scirii
+religion = germanic_pagan
+
+# History

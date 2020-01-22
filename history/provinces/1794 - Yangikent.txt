@@ -1,0 +1,17 @@
+# 1794 - Yangikent 
+
+# County title 
+title = c_yangikent 
+
+# Settlements
+max_settlements = 4
+
+b_djend = tribal
+b_yangikent = city
+
+# Misc
+culture = turkish
+religion = manichean
+
+# History
+1221.1.1 = { culture = mongol } 

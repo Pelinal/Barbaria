@@ -1,0 +1,27 @@
+# County Title
+title = c_yopurga
+
+# Settlements
+max_settlements = 3
+
+b_yopurga = castle
+b_jiashi = city
+
+# Misc
+culture = xionite
+religion = hephthalite
+
+# History
+760.1.1 = {
+	religion = buddhist
+}
+790.1.1 = {
+	culture = saka
+}
+1006.1.1 = {
+	culture = karluk
+	religion = manichean
+}
+1360.1.1 = {
+	religion = manichean
+}#Tughlugh Timur Khan reinforces Islam in Chagatai

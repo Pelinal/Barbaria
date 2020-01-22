@@ -1,0 +1,17 @@
+# 242 - Austgau
+
+# County Title
+title = c_aargau
+
+# Settlements
+max_settlements = 4
+b_basel = castle
+b_st_ursanne = temple
+b_delemont = city
+
+# Misc
+culture = gaulish
+religion = gallic
+
+# History
+

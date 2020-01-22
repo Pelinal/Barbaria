@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 3100
+	set_tribute_suzerain = { who = k_cumbria percentage = 0.4 }
+}
