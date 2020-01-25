@@ -18,8 +18,8 @@ african_grp = {
 		
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 64
+		heresy_icon = 65
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -90,8 +90,8 @@ african_grp = {
 			}
 		}
 
-		icon = 34
-		heresy_icon = 35
+		icon = 63
+		heresy_icon = 65
 		
 		color = { 0.8 0.45 0.75 }
 		crusade_name = GREAT_HOLY_WAR
@@ -156,8 +156,8 @@ african_grp = {
 		graphical_culture = semitic_grpgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 68
-		heresy_icon = 69
+		icon = 73
+		heresy_icon = 74
 
 		color = { 0.6 0.35 0.29 }
 
@@ -181,7 +181,7 @@ african_grp = {
 		allow_rivermovement = yes
 		can_call_crusade = no
 		scripture_name = THE_BOOK_OF_FOREFATHERS
-		priest_title = PRIEST
+		priest_title = MARABOUT
 
 		priests_can_marry = yes
 		matrilineal_marriages = yes
@@ -202,8 +202,9 @@ african_grp = {
 		intermarry = canaanite
 		intermarry = punic
 		intermarry = sayhadic
-		
-		
+		intermarry = nabataean
+		intermarry = hellenic
+		intermarry = italic
 		intermarry = egyptian_group
 	}
 	
@@ -211,8 +212,8 @@ african_grp = {
 		graphical_culture = semitic_grpgfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 67
-		heresy_icon = 69
+		icon = 72
+		heresy_icon = 74
 
 		color = { 0.7 0.45 0.35 }
 
@@ -236,7 +237,7 @@ african_grp = {
 		allow_rivermovement = yes
 		can_call_crusade = no
 		scripture_name = THE_BOOK_OF_FOREFATHERS
-		priest_title = PRIEST
+		priest_title = MARABOUT
 
 		priests_can_marry = yes
 		matrilineal_marriages = yes
@@ -257,7 +258,7 @@ african_grp = {
 		intermarry = canaanite
 		intermarry = punic
 		intermarry = sayhadic
-		
+		intermarry = nabataean
 		
 		intermarry = egyptian_group
 	}

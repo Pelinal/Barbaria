@@ -30,19 +30,19 @@ balkan_grp = {
 		
 		ai_convert_other_group = 2 # always try to convert
 		
-		color = { 1 0.6 0.6 }
+		color = { 0.9 0.6 0.6 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
-		priest_title = PRIEST #CTSISTAT
+		priest_title = SMOKE_WALKER
 		
 		high_god_name = GOD_ZALMOXIS
 		
 		god_names = {
 			GOD_ZALMOXIS GOD_PLEISTOROS GOD_SABAZIOS GOD_DERZELAS GOD_BASSAREUS
-			GOD_BENDIS GOD_SEMELE GOD_COTYS
+			GOD_BENDIS GOD_SEMELE GOD_COTYS GOD_HEROS_K
 		}
 		evil_god_names = {
-			EN CRONUS GOD_DERZELAS
+			EN GOD_CRONUS GOD_HEROS_K
 		}
 		
 		unit_modifier = {
@@ -72,7 +72,9 @@ balkan_grp = {
 		dislike_tribal_organization = no
 		can_demand_religious_conversion = yes
 
-		intermarry = pagan_group
+		intermarry = hellenic
+		intermarry = mithraic
+		intermarry = cybelene
 	}
 	
 	zalmoxian = {
@@ -90,16 +92,16 @@ balkan_grp = {
 		color = { 1 0.5 0.5 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
-		priest_title = PRIEST
+		priest_title = SMOKE_WALKER
 		
 		high_god_name = GOD_ZALMOXIS
 		
 		god_names = {
 			GOD_ZALMOXIS GOD_PLEISTOROS GOD_SABAZIOS GOD_DERZELAS GOD_BASSAREUS
-			GOD_BENDIS GOD_SEMELE GOD_COTYS
+			GOD_BENDIS GOD_SEMELE GOD_COTYS GOD_HEROS_K
 		}
 		evil_god_names = {
-			EN CRONUS GOD_DERZELAS
+			EN CRONUS GOD_HEROS_K
 		}
 		
 		unit_modifier = {
@@ -128,7 +130,9 @@ balkan_grp = {
 		religious_clothing_head = 15
 		religious_clothing_priest = 3
 		
-		intermarry = pagan_group
+		intermarry = hellenic
+		intermarry = mithraic
+		intermarry = cybelene
 		
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no

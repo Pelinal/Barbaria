@@ -37,12 +37,37 @@ druidic = {
 		priest_title = DRUID
 
 		high_god_name = GOD_TEUTATES
-
+		
 		god_names = {
 			GOD_TEUTATES GOD_RHIANNON GOD_MANANNAN GOD_DAGHDA GOD_LUGH GOD_MACHA GOD_DANA GOD_NUADA GOD_SEQUANA GOD_CERNNUNOS
 		}
 		evil_god_names = {
 			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
+		}
+		
+		unit_modifier = {	
+			levy_size = 0.15
+			
+			retinuesize_perc = 0.3	
+			garrison_size = 0.2
+			
+			key = "HERO_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.6
+			light_infantry_defensive = 0.6
+			heavy_infantry_defensive = 0.6
+			pikemen_defensive = 0.6
+			light_cavalry_defensive = 0.6
+			knights_defensive = 0.6
+			archers_defensive = 0.6
+			horse_archers_defensive = 0.6
+			camel_cavalry_defensive = 0.6
+			war_elephants_defensive = 0.6
+			
+			garrison_size = 0.2
+			
+			key = "HERO_RELIGION_HOME_TERRITORY"
 		}
 		
 		priests_can_marry = no
@@ -60,8 +85,7 @@ druidic = {
 
 		allow_in_ruler_designer = no
 
-		intermarry = gallic
-		##intermarry = britannic_pagan
+		intermarry = druidic
 	}
 	
 	gallic = {
@@ -84,31 +108,6 @@ druidic = {
 		evil_god_names = {
 			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
 		}
-		
-		unit_modifier = {	
-			levy_size = 0.15
-			
-			retinuesize_perc = 0.3	
-			garrison_size = 0.2
-			
-			key = "HERO_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.6
-			light_infantry_defensive = 0.6
-			heavy_infantry_defensive = 0.6
-			pikemen_defensive = 0.6
-			light_cavalry_defensive = 0.6
-			knights_defensive = 0.6
-			archers_defensive = 0.6
-			horse_archers_defensive = 0.6
-			camel_cavalry_defensive = 0.6
-			war_elephants_defensive = 0.6
-			
-			garrison_size = 0.2
-			
-			key = "HERO_RELIGION_HOME_TERRITORY"
-		}
 
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -129,234 +128,176 @@ druidic = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 
-		intermarry = gallic_reformed
-		##intermarry = britannic_pagan
+		intermarry = druidic
 		can_demand_religious_conversion = no
 	}
 	
 	brythonic_reformed = { # British
-		# Use norsegfx rather than celticgfx to have the northern pagan rounded CoA on the map
 		graphical_culture = norsegfx
 		alternate_start = { always = no }
+
 		icon = 85
 		heresy_icon = 86
+		color = { 0.25 0.6 0.3 }
 		
-		ai_convert_other_group = 2 # always try to convert
-		ai_convert_same_group = 2 # always try to convert
-		
-		color = { 0.24 0.56 0.8 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_BALLADS
+		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
-
-		high_god_name = GOD_RHIANNON
-
+		high_god_name = GOD_BEL
+		
 		god_names = {
-			GOD_TEUTATES GOD_RHIANNON GOD_MANANNAN GOD_DAGHDA GOD_LUGH GOD_MACHA GOD_DANA GOD_NUADA GOD_SEQUANA GOD_CERNNUNOS
+			GOD_BEL GOD_NODENS GOD_TARANIS
+			GOD_LUGUS GOD_MODRON GOD_DON GOD_BRIGANTIA
 		}
 		evil_god_names = {
-			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
+			EVIL_ADDANC EVIL_CYTHRAWL
 		}
+		max_consorts = 2
+		investiture = no	
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_STONES
+		priests_can_marry = yes
+		female_temple_holders = yes
+		#can_hold_temples = yes
 		
-		priests_can_marry = no
-		priests_can_inherit = no
-		max_consorts = 3
-		can_call_crusade = yes
-		join_crusade_if_bordering_hostile = yes
-
-		aggression = 1.5 # AI aggression factor
+		#religious_clothing_head = 3
+		#religious_clothing_priest = 3
 		
-		short_reign_opinion_year_mult = 1.5 # The default is 2
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-
 		allow_in_ruler_designer = no
-
+		
 		intermarry = gallic
-		##intermarry = britannic_pagan
+		intermarry = germanic_pagan
 	}
 	
 	brythonic = { # British
-		# Use norsegfx rather than celticgfx to have the northern pagan rounded CoA on the map
 		graphical_culture = norsegfx
-		
+		alternate_start = { always = no }
+
 		icon = 84
 		heresy_icon = 86
+		color = { 0.25 0.6 0.3 }
 		
-		color = { 0.21 0.49 0.7 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_BALLADS
+		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
-
-		high_god_name = GOD_TEUTATES
-
+		high_god_name = GOD_BEL
+		
 		god_names = {
-			GOD_TEUTATES GOD_RHIANNON GOD_MANANNAN GOD_DAGHDA GOD_LUGH GOD_MACHA GOD_DANA GOD_NUADA GOD_SEQUANA GOD_CERNNUNOS
+			GOD_BEL GOD_NODENS GOD_TARANIS
+			GOD_LUGUS GOD_MODRON GOD_DON GOD_BRIGANTIA
 		}
 		evil_god_names = {
-			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
+			EVIL_ADDANC EVIL_CYTHRAWL
 		}
-		
-		unit_modifier = {	
-			levy_size = 0.15
-			
-			retinuesize_perc = 0.3	
-			garrison_size = 0.2
-			
-			key = "HERO_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.6
-			light_infantry_defensive = 0.6
-			heavy_infantry_defensive = 0.6
-			pikemen_defensive = 0.6
-			light_cavalry_defensive = 0.6
-			knights_defensive = 0.6
-			archers_defensive = 0.6
-			horse_archers_defensive = 0.6
-			camel_cavalry_defensive = 0.6
-			war_elephants_defensive = 0.6
-			
-			garrison_size = 0.2
-			
-			key = "HERO_RELIGION_HOME_TERRITORY"
-		}
-
+		max_consorts = 2
+		investiture = no	
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_STONES
 		priests_can_marry = yes
 		female_temple_holders = yes
-		priests_can_inherit = no
-		feminist = yes
-		defensive_attrition = yes
-		max_consorts = 3
-		peace_prestige_loss = yes # Lose Prestige while at peace
-		raised_vassal_opinion_loss = no
-		allow_looting = yes
-		reformed = brythonic_reformed
-		aggression = 1.5 # AI aggression factor
+		#can_hold_temples = yes
 		
-		dislike_tribal_organization = yes
-
-		short_reign_opinion_year_mult = 2
+		#religious_clothing_head = 3
+		#religious_clothing_priest = 3
 		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-
-		intermarry = gallic_reformed
-		##intermarry = britannic_pagan
-		can_demand_religious_conversion = no
+		allow_in_ruler_designer = no
+		
+		intermarry = gallic
+		intermarry = germanic_pagan
 	}
 	
 	danuic_reformed = { # Irish
-		# Use norsegfx rather than celticgfx to have the northern pagan rounded CoA on the map
 		graphical_culture = norsegfx
 		alternate_start = { always = no }
+
 		icon = 82
 		heresy_icon = 83
+		# color = { 0.1 0.3 0.7 }
+		color = { 12 80 20 }
 		
-		ai_convert_other_group = 2 # always try to convert
-		ai_convert_same_group = 2 # always try to convert
+		unit_modifier = {		
+			garrison_size = 0.25
+			
+			key = "DEF_RELIGION"
+		}
 		
-		color = { 0.09 0.95 0.59 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_BALLADS
+		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
-
-		high_god_name = GOD_TEUTATES
-
+		high_god_name = GOD_DAGHDA
 		god_names = {
-			GOD_TEUTATES GOD_RHIANNON GOD_MANANNAN GOD_DAGHDA GOD_LUGH GOD_MACHA GOD_DANA GOD_NUADA GOD_SEQUANA GOD_CERNNUNOS
+			GOD_BEL GOD_DAGHDA GOD_LUGUS GOD_NODENS
+			GOD_TARANIS GOD_BRIGIT GOD_MORRIGAN
 		}
 		evil_god_names = {
-			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
+			THE_FOMORIANS EVIL_BALOR EVIL_BRES
 		}
+		max_consorts = 2
+		allow_looting = yes
+		#allow_rivermovement = yes
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_ANCIENT_KNOWLEDGE
+		priests_can_marry = yes
+		female_temple_holders = yes
+		#can_hold_temples = yes
 		
-		priests_can_marry = no
-		priests_can_inherit = no
-		max_consorts = 3
-		can_call_crusade = yes
-		join_crusade_if_bordering_hostile = yes
-
-		aggression = 1.5 # AI aggression factor
+		#religious_clothing_head = 3
+		#religious_clothing_priest = 3
 		
-		short_reign_opinion_year_mult = 1.5 # The default is 2
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-
 		allow_in_ruler_designer = no
-
-		intermarry = gallic
-		##intermarry = britannic_pagan
+		
+		intermarry = druidic
 	}
 	
 	danuic = {
-		# Use norsegfx rather than celticgfx to have the northern pagan rounded CoA on the map
 		graphical_culture = norsegfx
-		
+		alternate_start = { always = no }	# We use the generic pagan instead, and swap it all on generation based on culture
+
 		icon = 81
 		heresy_icon = 83
+		# color = { 0.12 0.37 0.77 }
+		color = { 6 47 12 }
 		
-		color = { 0.08 0.85 0.53 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_BALLADS
+		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
-
-		high_god_name = GOD_TEUTATES
-
+		high_god_name = GOD_DAGHDA
 		god_names = {
-			GOD_TEUTATES GOD_RHIANNON GOD_MANANNAN GOD_DAGHDA GOD_LUGH GOD_MACHA GOD_DANA GOD_NUADA GOD_SEQUANA GOD_CERNNUNOS
+			GOD_BEL GOD_DAGHDA GOD_LUGUS GOD_NODENS
+			GOD_TARANIS GOD_BRIGIT GOD_MORRIGAN
 		}
 		evil_god_names = {
-			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
+			THE_FOMORIANS EVIL_BALOR EVIL_BRES
 		}
-		
-		unit_modifier = {	
-			levy_size = 0.15
-			
-			retinuesize_perc = 0.3	
-			garrison_size = 0.2
-			
-			key = "HERO_RELIGION"
-		}
-		unit_home_modifier = {
-			land_morale = 0.6
-			light_infantry_defensive = 0.6
-			heavy_infantry_defensive = 0.6
-			pikemen_defensive = 0.6
-			light_cavalry_defensive = 0.6
-			knights_defensive = 0.6
-			archers_defensive = 0.6
-			horse_archers_defensive = 0.6
-			camel_cavalry_defensive = 0.6
-			war_elephants_defensive = 0.6
-			
-			garrison_size = 0.2
-			
-			key = "HERO_RELIGION_HOME_TERRITORY"
-		}
-
+		max_consorts = 2
+		allow_looting = yes
+		allow_rivermovement = yes
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = no
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_ANCIENT_KNOWLEDGE
 		priests_can_marry = yes
 		female_temple_holders = yes
-		priests_can_inherit = no
-		feminist = yes
-		defensive_attrition = yes
-		max_consorts = 3
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
-		allow_looting = yes
+		#can_hold_temples = yes
 		reformed = danuic_reformed
-		aggression = 1.5 # AI aggression factor
+		short_reign_opinion_year_mult = 0.75 # The default is 2
 		
 		dislike_tribal_organization = yes
-
-		short_reign_opinion_year_mult = 2
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-
-		intermarry = gallic_reformed
-		##intermarry = britannic_pagan
 		can_demand_religious_conversion = no
+		
+		#religious_clothing_head = 3
+		#religious_clothing_priest = 3
+
+		intermarry = druidic
 	}
 }

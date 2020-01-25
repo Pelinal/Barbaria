@@ -1,9 +1,111 @@
 ##= Religions Localisation =##
 
+##= African Group =##
+african_grp;African;;;;;;;;;;;;x
+west_african_pagan_reformed;Fetishist;;;;;;;;;;;;x
+west_african_pagan;Fetishist;;;;;;;;;;;;x
+berber_reformed;Berber;;;;;;;;;;;;x
+berber_reformed_DESC;The Berber religion is an ancient and native set of beliefs and dieties adhered to by the Amazigh people of North Africa. Many of their beliefs were developed locally, whereas others were influenced over time by other African religions, such as Kemetism, or perhaps from more external influences such as the Greeks, Phoenicians or even the Italics.\n;;;;;;;;;;;;x
+berber;Berber;;;;;;;;;;;;x
+berber_DESC;The Berber religion is an ancient and native set of beliefs and dieties adhered to by the Amazigh people of North Africa. Many of their beliefs were developed locally, whereas others were influenced over time by other African religions, such as Kemetism, or perhaps from more external influences such as the Greeks, Phoenicians or even the Italics.\n;;;;;;;;;;;;x
+GOD_AMMON;Ammon;;;;;;;;;;;;x
+GOD_GURZIL;Gurzil;;;;;;;;;;;;x
+GOD_TANNIT;Tannit;;;;;;;;;;;;x
+GOD_AFRI;Afri;;;;;;;;;;;;x
+THE_JNOUN;The Jnoun;;;;;;;;;;;;x
+THE_BOOK_OF_FOREFATHERS;The Book of Forefathers;;;;;;;;;;;;x
+MARABOUT;Marabout;;;;;;;;;;;;x
+
+##= Anatolic =##
+anatolian_grp;Anatolic;;;;;;;;;;;;x
+khaldic;Khaldic;;;;;;;;;;;;x
+khaldic_full;Khaldic;;;;;;;;;;;;x
+khaldic_DESC;The Khaldic pantheon represents a religion which grew out of the ancient Urartian culture, many millenia before. A principally polytheistic faith, the chief god is known as Khaldi, and is worshipped as a warrior god. Despite heavy Persian influences over the centuries (such as the introduction of Ahura Mazda in the form of Aramazd), the Armenians have managed to keep their pantheon mostly intact.\n;;;;;;;;;;;;x
+khaldic_reformed;Khaldic;;;;;;;;;;;;x
+khaldic_reformed_full;Khaldic Reformed;;;;;;;;;;;;x
+khaldic_reformed_DESC;The Khaldic pantheon represents a religion which grew out of the ancient Urartian culture, many millenia before. A principally polytheistic faith, the chief god is known as Khaldi, and is worshipped as a warrior god. Despite heavy Persian influences over the centuries (such as the introduction of Ahura Mazda in the form of Aramazd), the Armenians have managed to keep their pantheon mostly intact.\n;;;;;;;;;;;;x
+GOD_KHALDI;Khaldi;;;;;;;;;;;;x
+GOD_ARAMAZD;Aramazd;;;;;;;;;;;;x
+GOD_THEISPAS;Theispas;;;;;;;;;;;;x
+GOD_SHIVINI;Shivini;;;;;;;;;;;;x
+GOD_ARUBANI;Arubani;;;;;;;;;;;;x
+GOD_EPANINAUE;Epaninaue;;;;;;;;;;;;x
+GOD_DSVININAUE;Dsivininaue;;;;;;;;;;;;x
+GOD_BAGVARTI;Bagvarti;;;;;;;;;;;;x
+GOD_HUBA;Huba;;;;;;;;;;;;x
+GOD_SELARDI;Selardi;;;;;;;;;;;;x
+GOD_SARIS;Saris;;;;;;;;;;;;x
+GOD_AL;AL;;;;;;;;;;;;x
+THE_DEVS;The Devs;;;;;;;;;;;;x
+THE_NHANG;The Nhang;;;;;;;;;;;;x
+VISHAP;Vishap;;;;;;;;;;;;x
+armazic;Armazi;;;;;;;;;;;;x
+armazic_full;Armazi;;;;;;;;;;;;x
+armazic_DESC;Georgian paganism is an obscure and diverse religion, centered on a variety of gods, and the heroes they champion. Major gods include Armazi, Dali, Adgilis Deda, and Tamari.\n;;;;;;;;;;;;x
+armazic_reformed;Armazi;;;;;;;;;;;;x
+armazic_reformed_full;Armazi Reformed;;;;;;;;;;;;x
+armazic_reformed_DESC;Georgian paganism is an obscure and diverse religion, centered on a variety of gods, and the heroes they champion. Major gods include Armaz, Dali, Adgilis Deda, and Tamari.\n;;;;;;;;;;;;x
+GOD_AMIRANI;Amirani;Amirani;;;;;;;;;;x
+GOD_ARMAZI;Armaz;Armaz;;;;;;;;;;x
+GOD_BAADURI;Baaduri;Baaduri;;;;;;;;;;x
+GOD_DALI;Dali;Dali;;;;;;;;;;x
+GOD_LAMARA;Lamara;Lamara;;;;;;;;;;x
+GOD_MORIGE;Morige;Morige;;;;;;;;;;x
+GOD_OCHOPINTRE;Ochopintre;Ochopintre;;;;;;;;;;x
+GOD_TAMARI;Tamari;Tamari;;;;;;;;;;x
+GOD_ZADENI;Zadeni;Zadeni;;;;;;;;;;x
+GOD_ADGILIS_DEDA;Adgilis Deda;Adgilis Deda;;;;;;;;;;x
+GOD_DAVI;Davi;Davi;;;;;;;;;;x
+GOD_GATSI;Gatsi;Gatsi;;;;;;;;;;x
+GOD_GAIMI;Gaimi;Gaimi;;;;;;;;;;x
+GOD_ALI;Ali;Ali;;;;;;;;;;x
+cybelene;Cybelene;Cybèliene;;;;;;;;;;x
+cybelene_DESC;The Phrygian cult of Cybele is linked to prehistoric Mother-Goddess worship. Evolving over thousands of years, the cult of Cybele often claimed relationship to mythical figures and heroes, and practiced their religion with the veneration of idols.\n;;;;;;;;;;;x
+GOD_CYBELE;Cybele;Cybèle;;;;;;;;;;x
+GOD_MATAR_KUBILEYA;Matar Kubileya;Matar Kubileya;;;;;;;;;;x
+GOD_MEN;Men;;;;;;;;;;;;x
+GOD_ATTIS;Attis;Attis;;;;;;;;;;x
+GOD_HADES;Hades;Hadès;;;;;;;;;;x
+SYBILINE_BOOKS;Sybiline Books;Livres sibyllins;;;;;;;;;;x
+
+##= Balkan =##
+balkan_grp;Balkan;;;;;;;;;;;;x
+zalmoxian_reformed;Zalmoxian;;;;;;;;;;;;x
+zalmoxian;Zalmoxian;;;;;;;;;;;;x
+zalmoxian_reformed_DESC;Zalmoxianism is a overarching term to describe the various faiths that head Zalmoxis as the head god of their pantheon. This includes the beliefs of the Thracians, Dacians and to some degree, the Illyrians. They believe in immortality of the soul, and regard death as nothing more than a transition to their next country.\n;;;;;;;;;;;;x
+zalmoxian_DESC;Zalmoxianism is a overarching term to describe the various faiths that head Zalmoxis as the head god of their pantheon. This includes the beliefs of the Thracians, Dacians and to some degree, the Illyrians. They believe in immortality of the soul, and regard death as nothing more than a transition to their next country.\n;;;;;;;;;;;;x
+GOD_ZALMOXIS;Zalmoxis;;;;;;;;;;;;x
+GOD_PLEISTOROS;Pleistoros;;;;;;;;;;;;x
+GOD_SABAZIOS;Sabazios;;;;;;;;;;;;x
+GOD_DERZELAS;Derzelas;;;;;;;;;;;;x
+GOD_BASSAREUS;Bassareus;;;;;;;;;;;;x
+GOD_BENDIS;Bendis;;;;;;;;;;;;x
+GOD_SEMELE;Semele;;;;;;;;;;;;x
+GOD_COTYS;Cottyo;;;;;;;;;;;;x
+EN;En;;;;;;;;;;;;x
+GOD_HEROS_K;Heros Karabazmos;;;;;;;;;;;;x
+SMOKE_WALKER;Smoke-Walker;;;;;;;;;;;;x
+
 ##= Druidic =##
-gallic;Gallic;;;;;;;;;;;;x
 druidic;Druidic;;;;;;;;;;;;x
+gallic;Gallic;;;;;;;;;;;;x
 gallic_reformed;Gallic;;;;;;;;;;;;x
+THE_BALLADS;The Ballads;;;;;;;;;;;;x
+DRUID;Druid;;;;;;;;;;;;x
+GOD_TEUTATES;Teutates;;;;;;;;;;;;x
+GOD_RHIANNON;Rhiannon;;;;;;;;;;;;x
+GOD_MANANNAN;Manannan;;;;;;;;;;;;x
+GOD_DAGHDA;Daghda;;;;;;;;;;;;x
+GOD_LUGH;Lugh;;;;;;;;;;;;x
+GOD_MACHA;Macha;;;;;;;;;;;;x
+GOD_DANA;Dana;;;;;;;;;;;;x
+GOD_NUADA;Nuada;;;;;;;;;;;;x
+GOD_SEQUANA;Sequana;;;;;;;;;;;;x
+GOD_CERNNUNOS;Cernnunos;;;;;;;;;;;;x
+THE_FOMORIANS;The Foromians;;;;;;;;;;;;x
+EVIL_BALOR;Balor;;;;;;;;;;;;x
+EVIL_BRES;Bres;;;;;;;;;;;;x
+GOD_CAILLEACH;Cailleach;;;;;;;;;;;;x
 
 ##= Egyptian Group =##
 kemetic;Kemetic;;;;;;;;;;;;x
@@ -110,44 +212,7 @@ GOD_CRONUS;Cronus;;;;;;;;;;;;x
 GOD_DIONYSUS;Dionysus;;;;;;;;;;;;x
 GOD_ECHIDNA;Echidna;;;;;;;;;;;;x
 
-##= Anatolic =##
-khaldic;Khaldic;;;;;;;;;;;;x
-khaldic_full;Khaldic;;;;;;;;;;;;x
-khaldic_DESC;The Khaldic pantheon represents a religion which grew out of the ancient Urartian culture, many millenia before. A principally polytheistic faith, the chief god is known as Khaldi, and is worshipped as a warrior god.\n;;;;;;;;;;;;x
-khaldic_reformed;Khaldic;;;;;;;;;;;;x
-khaldic_reformed_full;Khaldic Reformed;;;;;;;;;;;;x
-khaldic_reformed_DESC;The Khaldic pantheon represents a religion which grew out of the ancient Urartian culture, many millenia before. A principally polytheistic faith, the chief god is known as Khaldi, and is worshipped as a warrior god.\n;;;;;;;;;;;;x
-
-armazic;Armazi;;;;;;;;;;;;x
-armazic_full;Armazi;;;;;;;;;;;;x
-armazic_DESC;Georgian paganism is an obscure and diverse religion, centered on a variety of gods, and the heroes they champion. Major gods include Armazi, Dali, Adgilis Deda, and Tamari.\n;;;;;;;;;;;;x
-armazic_reformed;Armazi;;;;;;;;;;;;x
-armazic_reformed_full;Armazi Reformed;;;;;;;;;;;;x
-armazic_reformed_DESC;Georgian paganism is an obscure and diverse religion, centered on a variety of gods, and the heroes they champion. Major gods include Armazi, Dali, Adgilis Deda, and Tamari.\n;;;;;;;;;;;;x
-GOD_AMIRANI;Amirani;Amirani;;;;;;;;;;x
-GOD_ARMAZI;Armazi;Armazi;;;;;;;;;;x
-GOD_BAADURI;Baaduri;Baaduri;;;;;;;;;;x
-GOD_DALI;Dali;Dali;;;;;;;;;;x
-GOD_LAMARA;Lamara;Lamara;;;;;;;;;;x
-GOD_MORIGE;Morige;Morige;;;;;;;;;;x
-GOD_OCHOPINTRE;Ochopintre;Ochopintre;;;;;;;;;;x
-GOD_TAMARI;Tamari;Tamari;;;;;;;;;;x
-GOD_ZADENI;Zadeni;Zadeni;;;;;;;;;;x
-GOD_ADGILIS_DEDA;Adgilis Deda;Adgilis Deda;;;;;;;;;;x
-GOD_DAVI;Davi;Davi;;;;;;;;;;x
-GOD_GATSI;Gatsi;Gatsi;;;;;;;;;;x
-GOD_GAIMI;Gaimi;Gaimi;;;;;;;;;;x
-GOD_ALI;Ali;Ali;;;;;;;;;;x
-
-cybelene;Cybelene;Cybèliene;;;;;;;;;;x
-cybelene_DESC;The Phrygian cult of Cybele is linked to prehistoric Mother-Goddess worship. Evolving over thousands of years, the cult of Cybele often claimed relationship to mythical figures and heroes, and practiced their religion with the veneration of idols.\n;;;;;;;;;;;x
-GOD_CYBELE;Cybele;Cybèle;;;;;;;;;;x
-GOD_MATAR_KUBILEYA;Matar Kubileya;Matar Kubileya;;;;;;;;;;x
-GOD_MEN;Men;;;;;;;;;;;;x
-GOD_ATTIS;Attis;Attis;;;;;;;;;;x
-GOD_HADES;Hades;Hadès;;;;;;;;;;x
-SYBILINE_BOOKS;Sybiline Books;Livres sibyllins;;;;;;;;;;x
-GALLAI;Gallai;Gallai;;;;;;;;;;x
+## cybelene misc
 d_cybelene;The Cybelene Mysteries;Les mystères cybéliens;;;;;;;;;;x
 d_cybelene_adj;Cybelene;Cybèlien;;;;;;;;;;x
 temple_baron_cybelian_pagan;Priest;Prêtre;;;;;;;;;;;x
@@ -187,7 +252,6 @@ norse_pagan;Norse;;;;;;;;;;;;x
 norse_pagan_reformed;Norse;;;;;;;;;;;;x
 
 #### Uncategorised, for now... ####
-berber;Amazight;;;;;;;;;;;;x
 baltic_pagan;Matrist;;;;;;;;;;;;x
 baltic_pagan_reformed;Matrist;;;;;;;;;;;;x
 finnish_pagan;Finnic;;;;;;;;;;;;x
