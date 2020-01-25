@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 6027
+	liege = k_arvernia
+}

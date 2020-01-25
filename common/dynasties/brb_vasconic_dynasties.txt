@@ -1,0 +1,205 @@
+# IDs 2750 - 2799
+
+#Vasconian; 2750 - 2769
+2750 = {
+	name = "Punicus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2751 = {
+	name = "Orisa"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2752 = {
+	name = "Amidi"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2753 = {
+	name = "Nisunus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2754 = {
+	name = "Tiresida"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2755 = {
+	name = "Budidii"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2756 = {
+	name = "Gargoridus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2757 = {
+	name = "Culcida"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2758 = {
+	name = "Indicidii"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2759 = {
+	name = "Iscerbelus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2760 = {
+	name = "Karida"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2761 = {
+	name = "Korbidi"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2762 = {
+	name = "Lagunus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2763 = {
+	name = "Mandona"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2764 = {
+	name = "Magavaricidii"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2765 = {
+	name = "Uxentus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2766 = {
+	name = "Umarila"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2767 = {
+	name = "Turenidi"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2768 = {
+	name = "Urceticus"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+2769 = {
+	name = "Punica"
+	culture = "vasconian"
+	religion = "vasconic"
+}
+
+#Aquitani; 2770 - 2789
+2770 = {
+	name = "Orisidi"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2771 = {
+	name = "Amidus"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2772 = {
+	name = "Nisuna"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2773 = {
+	name = "Tiresidi"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2774 = {
+	name = "Budidus"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2775 = {
+	name = "Gargorida"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2776 = {
+	name = "Culcudi"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2777 = {
+	name = "Indicidus"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2778 = {
+	name = "Iscerbela"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2779 = {
+	name = "Karidi"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2780 = {
+	name = "Korbidus"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2781 = {
+	name = "Laguna"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2782 = {
+	name = "Mandonidii"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2783 = {
+	name = "Magavaricus"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2784 = {
+	name = "Uxenta"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2785 = {
+	name = "Umarilidi"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2786 = {
+	name = "Turenus"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2787 = {
+	name = "Urcetica"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2788 = {
+	name = "Punicii"
+	culture = "aquitani"
+	religion = "vasconic"
+}
+2789 = {
+	name = "Orisus"
+	culture = "aquitani"
+	religion = "vasconic"
+}

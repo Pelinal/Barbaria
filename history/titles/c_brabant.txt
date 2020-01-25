@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 6055
+	liege = d_aduatuca
+}

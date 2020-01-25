@@ -1,0 +1,51 @@
+#Nuragic; 2790 - 2799
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}
+#### = {
+	name = ""
+	culture = "nuragic"
+	religion = "punic"
+}

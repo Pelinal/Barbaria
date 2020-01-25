@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 6023
+	set_tribute_suzerain = { who = k_arvernia percentage = 0.4 }
+}

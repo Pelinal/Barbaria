@@ -1,0 +1,981 @@
+## GAULISH CHARACTERS ##
+## From IDs 6000 -  ##
+#Armorican people
+6000 = {
+	name="Caractacus"
+	dynasty=2500 
+	religion = "gallic"
+	culture = "armorican"
+	570.1.1={
+		birth=yes
+	}
+	631.1.1={
+		death=yes
+	}
+}
+6001 = {
+	name="Dumnocoveros"
+	dynasty=2501
+	religion = "gallic"
+	culture = "armorican"
+	562.1.1={
+		birth=yes
+	}
+	624.1.1={
+		death=yes
+	}
+}
+6002 = {
+	name="Bellovesus"
+	dynasty=2502 
+	religion = "gallic"
+	culture = "armorican"
+	585.1.1={
+		birth=yes
+	}
+	634.1.1={
+		death=yes
+	}
+}
+6003 = {
+	name="Mascelio"
+	dynasty=2503 
+	religion = "gallic"
+	culture = "armorican"
+	559.1.1={
+		birth=yes
+	}
+	620.1.1={
+		death=yes
+	}
+}
+6004 = {
+	name="Donnus"
+	dynasty=2504
+	religion = "gallic"
+	culture = "armorican"
+	577.1.1={
+		birth=yes
+	}
+	639.1.1={
+		death=yes
+	}
+}
+6005 = {
+	name="Sisillius"
+	dynasty=2505
+	religion = "gallic"
+	culture = "armorican"
+	589.1.1={
+		birth=yes
+	}
+	655.1.1={
+		death=yes
+	}
+}
+
+#People in narbonensis
+
+6007 = {
+	name="Dumnocoveros"
+	dynasty=2543
+	religion = "gallic"
+	culture = "gaulish"
+	573.1.1={
+		birth=yes
+	}
+	624.1.1={
+		death=yes
+	}
+}
+6008 = {
+	name="Bellovesus"
+	dynasty=2544 
+	religion = "gallic"
+	culture = "gaulish"
+	557.1.1={
+		birth=yes
+	}
+	613.1.1={
+		death=yes
+	}
+}
+6009 = {
+	name="Mascelio"
+	dynasty=2545
+	religion = "gallic"
+	culture = "gaulish"
+	595.1.1={
+		birth=yes
+	}
+	640.1.1={
+		death=yes
+	}
+}
+
+6011 = {
+	name="Sisillius"
+	dynasty=2547
+	religion = "gallic"
+	culture = "gaulish"
+	576.1.1={
+		birth=yes
+	}
+	635.1.1={
+		death=yes
+	}
+}
+6012 = {
+	name="Caractacus"
+	dynasty=2548
+	religion = "gallic"
+	culture = "gaulish"
+	585.1.1={
+		birth=yes
+	}
+	632.1.1={
+		death=yes
+	}
+}
+6013 = {
+	name="Dumnocoveros"
+	dynasty=2549
+	religion = "gallic"
+	culture = "gaulish"
+	579.1.1={
+		birth=yes
+	}
+	644.1.1={
+		death=yes
+	}
+}
+6014 = {
+	name="Bellovesus"
+	dynasty=2550
+	religion = "gallic"
+	culture = "gaulish"
+	585.1.1={
+		birth=yes
+	}
+	637.1.1={
+		death=yes
+	}
+}
+6015 = {
+	name="Mascelio"
+	dynasty=2551 
+	religion = "gallic"
+	culture = "gaulish"
+	580.1.1={
+		birth=yes
+	}
+	623.1.1={
+		death=yes
+	}
+}
+
+#Helvetian people
+6016 = {
+	name="Concolitanus"
+	dynasty=2700
+	religion = "gallic"
+	culture = "gaulish"
+	564.1.1={
+		birth=yes
+	}
+	612.1.1={
+		death=yes
+	}
+}
+6017 = {
+	name="Avitus"
+	dynasty=2701
+	religion = "gallic"
+	culture = "gaulish"
+	573.1.1={
+		birth=yes
+	}
+	621.1.1={
+		death=yes
+	}
+}
+6018 = {
+	name="Catugnatus"
+	dynasty=2702
+	religion = "gallic"
+	culture = "gaulish"
+	581.1.1={
+		birth=yes
+	}
+	639.1.1={
+		death=yes
+	}
+}
+6019 = {
+	name="Bellicianus"
+	dynasty=2703 
+	religion = "gallic"
+	culture = "gaulish"
+	568.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+
+#People in Arvernia
+
+6020 = {
+	name = "Sisillius"
+	dynasty = 2540 #Gergovii
+	religion = "gallic"
+	culture = "gaulish"
+	add_trait = "brilliant_strategist"
+	add_trait = "scarred"
+	add_trait = "one_eyed"
+	add_trait = "strong"
+	add_trait = "groomed"
+	add_trait = "patient"
+	add_trait = "wroth"
+	add_trait = "proud"
+	add_trait = "cruel"
+	add_trait = "arbitrary"
+	add_trait = "aggressive_leader"
+	
+	583.1.1={
+		birth=yes
+	}
+	601.1.1 = {
+		add_spouse = 6021
+	}
+	648.1.1={
+		death=yes
+	}	
+}
+
+6021 = {
+	name = "Lucilia"
+	female = yes
+	dynasty = 2542
+	religion = "gallic"
+	culture = "gaulish"
+	add_trait = "intricate_webweaver"
+	add_trait = "attractive"
+	add_trait = "sturdy"
+	add_trait = "shrewd"
+	add_trait = "kind"
+	add_trait = "humble"
+	add_trait = "greedy"
+	add_trait = "stubborn"
+	
+	589.1.1={
+		birth=yes
+	}
+	651.1.1={
+		death=yes
+	}	
+}
+
+6022 = {
+	name = "Adminius"
+	dynasty = 2540 #Gergovii
+	religion = "gallic"
+	culture = "gaulish"
+	father = 6020
+	mother = 6022
+	add_trait = "dwarf"
+	add_trait = "feeble"
+	add_trait = "affectionate"
+	add_trait = "indolent"
+	
+	606.1.1={
+		birth=yes
+	}
+	666.1.1={
+		death=yes
+	}	
+}
+
+6023 = {
+	name = "Tasciovanus"
+	dynasty = 2543
+	religion = "gallic"
+	culture = "gaulish"
+	
+	575.1.1={
+		birth=yes
+	}
+	632.1.1={
+		death=yes
+	}	
+}
+
+6024 = {
+	name = "Cavarus"
+	dynasty = 2544
+	religion = "gallic"
+	culture = "gaulish"
+	
+	591.1.1={
+		birth=yes
+	}
+	650.1.1={
+		death=yes
+	}	
+}
+
+6025 = {
+	name = "Talorc"
+	dynasty = 2545
+	religion = "gallic"
+	culture = "gaulish"
+	
+	563.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6026 = {
+	name = "Etitovius"
+	dynasty = 2546
+	religion = "gallic"
+	culture = "gaulish"
+	
+	582.1.1={
+		birth=yes
+	}
+	639.1.1={
+		death=yes
+	}	
+}
+
+6027 = {
+	name = "Lucterius"
+	dynasty = 2547
+	religion = "gallic"
+	culture = "gaulish"
+	
+	578.1.1={
+		birth=yes
+	}
+	626.1.1={
+		death=yes
+	}	
+}
+
+6028 = {
+	name = "Arvirargus"
+	dynasty = 2548
+	religion = "gallic"
+	culture = "gaulish"
+	
+	555.1.1={
+		birth=yes
+	}
+	614.1.1={
+		death=yes
+	}	
+}
+
+6029 = {
+	name = "Lugotorix"
+	dynasty = 2549
+	religion = "gallic"
+	culture = "gaulish"
+	
+	567.1.1={
+		birth=yes
+	}
+	621.1.1={
+		death=yes
+	}	
+}
+
+6030 = {
+	name = "Tasgetius"
+	dynasty = 2550
+	religion = "gallic"
+	culture = "gaulish"
+	
+	582.1.1={
+		birth=yes
+	}
+	643.1.1={
+		death=yes
+	}	
+}
+
+6031 = {
+	name = "Mandubracius"
+	dynasty = 2551
+	religion = "gallic"
+	culture = "gaulish"
+	
+	566.1.1={
+		birth=yes
+	}
+	622.1.1={
+		death=yes
+	}	
+}
+
+6032 = {
+	name = "Bricussa"
+	dynasty = 2552
+	religion = "gallic"
+	culture = "gaulish"
+	
+	571.1.1={
+		birth=yes
+	}
+	636.1.1={
+		death=yes
+	}	
+}
+
+6033 = {
+	name = "Cottius"
+	dynasty = 2553
+	religion = "gallic"
+	culture = "gaulish"
+	
+	593.1.1={
+		birth=yes
+	}
+	642.1.1={
+		death=yes
+	}	
+}
+
+6034 = {
+	name = "Divico"
+	dynasty = 2554
+	religion = "gallic"
+	culture = "gaulish"
+	
+	582.1.1={
+		birth=yes
+	}
+	643.1.1={
+		death=yes
+	}	
+}
+
+6035 = {
+	name = "Aiorix"
+	dynasty = 2555
+	religion = "gallic"
+	culture = "gaulish"
+	
+	582.1.1={
+		birth=yes
+	}
+	643.1.1={
+		death=yes
+	}	
+}
+
+#People in North Celtica
+
+6036 = {
+	name = "Viridorix"
+	dynasty = 2556
+	religion = "gallic"
+	culture = "gaulish"
+	
+	588.1.1={
+		birth=yes
+	}
+	645.1.1={
+		death=yes
+	}	
+}
+
+6037 = {
+	name = "Duratios"
+	dynasty = 2557
+	religion = "gallic"
+	culture = "gaulish"
+	
+	565.1.1={
+		birth=yes
+	}
+	626.1.1={
+		death=yes
+	}	
+}
+
+6038 = {
+	name = "Brucetius"
+	dynasty = 2558
+	religion = "gallic"
+	culture = "gaulish"
+	
+	594.1.1={
+		birth=yes
+	}
+	662.1.1={
+		death=yes
+	}	
+}
+
+6039 = {
+	name = "Cailtram"
+	dynasty = 2559
+	religion = "gallic"
+	culture = "gaulish"
+	
+	558.1.1={
+		birth=yes
+	}
+	616.1.1={
+		death=yes
+	}	
+}
+
+6040 = {
+	name = "Arverus"
+	dynasty = 2560
+	religion = "gallic"
+	culture = "gaulish"
+	
+	584.1.1={
+		birth=yes
+	}
+	647.1.1={
+		death=yes
+	}	
+}
+
+6041 = {
+	name = "Tincomarus"
+	dynasty = 2561
+	religion = "gallic"
+	culture = "gaulish"
+	
+	572.1.1={
+		birth=yes
+	}
+	628.1.1={
+		death=yes
+	}	
+}
+
+6042 = {
+	name = "Comux"
+	dynasty = 2562
+	religion = "gallic"
+	culture = "gaulish"
+	
+	569.1.1={
+		birth=yes
+	}
+	617.1.1={
+		death=yes
+	}	
+}
+
+6043 = {
+	name = "Togodumnus"
+	dynasty = 2563
+	religion = "gallic"
+	culture = "gaulish"
+	
+	553.1.1={
+		birth=yes
+	}
+	612.1.1={
+		death=yes
+	}	
+}
+
+#People in Belgica
+
+6044 = {
+	name = "Immanuentius"
+	dynasty = 2602
+	religion = "gallic"
+	culture = "belgic"
+	
+	574.1.1={
+		birth=yes
+	}
+	645.1.1={
+		death=yes
+	}	
+}
+
+6045 = {
+	name = "Vosenius"
+	dynasty = 2603
+	religion = "gallic"
+	culture = "belgic"
+	
+	586.1.1={
+		birth=yes
+	}
+	657.1.1={
+		death=yes
+	}	
+}
+
+6046 = {
+	name = "Cunobelinus"
+	dynasty = 2604
+	religion = "gallic"
+	culture = "belgic"
+	
+	556.1.1={
+		birth=yes
+	}
+	619.1.1={
+		death=yes
+	}	
+}
+
+6047 = {
+	name = "Venutius"
+	dynasty = 2605
+	religion = "gallic"
+	culture = "belgic"
+	
+	573.1.1={
+		birth=yes
+	}
+	635.1.1={
+		death=yes
+	}	
+}
+
+6048 = {
+	name = "Cunobelinus"
+	dynasty = 2606
+	religion = "gallic"
+	culture = "belgic"
+	
+	589.1.1={
+		birth=yes
+	}
+	653.1.1={
+		death=yes
+	}	
+}
+
+6049 = {
+	name = "Commios"
+	dynasty = 2607
+	religion = "gallic"
+	culture = "belgic"
+	
+	561.1.1={
+		birth=yes
+	}
+	622.1.1={
+		death=yes
+	}	
+}
+
+6050 = {
+	name = "Mallaius"
+	dynasty = 2608
+	religion = "gallic"
+	culture = "belgic"
+	
+	584.1.1={
+		birth=yes
+	}
+	634.1.1={
+		death=yes
+	}	
+}
+
+6051 = {
+	name = "Coilus"
+	dynasty = 2609
+	religion = "gallic"
+	culture = "belgic"
+	
+	592.1.1={
+		birth=yes
+	}
+	654.1.1={
+		death=yes
+	}	
+}
+
+6052 = {
+	name = "Indutiomarus"
+	dynasty = 2610
+	religion = "gallic"
+	culture = "belgic"
+	
+	576.1.1={
+		birth=yes
+	}
+	617.1.1={
+		death=yes
+	}	
+}
+
+6053 = {
+	name = "Coilus"
+	dynasty = 2611
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6054 = {
+	name = "Coilus"
+	dynasty = 2612
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6055 = {
+	name = "Coilus"
+	dynasty = 2613
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6056 = {
+	name = "Coilus"
+	dynasty = 2614
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6057 = {
+	name = "Coilus"
+	dynasty = 2615
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6058 = {
+	name = "Coilus"
+	dynasty = 2616
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6059 = {
+	name = "Coilus"
+	dynasty = 2617
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6060 = {
+	name = "Coilus"
+	dynasty = 2618
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6061 = {
+	name = "Coilus"
+	dynasty = 2619
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6062 = {
+	name = "Coilus"
+	dynasty = 2620
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6063 = {
+	name = "Coilus"
+	dynasty = 2621
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6064 = {
+	name = "Coilus"
+	dynasty = 2622
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6065 = {
+	name = "Coilus"
+	dynasty = 2623
+	religion = "gallic"
+	culture = "belgic"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+#Sequani dudes I forgot about
+
+6066 = {
+	name = "Coilus"
+	dynasty = 2564
+	religion = "gallic"
+	culture = "gaulish"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6053 = {
+	name = "Coilus"
+	dynasty = 2565
+	religion = "gallic"
+	culture = "gaulish"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+6053 = {
+	name = "Coilus"
+	dynasty = 2566
+	religion = "gallic"
+	culture = "gaulish"
+	
+	567.1.1={
+		birth=yes
+	}
+	618.1.1={
+		death=yes
+	}	
+}
+
+
+
+
+#Massalian Dude
+6010 = {
+	name="Lysandridas"
+	dynasty=2499
+	religion = "hellenic"
+	culture = "massalian"
+	
+	568.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+
+#Phoeniciberian dude
+
+6006 = {
+	name="Zephon"
+	dynasty=2542 
+	religion = "punic"
+	culture = "phoeniciberian"
+	592.1.1={
+		birth=yes
+	}
+	654.1.1={
+		death=yes
+	}
+}
