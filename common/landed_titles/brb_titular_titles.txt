@@ -21,3 +21,20 @@ d_gaeldom = {
 		num_of_count_titles = 4
 	}
 }
+
+k_arvernia = {
+	culture = gaulish
+	religion = gallic
+	
+	color={ 143 214 118 }
+	color2={ 255 255 255 }
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip  = {
+			ai = no
+		}
+		culture = gaulish
+		num_of_duke_titles = 4
+	}	
+}

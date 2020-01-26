@@ -1,0 +1,59 @@
+#Vasconian People, IDs 2500-2549
+
+2500 = {
+	name = "Harsi"
+	dynasty = 2751
+	religion = "vasconic"
+	culture = "vasconian"
+	
+	572.1.1={
+		birth=yes
+	}
+	637.1.1={
+		death=yes
+	}	
+}
+
+2501 = {
+	name = "Sakarbik"
+	dynasty = 2752
+	religion = "vasconic"
+	culture = "vasconian"
+	
+	591.1.1={
+		birth=yes
+	}
+	662.1.1={
+		death=yes
+	}	
+}
+
+2502 = {
+	name = "Otirgeter"
+	dynasty = 2753
+	religion = "vasconic"
+	culture = "vasconian"
+	
+	568.1.1={
+		birth=yes
+	}
+	615.1.1={
+		death=yes
+	}	
+}
+
+2503 = {
+	name = "Iscerbeles"
+	dynasty = 2754
+	religion = "vasconic"
+	culture = "vasconian"
+	
+	577.1.1={
+		birth=yes
+	}
+	624.1.1={
+		death=yes
+	}	
+}
+
+

@@ -1,5 +1,5 @@
 ## BRITON CHARACTERS ##
-## From IDs 3000 -  ##
+## From IDs 3000 - 3124 ##
 
 #Historical Dynasties
 3001 = {

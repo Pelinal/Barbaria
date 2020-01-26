@@ -1,7 +1,7 @@
 ## PONTIC CHARACTERS ##
-## From IDS 6000-6249
+## From IDS 6250-6499
 
-6000 = { # Mithridates of Pontus
+6250 = { # Mithridates of Pontus
 	name = "Mithridatis"
 	dynasty = 1800 # Mithridatic
 	culture = pontic
@@ -15,7 +15,7 @@
 	}
 }
 
-6001 = { # Polemon of Pontus
+6251 = { # Polemon of Pontus
 	name = "Polemon"
 	dynasty = 1800 # Mithridatic
 	culture = pontic
@@ -30,7 +30,7 @@
 	}
 }
 
-6002 = { # Mithridates 'II' of Pontus
+6252 = { # Mithridates 'II' of Pontus
 	name = "Mithridatis"
 	dynasty = 1800 # Mithridatic
 	culture = pontic
@@ -45,7 +45,7 @@
 	}
 }
 
-6003 = { # Mithridates 'III' of Pontus
+6253 = { # Mithridates 'III' of Pontus
 	name = "Mithridatis"
 	dynasty = 1800 # Mithridatic
 	culture = pontic
@@ -60,7 +60,7 @@
 	}
 }
 
-6004 = { # Mithridates 'IV' of Pontus
+6254 = { # Mithridates 'IV' of Pontus
 	name = "Mithridatis"
 	dynasty = 1800 # Mithridatic
 	culture = pontic
@@ -75,7 +75,7 @@
 	}
 }
 
-6005 = { # Peroidas of Trebizond
+6255 = { # Peroidas of Trebizond
 	name = "Peroidas"
 	dynasty = 1832
 	
@@ -94,7 +94,7 @@
 	}
 }
 
-6006 = { # Aiakides of Kastamon
+6256 = { # Aiakides of Kastamon
 	name = "Aiakides"
 	dynasty = 1831
 	
@@ -109,7 +109,7 @@
 	}
 }
 
-6007 = { # Stepanoz of Guria (not actually pontic but eh)
+6257 = { # Stepanoz of Guria (not actually pontic but eh)
 	name = "Stepanoz"
 	dynasty = 1830
 	

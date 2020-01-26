@@ -1,3 +1,4 @@
+#Gaelic Characters, IDs 3125 - 3149
 3125 = {
 	name="Icorics"
 	dynasty=1200
