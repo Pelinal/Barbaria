@@ -1,5 +1,5 @@
 e_spain = {
-	color = { 243 188 22 }
+	color = { 157 106 175 }
 	color2={ 255 255 255 }
 	
 	capital = 197 # Toledo
@@ -59,59 +59,15 @@ e_spain = {
 			set_global_flag = reconquista_finished
 		}
 	}
-	
-	k_leon = {
-		color = { 253 158 51 }
-		color2={ 255 255 255 }
-		
-		dignity = 1 # One more county than de jure
-		
-		capital = 190 # Leon
-		
-		culture = castillan
-		
-		# Creation/usurpation trigger
-		allow = {
-			hidden_tooltip = {
-				OR = {
-					ai = no
-					religion_group = christian
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					k_leon = {
-						is_titular = yes
-					}
-				}
-				k_leon = {
-					is_titular = no
-				}
-			}
-		}
-		
-		catholic = 250 # Crusade target weight
-		muslim = 25 # Crusade target weight
-	}
 
 	k_lusitania = {
 		color={ 232 125 125 }
 		color2={ 255 255 255 }
 
-		capital = 184 # Badajoz
+		capital = 162 # Silves
 
-		visigothic = "Lusitania"
-		roman = "Lusitania"
-		greek = "Lusitania"
-		basque = "Lusitania"
-		castillan = "Lusitania"
-		catalan = "Lusitania"
-		portuguese = "Lusitania"
-
-		muslim = 25 # Crusade target weight
-
-		d_vettones = {
-			color = { 138 243 51 }
+		d_vettonia = {
+			color = { 205 152 152 }
 			color2={ 255 255 255 }
 			
 			capital = 195 # Caceres
@@ -187,12 +143,120 @@ e_spain = {
 			}
 
 		}
-		d_turduli_oppida = {
-			color = { 182 98 5 }
+		d_celticia= {
+			color = { 232 125 125 }
 			color2={ 255 255 255 }
 			
-			capital = 160 # Lisboa
+			capital = 162 # Silves
+
+			c_evora = {
+				color = { 182 68 5 }
+				color2={ 255 255 255 }
+				
+				b_avis = {
+				} 
+				b_evora = {
+				} 
+				b_portalegre = {
+				} 
+				b_marvao = {
+				} 
+				b_castelodevide = {
+				} 
+				b_crato = {
+				} 
+				b_monforte = {
+				} 
+				b_ouguela = {
+				}
+			}
+			c_almada = {
+				color={ 185 90 5 }
+				color2={ 255 255 255 }
+
+				b_almada = {}
+				b_palmela = {}
+				b_setubal = {}
+				b_sesimbra = {}
+				b_alcochete = {}
+				b_pegoes = {}
+				b_montijo = {}
+			}	
 			
+			c_silves = {
+				color = { 192 80 15 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Shlib"
+				maghreb_arabic = "Shlib"
+				levantine_arabic = "Shlib"
+				egyptian_arabic = "Shlib"
+				andalusian_arabic = "Shlib"
+				
+				b_silves = {
+					bedouin_arabic = "Shlib"
+					maghreb_arabic = "Shlib"
+					levantine_arabic = "Shlib"
+					egyptian_arabic = "Shlib"
+					andalusian_arabic = "Shlib"
+				}
+				b_lagos = {}
+				b_alvor = {}
+				b_aljezur = {}
+				b_arrifana = {}
+				b_monchique = {}
+				b_almodovar = {}
+			}
+			c_faro = {
+				color = { 192 98 5 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Uhshunubah"
+				maghreb_arabic = "Uhshunubah"
+				levantine_arabic = "Uhshunubah"
+				egyptian_arabic = "Uhshunubah"
+				andalusian_arabic = "Uhshunubah"
+				
+				b_faro = {
+					bedouin_arabic = "Harun"
+					maghreb_arabic = "Harun"
+					levantine_arabic = "Harun"
+					egyptian_arabic = "Harun"
+					andalusian_arabic = "Harun"
+				}
+				b_tavira = {}
+				b_loule = {}
+				b_castromarim = {}
+				b_alcoutim = {}
+				b_saobrasdealportel = {}
+				b_olhao = {}
+			}
+			c_alcacer_do_sal = {
+				color = { 182 105 5 }
+				color2={ 255 255 255 }
+				
+				b_alcacerdosal = {}
+				b_santiagodocacem = {}
+				b_aljustrel = {}
+				b_castroverde = {}
+				b_ourique = {}
+				b_odemira = {}
+				b_alvalade = {}
+			}
+		}
+		
+		d_lusitania= {
+			color = { 153 110 110 }
+			color2={ 255 255 255 }
+
+			capital = 2012 # Egitanea
+			
+			bedouin_arabic = "Balata"
+			maghreb_arabic = "Balata"
+			levantine_arabic = "Balata"
+			egyptian_arabic = "Balata"
+			andalusian_arabic = "Balata"
+
 			c_lisboa = {
 				color = { 182 88 5 }
 				color2={ 255 255 255 }
@@ -249,62 +313,52 @@ e_spain = {
 				}
 				b_penela = {
 				}
-			}					
+			}								
+			c_egitanea = {
+				color={ 175 105 5 }
+				color2={ 255 255 255 }
+
+				b_rodao = {}
+				b_idanha = {}
+				b_covilha = {}
+				b_castelobranco = {}
+				b_alcains = {}
+				b_penha = {}
+				b_belver = {}
+			}
+			c_castelo_branco = {
+				color = { 182 78 5 }
+				color2={ 255 255 255 }
+				
+				b_guarda = {}
+				b_lamego = {}
+				b_trancoso = {}
+				b_sabugal = {}
+				b_pinhel = {}
+				b_almeida = {}
+				b_acores = {}
+			}			
 		}
-		d_celticia= {
-			color = { 202 88 5 }
+		
+		d_turdullia = {
+			color = { 250 137	 186 }
 			color2={ 255 255 255 }
+
+			capital = 181 # Cordoba
 			
-			capital = 184 # Badajoz
-			
-			c_silves = {
-				color = { 192 80 15 }
+			c_mertola = {
+				color = { 182 60 5 }
 				color2={ 255 255 255 }
 				
-				bedouin_arabic = "Shlib"
-				maghreb_arabic = "Shlib"
-				levantine_arabic = "Shlib"
-				egyptian_arabic = "Shlib"
-				andalusian_arabic = "Shlib"
-				
-				b_silves = {
-					bedouin_arabic = "Shlib"
-					maghreb_arabic = "Shlib"
-					levantine_arabic = "Shlib"
-					egyptian_arabic = "Shlib"
-					andalusian_arabic = "Shlib"
-				}
-				b_lagos = {}
-				b_alvor = {}
-				b_aljezur = {}
-				b_arrifana = {}
-				b_monchique = {}
-				b_almodovar = {}
-			}
-			c_faro = {
-				color = { 192 98 5 }
-				color2={ 255 255 255 }
-				
-				bedouin_arabic = "Uhshunubah"
-				maghreb_arabic = "Uhshunubah"
-				levantine_arabic = "Uhshunubah"
-				egyptian_arabic = "Uhshunubah"
-				andalusian_arabic = "Uhshunubah"
-				
-				b_faro = {
-					bedouin_arabic = "Harun"
-					maghreb_arabic = "Harun"
-					levantine_arabic = "Harun"
-					egyptian_arabic = "Harun"
-					andalusian_arabic = "Harun"
-				}
-				b_tavira = {}
-				b_loule = {}
-				b_castromarim = {}
-				b_alcoutim = {}
-				b_saobrasdealportel = {}
-				b_olhao = {}
-			}
+				b_mertola = {}
+				b_monsaraz = {}
+				b_beja = {}
+				b_serpa = {}
+				b_noudal = {}
+				b_mourao = {}
+				b_portel = {}
+				b_moura = {}
+			}			
 			c_badajoz = {
 				color = { 234 236 29 }
 				color2={ 255 255 255 }
@@ -331,103 +385,39 @@ e_spain = {
 				}
 				b_fuentedelmaestre = {
 				}
-			}
-			c_alcacer_do_sal = {
-				color = { 182 105 5 }
-				color2={ 255 255 255 }
-				
-				b_alcacerdosal = {}
-				b_santiagodocacem = {}
-				b_aljustrel = {}
-				b_castroverde = {}
-				b_ourique = {}
-				b_odemira = {}
-				b_alvalade = {}
-			}
-			c_mertola = {
-				color = { 182 60 5 }
-				color2={ 255 255 255 }
-				
-				b_mertola = {}
-				b_monsaraz = {}
-				b_beja = {}
-				b_serpa = {}
-				b_noudal = {}
-				b_mourao = {}
-				b_portel = {}
-				b_moura = {}
 			}			
-		}
-		d_lusitania= {
-			color = { 193 81 5 }
-			color2={ 255 255 255 }
-
-			capital = 160 # Lisboa
-
-			bedouin_arabic = "Balata"
-			maghreb_arabic = "Balata"
-			levantine_arabic = "Balata"
-			egyptian_arabic = "Balata"
-			andalusian_arabic = "Balata"
-			
-			c_egitanea = {
-				color={ 175 105 5 }
-				color2={ 255 255 255 }
-
-				b_rodao = {}
-				b_idanha = {}
-				b_covilha = {}
-				b_castelobranco = {}
-				b_alcains = {}
-				b_penha = {}
-				b_belver = {}
-			}
-			c_castelo_branco = {
-				color = { 182 78 5 }
+			c_cordoba = {
+				color = { 246 216 16 }
 				color2={ 255 255 255 }
 				
-				b_guarda = {}
-				b_lamego = {}
-				b_trancoso = {}
-				b_sabugal = {}
-				b_pinhel = {}
-				b_almeida = {}
-				b_acores = {}
-			}
-			
-			c_evora = {
-				color = { 182 68 5 }
-				color2={ 255 255 255 }
+				bedouin_arabic = "Qurtubah"
+				maghreb_arabic = "Qurtubah"
+				levantine_arabic = "Qurtubah"
+				egyptian_arabic = "Qurtubah"
+				andalusian_arabic = "Qurtubah"
+
+				holy_site = sunni
 				
-				b_avis = {
-				} 
-				b_evora = {
-				} 
-				b_portalegre = {
-				} 
-				b_marvao = {
-				} 
-				b_castelodevide = {
-				} 
-				b_crato = {
-				} 
-				b_monforte = {
-				} 
-				b_ouguela = {
+				b_cordoba = {
+					bedouin_arabic = "Qurtubah"
+					maghreb_arabic = "Qurtubah"
+					levantine_arabic = "Qurtubah"
+					egyptian_arabic = "Qurtubah"
+					andalusian_arabic = "Qurtubah"
 				}
-			}
-			c_almada = {
-				color={ 185 90 5 }
-				color2={ 255 255 255 }
-
-				b_almada = {}
-				b_palmela = {}
-				b_setubal = {}
-				b_sesimbra = {}
-				b_alcochete = {}
-				b_pegoes = {}
-				b_montijo = {}
-			}				
+				b_alcolea = {
+				}
+				b_cabra = {
+				}
+				b_lucena = {
+				}
+				b_martos = {
+				}
+				b_belalcazar = {
+				}
+				b_canetedelastorres = {
+				}
+			}		
 		}
 	}
 
@@ -435,10 +425,10 @@ e_spain = {
 		color={ 157 106 175 }
 		color2={ 255 255 255 }
 
-		capital = 171 # Valencia
+		capital = 170 # Denia
 		
 		d_carpetania = {
-			color = { 212 151 12 }
+			color = { 223 203 230 }
 			color2={ 255 255 255 }
 			
 			capital = 197 # Toledo	
@@ -499,7 +489,7 @@ e_spain = {
 		}
 		
 		d_celtiberia = {
-			color = { 212 151 12 }
+			color = { 200 172 210 }
 			color2={ 255 255 255 }
 			
 			capital = 177 # Cuenca
@@ -591,12 +581,65 @@ e_spain = {
 			}
 		}
 		
-		d_edetania = {
-			color = { 48 167 45 }
+		d_contestania = {
+			color = { 157 106 175 }
 			color2={ 255 255 255 }
 			
-			capital = 171 # Valencia
-		
+			capital = 170 # Denia
+			
+			c_almansa = {
+				color = { 244 225 14 }
+				color2={ 255 255 255 }
+				
+				b_almansa = {
+				}
+				b_albacete = {
+				}
+				b_hellin = {
+				}
+				b_caudete = {
+				}
+				b_villarrobledo = {
+				}
+				b_alcaladeljucar = {
+				}
+				b_pozocanada = {
+				}
+				b_tobarra = {
+				}
+			}
+			c_murcia = {
+				color = { 246 227 16 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Mursiya"
+				maghreb_arabic = "Mursiya"
+				levantine_arabic = "Mursiya"
+				egyptian_arabic = "Mursiya"
+				andalusian_arabic = "Mursiya"
+				
+				b_murcia = {
+					bedouin_arabic = "Mursiya"
+					maghreb_arabic = "Mursiya"
+					levantine_arabic = "Mursiya"
+					egyptian_arabic = "Mursiya"
+					andalusian_arabic = "Mursiya"
+				}
+				b_cartagena = {
+				}
+				b_lorca = {
+				}
+				b_alcantarilla = {
+				}
+				b_medinasiyasa = {
+				}
+				b_molinalaseca = {
+				}
+				b_yecla = {
+				}
+				b_nogalte = {
+				}
+			}
 			c_valencia = {
 				color = { 255 244 4 }
 				color2={ 255 255 255 }
@@ -660,67 +703,7 @@ e_spain = {
 				}
 				b_benissa = {
 				}
-			}
-		}
-		d_contestania = {
-			color = { 16 229 33 }
-			color2={ 255 255 255 }
-			
-			capital = 169 # Murcia
-			
-			c_almansa = {
-				color = { 244 225 14 }
-				color2={ 255 255 255 }
-				
-				b_almansa = {
-				}
-				b_albacete = {
-				}
-				b_hellin = {
-				}
-				b_caudete = {
-				}
-				b_villarrobledo = {
-				}
-				b_alcaladeljucar = {
-				}
-				b_pozocanada = {
-				}
-				b_tobarra = {
-				}
-			}
-			c_murcia = {
-				color = { 246 227 16 }
-				color2={ 255 255 255 }
-				
-				bedouin_arabic = "Mursiya"
-				maghreb_arabic = "Mursiya"
-				levantine_arabic = "Mursiya"
-				egyptian_arabic = "Mursiya"
-				andalusian_arabic = "Mursiya"
-				
-				b_murcia = {
-					bedouin_arabic = "Mursiya"
-					maghreb_arabic = "Mursiya"
-					levantine_arabic = "Mursiya"
-					egyptian_arabic = "Mursiya"
-					andalusian_arabic = "Mursiya"
-				}
-				b_cartagena = {
-				}
-				b_lorca = {
-				}
-				b_alcantarilla = {
-				}
-				b_medinasiyasa = {
-				}
-				b_molinalaseca = {
-				}
-				b_yecla = {
-				}
-				b_nogalte = {
-				}
-			}
+			}			
 		}
 	}
 
@@ -754,7 +737,7 @@ e_spain = {
 		catholic = 250 # Crusade target weight
 		muslim = 25 # Crusade target weight
 		
-		d_vaccaeia = {
+		d_vaccia = {
 			color = { 193 167 0 }		
 			color2={ 255 255 255 }
 			
@@ -870,7 +853,7 @@ e_spain = {
 		color = { 194 87 26 }
 		color2={ 230 0 0 }
 		
-		capital = 202 # Zaragoza
+		capital = 173 # Tarragona
 		
 		culture = castillan
 		
@@ -893,11 +876,11 @@ e_spain = {
 			}		
 		}
 		
-		d_ilercavones = {
-			color = { 160 90 20 }
+		d_illercavonia = {
+			color = { 194 87 26 }
 			color2={ 255 255 255 }
 		
-			capital = 172 # Castellon
+			capital = 173 # Tarragona
 
 			c_tarragona = {
 				color = { 186 90 45 }
@@ -954,31 +937,10 @@ e_spain = {
 				b_alcalaten = {
 				}
 			}		
-			c_albarracin = {
-				color = { 166 78 72 }
-				color2={ 255 255 255 }
-				
-				b_albarracin = {
-				}
-				b_teruel = {
-				}
-				b_hijar = {
-				}
-				b_utrillas = {
-				}
-				b_calanda = {
-				}
-				b_montalban = {
-				}
-				b_alcaniz = {
-				}
-				b_calamocha = {
-				}
-			}			
 		}
 	
 		d_ilergetae = {
-			color = { 160 90 20 }
+			color = { 231 132 75 }
 			color2={ 255 255 255 }
 			
 			capital = 202 # Zaragoza
@@ -1036,27 +998,6 @@ e_spain = {
 				b_epila = {
 				}
 			}
-			c_calatayud = {
-				color = { 190 80 30 }
-				color2={ 255 255 255 }
-				
-				b_calatayud = {
-				}
-				b_piedra = {
-				}
-				b_alhamadearagon = {
-				}
-				b_nuevalos = {
-				}
-				b_daroca = {
-				}
-				b_munebrega = {
-				}
-				b_calmarza = {
-				}
-				b_cimballa = {
-				}
-			}
 			c_urgell = {
 				color = { 196 110 60 }
 				color2={ 255 255 255 }
@@ -1081,10 +1022,10 @@ e_spain = {
 		}
 		
 		d_laeitania = {
-			color = { 166 100 72 }
+			color = { 179 69 64 }
 			color2={ 255 255 255 }
 			
-			capital = 204 # Barcelona
+			capital = 203 # Lleida
 			
 			culture = catalan
 
@@ -1176,8 +1117,59 @@ e_spain = {
 				}
 			}
 		}
-		d_baleares = {
-			color = { 68 126 72 }
+		
+		d_sedetania =  {
+			color = { 240 178 143 }
+			color2={ 255 255 255 }		
+		
+			capital = 174 # Albarracin
+		
+			c_albarracin = {
+				color = { 166 78 72 }
+				color2={ 255 255 255 }
+				
+				b_albarracin = {
+				}
+				b_teruel = {
+				}
+				b_hijar = {
+				}
+				b_utrillas = {
+				}
+				b_calanda = {
+				}
+				b_montalban = {
+				}
+				b_alcaniz = {
+				}
+				b_calamocha = {
+				}
+			}						
+			c_calatayud = {
+				color = { 190 80 30 }
+				color2={ 255 255 255 }
+				
+				b_calatayud = {
+				}
+				b_piedra = {
+				}
+				b_alhamadearagon = {
+				}
+				b_nuevalos = {
+				}
+				b_daroca = {
+				}
+				b_munebrega = {
+				}
+				b_calmarza = {
+				}
+				b_cimballa = {
+				}
+			}		
+		}
+		
+		d_balearia = {
+			color = { 193 151 26 }
 			color2={ 255 255 255 }
 			
 			capital = 827 # Mallorca
@@ -1250,7 +1242,7 @@ e_spain = {
 	}
 	
 	k_vasconia = {
-		color = { 243 243 22 }
+		color = { 250 250 158 }
 		capital = 152 # Navarra
 		
 		culture = basque
@@ -1269,7 +1261,7 @@ e_spain = {
 		}
 		
 		d_vasconia = {
-			color = { 243 243 22 }
+			color = { 250 250 158 }
 			color2={ 255 255 255 }
 			
 			capital = 152 # Navarra
@@ -1342,12 +1334,10 @@ e_spain = {
 	}
 	
 	k_asturia = {
-		color = { 243 188 22 }
+		color = { 225 234 0 }
 		color2={ 255 255 255 }
 		
-		dignity = 10
-		
-		capital = 155 # Asturias de Oviedo
+		capital = 190 # León
 		
 		culture = castillan
 		
@@ -1366,10 +1356,10 @@ e_spain = {
 		}
 		
 		d_asturia = {
-			color = { 243 188 22 }
+			color = { 225 234 0 }
 			color2={ 255 255 255 }
 			
-			capital = 155 # Asturias
+			capital = 190 # León
 			
 			c_asturias_de_oviedo = {
 				color = { 233 158 51 }
@@ -1627,7 +1617,7 @@ e_spain = {
 		color = { 117 158 240 }
 		color2={ 255 255 255 }
 		
-		capital = 181 # Cordoba
+		capital = 182 # Sevilla
 		
 		culture = andalusian_arabic
 		
@@ -1653,7 +1643,7 @@ e_spain = {
 		}
 		
 		d_bastetania = {
-			color = { 40 150 40 }
+			color = { 48 110 232 }
 			color2={ 255 255 255 }
 			
 			capital = 180 # Granada
@@ -1713,43 +1703,11 @@ e_spain = {
 		}
 		
 		d_turdetania = {
-			color = { 150 218 21 }
+			color = { 117 158 240 }
 			color2={ 255 255 255 }
 			
 			capital = 182 # Sevilla
 			
-			c_cordoba = {
-				color = { 246 216 16 }
-				color2={ 255 255 255 }
-				
-				bedouin_arabic = "Qurtubah"
-				maghreb_arabic = "Qurtubah"
-				levantine_arabic = "Qurtubah"
-				egyptian_arabic = "Qurtubah"
-				andalusian_arabic = "Qurtubah"
-
-				holy_site = sunni
-				
-				b_cordoba = {
-					bedouin_arabic = "Qurtubah"
-					maghreb_arabic = "Qurtubah"
-					levantine_arabic = "Qurtubah"
-					egyptian_arabic = "Qurtubah"
-					andalusian_arabic = "Qurtubah"
-				}
-				b_alcolea = {
-				}
-				b_cabra = {
-				}
-				b_lucena = {
-				}
-				b_martos = {
-				}
-				b_belalcazar = {
-				}
-				b_canetedelastorres = {
-				}
-			}
 			c_malaga = {
 				color = { 251 248 21 }
 				color2={ 255 255 255 }
@@ -1817,7 +1775,7 @@ e_spain = {
 		}
 		d_couneia = {
 		
-			color = { 150 218 21 }
+			color = { 232 239 252 }
 			color2={ 255 255 255 }
 			
 			capital = 165 # Cadiz
