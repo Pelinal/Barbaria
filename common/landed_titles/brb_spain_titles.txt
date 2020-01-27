@@ -341,7 +341,7 @@ e_spain = {
 		}
 		
 		d_turdullia = {
-			color = { 250 137	 186 }
+			color = { 250 137 186 }
 			color2={ 255 255 255 }
 
 			capital = 181 # Cordoba
@@ -385,39 +385,7 @@ e_spain = {
 				}
 				b_fuentedelmaestre = {
 				}
-			}			
-			c_cordoba = {
-				color = { 246 216 16 }
-				color2={ 255 255 255 }
-				
-				bedouin_arabic = "Qurtubah"
-				maghreb_arabic = "Qurtubah"
-				levantine_arabic = "Qurtubah"
-				egyptian_arabic = "Qurtubah"
-				andalusian_arabic = "Qurtubah"
-
-				holy_site = sunni
-				
-				b_cordoba = {
-					bedouin_arabic = "Qurtubah"
-					maghreb_arabic = "Qurtubah"
-					levantine_arabic = "Qurtubah"
-					egyptian_arabic = "Qurtubah"
-					andalusian_arabic = "Qurtubah"
-				}
-				b_alcolea = {
-				}
-				b_cabra = {
-				}
-				b_lucena = {
-				}
-				b_martos = {
-				}
-				b_belalcazar = {
-				}
-				b_canetedelastorres = {
-				}
-			}		
+			}				
 		}
 	}
 
@@ -876,7 +844,7 @@ e_spain = {
 			}		
 		}
 		
-		d_illercavonia = {
+		d_ilercavonia = {
 			color = { 194 87 26 }
 			color2={ 255 255 255 }
 		
@@ -939,7 +907,7 @@ e_spain = {
 			}		
 		}
 	
-		d_ilergetae = {
+		d_ilergetia = {
 			color = { 231 132 75 }
 			color2={ 255 255 255 }
 			
@@ -1750,7 +1718,6 @@ e_spain = {
 				b_utrera = {
 				}
 			}
-
 			c_aracena = {
 				color = { 244 212 37 }
 				color2={ 255 255 255 }
@@ -1772,8 +1739,40 @@ e_spain = {
 				b_galaroza = {
 				}
 			}
+			c_cordoba = {
+				color = { 246 216 16 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Qurtubah"
+				maghreb_arabic = "Qurtubah"
+				levantine_arabic = "Qurtubah"
+				egyptian_arabic = "Qurtubah"
+				andalusian_arabic = "Qurtubah"
+
+				holy_site = sunni
+				
+				b_cordoba = {
+					bedouin_arabic = "Qurtubah"
+					maghreb_arabic = "Qurtubah"
+					levantine_arabic = "Qurtubah"
+					egyptian_arabic = "Qurtubah"
+					andalusian_arabic = "Qurtubah"
+				}
+				b_alcolea = {
+				}
+				b_cabra = {
+				}
+				b_lucena = {
+				}
+				b_martos = {
+				}
+				b_belalcazar = {
+				}
+				b_canetedelastorres = {
+				}
+			}				
 		}
-		d_couneia = {
+		d_tartessia = {
 		
 			color = { 232 239 252 }
 			color2={ 255 255 255 }
