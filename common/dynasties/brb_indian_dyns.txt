@@ -1,0 +1,109 @@
+### Indian Dynasties ###
+
+10000 = {
+    name = "Moriya"
+    culture = sinhala
+    religion = buddhist
+}
+
+10001 = {
+    name = "Perumal"
+}
+
+10002 = {
+    name = "Pandya"
+}
+
+10003 = {
+    name = "Alupa"
+}
+
+10004 = {
+    name = "Kadamba"
+}
+
+10005 = {
+    name = "Pallava"
+}
+
+10006 = {
+    name = "Ganga"
+}
+
+10007 = {
+    name = "Chalukya"
+}
+
+10008 = {
+    name = "Vishnukundina"
+}
+
+10009 = {
+    name = "Nala"
+}
+
+10010 = {
+    name = "Kalachuri"
+}
+
+10011 = {
+    name = "Maitraka"
+}
+
+10012 = {
+    name = "Sailodshava"
+}
+
+10013 = {
+    name = "Panduvamsi"
+}
+
+10014 = {
+    name = "Gupta"
+}
+
+10015 = {
+    name = "Pratihara"
+}
+
+10016 = {
+    name = "Rai"
+}
+
+10017 = {
+    name = "Takka"
+}
+
+10018 = {
+    name = "Karkota"
+}
+
+10019 = {
+    name = "Pushyabuti"
+}
+
+10020 = {
+    name = "Licchavi"
+}
+
+10021 = {
+    name = "Pundra"
+}
+
+10022 = {
+    name = "Varman"
+}
+
+10023 = {
+    name = "Sasanka"
+}
+
+10024 = {
+    name = "Tatiy Danyawaddy"
+}
+
+10025 = {
+    name = "Lambakanna"
+    culture = sinhala
+    religion = buddhist
+}

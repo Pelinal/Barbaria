@@ -1,0 +1,720 @@
+### Indian Characters ###
+# 7000 - 7999
+
+# Rulers of India in 610
+7100 = {
+    name = "Moggallana"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7142
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    585.1.1 = {
+        birth = yes
+    }
+    614.1.1 = {
+        death = yes
+    }
+}
+
+7101 = {
+    name = "Perumal Placeholder"
+    culture = tamil
+    religion = hindu
+    dynasty = 10001
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7102 = {
+    name = "Pandya Placeholder"
+    culture = tamil
+    religion = hindu
+    dynasty = 10002
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7103 = {
+    name = "Alupa Placeholder"
+    culture = kannada
+    religion = hindu
+    dynasty = 10003
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7104 = {
+    name = "Kadamba Placeholder"
+    culture = kannada
+    religion = hindu
+    dynasty = 10004
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7105 = {
+    name = "Pallava Placeholder"
+    culture = telugu
+    religion = hindu
+    dynasty = 10005
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7106 = {
+    name = "Ganga Placeholder"
+    culture = kannada
+    religion = hindu
+    dynasty = 10006
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7107 = {
+    name = "Chalukya Placeholder"
+    culture = marathi
+    religion = hindu
+    dynasty = 10007
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7108 = {
+    name = "Vishnukundina Placeholder"
+    culture = telugu
+    religion = hindu
+    dynasty = 10008
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7109 = {
+    name = "East Ganga Placeholder"
+    culture = oriya
+    religion = hindu
+    dynasty = 10006
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7110 = {
+    name = "Nala Placeholder"
+    culture = telugu
+    religion = hindu
+    dynasty = 10009
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7111 = {
+    name = "Kalachuri Placeholder"
+    culture = marathi
+    religion = hindu
+    dynasty = 10010
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7112 = {
+    name = "Maitraka Placeholder"
+    culture = gujurati
+    religion = hindu
+    dynasty = 10011
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7113 = {
+    name = "Sailodshava Placeholder"
+    culture = oriya
+    religion = hindu
+    dynasty = 10012
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7114 = {
+    name = "Panduvamsi Placeholder"
+    culture = oriya
+    religion = hindu
+    dynasty = 10013
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7115 = {
+    name = "Late Gupta Placeholder"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10014
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7116 = {
+    name = "Pratihara Placeholder"
+    culture = rajput
+    religion = hindu
+    dynasty = 10015
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7117 = {
+    name = "Rai Placeholder"
+    culture = sindhi
+    religion = hindu
+    dynasty = 10016
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7118 = {
+    name = "Takka Placeholder"
+    culture = alchon
+    religion = hindu
+    dynasty = 10017
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7119 = {
+    name = "Karkota Placeholder"
+    culture = kidarite
+    religion = hindu
+    dynasty = 10018
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7120 = {
+    name = "Pushyabuti Placeholder"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7121 = {
+    name = "Licchavi Placeholder"
+    culture = nepali
+    religion = hindu
+    dynasty = 10020
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7122 = {
+    name = "Pundra Placeholder"
+    culture = assamese
+    religion = hindu
+    dynasty = 10021
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7123 = {
+    name = "Varman Placeholder"
+    culture = assamese
+    religion = hindu
+    dynasty = 10022
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7124 = {
+    name = "Sasanka Placeholder"
+    culture = bengali
+    religion = buddhist
+    dynasty = 10023
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+7125 = {
+    name = "Tatiy Danyawaddy Placeholder"
+    culture = bengali
+    religion = buddhist
+    dynasty = 10024
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+# Moriya dynasty (rulers of Lanka)
+# 455-473
+7126 = {
+    name = "Dhatusena"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    trait = kshatriya
+    trait = theravada_buddhist
+    trait = ambitious
+    trait = brave
+    
+    418.1.1 = {
+        birth = yes
+    }
+    473.6.1 = {
+        death = {
+            death_reason = death_execution
+            killer = 7127
+        }
+    }
+}
+
+# 473-495
+7127 = {
+    name = "Kashyapa"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    trait = kshatriya
+    trait = theravada_buddhist
+    trait = child_of_consort
+    trait = envious
+    trait = kinslayer
+    father = 7126
+    
+    440.1.1 = {
+        birth = yes
+    }
+    473.1.1 = {
+        give_nickname = nick_the_usurper
+    }
+    495.5.1 = {
+        death = {
+            death_reason = death_battle
+            killer = 7128
+        }
+    }
+}
+
+# 495-515
+7128 = {
+    name = "Moggallana"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7126
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    442.1.1 = {
+        birth = yes
+    }
+    515.1.1 = {
+        death = yes
+    }
+}
+
+# 515-524
+7129 = {
+    name = "Kumara Dhatusena"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7128
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    464.1.1 = {
+        birth = yes
+    }
+    524.1.1 = {
+        death = yes
+    }
+}
+
+# 524
+7130 = {
+    name = "Kittisena"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7129
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    482.1.1 = {
+        birth = yes
+    }
+    524.12.1 = {
+        death = yes
+    }
+}
+
+# 524-525
+7131 = {
+    name = "Siva"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7128
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    467.1.1 = {
+        birth = yes
+    }
+    525.10.1 = {
+        death = yes
+    }
+}
+
+# 525-526
+7132 = {
+    name = "Upatissa"
+    culture = sinhala
+    religion = buddhist
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    480.1.1 = {
+        birth = yes
+    }
+    501.1.1 = {
+        add_spouse = 7133
+    }
+    526.8.1 = {
+        death = yes
+    }
+}
+
+7133 = {
+    name = "Paduma"
+    female = yes
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7129
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    485.1.1 = {
+        birth = yes
+    }
+    501.1.1 = {
+        add_spouse = 7132
+    }
+    535.1.1 = {
+        death = yes
+    }
+}
+
+7134 = {
+    name = "Devarakita"
+    female = yes
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7132
+    mother = 7133
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    502.1.1 = {
+        birth = yes
+    }
+    521.1.1 = {
+        add_spouse = 7135
+    }
+    550.1.1 = {
+        death = yes
+    }
+}
+
+# 526-539
+7135 = {
+    name = "Silakala Ambosamanera"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10025
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    497.1.1 = {
+        birth = yes
+    }
+    521.1.1 = {
+        add_spouse = 7134
+    }
+    539.1.1 = {
+        death = yes
+    }
+}
+
+# 540-560
+7136 = {
+    name = "Moggallana"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7135
+    mother = 7134
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    522.1.1 = {
+        birth = yes
+    }
+    560.1.1 = {
+        death = yes
+    }
+}
+
+# 539-540
+7137 = {
+    name = "Dathappabhuti"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7135
+    mother = 7134
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    523.1.1 = {
+        birth = yes
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+
+# 560-561
+7138 = {
+    name = "Kittisiri Meghavanna"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7136
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    540.1.1 = {
+        birth = yes
+    }
+    561.1.1 = {
+        death = yes
+    }
+}
+
+# 561-564
+7139 = {
+    name = "Maha Naga"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7136
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    542.1.1 = {
+        birth = yes
+    }
+    564.1.1 = {
+        death = yes
+    }
+}
+
+# 564-598
+7140 = {
+    name = "Aggabodhi"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7136
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    545.1.1 = {
+        birth = yes
+    }
+    598.1.1 = {
+        death = yes
+    }
+}
+
+# 598-608
+7141 = {
+    name = "Aggabodhi"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7139
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    562.1.1 = {
+        birth = yes
+    }
+    608.1.1 = {
+        death = yes
+    }
+}
+
+# 608
+7142 = {
+    name = "Sangha Tissa"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7139
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    563.1.1 = {
+        birth = yes
+    }
+    608.12.1 = {
+        death = yes
+    }
+}
+
+# Future king in 623
+7143 = {
+    name = "Jettha Tissa"
+    culture = sinhala
+    religion = buddhist
+    dynasty = 10000
+    father = 7142
+    trait = kshatriya
+    trait = theravada_buddhist
+    
+    587.1.1 = {
+        birth = yes
+    }
+    624.1.1 = {
+        death = yes
+    }
+}
