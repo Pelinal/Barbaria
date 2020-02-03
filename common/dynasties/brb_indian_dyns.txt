@@ -7,15 +7,21 @@
 }
 
 10001 = {
-    name = "Perumal"
+    name = "Chera"
+    culture = tamil
+    religion = hindu
 }
 
 10002 = {
     name = "Pandya"
+    culture = tamil
+    religion = hindu
 }
 
 10003 = {
     name = "Alupa"
+    culture = kannada
+    religion = hindu
 }
 
 10004 = {
