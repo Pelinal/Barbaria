@@ -27,8 +27,8 @@ russian_grp = {
 		
 		secondary_event_pictures = finnish_pagan
 
-		icon = 26
-		heresy_icon = 27
+		icon = 55
+		heresy_icon = 56
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -96,8 +96,8 @@ russian_grp = {
 			}
 		}
 
-		icon = 25
-		heresy_icon = 27
+		icon = 54
+		heresy_icon = 56
 		
 		color = { 0.8 0.8 0.8 }
 		crusade_name = GREAT_HOLY_WAR
@@ -165,8 +165,8 @@ russian_grp = {
 		
 		secondary_event_pictures = baltic_pagan
 
-		icon = 32
-		heresy_icon = 33
+		icon = 61
+		heresy_icon = 62
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -227,8 +227,8 @@ russian_grp = {
 	baltic_pagan = {
 		graphical_culture = pagangfx
 
-		icon = 31
-		heresy_icon = 33
+		icon = 60
+		heresy_icon = 62
 		
 		color = { 0.5 0.75 0.85 }
 		crusade_name = GREAT_HOLY_WAR
@@ -297,8 +297,8 @@ russian_grp = {
 		
 		secondary_event_pictures = slavic_pagan
 
-		icon = 23
-		heresy_icon = 24
+		icon = 52
+		heresy_icon = 53
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -364,8 +364,8 @@ russian_grp = {
 			}
 		}
 
-		icon = 22
-		heresy_icon = 24
+		icon = 51
+		heresy_icon = 53
 		
 		color = { 0.7 0.6 0.3 }
 		crusade_name = GREAT_HOLY_WAR

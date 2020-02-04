@@ -86,6 +86,8 @@ druidic = {
 		allow_in_ruler_designer = no
 
 		intermarry = druidic
+		intermarry = vasconic
+		intermarry = vasconic_reformed
 	}
 	
 	gallic = {
@@ -108,7 +110,12 @@ druidic = {
 		evil_god_names = {
 			THE_FOMORIANS EVIL_BALOR EVIL_BRES GOD_CAILLEACH
 		}
-
+	
+		investiture = no	
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = yes
 		priests_can_marry = yes
 		female_temple_holders = yes
 		priests_can_inherit = no
@@ -129,6 +136,9 @@ druidic = {
 		religious_clothing_priest = 3
 
 		intermarry = druidic
+		intermarry = zalmoxian
+		intermarry = vasconic
+		intermarry = vasconic_reformed
 		can_demand_religious_conversion = no
 	}
 	
@@ -143,27 +153,27 @@ druidic = {
 		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
 		high_god_name = GOD_BEL
+		scripture_name = THE_STONES
 		
 		god_names = {
 			GOD_BEL GOD_NODENS GOD_TARANIS
-			GOD_LUGUS GOD_MODRON GOD_DON GOD_BRIGANTIA
+			GOD_LUGH GOD_MODRON GOD_DON GOD_BRIGANTIA
 		}
 		evil_god_names = {
 			EVIL_ADDANC EVIL_CYTHRAWL
 		}
 		max_consorts = 2
 		investiture = no	
-		can_excommunicate = no
+		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_claim = no
-		can_call_crusade = no
-		scripture_name = THE_STONES
+		can_call_crusade = yes
 		priests_can_marry = yes
 		female_temple_holders = yes
 		#can_hold_temples = yes
 		
-		#religious_clothing_head = 3
-		#religious_clothing_priest = 3
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
 		
 		allow_in_ruler_designer = no
 		
@@ -182,27 +192,27 @@ druidic = {
 		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
 		high_god_name = GOD_BEL
+		scripture_name = THE_STONES
 		
 		god_names = {
 			GOD_BEL GOD_NODENS GOD_TARANIS
-			GOD_LUGUS GOD_MODRON GOD_DON GOD_BRIGANTIA
+			GOD_LUGH GOD_MODRON GOD_DON GOD_BRIGANTIA
 		}
 		evil_god_names = {
 			EVIL_ADDANC EVIL_CYTHRAWL
 		}
 		max_consorts = 2
 		investiture = no	
-		can_excommunicate = no
+		can_excommunicate = yes
 		can_grant_divorce = yes
-		can_grant_claim = no
+		can_grant_claim = yes
 		can_call_crusade = no
-		scripture_name = THE_STONES
 		priests_can_marry = yes
 		female_temple_holders = yes
 		#can_hold_temples = yes
 		
-		#religious_clothing_head = 3
-		#religious_clothing_priest = 3
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
 		
 		allow_in_ruler_designer = no
 		
@@ -229,7 +239,7 @@ druidic = {
 		priest_title = DRUID
 		high_god_name = GOD_DAGHDA
 		god_names = {
-			GOD_BEL GOD_DAGHDA GOD_LUGUS GOD_NODENS
+			GOD_DAGHDA GOD_BEL GOD_LUGH GOD_NODENS
 			GOD_TARANIS GOD_BRIGIT GOD_MORRIGAN
 		}
 		evil_god_names = {
@@ -248,8 +258,8 @@ druidic = {
 		female_temple_holders = yes
 		#can_hold_temples = yes
 		
-		#religious_clothing_head = 3
-		#religious_clothing_priest = 3
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
 		
 		allow_in_ruler_designer = no
 		
@@ -269,7 +279,7 @@ druidic = {
 		priest_title = DRUID
 		high_god_name = GOD_DAGHDA
 		god_names = {
-			GOD_BEL GOD_DAGHDA GOD_LUGUS GOD_NODENS
+			GOD_BEL GOD_DAGHDA GOD_LUGH GOD_NODENS
 			GOD_TARANIS GOD_BRIGIT GOD_MORRIGAN
 		}
 		evil_god_names = {
@@ -295,8 +305,8 @@ druidic = {
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
 		
-		#religious_clothing_head = 3
-		#religious_clothing_priest = 3
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
 
 		intermarry = druidic
 	}

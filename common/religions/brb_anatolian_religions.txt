@@ -3,9 +3,10 @@
 ###################################################
 
 ## Anatolian Group ##
+# Khaldic Reformed
+# Khaldic
 # Armazic Reformed
 # Armazic
-# Cybelene Reformed
 # Cybelene
 
 anatolian_grp = {
@@ -236,47 +237,11 @@ anatolian_grp = {
 		intermarry = hellenic
 	}
 	
-	cybelene_reformed = {
-		graphical_culture = hellenicgfx
-
-		icon = 91
-		heresy_icon = 92
-		
-		color = { 0.49 0.86 0.30 }
-		
-		high_god_name = GOD_CYBELE
-		god_names = {
-			GOD_CYBELE GOD_MATAR_KUBILEYA GOD_ATTIS GOD_MEN
-		}
-		evil_god_names = {
-			GOD_HADES
-		}
-		
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = SYBILINE_BOOKS
-		priest_title = AUGUR
-		
-		priests_can_marry = no
-		priests_can_inherit = no
-		female_temple_holders = yes
-		
-		use_new_crusade = no
-		crusade_cb = crusade
-		can_call_crusade = yes
-		join_crusade_if_bordering_hostile = yes
-		
-		religious_clothing_head = 12
-		religious_clothing_priest = 11
-		
-		allow_in_ruler_designer = no
-	}
-	
 	cybelene = {
 		graphical_culture = hellenicgfx
 
 		icon = 90
-		heresy_icon = 92
-		reformed = cybelene_reformed
+		heresy_icon = 91
 		
 		color = { 0.53 0.7 0.35 }
 		
@@ -296,12 +261,19 @@ anatolian_grp = {
 		priests_can_inherit = no
 		female_temple_holders = yes
 		
-		can_call_crusade = no
+		can_call_crusade = yes
+		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
 		
 		religious_clothing_head = 12
 		religious_clothing_priest = 11
 		
 		allow_in_ruler_designer = yes
+		
+		intermarry = hellenic
+		intermarry = mithraic
+		intermarry = khaldic
+		intermarry = zalmoxian
+		intermarry = zalmoxian_reformed
 	}
 }

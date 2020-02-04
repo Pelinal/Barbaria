@@ -28,8 +28,8 @@ nomadic_religions = {
 		
 		secondary_event_pictures = tengri_pagan
 
-		icon = 29
-		heresy_icon = 30
+		icon = 58
+		heresy_icon = 59
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -73,14 +73,17 @@ nomadic_religions = {
 		
 		intermarry = buddhist
 		intermarry = zoroastrian_group
+		intermarry = heptadic
+		intermarry = heptadic_reformed
+		intermarry = tengri_pagan_reformed
 	}		
 	
 	tengri_pagan = { # This tag is used in code to override Nomad religions for purposes of Coats of Arms, etc
 	
 		graphical_culture = mongolgfx
 
-		icon = 28
-		heresy_icon = 30
+		icon = 57
+		heresy_icon = 59
 		
 		color = { 0.0 0.2 0.8 }
 		
@@ -126,6 +129,8 @@ nomadic_religions = {
 		
 		intermarry = buddhist
 		intermarry = zoroastrian_group
+		intermarry = heptadic
+		intermarry = heptadic_reformed
 		can_demand_religious_conversion = no
 	}
 	
@@ -135,24 +140,24 @@ nomadic_religions = {
 		
 		secondary_event_pictures = slavic_pagan
 
-		icon = 71
-		heresy_icon = 72
+		icon = 76
+		heresy_icon = 77
 		
 		ai_convert_other_group = 2 # always try to convert
 		
 		color = { 0.91 0.97 0.52 }
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
-		priest_title = CTSISTAT
+		scripture_name = THE_NART_SAGAS
+		priest_title = ENAREI
 		
-		high_god_name = GOD_ZALMOXIS
+		high_god_name = GOD_TABITI
 		
 		god_names = {
-			GOD_ZALMOXIS GOD_PLEISTOROS GOD_SABAZIOS GOD_DERZELAS GOD_BASSAREUS
-			GOD_BENDIS GOD_SEMELE GOD_COTYS
+			GOD_AGIN GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA
+			GOD_THAGIMASIDAS
 		}
 		evil_god_names = {
-			EN CRONUS GOD_DERZELAS
+			THE_DARK_SPIRITS
 		}
 		
 		unit_modifier = {
@@ -162,6 +167,11 @@ nomadic_religions = {
 			key = "OFF_RELIGION"
 		}
 		
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
 		priests_can_marry = yes
 		allow_looting = yes
 		allow_rivermovement = yes
@@ -182,7 +192,8 @@ nomadic_religions = {
 		dislike_tribal_organization = no
 		can_demand_religious_conversion = yes
 
-		intermarry = pagan_group
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
 	}	
 	
 	heptadic = {
@@ -194,28 +205,27 @@ nomadic_religions = {
 			}
 		}
 
-		icon = 70
-		heresy_icon = 72
+		icon = 75
+		heresy_icon = 77
 		
 		color = { 0.81 0.9 0.45 }
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
-		priest_title = CTSISTAT
+		scripture_name = THE_NART_SAGAS
+		priest_title = ENAREI
 
-		high_god_name = GOD_ZALMOXIS
+		high_god_name = GOD_TABITI
 		
 		god_names = {
-			GOD_ZALMOXIS GOD_PLEISTOROS GOD_SABAZIOS GOD_DERZELAS GOD_BASSAREUS
-			GOD_BENDIS GOD_SEMELE GOD_COTYS
+			GOD_AGIN GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA
+			GOD_THAGIMASIDAS
 		}
 		evil_god_names = {
-			EN CRONUS GOD_DERZELAS
+			THE_DARK_SPIRITS
 		}
 		
 		unit_modifier = {
-			levy_size = 0.3
-			
-			retinuesize_perc = 0.5
+			levy_size = 0.15
+			retinuesize_perc = 0.10
 			
 			key = "OFF_RELIGION"
 		}
@@ -231,14 +241,15 @@ nomadic_religions = {
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		reformed = heptadic_reformed
 		
-		aggression = 1.75 # AI aggression factor
+		aggression = 2.0 # AI aggression factor
 		
 		short_reign_opinion_year_mult = 2
 		
-		religious_clothing_head = 15
-		religious_clothing_priest = 3
+		religious_clothing_head = 5
+		religious_clothing_priest = 4
 		
-		intermarry = pagan_group
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
 		
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no

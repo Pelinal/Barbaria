@@ -31,19 +31,18 @@ graeco_italic = {
 		high_god_name = GOD_ZEUS
 		
 		god_names = {
-			GOD_ZEUS GOD_HERA GOD_HADES GOD_POSEIDON GOD_DEMETER GOD_ATHENA GOD_APOLLO GOD_ARTEMIS GOD_ARES GOD_APHRODITE GOD_HEPHAESTUS GOD_HERMES
+			GOD_ZEUS GOD_HERA GOD_POSEIDON GOD_DEMETER GOD_ATHENA GOD_APOLLO GOD_ARTEMIS GOD_ARES GOD_APHRODITE GOD_HEPHAESTUS GOD_HERMES GOD_HESTIA
 		}
 		evil_god_names = {
 			GOD_CRONUS GOD_DIONYSUS GOD_HADES GOD_TYPHON GOD_ECHIDNA
 		}
-		# Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Aphrodite, Hephaestus, Hermes, and either Hestia or Dionysus.
-		crusade_name = GREAT_HOLY_WAR
-		use_new_crusade = yes
-		crusade_cb = new_crusade
-		scripture_name = THE_LEGENDS
-		priest_title = HEIREOS
 		
-		priests_can_marry = no
+		crusade_name = SACRED_WAR
+		crusade_cb = new_crusade
+		scripture_name = THE_EPICS
+		priest_title = SOFOS
+		
+		priests_can_marry = yes
 		priests_can_inherit = no
 		female_temple_holders = yes
 		
@@ -78,22 +77,20 @@ graeco_italic = {
 		}
 		
 		crusade_name = SUN_WAR
-		use_new_crusade = yes
 		crusade_cb = new_crusade
-		scripture_name = THE_LEGENDS
-		priest_title = HEIREOS
+		scripture_name = THE_MITHRAIC_TEXTS
+		priest_title = SOFOS
 		
 		priests_can_marry = yes
 		female_temple_holders = no
 		
-		pentarchy = yes
-		use_new_crusade = yes
-		crusade_cb = new_crusade
+		use_new_crusade = no
+		crusade_cb = crusade
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
 		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
 		
 		allow_in_ruler_designer = yes
 	}
@@ -114,12 +111,12 @@ graeco_italic = {
 		evil_god_names = {
 			GOD_SATURN GOD_BACCHUS GOD_PLUTO GOD_MERCURY GOD_TYPHON
 		}
-		# Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Aphrodite, Hephaestus, Hermes, and either Hestia or Dionysus.
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
+		
+		crusade_name = SACRED_WAR
+		scripture_name = IGUVINE_TABLETS
 		priest_title = AUGUR
 		
-		priests_can_marry = no
+		priests_can_marry = yes
 		priests_can_inherit = no
 		female_temple_holders = yes
 		

@@ -248,15 +248,15 @@
 }
 
 7117 = {
-    name = "Rai Placeholder"
+    name = "Devaditya"
     culture = sindhi
-    religion = hindu
+    religion = buddhist
     dynasty = 10016
     
-    580.1.1 = {
+    431.1.1 = {
         birth = yes
     }
-    640.1.1 = {
+    524.1.1 = {
         death = yes
     }
 }
@@ -723,7 +723,65 @@
     }
 }
 
-# Chera kings
+# Rai Dynasty (Rulers of Sindh)
+
+# 493-540
+7500 = {
+    name = "Shriharsha"
+    culture = sindhi
+    religion = buddhist
+    dynasty = 10016
+	father = 7117
+    
+    493.1.1 = {
+        birth = yes
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+7501 = {
+    name = "Sinhasena"
+    culture = sindhi
+    religion = buddhist
+    dynasty = 10016
+	father = 7500
+    
+    519.1.1 = {
+        birth = yes
+    }
+    572.1.1 = {
+        death = yes
+    }
+}
+7502 = {
+    name = "Shriharsha"
+    culture = sindhi
+    religion = buddhist
+    dynasty = 10016
+	father = 7501
+    
+    547.1.1 = {
+        birth = yes
+    }
+    612.1.1 = {
+        death = { death_reason = death_battle }
+    }
+}
+7503 = {
+    name = "Sinhasena"
+    culture = sindhi
+    religion = buddhist
+    dynasty = 10016
+	father = 7502
+    
+    601.1.1 = {
+        birth = yes
+    }
+    632.1.1 = {
+        death = { death_reason = death_drank_poison }
+    }
+}# Chera kings
 # 430-488
 7144 = {
     name = "Kanaikkal Irumporai"

@@ -8,7 +8,7 @@
 # Germanic Reformed
 # Germanic
 
-pagan_group = {
+german_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = norsegfx
 	playable = yes
@@ -37,8 +37,8 @@ pagan_group = {
 		secondary_event_pictures = norse_pagan
 		alternate_start = { always = no }
 
-		icon = 20
-		heresy_icon = 21
+		icon = 49
+		heresy_icon = 50
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -84,6 +84,8 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		intermarry = norse_pagan
+		intermarry = germanic_pagan
+		intermarry = germanic_pagan_reformed
 		
 		allow_in_ruler_designer = no
 		#reformer_head_of_religion = yes #make the character that reforms this religion the head of the new reformed faith
@@ -98,8 +100,8 @@ pagan_group = {
 			}
 		}
 
-		icon = 19
-		heresy_icon = 21
+		icon = 48
+		heresy_icon = 50
 		
 		color = { 0.5 0.5 0.5 }
 		
@@ -147,6 +149,7 @@ pagan_group = {
 		intermarry = norse_pagan_reformed
 		intermarry = baltic_pagan
 		intermarry = slavic_pagan
+		intermarry = germanic_pagan
 		
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
@@ -157,21 +160,24 @@ pagan_group = {
 		secondary_event_pictures = norse_pagan
 		alternate_start = { always = no }
 
-		icon = 19
-		heresy_icon = 21
+		icon = 67
+		heresy_icon = 68
 
 		ai_convert_other_group = 2 # always try to convert
 		ai_convert_same_group = 2 # always try to convert
 
 		color = { 0.6 0.34 0.15 }
 
-		high_god_name = GOD_THE_ALLFATHER
-
+		priest_title = PREOST
+		
+		high_god_name = GOD_WODAN
 		god_names = {
-			GOD_THE_ANCESTORS GOD_THE_ALLFATHER GOD_WODANAZ GOD_THUNRAZ GOD_SAXNOT GOD_WULTHUZ GOD_INGWAZ GOD_NERTHUS
+			GOD_WODAN GOD_THUNOR GOD_TIW GOD_ERCE 
+			GOD_FREO GOD_FREA GOD_BAELDAEG GOD_FRIGE
+			GOD_SEAXNEAT GOD_INGWINE GOD_NERTHUS
 		}
 		evil_god_names = {
-			LOPTR THE_DARK_SPIRITS
+			HEL LOPTR GOD_LOGNA THE_DARK_SPIRITS
 		}
 		
 		#unit_modifier = {
@@ -196,8 +202,8 @@ pagan_group = {
 		#}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_SAGAS
-		priest_title = PRIEST
+		scripture_name = THE_RUNES
+		priest_title = GOTHAR
 		priests_can_marry = yes
 		
 		aggression = 1.5 # AI aggression factor
@@ -215,7 +221,8 @@ pagan_group = {
 		religious_clothing_priest = 3
 
 		
-		intermarry = german_group
+		intermarry = norse_pagan
+		intermarry = norse_pagan_reformed
 	}
 
 	germanic_pagan = {
@@ -227,19 +234,21 @@ pagan_group = {
 			}
 		}
 
-		icon = 19
-		heresy_icon = 21
+		icon = 66
+		heresy_icon = 68
 
 		color = { 0.5 0.28 0.13 }
 		reformed = germanic_pagan_reformed
-
-		high_god_name = GOD_THE_ALLFATHER
-
+		priest_title = PREOST
+		
+		high_god_name = GOD_WODAN
 		god_names = {
-			GOD_THE_ANCESTORS GOD_THE_ALLFATHER GOD_WODANAZ GOD_THUNRAZ GOD_SAXNOT GOD_WULTHUZ GOD_INGWAZ GOD_NERTHUS
+			GOD_WODAN GOD_THUNOR GOD_TIW GOD_ERCE 
+			GOD_FREO GOD_FREA GOD_BAELDAEG GOD_FRIGE
+			GOD_SEAXNEAT GOD_INGWINE GOD_NERTHUS
 		}
 		evil_god_names = {
-			LOPTR THE_DARK_SPIRITS
+			HEL LOPTR GOD_LOGNA THE_DARK_SPIRITS
 		}
 		
 		unit_modifier = {
@@ -264,8 +273,8 @@ pagan_group = {
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_SAGAS
-		priest_title = PRIEST
+		scripture_name = THE_RUNES
+		priest_title = GOTHAR
 		
 		aggression = 1.0 # AI aggression factor
 		allow_looting = yes
@@ -284,6 +293,7 @@ pagan_group = {
 		religious_clothing_priest = 3
 
 		
-		intermarry = german_group
+		intermarry = norse_pagan
+		intermarry = zalmoxian
 	}
 }

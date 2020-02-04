@@ -24,8 +24,8 @@ iberic_grp = {
 		graphical_culture = norsegfx
 		alternate_start = { always = no }
 
-		icon = 63
-		heresy_icon = 64
+		icon = 96
+		heresy_icon = 97
 		
 		color = { 0.76 0.8 0.6 }
 		
@@ -39,7 +39,7 @@ iberic_grp = {
 			EVIL_GAUEKO EVIL_ERGE
 		}
 		
-		scripture_name = THE_LIBURU
+		scripture_name = THE_LEGENDS # Reformed book: The Liburu
 		priest_title = SORGIN
 		
 		priests_can_marry = yes
@@ -60,19 +60,16 @@ iberic_grp = {
 		
 		allow_in_ruler_designer = no
 		
-		intermarry = christian
-		intermarry = pagan_group
-		intermarry = gnostic_group
-		intermarry = jewish_group
-		intermarry = muslim
+		intermarry = gallic
+		intermarry = gallic_reformed
 	}
 	
 	vasconic = { # Basques
 		graphical_culture = norsegfx
 		alternate_start = { always = no }	# We use the generic pagan instead, and swap it all on generation based on culture
 
-		icon = 62
-		heresy_icon = 63
+		icon = 95
+		heresy_icon = 97
 		
 		color = { 0.66 0.7 0.53 }
 		
@@ -86,7 +83,7 @@ iberic_grp = {
 			EVIL_GAUEKO EVIL_ERGE
 		}
 		
-       	scripture_name = ORAL_TRADITION		
+       	scripture_name = THE_LEGENDS		
 		priest_title = SORGIN
 
 	    priests_can_marry = yes
@@ -107,11 +104,8 @@ iberic_grp = {
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
 		
-		intermarry = christian
-		intermarry = pagan_group
-		intermarry = gnostic_group
-		intermarry = jewish_group
-		intermarry = muslim
+		intermarry = gallic
+		intermarry = gallic_reformed
 	}
 	
 	iberic_reformed = {
@@ -119,15 +113,15 @@ iberic_grp = {
 		alternate_start = { always = no }
 		interface_skin = { hellenic_interface }
 
-		icon = 74
-		heresy_icon = 75
+		icon = 93
+		heresy_icon = 94
 		
-		color = { 1 0.5 0 }
+		color = { 1 0.5 0.07 }
 		
 		high_god_name = GOD_ATAECINA
 		
 		god_names = {
-			GOD_ATAECINA GOD_SEMNOCOSUS GOD_CANDAMIUS GOD_ENDOUELLICUS GOD_DERECETIUS GOD_EACUS GOD_MELQART GOD_THE_DUILLAE
+			GOD_ATAECINA GOD_SEMNOCOSUS GOD_CANDAMIUS GOD_ENDOUELLICUS GOD_DERECETIUS GOD_EACUS GOD_MELQART GOD_THE_DUILLAE GOD_TANIT
 		}
 		evil_god_names = {
 			GERYON GADERIOS ERYTHEIA BEROBREUS
@@ -158,15 +152,15 @@ iberic_grp = {
 
 		reformed = iberic_reformed
 
-		icon = 73
-		heresy_icon = 75
+		icon = 92
+		heresy_icon = 94
 		
 		color = { 1 0.42 0 }
 		
 		high_god_name = GOD_ATAECINA
 		
 		god_names = {
-			GOD_ATAECINA GOD_SEMNOCOSUS GOD_CANDAMIUS GOD_ENDOUELLICUS GOD_DERECETIUS GOD_EACUS GOD_MELQART GOD_THE_DUILLAE
+			GOD_ATAECINA GOD_SEMNOCOSUS GOD_CANDAMIUS GOD_ENDOUELLICUS GOD_DERECETIUS GOD_EACUS GOD_MELQART GOD_THE_DUILLAE GOD_TANIT
 		}
 		evil_god_names = {
 			GERYON GADERIOS ERYTHEIA BEROBREUS

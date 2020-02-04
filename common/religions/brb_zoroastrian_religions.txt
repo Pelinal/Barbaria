@@ -123,59 +123,6 @@ zoroastrian_group = {
 		intermarry = tengri_pagan_reformed
 	}
 	
-	manichean = {
-		graphical_culture = persiangfx
-		
-		secondary_event_pictures = sunni
-		
-		icon = 6
-		heresy_icon = 7
-		
-		color = { 203 214 235 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_EVANGELION
-		
-		priest_title = DIDASKOLOS
-		
-		high_god_name = GOD_ZURVAN
-		
-		god_names = {
-			GOD_ZURVAN GOD_OHRMAZD PROPHET_MANI GOD_MIHRYAZD
-		}
-		
-		evil_god_names = {
-			THE_DEMIURGE
-		}
-		
-		can_retire_to_monastery = yes
-		female_temple_holders = yes
-		
-		can_grant_divorce = yes
-		priests_can_inherit = no
-		can_call_crusade = no
-		can_grant_invasion_cb = invasion
-		
-		max_consorts = 0 # Can take concubines
-		
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
-
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = khurmazta
-		
-		
-		intermarry = zun_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = taoist
-		intermarry = bon
-		intermarry = bon_reformed
-		intermarry = nestorian
-		intermarry = buddhist
-		intermarry = tengri_pagan
-		intermarry = tengri_pagan_reformed
-	}
-	
 	khurmazta = {
 		graphical_culture = persiangfx
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
@@ -231,6 +178,7 @@ zoroastrian_group = {
 		icon = 4
 		heresy_icon = 5
 		
+		parent = zoroastrian
 		color = { 0.75 0.3 0.3 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_GATHAS
@@ -260,6 +208,7 @@ zoroastrian_group = {
 		ai_convert_same_group = 0 # Never
 		ai_convert_other_group = 0 # Never
 		
+		max_wives = 3
 		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
 		pc_marriage = yes
 		bs_marriage = yes

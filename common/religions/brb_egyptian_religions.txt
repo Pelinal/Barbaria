@@ -14,7 +14,7 @@ egyptian_group = {
 	playable = yes
 	hostile_within_group = yes
 
-	interface_skin = { hellenic_interface }
+	interface_skin = { hellenic_interface } ### make own interface?
 
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 1 # try to convert if ai_zeal is high
@@ -24,7 +24,6 @@ egyptian_group = {
 
 	kemetic = { # Kemetic
 		graphical_culture = persiangfx
-		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
 		icon = 41
 		heresy_icon = 42
@@ -33,12 +32,14 @@ egyptian_group = {
 
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = BOOK_OF_THE_DEAD
-		priest_title = PRIEST
+		priest_title = WAB
+		piety_name = MAAT
 
-		high_god_name = GOD_RA
+		high_god_name = GOD_AMUN_RA
 
 		god_names = {
-			GOD_AMUN GOD_ANUBIS GOD_ANUKET GOD_HEMSUT GOD_ISIS GOD_KHNUM GOD_MAAT GOD_MESKHENET GOD_MUT GOD_NEKHBET GOD_NEPHTHYS GOD_NUT GOD_OSIRIS GOD_PTAH GOD_RA GOD_SEKHMET GOD_SELKET GOD_SOBEK GOD_WADJET
+			GOD_ANUBIS GOD_ANUKET GOD_HEMSUT GOD_ISIS GOD_KHNUM GOD_MAAT GOD_HORUS GOD_MESKHENET GOD_MUT GOD_NEKHBET GOD_NEPHTHYS 
+			GOD_NUT GOD_OSIRIS GOD_PTAH GOD_SEKHMET GOD_SELKET GOD_SOBEK GOD_WADJET
 		}
 
 		evil_god_names = {
@@ -81,7 +82,7 @@ egyptian_group = {
 		religious_clothing_priest = 5
 
 		intermarry = atenic
-		intermarry = muslim
+		intermarry = nabataean
 		intermarry = zoroastrian_group
 		intermarry = hellenic_group
 		intermarry = pagan_group
@@ -94,20 +95,22 @@ egyptian_group = {
 		icon = 41
 		heresy_icon = 42
 
-		color = { 0.9 0.8 0 }
+		color = { 0.7 0.7 0.1 }
 		parent = kemetic
 
-		priest_title = PRIEST
+		scripture_name = THE_GREAT_HYMN
+		priest_title = WAB
+		piety_name = MAAT
 		crusade_name = GREAT_HOLY_WAR
 
 		high_god_name = GOD_ATEN
 
 		god_names = {
-			GOD_ATEN
+			GOD_ATEN THE_SUN_DISC
 		}
 
 		evil_god_names = {
-			THE_DARK_SPIRITS
+			GOD_APEP GOD_SET THE_DARK_SPIRITS
 		}
 
 		allow_rivermovement = yes
@@ -134,7 +137,7 @@ egyptian_group = {
 		}
 
 		intermarry = kemetic
-		intermarry = muslim
+		intermarry = nabataean
 		intermarry = zoroastrian_group
 		intermarry = hellenic_group
 		intermarry = pagan_group
