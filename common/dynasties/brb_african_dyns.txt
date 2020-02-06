@@ -1,0 +1,586 @@
+### Sub-Saharan Dynastic Names ###
+# e.g. Kanuri, Hausa, Zaghawa, Manden, Soninke, Songhay and Daju
+# 3000- 3500?
+
+# Kanuri Dynasties
+3000 = {
+	name = "Ngari"
+	culture = "kanuri"
+}
+3001 = {
+	name = "Beraa"
+	culture = "kanuri"
+}
+3002 = {
+	name = "Garwan"
+	culture = "kanuri"
+}
+3003 = {
+	name = "Kallai"
+	culture = "kanuri"
+}
+3004 = {
+	name = "Tar"
+	culture = "kanuri"
+}
+3005 = {
+	name = "Ari Garga"
+	culture = "kanuri"
+}
+3006 = {
+	name = "Konto"
+	culture = "kanuri"
+}
+3007 = {
+	name = "Dalah"
+	culture = "kanuri"
+}
+3008 = {
+	name = "Butarin"
+	culture = "kanuri"
+}
+3009 = {
+	name = "Mommodu"
+	culture = "kanuri"
+}
+3010 = {
+	name = "Yaalta"
+	culture = "kanuri"
+}
+3011 = {
+	name = "Koloa"
+	culture = "kanuri"
+}
+3012 = {
+	name = "Sato"
+	culture = "kanuri"
+}
+3013 = {
+	name = "Bilkisu"
+	culture = "kanuri"
+}
+3014 = {
+	name = "Yamara"
+	culture = "kanuri"
+}
+3015 = {
+	name = "Madari"
+	culture = "kanuri"
+}
+3016 = {
+	name = "Bunami"
+	culture = "kanuri"
+}
+3017 = {
+	name = "Maidan"
+	culture = "kanuri"
+}
+3018 = {
+	name = "Ng-Warari"
+	culture = "kanuri"
+}
+3019 = {
+	name = "Falmata"
+	culture = "kanuri"
+}
+
+# Hausa Dynasties
+3020 = {
+	name = "Ubudulli"
+	culture = "hausa"
+}
+3021 = {
+	name = "Adamu"
+	culture = "hausa"
+}
+3022 = {
+	name = "Bature"
+	culture = "hausa"
+}
+3023 = {
+	name = "Dauda"
+	culture = "hausa"
+}
+3024 = {
+	name = "Isah"
+	culture = "hausa"
+}
+3025 = {
+	name = "Muhktar"
+	culture = "hausa"
+}
+3026 = {
+	name = "Shagari"
+	culture = "hausa"
+}
+3027 = {
+	name = "Tijani"
+	culture = "hausa"
+}
+3028 = {
+	name = "Yahaya"
+	culture = "hausa"
+}
+3029 = {
+	name = "Yakubu"
+	culture = "hausa"
+}
+3030 = {
+	name = "Sule"
+	culture = "hausa"
+}
+3031 = {
+	name = "Shehu"
+	culture = "hausa"
+}
+3032 = {
+	name = "Rumfa"
+	culture = "hausa"
+}
+3033 = {
+	name = "Raji"
+	culture = "hausa"
+}
+3034 = {
+	name = "Madaki"
+	culture = "hausa"
+}
+3035 = {
+	name = "Habe"
+	culture = "hausa"
+}
+3036 = {
+	name = "Garba"
+	culture = "hausa"
+}
+3037 = {
+	name = "Burja"
+	culture = "hausa"
+}
+3038 = {
+	name = "Audu"
+	culture = "hausa"
+}
+3039 = {
+	name = "Aliyu"
+	culture = "hausa"
+}
+
+# Zaghawa Dynasties
+3040 = {
+	name = "Déby"
+	culture = "zaghawa"
+}
+3041 = {
+	name = "Beri"
+	culture = "zaghawa"
+}
+3042 = {
+	name = "Zaghwa"
+	culture = "zaghawa"
+}
+3043 = {
+	name = "Kallai"
+	culture = "zaghawa"
+}
+3044 = {
+	name = "Bideyat"
+	culture = "zaghawa"
+}
+3045 = {
+	name = "Berti"
+	culture = "zaghawa"
+}
+3046 = {
+	name = "Duguwa"
+	culture = "zaghawa"
+}
+3047 = {
+	name = "Toubou"
+	culture = "zaghawa"
+}
+3048 = {
+	name = "Sefouwa"
+	culture = "zaghawa"
+}
+3049 = {
+	name = "Nijmi"
+	culture = "zaghawa"
+}
+3050 = {
+	name = "Kanouwi"
+	culture = "zaghawa"
+}
+3051 = {
+	name = "Tundubay"
+	culture = "zaghawa"
+}
+3052 = {
+	name = "Kbaka"
+	culture = "zaghawa"
+}
+3053 = {
+	name = "Hari"
+	culture = "zaghawa"
+}
+3054 = {
+	name = "Itno"
+	culture = "zaghawa"
+}
+3055 = {
+	name = "Haour"
+	culture = "zaghawa"
+}
+3056 = {
+	name = "Karouman"
+	culture = "zaghawa"
+}
+3057 = {
+	name = "Yafout"
+	culture = "zaghawa"
+}
+3058 = {
+	name = "Alwa"
+	culture = "zaghawa"
+}
+3059 = {
+	name = "Gurdwara"
+	culture = "zaghawa"
+}
+
+# Manden Dynasties
+3060 = {
+	name = "Diakité"
+	culture = "manden"
+}
+3061 = {
+	name = "Diawara"
+	culture = "manden"
+}
+3062 = {
+	name = "Jawara"
+	culture = "manden"
+}
+3063 = {
+	name = "Mandinka"
+	culture = "manden"
+}
+3064 = {
+	name = "Conde"
+	culture = "manden"
+}
+3065 = {
+	name = "Sidibé"
+	culture = "manden"
+}
+3066 = {
+	name = "Daramy"
+	culture = "manden"
+}
+3067 = {
+	name = "Cisse"
+	culture = "manden"
+}
+3068 = {
+	name = "Bockarie"
+	culture = "manden"
+}
+3069 = {
+	name = "Conteh"
+	culture = "manden"
+}
+3070 = {
+	name = "Dembélé"
+	culture = "manden"
+}
+3071 = {
+	name = "Emeagwali"
+	culture = "manden"
+}
+3072 = {
+	name = "Kamara"
+	culture = "manden"
+}
+3073 = {
+	name = "Koroma"
+	culture = "manden"
+}
+3074 = {
+	name = "Mahama"
+	culture = "manden"
+}
+3075 = {
+	name = "Ouedraogo"
+	culture = "manden"
+}
+3076 = {
+	name = "Burkinabé"
+	culture = "manden"
+}
+3077 = {
+	name = "Traore"
+	culture = "manden"
+}
+3078 = {
+	name = "Touré"
+	culture = "manden"
+}
+3079 = {
+	name = "Mandingo"
+	culture = "manden"
+}
+
+# Soninke Dynasties
+3080 = {
+	name = "Boso"
+	culture = "soninke"
+}
+3081 = {
+	name = "Samogo"
+	culture = "soninke"
+}
+3082 = {
+	name = "Bobo"
+	culture = "soninke"
+}
+3083 = {
+	name = "Wangari"
+	culture = "soninke"
+}
+3084 = {
+	name = "Serahule"
+	culture = "soninke"
+}
+3085 = {
+	name = "Aswanek"
+	culture = "soninke"
+}
+3086 = {
+	name = "Kong"
+	culture = "soninke"
+}
+3087 = {
+	name = "Dioula"
+	culture = "soninke"
+}
+3088 = {
+	name = "Bigou"
+	culture = "soninke"
+}
+3089 = {
+	name = "Bouna"
+	culture = "soninke"
+}
+3090 = {
+	name = "Bondoukou"
+	culture = "soninke"
+}
+3091 = {
+	name = "Boualé"
+	culture = "soninke"
+}
+3092 = {
+	name = "Sylla"
+	culture = "soninke"
+}
+3093 = {
+	name = "Doukoure"
+	culture = "soninke"
+}
+3094 = {
+	name = "Niakhate"
+	culture = "soninke"
+}
+3095 = {
+	name = "Nimaga"
+	culture = "soninke"
+}
+3096 = {
+	name = "Konaté"
+	culture = "soninke"
+}
+3097 = {
+	name = "Wakoré"
+	culture = "soninke"
+}
+3098 = {
+	name = "Bendougo"
+	culture = "soninke"
+}
+3099 = {
+	name = "Maraké"
+	culture = "soninke"
+}
+
+# Songhay Dynasties
+3100 = {
+	name = "Zegha"
+	culture = "songhay"
+}
+3101 = {
+	name = "Zarmana"
+	culture = "songhay"
+}
+3102 = {
+	name = "Goromi"
+	culture = "songhay"
+}
+3103 = {
+	name = "Toure"
+	culture = "songhay"
+}
+3104 = {
+	name = "Djerma"
+	culture = "songhay"
+}
+3105 = {
+	name = "Fula"
+	culture = "songhay"
+}
+3106 = {
+	name = "Sohanké"
+	culture = "songhay"
+}
+3107 = {
+	name = "Wanzam"
+	culture = "songhay"
+}
+3108 = {
+	name = "Bannye"
+	culture = "songhay"
+}
+3109 = {
+	name = "Haour"
+	culture = "songhay"
+}
+3110 = {
+	name = "Zima"
+	culture = "songhay"
+}
+3111 = {
+	name = "Ber"
+	culture = "songhay"
+}
+3112 = {
+	name = "Kibaru"
+	culture = "songhay"
+}
+3113 = {
+	name = "Baba"
+	culture = "songhay"
+}
+3114 = {
+	name = "Boboye"
+	culture = "songhay"
+}
+3115 = {
+	name = "Djermako"
+	culture = "songhay"
+}
+3116 = {
+	name = "Askyaoué"
+	culture = "songhay"
+}
+3117 = {
+	name = "Zarma"
+	culture = "songhay"
+}
+3118 = {
+	name = "Dossou"
+	culture = "songhay"
+}
+3119 = {
+	name = "Afua"
+	culture = "songhay"
+}
+
+# Daju Dynasties
+3120 = {
+	name = "Okinri"
+	culture = "daju"
+}
+3121 = {
+	name = "Alawodu"
+	culture = "daju"
+}
+3122 = {
+	name = "Ogbooro"
+	culture = "daju"
+}
+3123 = {
+	name = "Lagbara"
+	culture = "daju"
+}
+3124 = {
+	name = "Bibolye"
+	culture = "daju"
+}
+3125 = {
+	name = "Labé"
+	culture = "daju"
+}
+3126 = {
+	name = "Imari"
+	culture = "daju"
+}
+3127 = {
+	name = "Jojo"
+	culture = "daju"
+}
+3128 = {
+	name = "Katlego"
+	culture = "daju"
+}
+3129 = {
+	name = "Kanye"
+	culture = "daju"
+}
+3130 = {
+	name = "Femi"
+	culture = "daju"
+}
+3131 = {
+	name = "Emem"
+	culture = "daju"
+}
+3132 = {
+	name = "Ekua"
+	culture = "daju"
+}
+3133 = {
+	name = "Chuks"
+	culture = "daju"
+}
+3134 = {
+	name = "Chikere"
+	culture = "daju"
+}
+3135 = {
+	name = "Babatunde"
+	culture = "daju"
+}
+3136 = {
+	name = "Omiata"
+	culture = "daju"
+}
+3137 = {
+	name = "Adisa"
+	culture = "daju"
+}
+3138 = {
+	name = "Babajide"
+	culture = "daju"
+}
+3139 = {
+	name = "Mobutu"
+	culture = "daju"
+}
+
+# Unique Dynasties
+
+3140 = { # Ruling Dynasty 
+	name = "Mánaani"
+	culture = "manden"
+	religion = african_pagan
+	used_for_random = no
+}
