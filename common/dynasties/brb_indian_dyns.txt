@@ -26,6 +26,8 @@
 
 10004 = {
     name = "Kadamba"
+    culture = kannada
+    religion = hindu
 }
 
 10005 = {
