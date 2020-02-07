@@ -10,7 +10,7 @@ b_jedburgh = tribal
 #b_roxburgh = city
 
 #b_peebles = castle
-b_melrose = temple
+#b_melrose = temple
 #b_kelso = castle
 #b_selkirk = castle
 #b_maxwell = castle

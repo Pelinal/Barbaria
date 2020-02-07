@@ -5,8 +5,8 @@ title = c_builth
 
 # Settlements
 max_settlements = 3
-b_builth = castle
-b_llanafan_fawr = temple
+b_builth = tribal
+#b_llanafan_fawr = temple
 
 #b_llandrindod = temple
 #b_abergwesyn = city

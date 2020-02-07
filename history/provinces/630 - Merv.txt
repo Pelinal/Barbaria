@@ -16,7 +16,7 @@ b_tagtabazar = temple
 #b_kushka = castle
 
 # Misc
-culture = dahae
+culture = bactrian
 religion = zoroastrian
 
 # History

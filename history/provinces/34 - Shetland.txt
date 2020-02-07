@@ -21,7 +21,3 @@ religion = brythonic
 terrain = hills
 
 # History
-1000.1.1 = {
-	b_cunningsburgh = castle
-	b_cunningsburgh = ca_shipyard_1
-} 

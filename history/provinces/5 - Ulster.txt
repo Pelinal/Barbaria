@@ -21,7 +21,3 @@ religion = danuic
 terrain = hills
 
 # History
-1000.1.1 = {
-	b_downpatrick = castle
-	b_carrickfergus = city
-}

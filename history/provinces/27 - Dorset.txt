@@ -5,9 +5,9 @@ title = c_dorset
 
 # Settlements
 max_settlements = 5
-b_wareham = castle
-b_sherborne = temple
-b_dorchester = city
+b_wareham = tribal
+#b_sherborne = temple
+#b_dorchester = city
 
 #b_shaftesbury = castle
 #b_lyme = temple
@@ -20,4 +20,3 @@ culture = briton
 religion = brythonic
 
 # History
-987.1.1 = { b_corfe= castle }

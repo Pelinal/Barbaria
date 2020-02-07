@@ -7,12 +7,12 @@ title = c_northumberland
 max_settlements = 4
 b_bamburgh = tribal
 
-b_st_aidans = temple
-#b_morpeth = castle
-#b_hexham = castle
-#b_newcastle = city
-#b_alnwick = castle
-#b_mitford = castle
+#b_st_aidans = temple
+#b_morpeth = tribal
+#b_hexham = tribal
+#b_newtribal = city
+#b_alnwick = tribal
+#b_mitford = tribal
 
 # Misc
 culture = cumbric

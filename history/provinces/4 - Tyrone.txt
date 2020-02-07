@@ -7,7 +7,7 @@ title = c_tyrone
 max_settlements = 4
 b_aileach = tribal
 #b_coleraine = city
-b_derry = temple
+#b_derry = temple
 
 #b_dungannon = castle
 #b_omagh = castle
@@ -21,7 +21,3 @@ religion = danuic
 terrain = hills
 
 # History
-1000.1.1 = {
-	b_aileach = castle
-	b_coleraine = city
-}

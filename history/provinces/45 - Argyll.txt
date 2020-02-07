@@ -7,14 +7,14 @@ title = c_argyll
 max_settlements = 3
 b_dunstaffnage = tribal
 #b_dunollie = city
-b_st_moluag = temple
+#b_st_moluag = temple
 
-#b_loch_awe = castle
-#b_sween = castle
-#b_inverary = castle
+#b_loch_awe = tribal
+#b_sween = tribal
+#b_inverary = tribal
 #b_ardchattan = temple
-#b_kilmun = castle
-#b_argh = castle
+#b_kilmun = tribal
+#b_argh = tribal
 
 # Misc
 culture = gaelic

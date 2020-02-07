@@ -6,13 +6,10 @@ title = c_westmeath
 # Settlements
 max_settlements = 3
 b_westmeath = tribal
-b_birr = temple
+#b_birr = temple
 
 # Misc
 culture = irish
 religion = danuic
 
 # History
-1000.1.1 = {
-	b_westmeath = castle
-}

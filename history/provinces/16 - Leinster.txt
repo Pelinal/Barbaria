@@ -7,7 +7,7 @@ title = c_leinster
 max_settlements = 4
 b_leighlin = tribal
 #b_wexford = city
-b_ferns = temple
+#b_ferns = temple
 
 #b_arklow = castle
 #b_carlow = castle
@@ -20,7 +20,3 @@ culture = irish
 religion = danuic
 
 # History
-1000.1.1 = {
-	b_leighlin = castle
-	b_wexford = city
-}

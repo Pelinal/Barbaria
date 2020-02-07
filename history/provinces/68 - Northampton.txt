@@ -5,19 +5,19 @@ title = c_northampton
 
 # Settlements
 max_settlements = 4
-b_northampton = castle
-b_cambridge = city
+b_northampton = tribal
+#b_cambridge = city
 
-#b_huntingdon = castle
-#b_peterborough = castle
-#b_ramsey = castle
-#b_kettering = castle
-b_crowland = temple
-#b_rockingham = castle
+#b_huntingdon = tribal
+#b_peterborough = tribal
+#b_ramsey = tribal
+#b_kettering = tribal
+#b_crowland = temple
+#b_rockingham = tribal
 
 # Misc
 culture = briton
 religion = brythonic
 
 # History
-987.1.1 = { b_huntingdon = castle } 
+700.1.1 = { b_huntingdon = tribal } 

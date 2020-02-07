@@ -7,14 +7,14 @@ title = c_clydesdale
 max_settlements = 4
 b_dumbarton = tribal
 #b_glasgow = city
-b_st_kentigern = temple
+#b_st_kentigern = temple
 
 
-#b_lanark = castle
-#b_cadzow = castle
-#b_bothwell = castle
-#b_lesmahagow = castle
-#b_renfrew = castle
+#b_lanark = tribal
+#b_cadzow = tribal
+#b_bothwell = tribal
+#b_lesmahagow = tribal
+#b_renfrew = tribal
 
 # Misc
 culture = gaelic

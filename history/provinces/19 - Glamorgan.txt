@@ -5,8 +5,8 @@ title = c_glamorgan
 
 # Settlements
 max_settlements = 4
-b_cardiff = castle
-b_llandaff = temple
+b_cardiff = tribal
+#b_llandaff = temple
 
 #b_neath = castle
 #b_caerphilly = castle

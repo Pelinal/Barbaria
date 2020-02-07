@@ -5,7 +5,7 @@ title = c_hull
 max_settlements = 4
 b_stamford_bridge = tribal
 b_beverley = temple
-b_wyke = tribal
+#b_wyke = tribal
 
 #b_hull = castle
 #b_guildhall = castle

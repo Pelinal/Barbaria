@@ -16,7 +16,7 @@ b_najmah = temple
 #b_abuhadriya = castle
 
 culture = bedouin_arabic
-religion = sayhadic
+religion = zoroastrian
 
 
 # History

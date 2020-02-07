@@ -5,15 +5,15 @@ title = c_kent
 
 # Settlements
 max_settlements = 5
-b_dover = castle
-b_canterbury = temple
+b_dover = tribal
+#b_canterbury = temple
 b_rochester = temple
 
-#b_faversham = castle
-#b_lympne = castle
-b_sandwich = city
-#b_romney = castle
-#b_tonbridge = castle
+#b_faversham = tribal
+#b_lympne = tribal
+#b_sandwich = city
+#b_romney = tribal
+#b_tonbridge = tribal
 
 # Misc
 culture = briton

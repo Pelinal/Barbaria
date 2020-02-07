@@ -5,15 +5,15 @@ title = c_bedford
 
 # Settlements
 max_settlements = 4
-b_bedford = castle
+b_bedford = tribal
 
-b_hertford = city
-b_st_albans = temple
-#b_berkhamsted = castle
-#b_luton = castle
-#b_dunstable = castle
-#b_ashridge = castle
-#b_watford = castle
+#b_hertford = city
+#b_st_albans = temple
+#b_berkhamsted = tribal
+#b_luton = tribal
+#b_dunstable = tribal
+#b_ashridge = tribal
+#b_watford = tribal
 
 # Misc
 culture = briton
@@ -21,12 +21,12 @@ religion = brythonic
 
 # History
 
-867.1.1 = { 
-	b_bedford = ca_keep_1
-	b_bedford = ca_training_grounds_1
-	b_bedford = ca_stable_1
-	b_bedford = ca_wall_1
-	b_bedford = ca_wall_2
-	b_bedford = ca_militia_barracks_1
-	b_bedford = ca_barracks_1
-}
+#867.1.1 = { 
+#	b_bedford = ca_keep_1
+#	b_bedford = ca_training_grounds_1
+#	b_bedford = ca_stable_1
+#	b_bedford = ca_wall_1
+#	b_bedford = ca_wall_2
+#	b_bedford = ca_militia_barracks_1#
+#	b_bedford = ca_barracks_1
+#}

@@ -20,8 +20,8 @@ culture = irish
 religion = danuic
 
 # History
-1000.1.1 = {
-	b_knockaulin = castle
-	b_kildare = city
-}
-1337.1.1 = { b_kildare = city } 
+#1000.1.1 = {
+#	b_knockaulin = castle
+#	b_kildare = city
+#}
+#1337.1.1 = { b_kildare = city } 

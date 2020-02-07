@@ -7,20 +7,20 @@ title = c_strathearn
 max_settlements = 4
 b_crieff = tribal
 #b_auchterarder = city
-b_dunblane = temple
+#b_dunblane = temple
 
-#b_tullibardine = castle
-#b_madderty = castle
-#b_doune = castle
-#b_inchaffray = castle
-#b_kenmore = castle
+#b_tullibardine = tribal
+#b_madderty = tribal
+#b_doune = tribal
+#b_inchaffray = tribal
+#b_kenmore = tribal
 
 # Misc
 culture = pictish
 religion = brythonic
 
 # History
-1000.1.1 = {
-	b_crieff = castle
-	b_auchterarder = city
-}
+#1000.1.1 = {
+#	b_crieff = tribal
+#	b_auchterarder = city
+#}

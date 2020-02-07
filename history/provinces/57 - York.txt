@@ -10,7 +10,7 @@ b_richmond = tribal
 #b_scarborough = city
 #b_middlesbrough = temple
 #b_whitby = temple
-#b_thirsk = castle
+#b_thirsk = tribal
 
 # Misc
 culture = cumbric

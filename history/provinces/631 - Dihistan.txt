@@ -16,7 +16,7 @@ b_gasankuli = temple
 #b_kemir = castle
 
 # Misc
-culture = parthian
+culture = parthian_culture
 religion = zoroastrian
 
 # History

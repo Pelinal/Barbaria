@@ -10,11 +10,11 @@ b_crossraguel = temple
 
 #b_maybole = city
 
-#b_dunure = castle
-#b_loch_doon = castle
-#b_ballantrae = castle
-#b_culzean = castle
-#b_greenan = castle
+#b_dunure = tribal
+#b_loch_doon = tribal
+#b_ballantrae = tribal
+#b_culzean = tribal
+#b_greenan = tribal
 
 # Misc
 culture = gaelic

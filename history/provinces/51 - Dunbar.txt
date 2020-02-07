@@ -9,18 +9,18 @@ b_dunbar = tribal
 
 #b_berwick = city
 
-#b_thirlestane = castle
-b_tyninghame= temple
-#b_gordon = castle
-#b_huntly = castle
-#b_coldingham = castle
-#b_crichton = castle
+#b_thirlestane = tribal
+#b_tyninghame= temple
+#b_gordon = tribal
+#b_huntly = tribal
+#b_coldingham = tribal
+#b_crichton = tribal
 
 # Misc
 culture = pictish
 religion = brythonic
 
 # History
-867.1.1 = {
-	b_dunbar = castle
-}
+#867.1.1 = {
+#	b_dunbar = tribal
+#}

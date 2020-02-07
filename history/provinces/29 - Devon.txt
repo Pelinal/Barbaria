@@ -7,9 +7,9 @@ terrain=hills
 
 # Settlements
 max_settlements = 5
-b_lydford = castle
+b_lydford = tribal
 b_exeter = temple
-b_axminster = city
+b_axminster = tribal
 
 #b_crediton = castle
 #b_totnes = castle

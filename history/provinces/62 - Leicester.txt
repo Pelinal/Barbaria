@@ -5,15 +5,15 @@ title = c_leicester
 
 # Settlements
 max_settlements = 5
-b_leicester = castle
+b_leicester = tribal
 
-b_nottingham = city
-#b_southwell = castle
-#b_newark = castle
-#b_hucknall = castle
-#b_worksop = castle
-#b_tickhill = castle
-b_newstead = temple
+#b_nottingham = city
+#b_southwell = tribal
+#b_newark = tribal
+#b_hucknall = tribal
+#b_worksop = tribal
+#b_tickhill = tribal
+#b_newstead = temple
 
 # Misc
 culture = briton

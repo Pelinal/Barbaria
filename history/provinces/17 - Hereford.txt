@@ -5,8 +5,8 @@ title = c_hereford
 
 # Settlements
 max_settlements = 3
-b_archenfield = castle
-b_clifford = castle
+b_archenfield = tribal
+#b_clifford = castle
 #b_hereford = castle
 #b_st_ethelberts = temple
 #b_leominster = city
@@ -20,8 +20,8 @@ religion = brythonic
 
 # History
 #100.1.1 = { name = "Ergyng" }
-808.1.1 = { b_hereford = castle }
-808.1.1 = { remove_settlement = b_archenfield }
-808.1.1 = { remove_settlement = b_clifford }
-809.1.1 = { b_st_ethelberts = temple }
-809.1.1 = { b_leominster = city }
+#808.1.1 = { b_hereford = castle }
+#808.1.1 = { remove_settlement = b_archenfield }
+#808.1.1 = { remove_settlement = b_clifford }
+#809.1.1 = { b_st_ethelberts = temple }
+#809.1.1 = { b_leominster = city }

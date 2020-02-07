@@ -7,7 +7,7 @@ title = c_ormond
 max_settlements = 4
 b_waterford = tribal
 #b_nenagh = city
-b_cashel = temple
+#b_cashel = temple
 
 #b_cahir = castle
 #b_clonmel = castle
@@ -20,7 +20,7 @@ culture = irish
 religion = danuic
 
 # History
-1000.1.1 = {
-	b_waterford = castle
-	b_nenagh = city
-}
+#1000.1.1 = {
+#	b_waterford = castle
+#	b_nenagh = city
+#}

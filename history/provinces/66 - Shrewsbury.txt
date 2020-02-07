@@ -5,21 +5,21 @@ title = c_shrewsbury
 
 # Settlements
 max_settlements = 4
-b_wenlock = castle
-#b_ludlow = castle
+b_wenlock = tribal
+#b_ludlow = tribal
 #b_shrewsbury = city
-#b_clun = castle
-#b_bridgnorth = castle
-#b_oswestry = castle
-#b_whitchurch = castle
-#b_chirk = castle
+#b_clun = tribal
+#b_bridgnorth = tribal
+#b_oswestry = tribal
+#b_whitchurch = tribal
+#b_chirk = tribal
 
 # Misc
 culture = briton
 religion = brythonic
 
 # History
-808.1.1 = { b_ludlow = castle }
-808.1.1 = { remove_settlement = b_wenlock }
-810.1.1 = { b_wenlock = temple }
-811.1.1 = { b_shrewsbury = city }
+#808.1.1 = { b_ludlow = tribal }
+#808.1.1 = { remove_settlement = b_wenlock }
+#810.1.1 = { b_wenlock = temple }
+#811.1.1 = { b_shrewsbury = city }

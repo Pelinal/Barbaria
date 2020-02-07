@@ -15,8 +15,8 @@ b_ikaros = temple
 #b_ashshuaybah = city
 #b_falalheel = castle
 
-culture = bedouin_arabic
-religion = sayhadic
+culture = persian
+religion = zoroastrian
 
 
 # History

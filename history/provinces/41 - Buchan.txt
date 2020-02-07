@@ -7,13 +7,13 @@ title = c_buchan
 max_settlements = 4
 b_ellon = tribal
 #b_aberdeen = city
-b_st_machar = temple
+#b_st_machar = temple
 
-#b_banff = castle
-#b_deer = castle
-#b_kintore = castle
-#b_inverurie = castle
-#b_fyvie = castle
+#b_banff = tribal
+#b_deer = tribal
+#b_kintore = tribal
+#b_inverurie = tribal
+#b_fyvie = tribal
 
 # Misc
 culture = pictish
@@ -21,7 +21,7 @@ religion = brythonic
 terrain = hills
 
 # History
-1000.1.1 = {
-	b_ellon = castle
-	b_aberdeen = city
-}
+#1000.1.1 = {
+#	b_ellon = tribal
+#	b_aberdeen = city
+#}

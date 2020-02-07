@@ -4,7 +4,7 @@ e_spain = {
 	
 	capital = 197 # Toledo
 	
-	culture = castillan
+	culture = iberian
 
 	allow = {
 		conditional_tooltip = {
@@ -681,7 +681,7 @@ e_spain = {
 		
 		capital = 199 # Burgos
 		
-		culture = castillan
+		culture = iberian
 		
 		allow = {
 			conditional_tooltip = {
@@ -823,7 +823,7 @@ e_spain = {
 		
 		capital = 173 # Tarragona
 		
-		culture = castillan
+		culture = shapani
 		
 		allow = {
 			conditional_tooltip = {
@@ -995,7 +995,7 @@ e_spain = {
 			
 			capital = 203 # Lleida
 			
-			culture = catalan
+			culture = shapani
 
 			roman = "Tarraconensis"
 			
@@ -1213,7 +1213,7 @@ e_spain = {
 		color = { 250 250 158 }
 		capital = 152 # Navarra
 		
-		culture = basque
+		culture = vasconian
 		
 		# Creation/usurpation trigger
 		allow = {
@@ -1221,8 +1221,8 @@ e_spain = {
 				OR = {
 					ai = no
 					AND = {
-						culture = basque
-						religion_group = christian
+						culture = vasconian
+						religion_group = iberian_grp
 					}
 				}
 			}

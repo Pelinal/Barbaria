@@ -5,8 +5,8 @@ title = c_ceredigion
 
 # Settlements
 max_settlements = 4
-b_cardigan = castle
-b_llanbadarn = temple
+b_cardigan = tribal
+#b_llanbadarn = temple
 
 #b_aberystwyth = castle
 #b_aberaeron = city
@@ -20,4 +20,4 @@ religion = brythonic
 terrain = hills
 
 # History
-909.1.1 = { b_aberystwyth = castle }
+#909.1.1 = { b_aberystwyth = castle }

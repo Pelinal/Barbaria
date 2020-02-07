@@ -19,12 +19,12 @@ religion = danuic
 terrain = arctic
 
 # History
-900.1.1 = { culture = norse }
-930.1.1 = { religion = norse_pagan }
-970.1.1 = {
-	b_rost = tb_shipyard_1
-}
-1070.1.1 = {
-	b_rost = castle
-	b_rost = ca_shipyard_1
-}
+#900.1.1 = { culture = norse }
+#930.1.1 = { religion = norse_pagan }
+#970.1.1 = {
+#	b_rost = tb_shipyard_1
+#}
+#1070.1.1 = {
+#	b_rost = castle
+#	b_rost = ca_shipyard_1
+#}

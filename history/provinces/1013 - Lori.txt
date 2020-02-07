@@ -15,6 +15,6 @@ b_dzegh = city
 
 # Misc
 culture = armenian
-religion = zoroastrian
+religion = khaldic
 
 # History

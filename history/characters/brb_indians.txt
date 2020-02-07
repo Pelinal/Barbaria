@@ -443,7 +443,7 @@
 
 # 515-524
 7129 = {
-    name = "Kumara Dhatusena"
+    name = "Kumara"
     culture = sinhala
     religion = buddhist
     dynasty = 10000
@@ -559,7 +559,7 @@
 
 # 526-539
 7135 = {
-    name = "Silakala Ambosamanera"
+    name = "Silakala"
     culture = sinhala
     religion = buddhist
     dynasty = 10025
@@ -617,7 +617,7 @@
 
 # 560-561
 7138 = {
-    name = "Kittisiri Meghavanna"
+    name = "Kittisiri"
     culture = sinhala
     religion = buddhist
     dynasty = 10000
@@ -635,7 +635,7 @@
 
 # 561-564
 7139 = {
-    name = "Maha Naga"
+    name = "Mahanaga"
     culture = sinhala
     religion = buddhist
     dynasty = 10000
@@ -689,7 +689,7 @@
 
 # 608
 7142 = {
-    name = "Sangha Tissa"
+    name = "Sangha"
     culture = sinhala
     religion = buddhist
     dynasty = 10000
@@ -707,7 +707,7 @@
 
 # Future king in 623
 7143 = {
-    name = "Jettha Tissa"
+    name = "Jettha"
     culture = sinhala
     religion = buddhist
     dynasty = 10000
@@ -781,10 +781,12 @@
     632.1.1 = {
         death = { death_reason = death_drank_poison }
     }
-}# Chera kings
+}
+
+# Chera kings
 # 430-488
 7144 = {
-    name = "Kanaikkal Irumporai"
+    name = "Kanaikkal"
     culture = tamil
     religion = hindu
     dynasty = 10001
@@ -817,7 +819,7 @@
 
 # 546-604
 7146 = {
-    name = "Ko Athan Cheral Irumporai"
+    name = "Kathanchera"
     culture = tamil
     religion = hindu
     dynasty = 10001

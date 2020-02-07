@@ -90,6 +90,8 @@ SMOKE_WALKER;Smoke-Walker;;;;;;;;;;;;x
 druidic;Druidic;;;;;;;;;;;;x
 gallic;Gallic;;;;;;;;;;;;x
 gallic_reformed;Gallic;;;;;;;;;;;;x
+gallic_DESC;The Gauls practice a form of animism, ascribing human characteristics to lakes, streams, mountains, and other natural features and granting them a quasi-divine status. Also, worship of animals is not uncommon - the animal most sacred to the Gauls is the boar, which can be found on many Gallic military standards.\n\nTheir system of gods and goddesses is loose, there being certain deities which virtually every Gallic person worships, as well as tribal and household gods.\n;;;;;;;;;;;;x
+gallic_reformed_DESC;The Gauls practice a form of animism, ascribing human characteristics to lakes, streams, mountains, and other natural features and granting them a quasi-divine status. Also, worship of animals is not uncommon - the animal most sacred to the Gauls is the boar, which can be found on many Gallic military standards.\n\nTheir system of gods and goddesses is loose, there being certain deities which virtually every Gallic person worships, as well as tribal and household gods.\n;;;;;;;;;;;;x
 THE_BALLADS;The Ballads;;;;;;;;;;;;x
 DRUID;Druid;;;;;;;;;;;;x
 GOD_TEUTATES;Teutates;;;;;;;;;;;;x
@@ -230,6 +232,29 @@ punic_DESC;The religion of Carthage in North Africa is a direct continuation of 
 punic_reformed;Punic;;;;;;;;;;;;x
 punic_reformed_full;Punic Reformed;;;;;;;;;;;;x
 punic_reformed_DESC;The religion of Carthage in North Africa is a direct continuation of the Phoenician variety of the polytheistic Canaanite religion with significant local modifications. Controversy prevails regarding the possible existence and practice of propitiatory child sacrifice in the religion of Carthage.\n;;;;;;;;;;;;x
+KAHEN;Kahen;;;;;;;;;;;;x
+GOD_BAAL_HAMMON;Baal Hammon;;;;;;;;;;;;x
+GOD_TANIT;Tanit;;;;;;;;;;;;x
+GOD_ASTARTE;Astarte;;;;;;;;;;;;x
+GOD_QADESHTU;Qadeshtu;;;;;;;;;;;;x
+GOD_MELQART;Melqart;;;;;;;;;;;;x
+GOD_DAGON;Dagon;;;;;;;;;;;;x
+GOD_SHED_HORON;Shed-Horon;;;;;;;;;;;;x
+GOD_KOTHAR_WA_KHASIS;Kothar-wa-Khasis;;;;;;;;;;;;x
+GOD_ESHMUN;Eshmun;;;;;;;;;;;;x
+GOD_HADAD;Baal Hadad;;;;;;;;;;;;x
+GOD_BAAL;Baal;;;;;;;;;;;;x
+GOD_EL;El;;;;;;;;;;;;x
+THE_BAAL_TEXTS;The Baal Cycle;;;;;;;;;;;;x
+MOT;Mot;;;;;;;;;;;;x
+RESHEPH;Reshef;;;;;;;;;;;;x
+MOLOCH;Moloch;;;;;;;;;;;;x
+LOTAN;Lotan;;;;;;;;;;;;x
+YAM;Yam;;;;;;;;;;;;x
+ELOH_ARAPHEL;Eloh Araphel;;;;;;;;;;;;x
+GOD_ANAT;Anat;;;;;;;;;;;;x
+GOD_ASHERAH;Asherah;;;;;;;;;;;;x
+GOD_BAALAT_GABAL;Baalat Gabal;;;;;;;;;;;;x
 nabataean;Nabataean;;;;;;;;;;;;x
 nabataean_reformed;Nabataean;;;;;;;;;;;;x
 nabataean_full;Nabataean;;;;;;;;;;;;x
@@ -268,6 +293,11 @@ THE_BETYLITIC_TEXTS;The Betylitic Texts;;;;;;;;;;;;x
 KAHIN;Kahin;;;;;;;;;;;;x
 AFKAL;Afkal;;;;;;;;;;;;x
 MONSTER_BAHAMUT;Bahamut;Bahamut;;;;;;;;;;x
+GOD_THE_SON;The Son;;;;;;;;;;;;x
+jesuit;Jesuit;;;;;;;;;;;;x
+jesuit;Jesuits are a branch of Christianity that takes the belief of Jesus Christ's link to god a step further. Followers of the Jesuit faith believe that Jesus is infact God-incarnate and that the supreme creator of all was infact Jesus.\n;;;;;;;;;;;;x
+christian;Christian;;;;;;;;;;;;x
+christian_DESC;Christianity is an obscure Oriental religion that arose due to increased popularity of the idea that Jesus Christ, a 1st Century carpenter, was actually the son of a divine being known simply as God.\n;;;;;;;;;;;;x
 
 ##= Gnostic Group =##
 gnostic_grp;Gnostic;;;;;;;;;;;;x
@@ -292,6 +322,7 @@ italic_DESC;The people of the Italian Peninsula are highly religious, and attrib
 mithraic;Mithraic;;;;;;;;;;;;x
 mithraic_full;Mithraic;;;;;;;;;;;;x
 mithraic_DESC;The Mithraic Mysteries, also known as Mithraism, are a mystery cult centred around Pontus where followers worship the Indo-Iranian deity Mithras as the god of friendship, contract, order and the Sun. It can be considered henotheistic as the followers of Mithras acknowledge the other Greek dieties as lesser spirits.\n;;;;;;;;;;;;x
+CRONUS;Cronus;;;;;;;;;;;;x
 GOD_ZEUS;Zeus;;;;;;;;;;;;x
 GOD_HERA;Hera;;;;;;;;;;;;x
 GOD_HADES;Hades;;;;;;;;;;;;x
