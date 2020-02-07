@@ -5,12 +5,12 @@ title = c_surrey
 
 # Settlements
 max_settlements = 4
-b_lambeth = castle
+b_lambeth = tribal
 
 #b_farnham = castle
 #b_guildford = castle
 b_southwark = temple
-b_woking = city
+#b_woking = city
 #b_chertsey = castle
 #b_waverley = castle
 #b_croydon = castle

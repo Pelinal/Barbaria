@@ -8,12 +8,12 @@ max_settlements = 3
 b_appleby = tribal
 
 #b_lowther = city
-#b_kendal = castle
+#b_kendal = tribal
 #b_cartmel = temple
-#b_brough = castle
-#b_kirkby = castle
-#b_shap = castle
-#b_brougham = castle
+#b_brough = tribal
+#b_kirkby = tribal
+#b_shap = tribal
+#b_brougham = tribal
 
 # Misc
 culture = cumbric

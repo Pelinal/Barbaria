@@ -6,8 +6,8 @@ title = c_cornwall
 # Settlements
 max_settlements = 4
 
-b_tintagel = castle
-b_bodmin = city
+b_tintagel = tribal
+#b_bodmin = city
 b_st_germans = temple
 
 #b_launceston = castle

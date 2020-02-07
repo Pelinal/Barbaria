@@ -5,10 +5,10 @@ title = c_middlesex
 
 # Settlements
 max_settlements = 6
-b_westminster = castle
-b_london = city
-b_st_pauls = temple
-b_tottenham = castle
+b_westminster = tribal
+b_london = temple
+#b_st_pauls = temple
+#b_tottenham = castle
 #b_fulham = castle
 #b_staines = castle
 #b_harrow = castle
@@ -20,4 +20,4 @@ religion = brythonic
 
 
 # History
-987.1.1 = { b_fulham = castle } 
+#987.1.1 = { b_fulham = castle } 

@@ -16,7 +16,7 @@ b_sabzevar = city
 #b_shamat = castle
 
 # Misc
-culture = parthian
+culture = parthian_culture
 religion = zoroastrian
 
 # History

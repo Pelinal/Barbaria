@@ -7,21 +7,21 @@ title = c_atholl
 max_settlements = 3
 b_blair_atholl = tribal
 #b_pitlochry = city
-b_fortingall = temple
+#b_fortingall = temple
 
-#b_glen_dochart = castle
-#b_grandtully = castle
-#b_rannoch = castle
-#b_strathardle = castle
-#b_struan = castle
-#b_anthrachs = castle
+#b_glen_dochart = tribal
+#b_grandtully = tribal
+#b_rannoch = tribal
+#b_strathardle = tribal
+#b_struan = tribal
+#b_anthrachs = tribal
 
 # Misc
 culture = pictish
 religion = brythonic
 
 # History
-1000.1.1 = {
-	b_blair_atholl = castle
-	b_pitlochry = city
-}
+#1000.1.1 = {
+#	b_blair_atholl = tribal
+#	b_pitlochry = city
+#}

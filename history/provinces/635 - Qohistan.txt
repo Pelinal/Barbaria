@@ -16,7 +16,7 @@ b_gonabad = temple
 #b_fariman = castle
 
 # Misc
-culture = parthian
+culture = parthian_culture
 religion = zoroastrian
 
 # History

@@ -4,10 +4,11 @@
 title = c_wiltshire
 
 # Settlements
-max_settlements = 4
-b_wilton = castle
+max_settlements = 6
+b_wilton = temple
 b_ramsbury = temple
-b_sarum = city
+b_sarum = tribal
+b_sarum = tribal
 
 #b_salisbury = temple
 #b_malmesbury = castle

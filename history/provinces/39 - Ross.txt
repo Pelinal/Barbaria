@@ -6,14 +6,14 @@ title = c_ross
 # Settlements
 max_settlements = 4
 b_tain = tribal
-b_rosemarkie = temple
+#b_rosemarkie = temple
 
 #b_dingwall = city
-#b_fortrose = castle
-#b_fearn = castle
-#b_applecross = castle
-#b_cromarty = castle
-#b_avoch = castle
+#b_fortrose = tribal
+#b_fearn = tribal
+#b_applecross = tribal
+#b_cromarty = tribal
+#b_avoch = tribal
 
 # Misc
 culture = pictish
@@ -21,6 +21,6 @@ religion = brythonic
 terrain = hills
 
 # History
-1000.1.1 = {
-	b_tain = castle
-}
+#1000.1.1 = {
+#	b_tain = tribal
+#}

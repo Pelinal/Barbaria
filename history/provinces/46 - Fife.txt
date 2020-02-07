@@ -7,29 +7,30 @@ title = c_fife
 max_settlements = 4
 b_cupar = tribal
 #b_dunfermline = city
+b_st_andrews = tribal
 b_st_andrews = temple
 
-#b_leuchars = castle
-#b_kirkcaldy = castle
-#b_kinross = castle
-#b_lochore = castle
-#b_falkland = castle
+#b_leuchars = tribal
+#b_kirkcaldy = tribal
+#b_kinross = tribal
+#b_lochore = tribal
+#b_falkland = tribal
 
 # Misc
 culture = pictish
 religion = brythonic
 
 # History
-1000.1.1 = {
-	b_cupar = castle
-	b_dunfermline = city
-}
-1066.1.1 = { 
-	b_cupar = ca_keep_1
-	b_cupar = ca_training_grounds_1
-	b_cupar = ca_stable_1
-	b_cupar = ca_stable_2
-	b_cupar = ca_wall_1
-	b_cupar = ca_wall_2
-}
-1187.1.1 = { b_lochore = castle }
+#1000.1.1 = {
+#	b_cupar = tribal
+#	b_dunfermline = city
+#}
+#1066.1.1 = { 
+#	b_cupar = ca_keep_1
+#	b_cupar = ca_training_grounds_1
+#	b_cupar = ca_stable_1
+#	b_cupar = ca_stable_2
+#	b_cupar = ca_wall_1
+#	b_cupar = ca_wall_2
+#}
+#1187.1.1 = { b_lochore = tribal }

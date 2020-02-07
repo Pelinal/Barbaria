@@ -1,4 +1,4 @@
 590.1.1 = {
-	liege = k_scotland
+	liege = k_pictland
 	holder = 3094
 }

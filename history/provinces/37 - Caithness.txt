@@ -6,7 +6,7 @@ title = c_caithness
 # Settlements
 max_settlements = 3
 b_thurso = tribal
-b_dornoch = temple
+#b_dornoch = temple
 
 #b_dunrobin = castle
 #b_golspie = castle
@@ -21,6 +21,3 @@ religion = brythonic
 terrain = hills
 
 # History
-1030.1.1= {
-	b_thurso = castle
-}

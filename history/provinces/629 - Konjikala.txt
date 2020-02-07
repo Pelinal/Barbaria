@@ -15,7 +15,7 @@ b_abiward = temple
 #b_sarahs = castle
 
 # Misc
-culture = dahae
+culture = parthian_culture
 religion = zoroastrian
 
 # History

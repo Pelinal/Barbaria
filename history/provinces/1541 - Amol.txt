@@ -11,7 +11,7 @@ b_zamm = castle
 #b_akhsisak = city
 
 # Misc
-culture = dahae
+culture = bactrian
 religion = zoroastrian
 
 # History

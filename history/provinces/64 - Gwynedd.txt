@@ -5,13 +5,13 @@ title = c_gwynedd
 
 # Settlements
 max_settlements = 5
-b_degannwy = castle
-b_bangor_fawr = temple
-b_caernarfon = city
+b_degannwy = tribal
+#b_bangor_fawr = temple
+#b_caernarfon = city
 
-#b_abergwyngregyn = castle
-#b_harlech = castle
-#b_conwy = castle
+#b_abergwyngregyn = tribal
+#b_harlech = tribal
+#b_conwy = tribal
 #b_llanrhos = temple
 
 # Misc
@@ -20,15 +20,15 @@ religion = brythonic
 terrain = hills
 
 # History
-959.1.1 = { b_conwy = castle }
-1015.1.1 = { 
-	b_abergwyngregyn = castle
-	capital = b_abergwyngregyn
-}
-1063.1.1 = {
-	remove_settlement = b_degannwy
-}#castle destroyed
-1086.1.1 = {
-	max_settlements = 6
-	b_harlech = castle
-}
+#959.1.1 = { b_conwy = tribal }
+#1015.1.1 = { 
+#	b_abergwyngregyn = tribal
+#	capital = b_abergwyngregyn
+#}
+#1063.1.1 = {
+#	remove_settlement = b_degannwy
+#}#tribal destroyed
+#1086.1.1 = {
+#	max_settlements = 6
+#	b_harlech = tribal
+#}

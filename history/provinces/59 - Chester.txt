@@ -5,15 +5,15 @@ title = c_chester
 
 # Settlements
 max_settlements = 4
-b_chester = castle
+b_chester = tribal
 
 b_halton = temple
-#b_malpas = castle
-#b_northwich = castle
-#b_beeston = castle
-b_macclesfield = city
-#b_sandbach = castle
-#b_nantwich = castle
+#b_malpas = tribal
+#b_northwich = tribal
+#b_beeston = tribal
+#b_macclesfield = city
+#b_sandbach = tribal
+#b_nantwich = tribal
 
 # Misc
 culture = briton

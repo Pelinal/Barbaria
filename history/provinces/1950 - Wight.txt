@@ -5,7 +5,7 @@ title = c_wight
 
 # Settlements
 max_settlements = 3
-b_carisbrooke = castle
+b_carisbrooke = tribal
 b_bonchurch = temple
 
 #b_newport_wight = city

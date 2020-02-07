@@ -5,9 +5,9 @@ title = c_anglesey
 
 # Settlements
 max_settlements = 4
-b_aberffraw = castle
+b_aberffraw = tribal
 b_llanfaes = temple
-b_holyhead = city
+b_holyhead = temple
 
 #b_llangefni = temple
 #b_benllech = city
@@ -20,6 +20,6 @@ religion = brythonic
 terrain = hills
 
 # History
-1095.1.1 = {
-	b_beaumaris = castle
-}
+#1095.1.1 = {
+#	b_beaumaris = castle
+#}

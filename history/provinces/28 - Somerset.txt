@@ -5,9 +5,9 @@ title = c_somerset
 
 # Settlements
 max_settlements = 4
-b_taunton = castle
-b_glastonbury = temple
-b_ilchester = city
+b_taunton = tribal
+#b_glastonbury = temple
+#b_ilchester = city
 
 #b_muchelney = castle
 #b_castle_cary = castle

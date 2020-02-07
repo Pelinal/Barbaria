@@ -7,12 +7,12 @@ title = c_lancaster
 max_settlements = 4
 b_lancaster = tribal
 
-#b_salford = castle
+b_salford = tribal
 #b_preston = city
-#b_sawley = castle
-b_furness = temple
-#b_gisburn = castle
-#b_clitheroe = castle
+#b_sawley = tribal
+#b_furness = temple
+#b_gisburn = tribal
+#b_clitheroe = tribal
 
 # Misc
 culture = cumbric

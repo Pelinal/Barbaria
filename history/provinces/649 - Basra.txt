@@ -15,9 +15,8 @@ b_mohammera = castle
 #b_kalaatderat = temple
 #b_qurna = castle
 
-culture = sumerian
-religion = chaldean
+culture = persian
+religion = zoroastrian
 
 # History
-850.1.1 = { religion = zoroastrian}
-923.1.1 = { b_arah = castle } 
+760.1.1 = { b_arah = castle } 

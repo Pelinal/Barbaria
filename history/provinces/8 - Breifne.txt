@@ -7,7 +7,7 @@ title = c_breifne
 max_settlements = 3
 b_dromahair = tribal
 #b_cavan = city
-b_kells = temple
+#b_kells = temple
 
 #b_kilmore = temple
 #b_longford = castle
@@ -20,7 +20,4 @@ culture = irish
 religion = danuic
 
 # History
-1000.1.1 = {
-	b_dromahair = castle
-	b_cavan = city
-}
+

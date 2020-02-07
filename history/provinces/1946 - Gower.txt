@@ -5,9 +5,9 @@ title = c_gower
 
 # Settlements
 max_settlements = 4
-b_dinefwr = castle
-b_llandeilo = temple
-b_carmarthen = city
+b_dinefwr = tribal
+#b_llandeilo = temple
+#b_carmarthen = city
 
 #b_kidwelly = castle
 #b_swansea = city

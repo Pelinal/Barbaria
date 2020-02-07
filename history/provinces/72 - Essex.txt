@@ -5,15 +5,15 @@ title = c_essex
 
 # Settlements
 max_settlements = 5
-b_colchester = castle
+b_colchester = tribal
 
-b_maldon = city
-b_waltham = temple
-#b_havering = castle
-#b_barking = castle
-#b_pleshey = castle
-#b_hedingham = castle
-#b_dunmow = castle
+#b_maldon = city
+#b_waltham = temple
+#b_havering = tribal
+#b_barking = tribal
+#b_pleshey = tribal
+#b_hedingham = tribal
+#b_dunmow = tribal
 
 # Misc
 culture = briton

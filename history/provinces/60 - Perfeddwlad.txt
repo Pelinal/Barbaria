@@ -5,15 +5,15 @@ title = c_perfeddwlad
 
 # Settlements
 max_settlements = 3
-b_rhuddlan = castle
+b_rhuddlan = tribal
 
-b_denbigh = city
-b_llanelwy = temple
-#b_flint = castle
-#b_ruthin = castle
+#b_denbigh = city
+#b_llanelwy = temple
+#b_flint = tribal
+#b_ruthin = tribal
 #b_basingwerk = temple
-#b_ewloe = castle
-#b_hawarden = castle
+#b_ewloe = tribal
+#b_hawarden = tribal
 
 # Misc
 culture = briton

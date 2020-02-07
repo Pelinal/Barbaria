@@ -9,19 +9,19 @@ b_stirling = tribal
 
 #b_edinburgh = city
 
-#b_stow_of_wedale = castle
-#b_linlithgow = castle
-#b_falkirk = castle
-b_abercorn = temple
-#b_leith = castle
-#b_torphichen = castle
+#b_stow_of_wedale = tribal
+#b_linlithgow = tribal
+#b_falkirk = tribal
+b_abercorn = tribal
+#b_leith = tribal
+#b_torphichen = tribal
 
 # Misc
 culture = pictish
 religion = brythonic
 
 # History
-867.1.1 = {
-	b_stirling = castle
-}
-1050.1.1 = { b_stow_of_wedale = castle } 
+#867.1.1 = {
+#	b_stirling = tribal
+#}
+#1050.1.1 = { b_stow_of_wedale = tribal } 

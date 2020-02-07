@@ -12,6 +12,6 @@ b_khertvisi = castle
 
 # Misc
 culture = armenian
-religion = armazic
+religion = khaldic
 
 # History

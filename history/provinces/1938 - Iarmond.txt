@@ -6,7 +6,7 @@ title = c_iarmond
 # Settlements
 max_settlements = 3
 b_cahersiveen = tribal
-b_innisfallen = temple
+#b_innisfallen = temple
 #b_killarney = city
 
 #b_ross = castle
@@ -19,8 +19,4 @@ culture = irish
 religion = danuic
 
 # History
-1000.1.1 = {
-	b_cahersiveen = castle
-	b_killarney = city
-	max_settlements = 4
-}
+#

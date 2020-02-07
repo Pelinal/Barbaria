@@ -12,7 +12,7 @@ b_paykand = temple
 
 
 # Misc
-culture = dahae
+culture = bactrian
 religion = zoroastrian
 terrain = steppe
 

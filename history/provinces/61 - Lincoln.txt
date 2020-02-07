@@ -5,14 +5,14 @@ title = c_lincoln
 
 # Settlements
 max_settlements = 5
-b_gainsborough = castle
-b_lincoln = temple
-b_boston = city
-#b_spalding = castle
-#b_stamford = castle
-#b_grantham = castle
-#b_louth = castle
-#b_bardney = castle
+b_gainsborough = tribal
+#b_lincoln = temple
+#b_boston = city
+#b_spalding = tribal
+#b_stamford = tribal
+#b_grantham = tribal
+#b_louth = tribal
+#b_bardney = tribal
 
 # Misc
 culture = briton

@@ -10,11 +10,11 @@ b_rushen = tribal
 #b_peel = temple
 #b_douglas = city
 
-#b_maughold = castle
-#b_kirk_michael = castle
-#b_sulby = castle
-#b_inis_patraic = castle
-#b_laxey = castle
+#b_maughold = tribal
+#b_kirk_michael = tribal
+#b_sulby = tribal
+#b_inis_patraic = tribal
+#b_laxey = tribal
 
 # Misc
 terrain = hills
@@ -22,3 +22,6 @@ culture = gaelic
 religion = brythonic
 
 # History
+1.1.1 = {
+	name = "Manavia"
+}

@@ -8,12 +8,12 @@ max_settlements = 3
 b_burgh = tribal
 
 b_carlisle = temple
-#b_gilsland = castle
-b_penrith = tribal
-#b_egremont = castle
-#b_cockermouth = castle
-#b_papcastlet = castle
-#b_dacre = castle
+#b_gilsland = tribal
+#b_penrith = tribal
+#b_egremont = tribal
+#b_cockermouth = tribal
+#b_paptribalt = tribal
+#b_dacre = tribal
 
 # Misc
 culture = cumbric

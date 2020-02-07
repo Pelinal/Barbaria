@@ -9,11 +9,11 @@ b_durham = tribal
 #b_st_cuthbert = temple
 #b_hartlepool = city
 
-#b_gateshead = castle
+#b_gateshead = tribal
 #b_chester-le-street = temple
 #b_jarrow = temple
-#b_auckland = castle
-#b_raby = castle
+#b_auckland = tribal
+#b_raby = tribal
 
 # Misc
 culture = cumbric
