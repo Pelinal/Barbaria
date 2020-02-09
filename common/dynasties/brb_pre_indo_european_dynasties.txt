@@ -1,51 +1,41 @@
 #Nuragic; 2790 - 2799
-#### = {
-	name = ""
+2790 = {
+	name = "Punicus"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2791 = {
+	name = "Orisa"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2792 = {
+	name = "Nisuna"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2793 = {
+	name = "Gargoridii"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2794 = {
+	name = "Culcida"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2795 = {
+	name = "Iscerbela"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2796 = {
+	name = "Lagunidii"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2797 = {
+	name = "Mandona"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2798 = {
+	name = "Umarilus"
 	culture = "nuragic"
-	religion = "punic"
 }
-#### = {
-	name = ""
+2799 = {
+	name = "Tiresidi"
 	culture = "nuragic"
-	religion = "punic"
 }

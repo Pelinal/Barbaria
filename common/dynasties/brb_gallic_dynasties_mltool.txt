@@ -1,0 +1,1256 @@
+# IDs 2500 - 2749
+
+#Armorican; 2500 - 2509
+2500 = {
+	name = "Ambonus"
+	culture = "armorican"
+	religion = "gallic"
+}
+2501 = {
+	name = "Auarosa"
+	culture = "armorican"
+	religion = "gallic"
+}
+2502 = {
+	name = "Audaxii"
+	culture = "armorican"
+	religion = "gallic"
+}
+2503 = {
+	name = "Carosus"
+	culture = "armorican"
+	religion = "gallic"
+}
+2504 = {
+	name = "Culcha"
+	culture = "armorican"
+	religion = "gallic"
+}
+2505 = {
+	name = "Leuki"
+	culture = "armorican"
+	religion = "gallic"
+}
+2506 = {
+	name = "Mandonus"
+	culture = "armorican"
+	religion = "gallic"
+}
+2507 = {
+	name = "Punica"
+	culture = "armorican"
+	religion = "gallic"
+}
+2508 = {
+	name = "Tautalii"
+	culture = "armorican"
+	religion = "gallic"
+}
+2509 = {
+	name = "Correius"
+	culture = "armorican"
+	religion = "gallic"
+}
+
+#Noric; 2510 - 2519
+2510 = {
+	name = "Divica"
+	culture = "noric"
+	religion = "gallic"
+}
+2511 = {
+	name = "Duratii"
+	culture = "noric"
+	religion = "gallic"
+}
+2512 = {
+	name = "Elitovus"
+	culture = "noric"
+	religion = "gallic"
+}
+2513 = {
+	name = "Galba"
+	culture = "noric"
+	religion = "gallic"
+}
+2514 = {
+	name = "Iaci"
+	culture = "noric"
+	religion = "gallic"
+}
+2515 = {
+	name = "Marganus"
+	culture = "noric"
+	religion = "gallic"
+}
+2516 = {
+	name = "Sinata"
+	culture = "noric"
+	religion = "gallic"
+}
+2517 = {
+	name = "Vodenosii"
+	culture = "noric"
+	religion = "gallic"
+}
+2518 = {
+	name = "Indutius"
+	culture = "noric"
+	religion = "gallic"
+}
+2519 = {
+	name = "Dumna"
+	culture = "noric"
+	religion = "gallic"
+}
+
+#Celto-Pannonian; 2520 - 2529
+2520 = {
+	name = "Epatticii"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2521 = {
+	name = "Teutomalus"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2522 = {
+	name = "Viridorria"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2523 = {
+	name = "Mangunnii"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2524 = {
+	name = "Brennus"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2525 = {
+	name = "Boia"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2526 = {
+	name = "Tanni"
+	culture =	"celto_pannonian"
+	religion = "gallic"
+}
+2527 = {
+	name = "Iccuius"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2528 = {
+	name = "Galana"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+2529 = {
+	name = "Ambonii"
+	culture = "celto_pannonian"
+	religion = "gallic"
+}
+
+#Galatian; 2530 - 2539
+2530 = {
+	name = "Auaroses"
+	culture = "galatian"
+	religion = "gallic"
+}
+2531 = {
+	name = "Audaxa"
+	culture = "galatian"
+	religion = "gallic"
+}
+2532 = {
+	name = "Carosii"
+	culture = "galatian"
+	religion = "gallic"
+}
+2533 = {
+	name = "Culchus"
+	culture = "galatian"
+	religion = "gallic"
+}
+2534 = {
+	name = "Leuka"
+	culture = "galatian"
+	religion = "gallic"
+}
+2535 = {
+	name = "Mandonii"
+	culture = "galatian"
+	religion = "gallic"
+}
+2536 = {
+	name = "Punicus"
+	culture = "galatian"
+	religion = "gallic"
+}
+2537 = {
+	name = "Tautala"
+	culture = "galatian"
+	religion = "gallic"
+}
+2538 = {
+	name = "Correid"
+	culture = "galatian"
+	religion = "gallic"
+}
+2539 = {
+	name = "Divicus"
+	culture = "galatian"
+	religion = "gallic"
+}
+
+#Gaulish; 2540 - 2599
+2540 = {
+	name = "Gergovi"
+	culture = "gaulish"
+	religion = "gallic"
+	used_for_random = no
+}
+2541 = {
+	name = "Boi"
+	culture = "gaulish"
+	religion = "gallic"
+	used_for_random = no
+}
+2542 = {
+	name = "Durata"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2543 = {
+	name = "Elitovii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2544 = {
+	name = "Galbus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2545 = {
+	name = "Iaca"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2546 = {
+	name = "Marganii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2547 = {
+	name = "Sinatus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2548 = {
+	name = "Vodenosa"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2549 = {
+	name = "Indutii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2550 = {
+	name = "Dumnus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2551 = {
+	name = "Epattica"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2552 = {
+	name = "Teutomalii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2553 = {
+	name = "Viridorrius"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2554 = {
+	name = "Mangunna"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2555 = {
+	name = "Brennii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2556 = {
+	name = "Boius"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2557 = {
+	name = "Tanna"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2558 = {
+	name = "Iccui"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2559 = {
+	name = "Galanus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2560 = {
+	name = "Ambona"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2561 = {
+	name = "Auarosii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2562 = {
+	name = "Audaxus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2563 = {
+	name = "Carosa"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2564 = {
+	name = "Culchi"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2565 = {
+	name = "Leukus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2566 = {
+	name = "Mandonia"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2567 = {
+	name = "Punici"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2568 = {
+	name = "Tautalus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2569 = {
+	name = "Correia"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2570 = {
+	name = "Divici"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2571 = {
+	name = "Duratus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2572 = {
+	name = "Elitova"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2573 = {
+	name = "Galbi"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2574 = {
+	name = "Iacus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2575 = {
+	name = "Margana"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2576 = {
+	name = "Sinatii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2577 = {
+	name = "Vodenosus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2578 = {
+	name = "Indutia"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2579 = {
+	name = "Dumnii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2580 = {
+	name = "Epatticus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2581 = {
+	name = "Teutomala"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2582 = {
+	name = "Viridorii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2583 = {
+	name = "Magunnus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2584 = {
+	name = "Brenna"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2585 = {
+	name = "Tannus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2586 = {
+	name = "Iccuia"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2587 = {
+	name = "Galanii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2588 = {
+	name = "Ambonus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2589 = {
+	name = "Auarosa"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2590 = {
+	name = "Audaxii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2591 = {
+	name = "Carosus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2592 = {
+	name = "Culcha"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2593 = {
+	name = "Leuki"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2594 = {
+	name = "Mandonus"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2595 = {
+	name = "Punica"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2596 = {
+	name = "Tautalii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2597 = {
+	name = "Correius"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2598 = {
+	name = "Divica"
+	culture = "gaulish"
+	religion = "gallic"
+}
+2599 = {
+	name = "Duratii"
+	culture = "gaulish"
+	religion = "gallic"
+}
+
+#Belgic; 2600 - 2649
+
+2600 = {
+	name = "Durata"
+	culture = "belgic"
+	religion = "gallic"
+}
+2601 = {
+	name = "Elitovii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2602 = {
+	name = "Galbus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2603 = {
+	name = "Iaca"
+	culture = "belgic"
+	religion = "gallic"
+}
+2604 = {
+	name = "Marganii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2605 = {
+	name = "Sinatus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2606 = {
+	name = "Vodenosa"
+	culture = "belgic"
+	religion = "gallic"
+}
+2607 = {
+	name = "Indutii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2608 = {
+	name = "Dumnus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2609 = {
+	name = "Epattica"
+	culture = "belgic"
+	religion = "gallic"
+}
+2610 = {
+	name = "Teutomalii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2611 = {
+	name = "Viridorrius"
+	culture = "belgic"
+	religion = "gallic"
+}
+2612 = {
+	name = "Mangunna"
+	culture = "belgic"
+	religion = "gallic"
+}
+2613 = {
+	name = "Brennii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2614 = {
+	name = "Boius"
+	culture = "belgic"
+	religion = "gallic"
+}
+2615 = {
+	name = "Tanna"
+	culture = "belgic"
+	religion = "gallic"
+}
+2616 = {
+	name = "Iccui"
+	culture = "belgic"
+	religion = "gallic"
+}
+2617 = {
+	name = "Galanus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2618 = {
+	name = "Ambona"
+	culture = "belgic"
+	religion = "gallic"
+}
+2619 = {
+	name = "Auarosii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2620 = {
+	name = "Audaxus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2621 = {
+	name = "Carosa"
+	culture = "belgic"
+	religion = "gallic"
+}
+2622 = {
+	name = "Culchi"
+	culture = "belgic"
+	religion = "gallic"
+}
+2623 = {
+	name = "Leukus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2624 = {
+	name = "Mandonia"
+	culture = "belgic"
+	religion = "gallic"
+}
+2625 = {
+	name = "Punici"
+	culture = "belgic"
+	religion = "gallic"
+}
+2626 = {
+	name = "Tautalus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2627 = {
+	name = "Correia"
+	culture = "belgic"
+	religion = "gallic"
+}
+2628 = {
+	name = "Divici"
+	culture = "belgic"
+	religion = "gallic"
+}
+2629 = {
+	name = "Duratus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2630 = {
+	name = "Elitova"
+	culture = "belgic"
+	religion = "gallic"
+}
+2631 = {
+	name = "Galbi"
+	culture = "belgic"
+	religion = "gallic"
+}
+2632 = {
+	name = "Iacus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2633 = {
+	name = "Margana"
+	culture = "belgic"
+	religion = "gallic"
+}
+2634 = {
+	name = "Sinatii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2635 = {
+	name = "Vodenosus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2636 = {
+	name = "Indutia"
+	culture = "belgic"
+	religion = "gallic"
+}
+2637 = {
+	name = "Dumnii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2638 = {
+	name = "Epatticus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2639 = {
+	name = "Teutomala"
+	culture = "belgic"
+	religion = "gallic"
+}
+2640 = {
+	name = "Viridorii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2641 = {
+	name = "Magunnus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2642 = {
+	name = "Brenna"
+	culture = "belgic"
+	religion = "gallic"
+}
+2643 = {
+	name = "Tannus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2644 = {
+	name = "Iccuia"
+	culture = "belgic"
+	religion = "gallic"
+}
+2645 = {
+	name = "Galanii"
+	culture = "belgic"
+	religion = "gallic"
+}
+2646 = {
+	name = "Ambonus"
+	culture = "belgic"
+	religion = "gallic"
+}
+2647 = {
+	name = "Auarosa"
+	culture = "belgic"
+	religion = "gallic"
+}
+
+#Celtiberian; 2650 - 2699
+2648 = {
+	name = "Gallacei"
+	culture = "celtiberian"
+}
+2649 = {
+	name = "Coblata"
+	culture = "celtiberian"
+}
+2650 = {
+	name = "Durata"
+	culture = "celtiberian"
+	
+}
+2651 = {
+	name = "Elitovii"
+	culture = "celtiberian"
+	
+}
+2652 = {
+	name = "Galbus"
+	culture = "celtiberian"
+	
+}
+2653 = {
+	name = "Iaca"
+	culture = "celtiberian"
+	
+}
+2654 = {
+	name = "Marganii"
+	culture = "celtiberian"
+	
+}
+2655 = {
+	name = "Sinatus"
+	culture = "celtiberian"
+	
+}
+2656 = {
+	name = "Vodenosa"
+	culture = "celtiberian"
+	
+}
+2657 = {
+	name = "Indutii"
+	culture = "celtiberian"
+	
+}
+2658 = {
+	name = "Dumnus"
+	culture = "celtiberian"
+	
+}
+2659 = {
+	name = "Epattica"
+	culture = "celtiberian"
+	
+}
+2660 = {
+	name = "Teutomalii"
+	culture = "celtiberian"
+	
+}
+2661 = {
+	name = "Viridorrius"
+	culture = "celtiberian"
+	
+}
+2662 = {
+	name = "Mangunna"
+	culture = "celtiberian"
+	
+}
+2663 = {
+	name = "Brennii"
+	culture = "celtiberian"
+	
+}
+2664 = {
+	name = "Boius"
+	culture = "celtiberian"
+	
+}
+2665 = {
+	name = "Tanna"
+	culture = "celtiberian"
+	
+}
+2666 = {
+	name = "Iccui"
+	culture = "celtiberian"
+	
+}
+2667 = {
+	name = "Galanus"
+	culture = "celtiberian"
+	
+}
+2668 = {
+	name = "Ambona"
+	culture = "celtiberian"
+	
+}
+2669 = {
+	name = "Auarosii"
+	culture = "celtiberian"
+	
+}
+2670 = {
+	name = "Audaxus"
+	culture = "celtiberian"
+	
+}
+2671 = {
+	name = "Carosa"
+	culture = "celtiberian"
+	
+}
+2672 = {
+	name = "Culchi"
+	culture = "celtiberian"
+	
+}
+2673 = {
+	name = "Leukus"
+	culture = "celtiberian"
+	
+}
+2674 = {
+	name = "Mandonia"
+	culture = "celtiberian"
+	
+}
+2675 = {
+	name = "Punici"
+	culture = "celtiberian"
+	
+}
+2676 = {
+	name = "Tautalus"
+	culture = "celtiberian"
+	
+}
+2677 = {
+	name = "Correia"
+	culture = "celtiberian"
+	
+}
+2678 = {
+	name = "Divici"
+	culture = "celtiberian"
+	
+}
+2679 = {
+	name = "Duratus"
+	culture = "celtiberian"
+	
+}
+2680 = {
+	name = "Elitova"
+	culture = "celtiberian"
+	
+}
+2681 = {
+	name = "Galbi"
+	culture = "celtiberian"
+	
+}
+2682 = {
+	name = "Iacus"
+	culture = "celtiberian"
+	
+}
+2683 = {
+	name = "Margana"
+	culture = "celtiberian"
+	
+}
+2684 = {
+	name = "Sinatii"
+	culture = "celtiberian"
+	
+}
+2685 = {
+	name = "Vodenosus"
+	culture = "celtiberian"
+	
+}
+2686 = {
+	name = "Indutia"
+	culture = "celtiberian"
+	
+}
+2687 = {
+	name = "Dumnii"
+	culture = "celtiberian"
+	
+}
+2688 = {
+	name = "Epatticus"
+	culture = "celtiberian"
+	
+}
+2689 = {
+	name = "Teutomala"
+	culture = "celtiberian"
+	
+}
+2690 = {
+	name = "Viridorii"
+	culture = "celtiberian"
+	
+}
+2691 = {
+	name = "Magunnus"
+	culture = "celtiberian"
+	
+}
+2692 = {
+	name = "Brenna"
+	culture = "celtiberian"
+	
+}
+2693 = {
+	name = "Tannus"
+	culture = "celtiberian"
+	
+}
+2694 = {
+	name = "Iccuia"
+	culture = "celtiberian"
+	
+}
+2695 = {
+	name = "Galanii"
+	culture = "celtiberian"
+	
+}
+2696 = {
+	name = "Ambonus"
+	culture = "celtiberian"
+	
+}
+2697 = {
+	name = "Auarosa"
+	culture = "celtiberian"
+	
+}
+
+#Helvetian; 2700 - 2749
+2698 = {
+	name = "Gallacei"
+	culture = "helvetian"
+}
+2699 = {
+	name = "Coblata"
+	culture = "helvetian"
+}
+2700 = {
+	name = "Durata"
+	culture = "helvetian"
+	
+}
+2701 = {
+	name = "Elitovii"
+	culture = "helvetian"
+	
+}
+2702 = {
+	name = "Galbus"
+	culture = "helvetian"
+	
+}
+2703 = {
+	name = "Iaca"
+	culture = "helvetian"
+	
+}
+2704 = {
+	name = "Marganii"
+	culture = "helvetian"
+	
+}
+2705 = {
+	name = "Sinatus"
+	culture = "helvetian"
+	
+}
+2706 = {
+	name = "Vodenosa"
+	culture = "helvetian"
+	
+}
+2707 = {
+	name = "Indutii"
+	culture = "helvetian"
+	
+}
+2708 = {
+	name = "Dumnus"
+	culture = "helvetian"
+	
+}
+2709 = {
+	name = "Epattica"
+	culture = "helvetian"
+	
+}
+2710 = {
+	name = "Teutomalii"
+	culture = "helvetian"
+	
+}
+2711 = {
+	name = "Viridorrius"
+	culture = "helvetian"
+	
+}
+2712 = {
+	name = "Mangunna"
+	culture = "helvetian"
+	
+}
+2713 = {
+	name = "Brennii"
+	culture = "helvetian"
+	
+}
+2714 = {
+	name = "Boius"
+	culture = "helvetian"
+	
+}
+2715 = {
+	name = "Tanna"
+	culture = "helvetian"
+	
+}
+2716 = {
+	name = "Iccui"
+	culture = "helvetian"
+	
+}
+2717 = {
+	name = "Galanus"
+	culture = "helvetian"
+	
+}
+2718 = {
+	name = "Ambona"
+	culture = "helvetian"
+	
+}
+2719 = {
+	name = "Auarosii"
+	culture = "helvetian"
+	
+}
+2720 = {
+	name = "Audaxus"
+	culture = "helvetian"
+	
+}
+2721 = {
+	name = "Carosa"
+	culture = "helvetian"
+	
+}
+2722 = {
+	name = "Culchi"
+	culture = "helvetian"
+	
+}
+2723 = {
+	name = "Leukus"
+	culture = "helvetian"
+	
+}
+2724 = {
+	name = "Mandonia"
+	culture = "helvetian"
+	
+}
+2725 = {
+	name = "Punici"
+	culture = "helvetian"
+	
+}
+2726 = {
+	name = "Tautalus"
+	culture = "helvetian"
+	
+}
+2727 = {
+	name = "Correia"
+	culture = "helvetian"
+	
+}
+2728 = {
+	name = "Divici"
+	culture = "helvetian"
+	
+}
+2729 = {
+	name = "Duratus"
+	culture = "helvetian"
+	
+}
+2730 = {
+	name = "Elitova"
+	culture = "helvetian"
+	
+}
+2731 = {
+	name = "Galbi"
+	culture = "helvetian"
+	
+}
+2732 = {
+	name = "Iacus"
+	culture = "helvetian"
+	
+}
+2733 = {
+	name = "Margana"
+	culture = "helvetian"
+	
+}
+2734 = {
+	name = "Sinatii"
+	culture = "helvetian"
+	
+}
+2735 = {
+	name = "Vodenosus"
+	culture = "helvetian"
+	
+}
+2736 = {
+	name = "Indutia"
+	culture = "helvetian"
+	
+}
+2737 = {
+	name = "Dumnii"
+	culture = "helvetian"
+	
+}
+2738 = {
+	name = "Epatticus"
+	culture = "helvetian"
+	
+}
+2739 = {
+	name = "Teutomala"
+	culture = "helvetian"
+	
+}
+2740 = {
+	name = "Viridorii"
+	culture = "helvetian"
+	
+}
+2741 = {
+	name = "Magunnus"
+	culture = "helvetian"
+	
+}
+2742 = {
+	name = "Brenna"
+	culture = "helvetian"
+	
+}
+2743 = {
+	name = "Tannus"
+	culture = "helvetian"
+	
+}
+2744 = {
+	name = "Iccuia"
+	culture = "helvetian"
+	
+}
+2745 = {
+	name = "Galanii"
+	culture = "helvetian"
+	
+}
+2746 = {
+	name = "Ambonus"
+	culture = "helvetian"
+	
+}
+2747 = {
+	name = "Auarosa"
+	culture = "helvetian"
+	
+}

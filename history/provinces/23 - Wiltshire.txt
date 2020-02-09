@@ -6,14 +6,12 @@ title = c_wiltshire
 # Settlements
 max_settlements = 6
 b_wilton = temple
-b_ramsbury = temple
 b_sarum = tribal
-b_sarum = tribal
-
-#b_salisbury = temple
+b_clarendon = temple
+b_salisbury = tribal
 #b_malmesbury = castle
 #b_devizes = castle
-#b_clarendon = castle
+#b_ramsbury = castle
 #b_marlborough = castle
 
 # Misc

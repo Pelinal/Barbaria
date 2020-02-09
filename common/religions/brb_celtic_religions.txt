@@ -237,9 +237,9 @@ druidic = {
 		
 		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
-		high_god_name = GOD_DAGHDA
+		high_god_name = GOD_DAGHDA_IRISH
 		god_names = {
-			GOD_DAGHDA GOD_BEL GOD_LUGH GOD_NODENS
+			GOD_DAGHDA_IRISH GOD_BEL GOD_LUGH GOD_NODENS
 			GOD_TARANIS GOD_BRIGIT GOD_MORRIGAN
 		}
 		evil_god_names = {
@@ -276,9 +276,9 @@ druidic = {
 		
 		crusade_name = "GREAT_HOLY_WAR"
 		priest_title = DRUID
-		high_god_name = GOD_DAGHDA
+		high_god_name = GOD_DAGHDA_IRISH
 		god_names = {
-			GOD_BEL GOD_DAGHDA GOD_LUGH GOD_NODENS
+			GOD_DAGHDA_IRISH GOD_BEL GOD_LUGH GOD_NODENS
 			GOD_TARANIS GOD_BRIGIT GOD_MORRIGAN
 		}
 		evil_god_names = {

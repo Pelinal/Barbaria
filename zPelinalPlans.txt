@@ -1,0 +1,163 @@
+#######################################
+###									###
+###		 Plans for Barbaria 		###
+###									###
+#######################################
+# Ready for Flavour:
+	[X] e_britannia
+	[ ] e_gaul
+	[ ] e_iberia
+	[ ] e_babylon
+	[ ] e_ptolemaic
+	[ ] e_carthage
+	[ ] e_germania
+	[ ] e_arabia
+	[ ] e_italia
+	[ ] e_illyria
+	[ ] e_scythia
+	[ ] e_scania
+	[ ] e_slavia
+	[ ] e_persia
+	[ ] e_india
+	[ ] e_tibet
+	[ ] e_macedonia
+	[ ] the steppes
+	[ ] e_anatolia
+
+e_britannia:
+	[X] Dejure map
+	[X] Title history
+	[X] Character history
+	[X] Province renaming
+	[ ] Flavour
+
+e_gaul:
+	[X] Dejure map ## counties need recolour
+	[X] Title history ## Need to add germanics in the north when we do e_germania
+	[X] Character history
+	[ ] Province renaming
+	[ ] Flavour
+
+e_iberia:
+	[X] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+e_babylon:
+	[X] Additional provinces
+	[X] Dejure map ## might wanna tweak some of the colours
+	[ ] Title history
+	[ ] Character history
+	[X] Province renaming
+	[ ] Flavour
+
+e_ptolemaic:
+	[X] Additional provinces
+	[X] Dejure map ## counties need recolour
+	[ ] Title history # k_cyrenacia not done
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+e_carthage:
+	[ ] Additional provinces
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+
+e_germania:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+e_arabia:
+	[ ] Additional provinces
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+e_italia:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+e_illyria:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+e_scythia:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+
+e_scania:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[X] Province renaming
+	[ ] Flavour
+
+e_slavia:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+
+e_persia:
+	[X] Additional provinces
+	[ ] Dejure map ## re colour massively and rename top level
+	[X] Title history ## need to fix random indep balochi man
+	[X] Character history
+	[X] Province renaming
+	[ ] Flavour
+	
+e_india: # basegame 3 empires
+	[X] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[X] Province renaming
+	[ ] Flavour
+	
+e_tibet:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[X] Province renaming
+	[ ] Flavour
+	
+e_macedonia:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour
+	
+the steppes:
+    [ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[X] Province renaming
+	[ ] Flavour
+
+e_anatolia:
+	[ ] Dejure map
+	[ ] Title history
+	[ ] Character history
+	[ ] Province renaming
+	[ ] Flavour

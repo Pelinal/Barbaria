@@ -1395,7 +1395,7 @@ e_persia = {
 				color2={ 255 255 255 }
 				
 				b_dasoguz_castle = {} # e.g. Dashoguz
-				b_dasoguz_city {} # e.g. Darvaza
+				b_dasoguz_city = {} # e.g. Darvaza
 			}
 			c_urgench = {
 				color={ 147 215 30 }

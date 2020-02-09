@@ -37,7 +37,7 @@
 	religion = "gallic"
 }
 2507 = {
-	name = "Punica"
+	name = "Armoricii"
 	culture = "armorican"
 	religion = "gallic"
 }
@@ -84,7 +84,7 @@
 	religion = "gallic"
 }
 2516 = {
-	name = Sinata""
+	name = "Sinata"
 	culture = "noric"
 	religion = "gallic"
 }
@@ -210,13 +210,13 @@
 
 #Gaulish; 2540 - 2599
 2540 = {
-	name = "Gergovii"
+	name = "Gergovi"
 	culture = "gaulish"
 	religion = "gallic"
 	used_for_random = no
 }
 2541 = {
-	name = "Boii"
+	name = "Boi"
 	culture = "gaulish"
 	religion = "gallic"
 	used_for_random = no
@@ -513,757 +513,744 @@
 }
 
 #Belgic; 2600 - 2649
+
 2600 = {
-	name = ""
+	name = "Durata"
 	culture = "belgic"
 	religion = "gallic"
 }
 2601 = {
-	name = ""
+	name = "Elitovii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2602 = {
-	name = ""
+	name = "Galbus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2603 = {
-	name = ""
+	name = "Iaca"
 	culture = "belgic"
 	religion = "gallic"
 }
 2604 = {
-	name = ""
+	name = "Marganii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2605 = {
-	name = ""
+	name = "Sinatus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2606 = {
-	name = ""
+	name = "Vodenosa"
 	culture = "belgic"
 	religion = "gallic"
 }
 2607 = {
-	name = ""
+	name = "Indutii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2608 = {
-	name = ""
+	name = "Dumnus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2609 = {
-	name = ""
+	name = "Epattica"
 	culture = "belgic"
 	religion = "gallic"
 }
 2610 = {
-	name = ""
+	name = "Teutomalii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2611 = {
-	name = ""
+	name = "Viridorrius"
 	culture = "belgic"
 	religion = "gallic"
 }
 2612 = {
-	name = ""
+	name = "Mangunna"
 	culture = "belgic"
 	religion = "gallic"
 }
 2613 = {
-	name = ""
+	name = "Brennii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2614 = {
-	name = ""
+	name = "Boius"
 	culture = "belgic"
 	religion = "gallic"
 }
 2615 = {
-	name = ""
+	name = "Tanna"
 	culture = "belgic"
 	religion = "gallic"
 }
 2616 = {
-	name = ""
+	name = "Iccui"
 	culture = "belgic"
 	religion = "gallic"
 }
 2617 = {
-	name = ""
+	name = "Galanus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2618 = {
-	name = ""
+	name = "Ambona"
 	culture = "belgic"
 	religion = "gallic"
 }
 2619 = {
-	name = ""
+	name = "Auarosii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2620 = {
-	name = ""
+	name = "Audaxus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2621 = {
-	name = ""
+	name = "Carosa"
 	culture = "belgic"
 	religion = "gallic"
 }
 2622 = {
-	name = ""
+	name = "Culchi"
 	culture = "belgic"
 	religion = "gallic"
 }
 2623 = {
-	name = ""
+	name = "Leukus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2624 = {
-	name = ""
+	name = "Mandonia"
 	culture = "belgic"
 	religion = "gallic"
 }
 2625 = {
-	name = ""
+	name = "Punici"
 	culture = "belgic"
 	religion = "gallic"
 }
 2626 = {
-	name = ""
+	name = "Tautalus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2627 = {
-	name = ""
+	name = "Correia"
 	culture = "belgic"
 	religion = "gallic"
 }
 2628 = {
-	name = ""
+	name = "Divici"
 	culture = "belgic"
 	religion = "gallic"
 }
 2629 = {
-	name = ""
+	name = "Duratus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2630 = {
-	name = ""
+	name = "Elitova"
 	culture = "belgic"
 	religion = "gallic"
 }
 2631 = {
-	name = ""
+	name = "Galbi"
 	culture = "belgic"
 	religion = "gallic"
 }
 2632 = {
-	name = ""
+	name = "Iacus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2633 = {
-	name = ""
+	name = "Margana"
 	culture = "belgic"
 	religion = "gallic"
 }
 2634 = {
-	name = ""
+	name = "Sinatii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2635 = {
-	name = ""
+	name = "Vodenosus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2636 = {
-	name = ""
+	name = "Indutia"
 	culture = "belgic"
 	religion = "gallic"
 }
 2637 = {
-	name = ""
+	name = "Dumnii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2638 = {
-	name = ""
+	name = "Epatticus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2639 = {
-	name = ""
+	name = "Teutomala"
 	culture = "belgic"
 	religion = "gallic"
 }
 2640 = {
-	name = ""
+	name = "Viridorii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2641 = {
-	name = ""
+	name = "Magunnus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2642 = {
-	name = ""
+	name = "Brenna"
 	culture = "belgic"
 	religion = "gallic"
 }
 2643 = {
-	name = ""
+	name = "Tannus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2644 = {
-	name = ""
+	name = "Iccuia"
 	culture = "belgic"
 	religion = "gallic"
 }
 2645 = {
-	name = ""
+	name = "Galanii"
 	culture = "belgic"
 	religion = "gallic"
 }
 2646 = {
-	name = ""
+	name = "Ambonus"
 	culture = "belgic"
 	religion = "gallic"
 }
 2647 = {
-	name = ""
-	culture = "belgic"
-	religion = "gallic"
-}
-2648 = {
-	name = ""
-	culture = "belgic"
-	religion = "gallic"
-}
-2649 = {
-	name = ""
+	name = "Auarosa"
 	culture = "belgic"
 	religion = "gallic"
 }
 
 #Celtiberian; 2650 - 2699
-2650 = {
-	name = ""
+2648 = {
+	name = "Gallacei"
 	culture = "celtiberian"
-	religion = "gallic"
+}
+2649 = {
+	name = "Coblata"
+	culture = "celtiberian"
+}
+2650 = {
+	name = "Durata"
+	culture = "celtiberian"
+	
 }
 2651 = {
-	name = ""
+	name = "Elitovii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2652 = {
-	name = ""
+	name = "Galbus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2653 = {
-	name = ""
+	name = "Iaca"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2654 = {
-	name = ""
+	name = "Marganii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2655 = {
-	name = ""
+	name = "Sinatus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2656 = {
-	name = ""
+	name = "Vodenosa"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2657 = {
-	name = ""
+	name = "Indutii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2658 = {
-	name = ""
+	name = "Dumnus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2659 = {
-	name = ""
+	name = "Epattica"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2660 = {
-	name = ""
+	name = "Teutomalii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2661 = {
-	name = ""
+	name = "Viridorrius"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2662 = {
-	name = ""
+	name = "Mangunna"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2663 = {
-	name = ""
+	name = "Brennii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2664 = {
-	name = ""
+	name = "Boius"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2665 = {
-	name = ""
+	name = "Tanna"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2666 = {
-	name = ""
+	name = "Iccui"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2667 = {
-	name = ""
+	name = "Galanus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2668 = {
-	name = ""
+	name = "Ambona"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2669 = {
-	name = ""
+	name = "Auarosii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2670 = {
-	name = ""
+	name = "Audaxus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2671 = {
-	name = ""
+	name = "Carosa"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2672 = {
-	name = ""
+	name = "Culchi"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2673 = {
-	name = ""
+	name = "Leukus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2674 = {
-	name = ""
+	name = "Mandonia"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2675 = {
-	name = ""
+	name = "Punici"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2676 = {
-	name = ""
+	name = "Tautalus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2677 = {
-	name = ""
+	name = "Correia"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2678 = {
-	name = ""
+	name = "Divici"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2679 = {
-	name = ""
+	name = "Duratus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2680 = {
-	name = ""
+	name = "Elitova"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2681 = {
-	name = ""
+	name = "Galbi"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2682 = {
-	name = ""
+	name = "Iacus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2683 = {
-	name = ""
+	name = "Margana"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2684 = {
-	name = ""
+	name = "Sinatii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2685 = {
-	name = ""
+	name = "Vodenosus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2686 = {
-	name = ""
+	name = "Indutia"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2687 = {
-	name = ""
+	name = "Dumnii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2688 = {
-	name = ""
+	name = "Epatticus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2689 = {
-	name = ""
+	name = "Teutomala"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2690 = {
-	name = ""
+	name = "Viridorii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2691 = {
-	name = ""
+	name = "Magunnus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2692 = {
-	name = ""
+	name = "Brenna"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2693 = {
-	name = ""
+	name = "Tannus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2694 = {
-	name = ""
+	name = "Iccuia"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2695 = {
-	name = ""
+	name = "Galanii"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2696 = {
-	name = ""
+	name = "Ambonus"
 	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 2697 = {
-	name = ""
+	name = "Auarosa"
 	culture = "celtiberian"
-	religion = "gallic"
-}
-2698 = {
-	name = ""
-	culture = "celtiberian"
-	religion = "gallic"
-}
-2699 = {
-	name = ""
-	culture = "celtiberian"
-	religion = "gallic"
+	
 }
 
 #Helvetian; 2700 - 2749
-2700 = {
-	name = ""
+2698 = {
+	name = "Gallacei"
 	culture = "helvetian"
-	religion = "gallic"
+}
+2699 = {
+	name = "Coblata"
+	culture = "helvetian"
+}
+2700 = {
+	name = "Durata"
+	culture = "helvetian"
+	
 }
 2701 = {
-	name = ""
+	name = "Elitovii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2702 = {
-	name = ""
+	name = "Galbus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2703 = {
-	name = ""
+	name = "Iaca"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2704 = {
-	name = ""
+	name = "Marganii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2705 = {
-	name = ""
+	name = "Sinatus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2706 = {
-	name = ""
+	name = "Vodenosa"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2707 = {
-	name = ""
+	name = "Indutii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2708 = {
-	name = ""
+	name = "Dumnus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2709 = {
-	name = ""
+	name = "Epattica"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2710 = {
-	name = ""
+	name = "Teutomalii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2711 = {
-	name = ""
+	name = "Viridorrius"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2712 = {
-	name = ""
+	name = "Mangunna"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2713 = {
-	name = ""
+	name = "Brennii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2714 = {
-	name = ""
+	name = "Boius"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2715 = {
-	name = ""
+	name = "Tanna"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2716 = {
-	name = ""
+	name = "Iccui"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2717 = {
-	name = ""
+	name = "Galanus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2718 = {
-	name = ""
+	name = "Ambona"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2719 = {
-	name = ""
+	name = "Auarosii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2720 = {
-	name = ""
+	name = "Audaxus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2721 = {
-	name = ""
+	name = "Carosa"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2722 = {
-	name = ""
+	name = "Culchi"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2723 = {
-	name = ""
+	name = "Leukus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2724 = {
-	name = ""
+	name = "Mandonia"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2725 = {
-	name = ""
+	name = "Punici"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2726 = {
-	name = ""
+	name = "Tautalus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2727 = {
-	name = ""
+	name = "Correia"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2728 = {
-	name = ""
+	name = "Divici"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2729 = {
-	name = ""
+	name = "Duratus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2730 = {
-	name = ""
+	name = "Elitova"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2731 = {
-	name = ""
+	name = "Galbi"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2732 = {
-	name = ""
+	name = "Iacus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2733 = {
-	name = ""
+	name = "Margana"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2734 = {
-	name = ""
+	name = "Sinatii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2735 = {
-	name = ""
+	name = "Vodenosus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2736 = {
-	name = ""
+	name = "Indutia"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2737 = {
-	name = ""
+	name = "Dumnii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2738 = {
-	name = ""
+	name = "Epatticus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2739 = {
-	name = ""
+	name = "Teutomala"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2740 = {
-	name = ""
+	name = "Viridorii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2741 = {
-	name = ""
+	name = "Magunnus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2742 = {
-	name = ""
+	name = "Brenna"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2743 = {
-	name = ""
+	name = "Tannus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2744 = {
-	name = ""
+	name = "Iccuia"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2745 = {
-	name = ""
+	name = "Galanii"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2746 = {
-	name = ""
+	name = "Ambonus"
 	culture = "helvetian"
-	religion = "gallic"
+	
 }
 2747 = {
-	name = ""
+	name = "Auarosa"
 	culture = "helvetian"
-	religion = "gallic"
-}
-2748 = {
-	name = ""
-	culture = "helvetian"
-	religion = "gallic"
-}
-2749 = {
-	name = ""
-	culture = "helvetian"
-	religion = "gallic"
+	
 }

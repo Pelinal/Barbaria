@@ -911,8 +911,8 @@ e_gaul = {
 			}
 		}
 		d_narbo_martius = {
-			gaulish = "Aremoricia"
-			belgic = "Aremoricia"
+			gaulish = "Volcae"
+			belgic = "Volcae"
 			color = { 104 76 24  }
 			color2 = { 255 255 255 }
 			capital = 220 # Montpellier
@@ -1116,6 +1116,8 @@ e_gaul = {
 			color = {  231 203 151  }
 			color2 = { 255 255 255 }
 			capital = 237 # Savoie (Savoy)	
+			
+			gaulish = "Allobrogia"
 			
 			c_dauphine_viennois = {
 				color={ 166 121 38 }

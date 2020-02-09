@@ -220,12 +220,12 @@ e_britannia = {
 				
 				#pictish = "Utudina"
 				#briton = "Din Baer"
-				#irish = "D√πn B√°r"
+				#irish = "D˘n B·r"
 	
 				b_dunbar = {
 					#pictish = "Dun Ber"
 					#briton = "Din Baer"
-					#irish = "D√πn B√°r"
+					#irish = "D˘n B·r"
 				}
 				b_berwick = {
 					#pictish = "Caer Brinech"
@@ -245,7 +245,7 @@ e_britannia = {
 				b_gordon = {
 					#pictish = "Gor Dun"
 					#briton = "Gor Din"
-					#irish = "G√≤r D√πn"
+					#irish = "GÚr D˘n"
 				}
 				b_huntly = {
 					#pictish = "Istrad Bach"
@@ -260,7 +260,7 @@ e_britannia = {
 				b_crichton = {
 					#pictish = "Finuultreh"
 					#briton = "Ffinioltref"
-					#irish = "Criochd√∫n"
+					#irish = "Criochd˙n"
 				}
 			}
 			
@@ -661,14 +661,17 @@ e_britannia = {
 			
 				holy_site = aztec
 				holy_site = aztec_reformed
-
+				
+				briton = Londinion
+				
 				b_westminster = {
 					used_for_dynasty_names = no
-					norse=Vestmystur
+					norse = Vestmystur
+					briton = Londinion
 				}
 				b_london = {
 					used_for_dynasty_names = no
-					norse=Lund√∫nir
+					norse = Lund˙nir
 				}
 				b_st_pauls = {
 				}
@@ -721,15 +724,39 @@ e_britannia = {
 				holy_site = danuic
 				holy_site = danuic_reformed
 				
+				briton = Stonehenge
+				cumbric = Stonehenge
+				pict = Stonehenge
+				gaulish = Stonehenge
+				belgae = Stonehenge
+				
 				b_wilton = {
+					briton = Stonehenge
+					cumbric = Stonehenge
+					pict = Stonehenge
+					gaulish = Stonehenge
+					belgae = Stonehenge
 				}
 				b_sarum = {
+					roman = Sorviodunum
+					etruscan = Sorvioduno
+					umbrian = Sorviodunum
 				}
 				b_clarendon = {
+					briton = "Woodhenge"
+					cumbric = Woodhenge
+					pict = Woodhenge
+					gaulish = Woodhenge
+					belgae = Woodhenge
 				}
 				b_malmesbury = {
 				}
 				b_salisbury = {
+					briton = Kennet
+					cumbric = Kennet
+					pict = Kennet
+					gaulish = Kennet
+					belgae = Kennet
 				}
 				b_devizes = {
 				}
@@ -787,29 +814,7 @@ e_britannia = {
 			color={ 28 62 119 }
 			color2={ 255 255 255 }
 			
-			capital = 24 # Surrey
-			
-			c_surrey = {
-				color={ 59 80 98 }
-				color2={ 255 255 255 }
-				
-				b_farnham = {
-				}
-				b_guildford = {
-				}
-				b_lambeth = {
-				}
-				b_southwark = {
-				}
-				b_woking = {
-				}
-				b_chertsey = {
-				}
-				b_croydon = {
-				}
-				b_waverley = {
-				}
-			}
+			capital = 73 # Kent
 			
 			c_kent = {
 				color={ 28 62 119 }
@@ -861,10 +866,29 @@ e_britannia = {
 			color={ 59 80 98 }
 			color2={ 255 255 255 }
 			
-			capital = 26 # Winchester
+			capital = 24 # Surrey
 			
-			norman="Hampshire"
-			english="Hampshire"
+			c_surrey = {
+				color={ 59 80 98 }
+				color2={ 255 255 255 }
+				
+				b_farnham = {
+				}
+				b_guildford = {
+				}
+				b_lambeth = {
+				}
+				b_southwark = {
+				}
+				b_woking = {
+				}
+				b_chertsey = {
+				}
+				b_croydon = {
+				}
+				b_waverley = {
+				}
+			}
 			
 			c_winchester = {
 				color={ 59 61 98 }
@@ -989,7 +1013,7 @@ e_britannia = {
 			color={ 57 96 158 }
 			color2={ 255 255 255 }
 			
-			capital = 31 # Cornwall
+			capital = 29 # Devon
 			
 			c_cornwall = {
 				color={ 57 96 158 }
@@ -1122,7 +1146,7 @@ e_britannia = {
 				holy_site = brythonic_reformed
 				
 				b_aberffraw = {
-					norwegian = Ongulls√∏y
+					norwegian = Ongulls¯y
 					english = Anglesey
 					saxon = Anglesey
 				}
@@ -1199,7 +1223,7 @@ e_britannia = {
 				}
 				b_st_davids = {
 					#briton = Tyddewi
-					norwegian = "Rams√∏y"
+					norwegian = "Rams¯y"
 				}
 				b_penycwm = {
 				}
@@ -1260,7 +1284,7 @@ e_britannia = {
 			color={ 62 116 200 }
 			color2={ 255 255 255 }
 			
-			capital = 20 # Gwent
+			capital = 19 # Glamorgan
 			
 			c_builth = {
 				color={ 62 136 220 }
@@ -1353,7 +1377,7 @@ e_britannia = {
 		#color={ 120 100 60 }
 		color2={ 255 255 255 }
 		
-		capital = 43 #Gowrie
+		capital = 40 # Gowrie
 		
 		culture = pictish
 		
@@ -1375,7 +1399,7 @@ e_britannia = {
 			
 			capital = 36 # Orkney
 			
-			norse = "Nor√∞reyjar"
+			norse = "Norreyjar"
 			#pictish = "Insee Galeth"
 			#briton = "Ynysoedd Gogledd"
 			#irish = "Innse Tuath"
@@ -1397,7 +1421,7 @@ e_britannia = {
 				color={	171 159 109 }
 				color2={ 255 255 255 }
 				
-				swedish = "F√§r√∂arna"
+				swedish = "F‰rˆarna"
 				#pictish = "Caliu"
 				#briton = "Ynysoedd Ceiliau"
 				#irish = "Innse Caora"
@@ -1430,7 +1454,7 @@ e_britannia = {
 				b_sandur = {
 					#pictish = "Insee Tret"
 					#briton = "Ynys Traeth"
-					#irish = "Eilean Tr√†igh"
+					#irish = "Eilean Tr‡igh"
 				}
 				b_klaksvik = {
 					#pictish = "Insee Uun"
@@ -1458,12 +1482,12 @@ e_britannia = {
 				b_scalloway = {
 					#pictish = "Bachuuon Maurt"
 					#briton = "Bachwyon Mawrty"
-					#irish = "Batin M√¥rtaigh"
+					#irish = "Batin MÙrtaigh"
 				}
 				b_muness = {
 					#pictish = "Muunis"
 					#briton = "Mwynis"
-					#irish = "M√πnis"
+					#irish = "M˘nis"
 				}
 				b_tingwall = {
 					#pictish = "Camanfalioth"
@@ -1477,12 +1501,12 @@ e_britannia = {
 					norse = "Konungsborg"
 					#pictish = "Caer Rui"
 					#briton = "Caer Rhi"
-					#irish = "R√¨ghd√πn"
+					#irish = "RÏghd˘n"
 				}
 				b_sumburgh = {
 					#pictish = "Taranupin"
 					#briton = "Taranupenn"
-					#irish = "T√†irneanachceann"
+					#irish = "T‡irneanachceann"
 				}
 				b_northmavine = {
 					#pictish = "Goglethculder"
@@ -1492,7 +1516,7 @@ e_britannia = {
 				b_sound = {
 					#pictish = "Cliaubae"
 					#briton = "Cleiaubae"
-					#irish = "Cr√®adhbati"
+					#irish = "CrËadhbati"
 				}
 				b_yell = {
 					#pictish = "Insee Uuan"
@@ -1507,15 +1531,15 @@ e_britannia = {
 				holy_site = brythonic
 				holy_site = brythonic_reformed
 				
-				swedish = "Orkn√∂"
-				danish = "Orkn√∏"
-				norse = "Orkn√∂"
+				swedish = "Orknˆ"
+				danish = "Orkn¯"
+				norse = "Orknˆ"
 				#pictish = "Insee Orc"
 				#briton = "Ynysoedd Orc"
 				#irish = "Innse Orc"
 				
 				b_kirkwall = {
-					norwegian = "Kirkuv√•g"
+					norwegian = "KirkuvÂg"
 					danish = "Kyrkovik"
 					swedish = "Kyrkovik"
 					norse = "Kyrkovik"
@@ -1524,13 +1548,13 @@ e_britannia = {
 					#irish = "Baile na h-Eaglais"
 				}
 				b_birsay = {
-					norwegian = "Birgish√¶rad"
-					danish = "Birgish√¶rad"
-					swedish = "Birgish√§rad"
-					norse = "Birgish√¶rad"
+					norwegian = "BirgishÊrad"
+					danish = "BirgishÊrad"
+					swedish = "Birgish‰rad"
+					norse = "BirgishÊrad"
 					#pictish = "Brideclauet"
 					#briton = "Ffraidclywed"
-					#irish = "Br√¨ghdechuala"
+					#irish = "BrÏghdechuala"
 				}
 				b_orphir = {
 					#pictish = "Aerfur"
@@ -1555,7 +1579,7 @@ e_britannia = {
 				b_sanday = {
 					#pictish = "Insee Tiuod"
 					#briton = "Ynys Tywod"
-					#irish = "Innis Tr√†igh"
+					#irish = "Innis Tr‡igh"
 				}
 				b_ronaldsay = {
 					#pictish = "Insee Ninian"
@@ -1592,10 +1616,10 @@ e_britannia = {
 				#irish = "Ellan Mhannin"
 				
 				b_peel = {
-					norwegian = "P√•l√∏"
-					danish = "P√•l√∏"
-					swedish = "P√•l√∏"
-					norse = "P√•l√∏"
+					norwegian = "PÂl¯"
+					danish = "PÂl¯"
+					swedish = "PÂl¯"
+					norse = "PÂl¯"
 					#pictish = "Pirtinsee"
 					#briton = "Porth Ynys"
 					#irish = "Purt ny h-Inshey"
@@ -1618,25 +1642,25 @@ e_britannia = {
 				b_kirk_michael = {
 					#pictish = "Icluasc Mihagal"
 					#briton = "Eglwys Mihangel"
-					#irish = "Cill Miche√°l"
+					#irish = "Cill Miche·l"
 				}
 				b_sulby = {
 					#pictish = "Drauuglan"
 					#briton = "Drywglyn"
-					#irish = "Dru√≠gleann"
-					norwegian = "S√µlabyr"
-					danish = "S√µlabyr"
-					swedish = "S√µlabyr"
+					#irish = "DruÌgleann"
+					norwegian = "Sılabyr"
+					danish = "Sılabyr"
+					swedish = "Sılabyr"
 				}
 				b_inis_patraic = {
 					#pictish = "Inees Pedric"
 					#briton = "Ynys Padric"
-					#irish = "Inis P√°traic"
+					#irish = "Inis P·traic"
 				}
 				b_laxey = {
 					#pictish = "Ahonugad"
 					#briton = "Afoneogiaid"
-					#irish = "Uisge Brad√°n"
+					#irish = "Uisge Brad·n"
 				}
 			}
 		}
@@ -1665,12 +1689,12 @@ e_britannia = {
 				b_turnberry = {
 					#pictish = "Dun Ueron"
 					#briton = "Din Aeron"
-					#irish = "D√πn √Äir"
+					#irish = "D˘n ¿ir"
 				}
 				b_dunure = {
 					#pictish = "Dunauen"
 					#briton = "Din Ywen"
-					#irish = "D√πn I√πbhair"
+					#irish = "D˘n I˘bhair"
 				}
 				b_maybole = {
 					#pictish = "Maescanatan"
@@ -1686,12 +1710,12 @@ e_britannia = {
 					scottish = "Balloch"
 					#pictish = "Landun"
 					#briton = "Llyndin"
-					#irish = "Loch Dh√πin"
+					#irish = "Loch Dh˘in"
 				}
 				b_ballantrae = {
 					#pictish = "Tretrah"
 					#briton = "Traethtref"
-					#irish = "Baile na Tr√†gha"
+					#irish = "Baile na Tr‡gha"
 				}
 				b_culzean = {
 					#pictish = "Pinaglan"
@@ -1701,7 +1725,7 @@ e_britannia = {
 				b_greenan = {
 					#pictish = "Abereron"
 					#briton = "Aberaeron"
-					#irish = "Inbhir √Äir"
+					#irish = "Inbhir ¿ir"
 				}
 			}
 			
@@ -1716,17 +1740,17 @@ e_britannia = {
 				b_jedburgh = {
 					#pictish = "Dungod"
 					#briton = "Dingod"
-					#irish = "D√πngot"
+					#irish = "D˘ngot"
 				}
 				b_roxburgh = {
 					#pictish = "Iaartreh"
-					#briton = "I√¢rtref"
+					#briton = "I‚rtref"
 					#irish = "Baile na h-Cearc"
 				}
 				b_peebles = {
 					#pictish = "Peball"
 					#briton = "Pebyll"
-					#irish = "Na P√πballan"
+					#irish = "Na P˘ballan"
 				}
 				b_melrose = {
 					#pictish = "Maelruusan"
@@ -1751,7 +1775,7 @@ e_britannia = {
 				b_ednam = {
 					#pictish = "Aethontreh"
 					#briton = "Aeddantref"
-					#irish = "Baile na h-Aodh√†n"
+					#irish = "Baile na h-Aodh‡n"
 				}
 			}
 			
@@ -1759,30 +1783,30 @@ e_britannia = {
 				color={ 107 95 71 }
 				color2={ 255 255 255 }
 				
-				pictish = "Nouantia"
-				briton = "Nofant"
+				#pictish = "Nouantia"
+				#briton = "Nofant"
 				#irish = "Na Rannaibh"
 				saxon = "Rhinns"
 
 				b_dumfries = {
 					#pictish = "Dunrad"
 					#briton = "Dinrhyd"
-					#irish = "D√πn Phris"
+					#irish = "D˘n Phris"
 				}
 				b_dunragit = {
 					#pictish = "Dunreget"
 					#briton = "Din Rheged"
-					#irish = "D√πn Reicheit"
+					#irish = "D˘n Reicheit"
 				}
 				b_whithorn = {
 					#pictish = "Taiuuan"
 					#briton = "Tygwyn"
-					#irish = "Taigh Mh√†rtainn"
+					#irish = "Taigh Mh‡rtainn"
 				}
 				b_dunrod = {
 					#pictish = "Dun Brin"
 					#briton = "Din Brenin"
-					#irish = "D√πn Droighnein"
+					#irish = "D˘n Droighnein"
 				}
 				b_kirkcudbright = {
 					#pictish = "Cuthberbatu"
@@ -1797,12 +1821,12 @@ e_britannia = {
 				b_wigtown = {
 					#pictish = "Betrah"
 					#briton = "Faetref"
-					#irish = "Baile na h-√ôige"
+					#irish = "Baile na h-Ÿige"
 				}
 				b_threave = {
 					#pictish = "Insee Datrah"
 					#briton = "Ynys Dytref"
-					#irish = "Eilean na h-Uisge Dh√®"
+					#irish = "Eilean na h-Uisge DhË"
 				}
 			}
 		}
@@ -1812,13 +1836,13 @@ e_britannia = {
 			color2 = { 255 255 255 }
 			capital = 35 # Inse Gall
 			
-			norwegian = "S√∏reyar"
-			danish = "S√∏reyar"
-			swedish = "S√∂r√∂arna"
-			norse = "Su√∞reyjar"
+			norwegian = "S¯reyar"
+			danish = "S¯reyar"
+			swedish = "Sˆrˆarna"
+			norse = "Sureyjar"
 			#pictish = "Insee Hilth"
 			#briton = "Ynysoedd Heledd"
-			#irish = "D√°l Riata"
+			#irish = "D·l Riata"
 			
 			pagan_coa = {
 				template = 0
@@ -1837,10 +1861,10 @@ e_britannia = {
 				color={ 107 98 71 }
 				color2={ 255 255 255 }
 				
-				norwegian = "S√∏reyar"
-				danish = "S√∏reyar"
-				swedish = "S√∂r√∂arna"
-				norse = "Su√∞reyjar"
+				norwegian = "S¯reyar"
+				danish = "S¯reyar"
+				swedish = "Sˆrˆarna"
+				norse = "Sureyjar"
 				#pictish = "Carnonac"
 				#briton = "Ynysoedd Heledd"
 				#irish = "Innse Gall"
@@ -1852,13 +1876,13 @@ e_britannia = {
 					#irish = "Cill Targhlain"
 				}
 				b_stornoway = {
-					norwegian = "Stornav√•g"
+					norwegian = "StornavÂg"
 					danish = "Stornavik"
 					swedish = "Stornavik"
 					norse = "Stornavik"
 					#pictish = "Laueube"
 					#briton = "Llywiobae"
-					#irish = "Ste√≤rnabhagh"
+					#irish = "SteÚrnabhagh"
 				}
 				b_uig = {
 					norwegian = "Vik"
@@ -1867,12 +1891,12 @@ e_britannia = {
 					norse = "Vik"
 					#pictish = "Betret"
 					#briton = "Baetraeth"
-					#irish = "C√†rnais √ôige"
+					#irish = "C‡rnais Ÿige"
 				}
 				b_dunvegan = {
 					#pictish = "Dun Bachain"
 					#briton = "Din Bychan"
-					#irish = "D√πn Bheagain"
+					#irish = "D˘n Bheagain"
 				}
 				b_kiltaraglen = {
 				}
@@ -1889,9 +1913,9 @@ e_britannia = {
 				#briton = "Ywenlle"
 				
 				b_iona = {
-					pictish = "Auenle"
+					#pictish = "Auenle"
 					#briton = "Ywenlle"
-					#irish = "√å Chaluim Chille"
+					#irish = "Ã Chaluim Chille"
 				}
 				b_finlaggan = {
 					#pictish = "Inseepirt"
@@ -1901,12 +1925,12 @@ e_britannia = {
 				b_laggan = {
 					#pictish = "Nuuathuchel"
 					#briton = "Neuadduchel"
-					#irish = "√Äird Talla"
+					#irish = "¿ird Talla"
 				}
 				b_dunyveg = {
 					#pictish = "Dun Galiuu"
-					#briton = "Din Gal√Øau"
-					#irish = "D√πn Naomhaig"
+					#briton = "Din GalÔau"
+					#irish = "D˘n Naomhaig"
 				}
 				b_tobermory = {
 				}
@@ -1921,32 +1945,32 @@ e_britannia = {
 				
 				#pictish = "Ebithan"
 				#briton = "Epiddant"
-				#irish = "Airer Go√≠del"
+				#irish = "Airer GoÌdel"
 				
 				b_st_moluag = {
-					pictish = "Malluoc"
-					briton = "Malluoc Sant"
-					#irish = "Naomh Molu√≥c"
+					#pictish = "Malluoc"
+					#briton = "Malluoc Sant"
+					#irish = "Naomh MoluÛc"
 				}
 				b_dunollie = {
 					#pictish = "Dun Ugastel"
 					#briton = "Din Ogystal"
-					#irish = " D√πn Ollaigh"
+					#irish = " D˘n Ollaigh"
 				}
 				b_loch_awe = {
-					pictish = "Lanahon"
-					briton = "Llynafon"
+					#pictish = "Lanahon"
+					#briton = "Llynafon"
 					#irish = "Loch Obha"
 				}
 				b_sween = {
 					#pictish = "Caer Sauunae"
 					#briton = "Caer Sywny"
-					#irish = "D√πn Suibhne"
+					#irish = "D˘n Suibhne"
 				}
 				b_dunstaffnage = {
 					#pictish = "Dun Stapan"
 					#briton = "Din Staffpentir"
-					#irish = "D√πn Stafhainis"
+					#irish = "D˘n Stafhainis"
 				}
 				b_ardchattan = {
 					#pictish = "Uchdarcathan"
@@ -1958,8 +1982,8 @@ e_britannia = {
 					#irish = "Cill Mhunna"
 				}
 				b_inverary = {
-					pictish = "Aberera"
-					briton = "Aberaera"
+					#pictish = "Aberera"
+					#briton = "Aberaera"
 					#irish = "Inbhir Aora"
 				}
 				b_argh = {
@@ -1974,7 +1998,7 @@ e_britannia = {
 			
 			capital = 48 # Lothian
 			
-			pictish = "Damnunia"
+			#pictish = "Damnunia"
 			#briton = "Gododdin"
 			#irish = "Labhdaidh"
 			
@@ -1982,39 +2006,39 @@ e_britannia = {
 				color={ 112 97 67 }
 				color2={ 255 255 255 }
 				
-				pictish = "Uuanun"
+				#pictish = "Uuanun"
 				#briton = "Ystrad Iwerddon"
-				#irish = "Srath √àireann"
+				#irish = "Srath »ireann"
 				
 				b_crieff = {
-					pictish = "Coiden"
-					briton = "Coeden"
+					#pictish = "Coiden"
+					#briton = "Coeden"
 					#irish = "Craoibh"
 				}
 				b_dunblane = {
 					#pictish = "Dul Blaan"
-					briton = "Dinblyne"
-					#irish = "D√πn Bhl√†thain"
+					#briton = "Dinblyne"
+					#irish = "D˘n Bhl‡thain"
 				}
 				b_tullibardine = {
-					pictish = "Duunrud"
+					#pictish = "Duunrud"
 					#briton = "Duonrhyd"
-					#irish = "Dubh√†th"
+					#irish = "Dubh‡th"
 				}
 				b_auchterarder = {
-					pictish = "Uchel"
+					#pictish = "Uchel"
 					#briton = "Hufenaruchel"
 					#irish = "Uachdar Ardair"
 				}
 				b_madderty = {
-					pictish = "Pintu"
-					briton = "Penndu"
+					#pictish = "Pintu"
+					#briton = "Penndu"
 					#irish = "Ceanndubh"
 				}
 				b_doune = {
 					#pictish = "I Dun"
 					#briton = "Y Din"
-					#irish = "An D√πn"
+					#irish = "An D˘n"
 				}
 				b_inchaffray = {
 					#pictish = "Insee Ufirin"
@@ -2022,9 +2046,9 @@ e_britannia = {
 					#irish = "Innis Oifrend"
 				}
 				b_kenmore = {
-					pictish = "Bilauc"
-					briton = "Belauc"
-					irish = "Bealach"
+					#pictish = "Bilauc"
+					#Epbriton = "Belauc"
+					#irish = "Bealach"
 				}
 			}
 			
@@ -2039,7 +2063,7 @@ e_britannia = {
 				b_renfrew = {
 					#pictish = "Bregurun"
 					#briton = "Brigffroen"
-					#irish = "Rinn Fri√π"
+					#irish = "Rinn Fri˘"
 				}
 				b_st_kentigern = {
 					#pictish = "Cantearn"
@@ -2059,12 +2083,12 @@ e_britannia = {
 				b_cadzow = {
 					#pictish = "Uuohan"
 					#briton = "Guofan"
-					#irish = "B√†ile Ghobhainn"
+					#irish = "B‡ile Ghobhainn"
 				}
 				b_bothwell = {
 					#pictish = "Mamuanon"
 					#briton = "Mamffynnon"
-					#irish = "Tobar na M√†thar"
+					#irish = "Tobar na M‡thar"
 				}
 				b_lesmahagow = {
 					#pictish = "Lanmahau"
@@ -2074,7 +2098,7 @@ e_britannia = {
 				b_dumbarton = {
 					#pictish = "Alcluit"
 					#briton = "Alt Clut"
-					#irish = "D√πn Breatainn"
+					#irish = "D˘n Breatainn"
 				}
 			}
 			
@@ -2089,7 +2113,7 @@ e_britannia = {
 				b_edinburgh = {
 					#pictish = "Dun Eidan"
 					#briton = "Din Eidyn"
-					#irish = "D√πn Eideann"
+					#irish = "D˘n Eideann"
 				}
 				b_stirling = {
 					#pictish = "Iutheu"
@@ -2099,7 +2123,7 @@ e_britannia = {
 				b_abercorn = {
 					#pictish = "Abercarn"
 					#briton = "Abercarnedd"
-					#irish = "Obar Ch√πirnidh"
+					#irish = "Obar Ch˘irnidh"
 				}
 				b_linlithgow = {
 					#pictish = "Glanaluu"
@@ -2114,17 +2138,17 @@ e_britannia = {
 				b_stow_of_wedale = {
 					#pictish = "Gallath"
 					#briton = "Galladd"
-					#irish = "An Geal √Äth"
+					#irish = "An Geal ¿th"
 				}
 				b_leith = {
 					#pictish = "Aberlath"
 					#briton = "Aberlydd"
-					#irish = "Inverl√¨te"
+					#irish = "InverlÏte"
 				}
 				b_torphichen = {
 					#pictish = "Trehechan"
 					#briton = "Treffechan"
-					#irish = "T√≥ir F√©ich√≠n"
+					#irish = "TÛir FÈichÌn"
 				}
 			}
 		}
@@ -2145,22 +2169,22 @@ e_britannia = {
 				
 				#pictish = "Fib"
 				#briton = "Gwidd"
-				#irish = "F√¨obha"
+				#irish = "FÏobha"
 				
 				b_dunfermline = {
 					#pictish = "Dunfurlan"
 					#briton = "Dinfirllyn"
-					#irish = "D√πn Ph√†rlain"
+					#irish = "D˘n Ph‡rlain"
 				}
 				b_cupar = {
 					#pictish = "Cafredun"
 					#briton = "Cyffredin"
-					#irish = "Comp√†irt"
+					#irish = "Comp‡irt"
 				}
 				b_st_andrews = {
 					#pictish = "Pinbed"
 					#briton = "Pennbaedd"
-					#irish = "Cill R√≠gmonaid"
+					#irish = "Cill RÌgmonaid"
 				}
 				b_kirkcaldy = {
 					#pictish = "Caercaled"
@@ -2180,12 +2204,12 @@ e_britannia = {
 				b_lochore = {
 					#pictish = "Laner"
 					#briton = "Llynaer"
-					#irish = "Loch√°ir"
+					#irish = "Loch·ir"
 				}
 				b_falkland = {
 					#pictish = "Maluen"
 					#briton = "Malfin"
-					#irish = "Fh√°clainne"
+					#irish = "Fh·clainne"
 				}
 			}
 			c_gowrie = {
@@ -2204,19 +2228,19 @@ e_britannia = {
 				b_dunkeld = {
 					#pictish = "Dun Celadon"
 					#briton = "Din Celyddon"
-					#irish = "D√πn Chailleann"
+					#irish = "D˘n Chailleann"
 				}
 				b_perth = {
 				}
 				b_forteviot = {
 					#pictish = "Nan Aruadocet"
-					#briton = "Nant Arwyddoc√¢d"
+					#briton = "Nant Arwyddoc‚d"
 					#irish = "Fothair Tabhaicht"
 				}
 				b_dundee = {
 					#pictish = "Orrea"
-					#briton = "Dind√¢n"
-					#irish = "D√πn D√®agh"
+					#briton = "Dind‚n"
+					#irish = "D˘n DËagh"
 				}
 				b_abernethy = {
 					#pictish = "Aber Naiton"
@@ -2259,7 +2283,7 @@ e_britannia = {
 				b_kintore = {
 					#pictish = "Pintar"
 					#briton = "Penntyrau"
-					#irish = "Ceann T√≤rr"
+					#irish = "Ceann TÚrr"
 				}
 				b_inverurie = {
 					#pictish = "Aberury"
@@ -2351,7 +2375,7 @@ e_britannia = {
 				b_blair_atholl = {
 					#pictish = "Athfocla"
 					#briton = "Brwydr Focla"
-					#irish = "Bl√†r Athfhotla"
+					#irish = "Bl‡r Athfhotla"
 				}
 				b_glen_dochart = {
 					#pictish = "Lanuan"
@@ -2380,8 +2404,8 @@ e_britannia = {
 				}
 				b_strathardle = {
 					#pictish = "Istrad Ardle"
-					#briton = "Ystrad Aerd√¥l"
-					#irish = "Strath √Ärdail"
+					#briton = "Ystrad AerdÙl"
+					#irish = "Strath ¿rdail"
 				}
 				b_struan = {
 					#pictish = "Aberfel"
@@ -2434,7 +2458,7 @@ e_britannia = {
 				b_fortrose = {
 					#pictish = "Caerrosan"
 					#briton = "Caerrhosan"
-					#irish = "D√πnrois"
+					#irish = "D˘nrois"
 				}
 				b_fearn = {
 					#pictish = "Manech Rasan"
@@ -2462,9 +2486,9 @@ e_britannia = {
 				color2={ 255 255 255 }
 				
 				norwegian = "Katanes"
-				danish = "Katan√¶s"
-				swedish = "Katan√§s"
-				norse = "Katan√¶s"
+				danish = "KatanÊs"
+				swedish = "Katan‰s"
+				norse = "KatanÊs"
 				#pictish = "Cait"
 				#briton = "Caitnys"
 				#irish = "Cataibh"
@@ -2476,23 +2500,23 @@ e_britannia = {
 					norse = "Vik"
 					#pictish = "Aberbachuu"
 					#briton = "Aberbachwy"
-					#irish = "Inbhir √ôige"
+					#irish = "Inbhir Ÿige"
 				}
 				b_dunbeath = {
 					#pictish = "Dunbathac"
 					#briton = "Dinbyddag"
-					#irish = "D√πn Beithe"
+					#irish = "D˘n Beithe"
 				}
 				b_dornoch = {
 					#pictish = "Dirnfeth"
 					#briton = "Dyrnfedd"
-					#irish = "D√≤rnach"
+					#irish = "DÚrnach"
 				}
 				b_thurso = {
-					swedish = "Tjurs√•"
-					danish = "Tyrs√•"
-					norwegian = "Tyrs√•"
-					norse = "Tyrs√•"
+					swedish = "TjursÂ"
+					danish = "TyrsÂ"
+					norwegian = "TyrsÂ"
+					norse = "TyrsÂ"
 					#pictish = "Aberteuafon"
 					#briton = "Abertaewafon"
 					#irish = "Inbhir Tarbhainn"
@@ -2500,7 +2524,7 @@ e_britannia = {
 				b_dunrobin = {
 					#pictish = "Dunrubert"
 					#briton = "Dinraibeart"
-					#irish = "D√πnrhobert"
+					#irish = "D˘nrhobert"
 				}
 				b_freswick = {
 					swedish = "Fresvik"
@@ -2509,7 +2533,7 @@ e_britannia = {
 					norse = "Fresvik"
 					#pictish = "Aberfauur"
 					#briton = "Aberfawr"
-					#irish = "Obar √Ärdair"
+					#irish = "Obar ¿rdair"
 				}
 				b_latheron = {
 					#pictish = "Lathaeron"
@@ -2540,11 +2564,21 @@ e_britannia = {
 		swedish = Irland
 		danish = Irland
 		norwegian = Irland
-		#irish = √âire
+		#irish = …ire
 		#pictish = Iuerthon
 		#briton = Iwerddon
 		#breton = Iwerzhon
 		#roman = Hibernia
+		
+		d_darinia = {
+			color={ 63 120 62 }
+			color2={ 220 220 220 }
+			
+			culture = irish
+			dignity = 5
+			
+			capital = 13 # Thomond
+		}
 		
 		d_iceland = {
 			color={ 85 117 92 }
@@ -2563,7 +2597,7 @@ e_britannia = {
 				color={ 69 191 148 }
 				color2={ 220 220 220 }
 				
-				swedish = "V√§stisland"
+				swedish = "V‰stisland"
 				thulean = "Tile"
 				irish = "Tile"
 				
@@ -2588,7 +2622,7 @@ e_britannia = {
 				color={ 39 176 126 }
 				color2={ 220 220 220 }
 				
-				swedish = "√ñstisland"
+				swedish = "÷stisland"
 				thulean = "Amplius"
 				irish = "Amplius"
 				
@@ -2646,7 +2680,7 @@ e_britannia = {
 					irish = "Insulae"
 				}
 				b_alftanes = {
-					swedish = "Alftan√§s"
+					swedish = "Alftan‰s"
 				}
 				b_skalholt = {
 				}
@@ -2670,7 +2704,7 @@ e_britannia = {
 			norwegian = Strangfjord
 			swedish = Strangfjord
 			danish = Strangfjord
-			norse = Strangfjor√∞r
+			norse = Strangfjorr
 			#irish = Ulaidh
 			
 			c_ulster = {
@@ -2683,18 +2717,18 @@ e_britannia = {
 				norwegian = Strangfjord
 				swedish = Strangfjord
 				danish = Strangfjord
-				norse = Strangfjor√∞r
+				norse = Strangfjorr
 				#irish = Ulaidh
 			
 				b_downpatrick = {
 					norwegian = Strangfjord
 					swedish = Strangfjord
 					danish = Strangfjord
-					norse = Strangfjor√∞r
-					#irish = "D√∫n P√°draig"
+					norse = Strangfjorr
+					#irish = "D˙n P·draig"
 				}
 				b_dunseverick = {
-					#irish = "D√∫n Sobhairce"
+					#irish = "D˙n Sobhairce"
 				}
 				b_bangor = {
 					#irish = "Inbhear Beg"
@@ -2706,20 +2740,20 @@ e_britannia = {
 					#irish = "Con Doire"
 				}
 				b_dromore = {
-					#irish = "Druim M√≥r"
+					#irish = "Druim MÛr"
 				}
 				b_larne = {
 					#irish = "Latharna"
 				}
 				b_dunluce = {
-					#irish = "D√∫n Libhse"
+					#irish = "D˙n Libhse"
 				}
 			}
 			c_oriel = {
 				color={ 51 109 64 }
 				color2={ 255 255 255 }
 	
-				#irish = Airg√≠alla
+				#irish = AirgÌalla
 				
 				b_clones = {
 					#irish = "Cluain Eois"
@@ -2731,79 +2765,79 @@ e_britannia = {
 					norwegian = Kerlingfjord
 					swedish = Kerlingfjord
 					danish = Kerlingfjord
-					norse = Kerlingfjor√∞r
-					#irish = "D√∫n Dealgan"
+					norse = Kerlingfjorr
+					#irish = "D˙n Dealgan"
 				}
 				b_clogher = {
 					#irish = "Clochar"
 				}
 				b_drogheda = {
-					#irish = "Droichead √Åtha"
+					#irish = "Droichead ¡tha"
 				}
 				b_monaghan = {
-					#irish = "Muineach√°n"
+					#irish = "Muineach·n"
 				}
 				b_olouth = {
-					#irish = "L√∫ghbhaidh"
+					#irish = "L˙ghbhaidh"
 				}
 				b_ardee = {
-					#irish = "Baile √Åtha Fhirdhia"
+					#irish = "Baile ¡tha Fhirdhia"
 				}
 			}
 			c_tyrone = {
 				color={ 122 192 137 }
 				color2={ 255 255 255 }
 				
-				#irish = "T√≠r Eoghain"
+				#irish = "TÌr Eoghain"
 	
 				b_coleraine = {
-					#irish = "C√∫il Rathain"
+					#irish = "C˙il Rathain"
 				}
 				b_dungannon = {
-					#irish = "D√∫n Geanainn"
+					#irish = "D˙n Geanainn"
 				}
 				b_aileach = {
 					#irish = "Ailech"
 				}
 				b_maghera = {
-					#irish = "Machaire R√°tha"
+					#irish = "Machaire R·tha"
 				}
 				b_derry = {
 					#irish = "Daire Coluimb Chille"
 				}
 				b_omagh = {
-					#irish = "An √ìghmaigh"
+					#irish = "An ”ghmaigh"
 				}
 				b_tullyhogue = {
-					#irish = "Tulaigh √ìg"
+					#irish = "Tulaigh ”g"
 				}
 				b_dungiven = {
-					#irish = "D√∫n Geimhin"
+					#irish = "D˙n Geimhin"
 				}
 			}
 			c_tyrconnell = {
 				color={ 176 218 185 }
 				color2={ 255 255 255 }
 				
-				#irish = "T√≠r Chonaill"
+				#irish = "TÌr Chonaill"
 			
 				b_gartan = {
-					#irish = "Gart√°n"
+					#irish = "Gart·n"
 				}
 				b_moville = {
 					#irish = "Magh Bhile"
 				}
 				b_raphoe = {
-					#irish = "R√°th Bhoth"
+					#irish = "R·th Bhoth"
 				}
 				b_fahan = {
 					#irish = "Fathain"
 				}
 				b_donegal = {
-					#irish = "D√∫n na nGall"
+					#irish = "D˙n na nGall"
 				}
 				b_ballyshannon = {
-					#irish = "B√©al √Åtha Seanaidh"
+					#irish = "BÈal ¡tha Seanaidh"
 				}
 				b_kilmacrenan = {
 					#irish = "Cill Mhic nEanain"
@@ -2825,16 +2859,16 @@ e_britannia = {
 				color={ 74 122 90 }
 				color2={ 255 255 255 }
 				
-				#irish = "Br√©ifne"
+				#irish = "BrÈifne"
 	
 				b_dromahair = {
-					#irish = "Droim √Åth Thiar"
+					#irish = "Droim ¡th Thiar"
 				}
 				b_kilmore = {
-					#irish = "Cill Mh√≥r"
+					#irish = "Cill MhÛr"
 				}
 				b_cavan = {
-					#irish = "An Cabh√°n"
+					#irish = "An Cabh·n"
 				}
 				b_longford = {
 					#irish = "An Longphort"
@@ -2859,25 +2893,25 @@ e_britannia = {
 				#irish = "Iarthar Connachta"
 	
 				b_galway = {
-					#irish = "D√∫n Bhun na Gaillimhe"
+					#irish = "D˙n Bhun na Gaillimhe"
 				}
 				b_elphin = {
 					#irish = "Ail Finn"
 				}
 				b_tuam = {
-					#irish = "Tuaim D√° Ghualann"
+					#irish = "Tuaim D· Ghualann"
 				}
 				b_clonfert = {
 					#irish = "Cluain Fearta"
 				}
 				b_roscommon = {
-					#irish = "Ros Com√°in"
+					#irish = "Ros Com·in"
 				}
 				b_killala = {
 					#irish = "Cill Ala"
 				}
 				b_anchory = {
-					#irish = "Baile U√≠ Fhiach√°in"
+					#irish = "Baile UÌ Fhiach·in"
 				}
 			}
 			c_ui_fiachrach = {
@@ -2901,14 +2935,14 @@ e_britannia = {
 					#irish = "Mhuirthead"
 				}
 				b_inishkea = {
-					#irish = "Inis G√©"
+					#irish = "Inis GÈ"
 				}
 			}
 			c_hy_many = {
 				color={ 23 101 49 }
 				color2={ 255 255 255 }
 
-				#irish = "U√≠ Maine"
+				#irish = "UÌ Maine"
 
 				b_cruachu = {}
 				b_delbna = {}
@@ -2917,7 +2951,7 @@ e_britannia = {
 					#irish = "Rath na dTarbh"
 				}
 				b_relignaree = {
-					#irish = "Reilig na R√≠"
+					#irish = "Reilig na RÌ"
 				}
 				b_oweynagat = {
 					#irish = "Uaimh na gCat"
@@ -2957,10 +2991,10 @@ e_britannia = {
 				#irish = "Cill Dara"
 	
 				b_knockaulin = {
-					#irish = "D√∫n Ailinne"
+					#irish = "D˙n Ailinne"
 				}
 				b_athlone = {
-					#irish = "Baile √Åtha Luain"
+					#irish = "Baile ¡tha Luain"
 				}
 				b_kildare = {
 					#irish = "Cill Dara"
@@ -2972,10 +3006,10 @@ e_britannia = {
 					#irish = "Naomh Brigid"
 				}
 				b_rathangan = {
-					#irish = "R√°th Iomgh√°in"
+					#irish = "R·th Iomgh·in"
 				}
 				b_durrow = {
-					#irish = "Dar√∫"
+					#irish = "Dar˙"
 				}
 				b_clonard = {
 					#irish = "Cluain Ioraird"
@@ -3004,19 +3038,19 @@ e_britannia = {
 					#irish = "Fionnghlas"
 				}
 				b_wicklow = {
-					#irish = "Cill Mhant√°in"
+					#irish = "Cill Mhant·in"
 				}
 				b_ath_cliath = {
-					#irish = "Baile √Åtha Cliath"
+					#irish = "Baile ¡tha Cliath"
 				}
 				b_christ_church = {
-					#irish = "Ardeaglais Chr√≠ost"
+					#irish = "Ardeaglais ChrÌost"
 				}
 				b_mellifont = {
-					#irish = "An Mhainistir Mh√≥r"
+					#irish = "An Mhainistir MhÛr"
 				}
 				b_trim = {
-					#irish = "Baile √Åtha Troim"
+					#irish = "Baile ¡tha Troim"
 				}
 			}
 			c_meath = {
@@ -3040,7 +3074,7 @@ e_britannia = {
 				b_birr = {}
 				b_uisnech = {}
 				b_frewin = {
-					#irish = "Fr√©mainn"
+					#irish = "FrÈmainn"
 				}
 				b_fir_cell = {}
 				b_cenel_fiachach = {}
@@ -3056,7 +3090,7 @@ e_britannia = {
 			norwegian = Veisafjord
 			swedish = Veisafjord
 			danish = Veisafjord
-			norse = Veisafjor√∞r
+			norse = Veisafjorr
 			#irish = Laigin
 			
 			c_leinster = {
@@ -3066,36 +3100,36 @@ e_britannia = {
 				norwegian = Veisafjord
 				swedish = Veisafjord
 				danish = Veisafjord
-				norse = Veisafjor√∞r
+				norse = Veisafjorr
 				#irish = Laigin
 	
 				b_wexford = {
 					norwegian = Veisafjord
 					swedish = Veisafjord
 					danish = Veisafjord
-					norse = Veisafjor√∞r
+					norse = Veisafjorr
 					#irish = "Loch Garman"
 				}
 				b_leighlin = {
 					#irish = "Leithghlinn"
 				}
 				b_arklow = {
-					#irish = "An tInbhear M√≥r"
+					#irish = "An tInbhear MÛr"
 				}
 				b_carlow = {
 					#irish = "Ceatharlach"
 				}
 				b_ferns = {
-					#irish = "Fearna M√≥r Maedh√≥g"
+					#irish = "Fearna MÛr MaedhÛg"
 				}
 				b_glendalough = {
-					#irish = "Gleann D√° Loch"
+					#irish = "Gleann D· Loch"
 				}
 				b_naas = {
-					#irish = "N√°s na R√≠ogh"
+					#irish = "N·s na RÌogh"
 				}
 				b_enniscorthy = {
-					#irish = "Inis C√≥rthaidh"
+					#irish = "Inis CÛrthaidh"
 				}
 			}
 			c_ossory = {
@@ -3108,22 +3142,22 @@ e_britannia = {
 					#irish = "Cill Chainnigh"
 				}
 				b_gowran = {
-					#irish = "Gabhr√°n"
+					#irish = "Gabhr·n"
 				}
 				b_clonmacnoise = {
-					#irish = "Cluain Mhic N√≥is"
+					#irish = "Cluain Mhic NÛis"
 				}
 				b_aghaboe = {
-					#irish = "Achadh Bh√≥"
+					#irish = "Achadh BhÛ"
 				}
 				b_jerpoint = {
-					#irish = "Sheireap√∫in"
+					#irish = "Sheireap˙in"
 				}
 				b_callan = {
 					#irish = "Callainn"
 				}
 				b_grennan = {
-					#irish = "An Ghrian√°n"
+					#irish = "An Ghrian·n"
 				}
 				b_grannagh = {
 					#irish = "An Greannach"
@@ -3146,7 +3180,7 @@ e_britannia = {
 			color={ 81 96 63 }
 			color2={ 255 255 255 }
 			
-			capital = 13 # Thomond
+			capital = 1938 # Iarmond
 			
 			norwegian = "Hlymrek"
 			danish = "Lymrek"
@@ -3175,7 +3209,7 @@ e_britannia = {
 					#irish = "Bun na Raite"
 				}
 				b_killaloe = {
-					#irish = "Cill D√°lua"
+					#irish = "Cill D·lua"
 				}
 				b_emly = {
 					#irish = "Imleach Iubhair"
@@ -3184,10 +3218,10 @@ e_britannia = {
 					#irish = "Inis"
 				}
 				b_kilfenora = {
-					#irish = "Cill Fhionn√∫rach"
+					#irish = "Cill Fhionn˙rach"
 				}
 				b_askeaton = {
-					#irish = "Eas G√©itine"
+					#irish = "Eas GÈitine"
 				}
 				b_adare = {
 				}
@@ -3199,30 +3233,30 @@ e_britannia = {
 				norwegian = Vedrafjord
 				swedish = Vedrafjord
 				danish = Vedrafjord
-				norse = Ve√∞rafjor√∞r
+				norse = Verafjorr
 				#irish = Urmhumhain
 		
 				b_waterford = {
 					norwegian = Vedrafjord
 					swedish = Vedrafjord
 					danish = Vedrafjord
-					norse = Ve√∞rafjor√∞r
-					#irish = "Port L√°irge"
+					norse = Verafjorr
+					#irish = "Port L·irge"
 				}
 				b_cahir = {
-					#irish = "Cathair Dh√∫n Iascaigh"
+					#irish = "Cathair Dh˙n Iascaigh"
 				}
 				b_cashel = {
-					#irish = "D√∫n Caiseal"
+					#irish = "D˙n Caiseal"
 				}
 				b_clonmel = {
 					#irish = "Cluain Meala"
 				}
 				b_lismore = {
-					#irish = "Lios M√≥r"
+					#irish = "Lios MÛr"
 				}
 				b_roscrea = {
-					#irish = "Ros Cr√©"
+					#irish = "Ros CrÈ"
 				}
 				b_nenagh = {
 					#irish = "Aonach Urmhumhan"
@@ -3244,7 +3278,7 @@ e_britannia = {
 					#irish = "Corcaigh"
 				}
 				b_dunasead = {
-					#irish = "D√∫n na S√©ad"
+					#irish = "D˙n na SÈad"
 				}
 				b_clone = {
 				}
@@ -3257,7 +3291,7 @@ e_britannia = {
 					#irish = "Cluain"
 				}
 				b_fermoy = {
-					#irish = "Mainistir Fhear Ma√≠"
+					#irish = "Mainistir Fhear MaÌ"
 				}
 				b_blarney = {
 					#irish = "An Bhlarna"
@@ -3275,7 +3309,7 @@ e_britannia = {
 				b_innisfallen = {
 				}
 				b_ross = {
-					#irish = "Ros √ì gCairbre"
+					#irish = "Ros ” gCairbre"
 				}
 				b_killarney = {
 				}
@@ -3288,4 +3322,5 @@ e_britannia = {
 				}
 			}
 		}
+	}
 }

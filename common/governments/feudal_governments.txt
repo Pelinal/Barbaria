@@ -27,26 +27,26 @@ feudal_governments = {
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
-			#NAND = { 
-			#	culture_group = tibetan_group
-			#	OR = {
-			#		religion = bon
-			#		religion = bon_reformed
-			#		religion = buddhist
-			#	}
-			#	higher_tier_than = BARON
-			#}
-			#NAND = { 
-			#	tier = EMPEROR
-			#	primary_title = { has_title_flag = pretender_chinese_empire }
-			#	OR = {
-			#		culture_group = chinese_group
-			#		culture = khitan
-			#		culture = tangut
-			#		culture = jurchen
-			#		has_character_flag = chinese_imperial_government_preserve
-			#	}
-			#}
+			NAND = { 
+				culture_group = tibetan_group
+				OR = {
+					religion = bon
+					religion = bon_reformed
+					religion = buddhist
+				}
+				higher_tier_than = BARON
+			}
+			NAND = { 
+				tier = EMPEROR
+				primary_title = { has_title_flag = pretender_chinese_empire }
+				OR = {
+					culture_group = chinese_group
+					culture = khitan
+					culture = tangut
+					culture = jurchen
+					has_character_flag = chinese_imperial_government_preserve
+				}
+			}
 			is_patrician = no
 		}
 		
@@ -97,26 +97,26 @@ feudal_governments = {
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
-			#AND = { 
-			#	culture_group = tibetan_group
-			#	OR = {
-			#		religion = bon
-			#		religion = bon_reformed
-			#		religion = buddhist
-			#	}
-			#	higher_tier_than = BARON
-			#}
-			#NAND = { 
-			#	tier = EMPEROR
-			#	primary_title = { has_title_flag = pretender_chinese_empire }
-			#	OR = {
-			#		culture_group = chinese_group
-			#		culture = khitan
-			#		culture = tangut
-			#		culture = jurchen
-			#		has_character_flag = chinese_imperial_government_preserve
-			#	}
-			#}
+			AND = { 
+				culture_group = tibetan_group
+				OR = {
+					religion = bon
+					religion = bon_reformed
+					religion = buddhist
+				}
+				higher_tier_than = BARON
+			}
+			NAND = { 
+				tier = EMPEROR
+				primary_title = { has_title_flag = pretender_chinese_empire }
+				OR = {
+					culture_group = chinese_group
+					culture = khitan
+					culture = tangut
+					culture = jurchen
+					has_character_flag = chinese_imperial_government_preserve
+				}
+			}
 			is_patrician = no
 		}
 		
