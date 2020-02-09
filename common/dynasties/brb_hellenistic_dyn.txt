@@ -34,7 +34,7 @@
 	religion = "hellenic"
 }
 
-1506 = {
+1506 = { # used
 	name = "Roussos"
 	culture = "greek"
 	religion = "hellenic"

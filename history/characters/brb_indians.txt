@@ -292,15 +292,15 @@
 }
 
 7120 = {
-    name = "Pushyabuti Placeholder"
+    name = "Pushyabhuti"
     culture = hindustani
     religion = hindu
     dynasty = 10019
     
-    580.1.1 = {
+    440.1.1 = {
         birth = yes
     }
-    640.1.1 = {
+    500.1.1 = {
         death = yes
     }
 }
@@ -782,5 +782,143 @@
     }
     632.1.1 = {
         death = { death_reason = death_drank_poison }
+    }
+}
+# Pushyabhuti/Vardhana Dynasty (Rulers of Sindh)
+7504 = {
+    name = "Nara"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+    father = 7120
+	
+    482.1.1 = {
+        birth = yes
+    }
+    525.1.1 = {
+        death = yes
+    }
+}
+
+7505 = {
+    name = "Rajya"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+    father = 7504
+	
+    501.1.1 = {
+        birth = yes
+    }
+    555.1.1 = {
+        death = yes
+    }
+}
+
+7506 = {
+    name = "Aditya"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+    father = 7505
+	
+    527.1.1 = {
+        birth = yes
+    }
+    580.1.1 = {
+        death = yes
+    }
+}
+
+7507 = {
+    name = "Prabhakara"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+    father = 7506
+	
+    560.1.1 = {
+        birth = yes
+    }
+	576.1.1 = {
+        add_spouse = 7508
+    }
+    605.1.1 = {
+        death = yes
+    }
+}
+
+7508 = {
+    name = "Yasomati"
+    culture = hindustani
+    religion = hindu
+	female = yes
+	
+    567.1.1 = {
+        birth = yes
+    }
+    604.1.1 = {
+        death = { death_reason = death_suicide }
+    }
+}
+7509 = {
+    name = "Rajya"
+    culture = hindustani
+    religion = buddhist
+    dynasty = 10019
+    father = 7507
+	mother = 7508
+	
+	add_trait = ambitious
+	add_trait = trusting
+	
+    579.1.1 = {
+        birth = yes
+    }
+    606.1.1 = {
+        death = { death_reason = death_vanished }
+    }
+}
+
+7510 = {
+    name = "Harsha"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+    father = 7507
+	mother = 7508
+	
+	add_trait = shaivist_hindu
+	add_trait = brilliant_strategist
+	add_trait = quick
+	add_trait = poet
+	add_trait = diligent
+	add_trait = wroth
+	add_trait = scholar
+	
+    590.1.1 = {
+        birth = yes
+    }
+    647.1.1 = {
+        death = yes
+    }
+}
+
+7511 = {
+    name = "Rajyashri"
+    culture = hindustani
+    religion = hindu
+    dynasty = 10019
+	female = yes
+    father = 7507
+	mother = 7508
+	
+	add_trait = fair
+	
+    595.1.1 = {
+        birth = yes
+    }
+    623.1.1 = {
+        death = yes
     }
 }

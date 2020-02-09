@@ -948,12 +948,10 @@
 }
 
 
-
-
 #Massalian Dude in Gaul
 6010 = {
 	name="Lysandridas"
-	dynasty=2499
+	dynasty=1506
 	religion = "hellenic"
 	culture = "massalian"
 	
@@ -968,14 +966,14 @@
 #Phoeniciberian dude in Gaul
 
 6006 = {
-	name="Zephon"
-	dynasty=2542 
-	religion = "punic"
-	culture = "phoeniciberian"
-	592.1.1={
-		birth=yes
+	name = "Zephon"
+	dynasty = 990029 
+	religion = punic
+	culture = phoeniciberian
+	592.1.1 = {
+		birth = yes
 	}
-	654.1.1={
-		death=yes
+	654.1.1 = {
+		death = yes
 	}
 }

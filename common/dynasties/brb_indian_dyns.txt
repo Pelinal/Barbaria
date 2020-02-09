@@ -76,6 +76,8 @@
 
 10016 = {
     name = "Rai"
+	culture = sindhi
+	culture = buddhist
 }
 
 10017 = {
@@ -87,7 +89,9 @@
 }
 
 10019 = {
-    name = "Pushyabuti"
+    name = "Vardhana"
+	culture = hindustani
+	culture = hindu
 }
 
 10020 = {

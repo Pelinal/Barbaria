@@ -35,7 +35,8 @@ k_arvernia = {
 			ai = no
 		}
 		culture = gaulish
-		num_of_duke_titles = 4
+		num_of_duke_titles = 2
+		has_landed_title = d_arvernia
 	}	
 }
 
@@ -54,4 +55,37 @@ d_alvakheda = {
 		culture = kannada
 		num_of_count_titles = 4
 	}	
+}
+
+k_thanesar = {
+	culture = hindustani
+	religion = hindu
+	
+	capital = 1367 # Sthanisvara
+	
+	color={ 189 133 59 }
+	color2={ 255 255 255 }
+	
+	# Creation/usurpation trigger
+	allow = {
+		hidden_tooltip  = {
+			ai = no
+		}
+		culture = hindustani
+		num_of_duke_titles = 2
+		has_landed_title = d_kuru
+	}	
+}
+
+e_harsha = {
+	culture = hindustani
+	religion = hindu
+	
+	capital = 1367 # Sthanisvara
+	short_name = yes
+	used_for_dynasty_names = no
+	
+	color={ 221 177	78 }
+	color2={ 255 255 255 }
+	
 }
