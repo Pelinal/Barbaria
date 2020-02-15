@@ -16,7 +16,7 @@ b_alhamra = city
 
 # Misc
 culture = bedouin_arabic
-religion = sayhadic
+religion = sabian
 
 # History
 #751.1.1 = { capital = b_nizwa }

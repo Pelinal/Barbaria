@@ -416,4 +416,58 @@ indian_group = {
 		dislike_tribal_organization = yes
 		can_demand_religious_conversion = no
 	}
+	
+	sanamahi = { # Manipuran Paganism
+		graphical_culture = mesoamericangfx
+
+		icon = 100
+		heresy_icon = 101
+		
+		color = { 226 227 192 }
+		
+		high_god_name = GOD_SANAMAHI
+		god_names = {
+			GOD_SANAMAHI GOD_EMA_PHOUOIBI GOD_APOKPA GOD_LAININGTHOU_SANAMAHI GOD_SHIDABA_MAPU GOD_THE_EBUDHOU
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = PUYA
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		
+		defensive_attrition = yes
+		dislike_tribal_organization = yes
+		reformed = sanamahi_reformed
+		
+		unit_modifier = {
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		intermarry = buddhist
+	}
 }

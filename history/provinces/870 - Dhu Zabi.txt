@@ -17,6 +17,6 @@ b_qutuf = temple
 
 # Misc
 culture = bedouin_arabic
-religion = sayhadic
+religion = sabian
 
 # History

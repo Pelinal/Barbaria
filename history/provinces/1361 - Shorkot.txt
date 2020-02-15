@@ -14,13 +14,7 @@ b_kamalia = temple
 #b_rabwah = city
 
 # Misc
-culture = alchon
-religion = hephthalite
+culture = panjabi
+religion = hindu
 
 # History
-720.1.1={
-	religion = hindu
-}
-740.1.1={
-	culture = panjabi
-}

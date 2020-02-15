@@ -17,8 +17,7 @@ b_ibra = city
 
 # Misc
 culture = bedouin_arabic
-religion = sayhadic
-
+religion = sabian
 
 # History
 

@@ -12,6 +12,6 @@ b_mastanj = city
 
 # Misc
 culture = sindhi
-religion = zoroastrian
+religion = buddhist
 
 # History
