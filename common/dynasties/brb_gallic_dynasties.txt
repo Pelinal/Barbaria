@@ -765,12 +765,12 @@
 	culture = "celtiberian"
 }
 2650 = {
-	name = "Durata"
+	name = "Celtici"
 	culture = "celtiberian"
 	
 }
 2651 = {
-	name = "Elitovii"
+	name = "Vinoma"
 	culture = "celtiberian"
 	
 }
@@ -780,47 +780,47 @@
 	
 }
 2653 = {
-	name = "Iaca"
+	name = "Iacous"
 	culture = "celtiberian"
 	
 }
 2654 = {
-	name = "Marganii"
+	name = "Margana"
 	culture = "celtiberian"
 	
 }
 2655 = {
-	name = "Sinatus"
+	name = "Sinatous"
 	culture = "celtiberian"
 	
 }
 2656 = {
-	name = "Vodenosa"
+	name = "Vodenoa"
 	culture = "celtiberian"
 	
 }
 2657 = {
-	name = "Indutii"
+	name = "Induta"
 	culture = "celtiberian"
 	
 }
 2658 = {
-	name = "Dumnus"
+	name = "Dumnas"
 	culture = "celtiberian"
 	
 }
 2659 = {
-	name = "Epattica"
+	name = "Epatti"
 	culture = "celtiberian"
 	
 }
 2660 = {
-	name = "Teutomalii"
+	name = "Teutomalica"
 	culture = "celtiberian"
 	
 }
 2661 = {
-	name = "Viridorrius"
+	name = "Viridoi"
 	culture = "celtiberian"
 	
 }

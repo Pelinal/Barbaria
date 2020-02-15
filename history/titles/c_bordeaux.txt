@@ -1,3 +1,4 @@
 610.1.1 = {
 	holder = 2500
+	liege = d_aquitania
 }

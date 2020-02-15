@@ -245,10 +245,9 @@ c_kara_kum_desert;Dasoguz;;;;;;;;;;;;x
 b_dasoguz_castle;Dashoguz;;;;;;;;;;;;x
 b_dasoguz_city;Darvaza;;;;;;;;;;;;x
 k_parthia;Parthia;;;;;;;;;;;;x
-k_persia;Persis;;;;;;;;;;;;x
-k_kushanshahr;Kushanshahr;;;;;;;;;;;;x
+k_kushanshahr;Indo-Sassania;;;;;;;;;;;;x
 k_bactria;Bactria;;;;;;;;;;;;x
-k_padishkhwargar;Padishkhwargar;;;;;;;;;;;;x
+#k_padishkhwargar;Padishkhwargar;;;;;;;;;;;;x
 e_gaul;Gaul;;;;;;;;;;;;x
 k_narbonensis;Narbonensis;;;;;;;;;;;;x
 k_aquitania;Aquitania;;;;;;;;;;;;x

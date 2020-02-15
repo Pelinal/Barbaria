@@ -4,7 +4,7 @@
 	culture = "nuragic"
 }
 2791 = {
-	name = "Orisa"
+	name = "Oriso"
 	culture = "nuragic"
 }
 2792 = {

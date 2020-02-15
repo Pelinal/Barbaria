@@ -47,11 +47,12 @@ gallic_group = {
 		from_dynasty_prefix = "of "
 
 		modifier = default_culture_modifier
+		dukes_called_kings = yes
 		
 		#dukes_called_kings = yes
 		
-		male_patronym = "mab "
-		female_patronym = "verch "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
 		pat_grf_name_chance = 25
@@ -86,12 +87,12 @@ gallic_group = {
 			Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
 			Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
-		from_dynasty_prefix = "o "
-		male_patronym = "mab "
-		female_patronym = "verch "
+		from_dynasty_prefix = "of "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
-		dukes_called_kings = no
+		dukes_called_kings = yes
 
 		modifier = default_culture_modifier
 
@@ -127,12 +128,12 @@ gallic_group = {
 			Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
 			Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
-		from_dynasty_prefix = "o "
-		male_patronym = "mab "
-		female_patronym = "verch "
+		from_dynasty_prefix = "of "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
-		dukes_called_kings = no
+		dukes_called_kings = yes
 
 		modifier = default_culture_modifier
 
@@ -169,12 +170,12 @@ gallic_group = {
 			Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		
-		from_dynasty_prefix = "o "
-		male_patronym = "mab "
-		female_patronym = "verch "
+		from_dynasty_prefix = "of "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
-		dukes_called_kings = no
+		dukes_called_kings = yes
 
 		modifier = default_culture_modifier
 
@@ -211,12 +212,12 @@ gallic_group = {
 			Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		
-		from_dynasty_prefix = "o "
-		male_patronym = "mab "
-		female_patronym = "verch "
+		from_dynasty_prefix = "of "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
-		dukes_called_kings = no
+		dukes_called_kings = yes
 
 		modifier = default_culture_modifier
 
@@ -253,12 +254,12 @@ gallic_group = {
 			Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		
-		from_dynasty_prefix = "o "
-		male_patronym = "mab "
-		female_patronym = "verch "
+		from_dynasty_prefix = "of "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
-		dukes_called_kings = no
+		dukes_called_kings = yes
 
 		modifier = default_culture_modifier
 
@@ -278,13 +279,9 @@ gallic_group = {
 		
 		color = { 0.26 0.6 0.18 }
 		parent = iberic
-		
-		alternate_start = {
-			has_alternate_start_parameter = { key = culture value = full_random }
-		}
 
 		male_names = {
-			Aibekeres Aiunesker Aius Amaina Amusico Alucio Arbiskar Iltiradin IndÃ­bil
+			Aibekeres Aiunesker Aius Amaina Amusico Alucio Arbiskar Iltiradin Indíbil
 			Bagarok Balcaldur Binturke Biurdiki Biurtan Budar Caikonbe Edereta Ildutas 
 			Isceradin Korribilo Nabarsosin Nerseadin Sakarbik Sakarisker Sinebetin Tarbantu 
 			Unibelos Unibetin Tarkunbiur Turibas
@@ -292,11 +289,12 @@ gallic_group = {
 		female_names = {
 			Ama Ana Aunia Auruningica Canine Daleninar Himilce Sicounin Stena Dalena Celiene
 		}
-		from_dynasty_prefix = "dae "
+		from_dynasty_prefix = "of "
 		
-		male_patronym = "ez"
-		female_patronym = "ez"
-		grammar_transform = spanish
+		#male_patronym = "ez"
+		##male_patronym = "ez"
+		#grammar_transform = spanish
+		dukes_called_kings = yes
 
 		pat_grf_name_chance = 45
 		mat_grf_name_chance = 15
@@ -331,12 +329,12 @@ gallic_group = {
 			Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		
-		from_dynasty_prefix = "o "
-		male_patronym = "mab "
-		female_patronym = "verch "
+		from_dynasty_prefix = "of "
+		#male_patronym = "mab "
+		#male_patronym = "verch "
 		prefix = yes
 
-		dukes_called_kings = no
+		dukes_called_kings = yes
 
 		modifier = default_culture_modifier
 

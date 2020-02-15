@@ -2,9 +2,9 @@
 
 2500 = {
 	name = "Harsi"
-	dynasty = 2751
+	dynasty = 2790
 	religion = "vasconic"
-	culture = "vasconian"
+	culture = "aquitani"
 	
 	572.1.1={
 		birth=yes
@@ -15,10 +15,10 @@
 }
 
 2501 = {
-	name = "Sakarbik"
-	dynasty = 2752
+	name = "Erramos"
+	dynasty = 2791
 	religion = "vasconic"
-	culture = "vasconian"
+	culture = "aquitani"
 	
 	591.1.1={
 		birth=yes
@@ -29,10 +29,10 @@
 }
 
 2502 = {
-	name = "Otirgeter"
-	dynasty = 2753
+	name = "Balcca"
+	dynasty = 2792
 	religion = "vasconic"
-	culture = "vasconian"
+	culture = "aquitani"
 	
 	568.1.1={
 		birth=yes
@@ -43,10 +43,10 @@
 }
 
 2503 = {
-	name = "Iscerbeles"
-	dynasty = 2754
+	name = "Nabarra"
+	dynasty = 2793
 	religion = "vasconic"
-	culture = "vasconian"
+	culture = "aquitani"
 	
 	577.1.1={
 		birth=yes

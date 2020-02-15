@@ -15,7 +15,7 @@ b_mahon = city
 #b_ferreries = castle
 
 # Misc
-culture = phoeniciberian
+culture = carthaginian
 religion = punic
 terrain = hills
 

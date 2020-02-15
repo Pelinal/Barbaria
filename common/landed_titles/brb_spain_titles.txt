@@ -1,5 +1,5 @@
 e_spain = {
-	color = { 157 106 175 }
+	color = { 232 200 25 }
 	color2={ 255 255 255 }
 	
 	capital = 197 # Toledo
@@ -31,10 +31,10 @@ e_spain = {
 			trigger = {
 				has_global_flag = active_reconquista
 			}
-
+		
 			custom_tooltip = {
 				text = active_reconquista_condition_TT
-
+		
 				always = no
 			}
 		}
@@ -143,14 +143,14 @@ e_spain = {
 			}
 
 		}
-		d_celticia= {
+		d_celticia = {
 			color = { 232 125 125 }
 			color2={ 255 255 255 }
 			
 			capital = 162 # Silves
 
 			c_evora = {
-				color = { 182 68 5 }
+				color = { 149 113 147 }
 				color2={ 255 255 255 }
 				
 				b_avis = {
@@ -360,7 +360,7 @@ e_spain = {
 				b_moura = {}
 			}			
 			c_badajoz = {
-				color = { 234 236 29 }
+				color = { 250 137 186 }
 				color2={ 255 255 255 }
 
 				visigothic = "Mérida"

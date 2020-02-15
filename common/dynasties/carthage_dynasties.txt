@@ -1,16 +1,16 @@
 990000 = {
-    name = "Mahonid"
+    name = "Mago" # Diplomatic Dynasty of Carthage
     used_for_random = no
     can_appear = no
 }
 990001 = {
-	name = "Sigibal"
+	name = "Hannonid" # Merchant Dynasty of Carthage
 	culture = carthaginian
 	used_for_random = no
     can_appear = no
 }
 990002 = {
-	name = "adn Murgi"
+	name = "Barca" # Military Dynasty of Carthage
 	culture = carthaginian
 	used_for_random = no
     can_appear = no
@@ -889,19 +889,19 @@
 	used_for_random = no
 }
 
-990272=
-{
-	name="Barcid"
-	culture="carthaginian"
-	religion="canaanite_pagan"
-	used_for_random = no
-	
-	coat_of_arms = {
-		data = { 0 3 0 51 0 0 0 }
-		religion = "catholic"
-	}
-	used_for_random=no
-}
+#990272=
+#{
+#	name="Barcid"
+#	culture="carthaginian"
+#	religion="canaanite_pagan"
+#	used_for_random = no
+#	
+#	coat_of_arms = {
+#		data = { 0 3 0 51 0 0 0 }
+#		religion = "catholic"
+#	}
+#	used_for_random=no
+#}
 
 990273 = {
     name = "adn Calpe"

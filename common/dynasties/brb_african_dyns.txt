@@ -1,6 +1,6 @@
 ### Sub-Saharan Dynastic Names ###
 # e.g. Kanuri, Hausa, Zaghawa, Manden, Soninke, Songhay and Daju
-# 3000- 3500?
+# 3000- 3249?
 
 # Kanuri Dynasties
 3000 = {

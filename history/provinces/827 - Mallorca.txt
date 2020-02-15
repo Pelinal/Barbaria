@@ -15,7 +15,7 @@ b_eivissa = city
 #b_manacor = castle
 
 # Misc
-culture = phoeniciberian
+culture = carthaginian
 religion = punic
 terrain = mountain
 

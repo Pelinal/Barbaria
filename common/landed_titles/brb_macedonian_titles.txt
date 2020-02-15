@@ -2051,7 +2051,7 @@ e_macedonia = { # change!
 		}
 		
 		d_azerbaijan = {
-			color={ 112 120 180 }
+			color={ 218 138 133 }
 			color2={ 255 255 255 }
 			
 			capital = 670 # Azerbaijan
@@ -2059,7 +2059,7 @@ e_macedonia = { # change!
 			culture = persian
 			
 			c_azerbaijan = {
-				color={ 164 236 24 }
+				color={ 218 138 133 }
 				color2={ 255 255 255 }
 				
 				b_urmiah = {
@@ -2080,7 +2080,7 @@ e_macedonia = { # change!
 				}
 			}
 			c_suenik = {
-				color={ 166 238 26 }
+				color={ 74 25 22 }
 				color2={ 255 255 255 }
 				
 				turkish = "Kafan"
@@ -2107,7 +2107,7 @@ e_macedonia = { # change!
 		}
 		
 		d_persiarmenia = {
-			color = { 82 95 163 }
+			color = { 191 52 44 }
 			color2={ 255 255 255 }
 			
 			capital = 682 # Vaspurakan
@@ -2117,7 +2117,7 @@ e_macedonia = { # change!
 			armenian = "Parskahayastan"
 			
 			c_vaspurakan = {
-				color={ 82 95 163 }
+				color={ 191 52 44 }
 				color2={ 255 255 255 }
 				
 				turkish = "Van"
@@ -2141,7 +2141,7 @@ e_macedonia = { # change!
 				}
 			}
 			c_dwin = {
-				color={ 92 85 150 }
+				color={	188 75 69 }
 				color2={ 255 255 255 }
 				
 				turkish = "Erivan"

@@ -1,8 +1,0 @@
-578.1.1 = {
-	liege = e_persia
-	holder = 408
-}
-600.1.1 = {
-	liege = e_persia
-	holder = 407
-}

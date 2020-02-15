@@ -27,12 +27,9 @@ pre_indo_european = {
 			Anderazu Andere Arai Araica Balcca Bihoxa Bita Eduntze Emazteona Enedina Erlea Hahan Iluna Maiora Mari Maite Maura Milia Munnoza 
 			Munnata Monnia Munina Nescato Oneca Ocanda Uenega Ussoa Curia Nabarra
 		}
-		from_dynasty_prefix = "ez "
+		from_dynasty_prefix = "of "
 		
 		dukes_called_kings = yes
-		
-		male_patronym = "ez"
-		female_patronym = "ez"
 
 		pat_grf_name_chance = 80
 		mat_grf_name_chance = 5
@@ -53,18 +50,17 @@ pre_indo_european = {
 		color = { 0.66 0.7 0.53 }
 		
 		male_names = {
-			Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Lagunas Mandonio Magavarico
-			Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
+			Abain Ahoztar Aio Andos Apalo Arixo Arixoni Azeari Azubeli Balcoe Bals Beila Belasco_Vasco Belas Blasco_Vasco Cison Enneco
+			Ereti Erramel Erramon Erramos Garsia Hanna Haros Harsi Heraus Ilun Iluntso Ilintso Ilunosi Ilurde Iaun Iaunti Leheren 
+			Lohis Obeco Otxoa_Ochoa Sembe Selatse Munino Monioni Nabar Ubeltso Txaran Txatzel Txipi Urdin Yssuri Cigor Cilar
 		}
 		female_names = {
-			Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
+			Anderazu Andere Arai Araica Balcca Bihoxa Bita Eduntze Emazteona Enedina Erlea Hahan Iluna Maiora Mari Maite Maura Milia Munnoza 
+			Munnata Monnia Munina Nescato Oneca Ocanda Uenega Ussoa Curia Nabarra
 		}
-		from_dynasty_prefix = "ez "
+		from_dynasty_prefix = "of "
 		
 		dukes_called_kings = yes
-		
-		male_patronym = "ez"
-		female_patronym = "ez"
 
 		pat_grf_name_chance = 80
 		mat_grf_name_chance = 5
@@ -85,18 +81,17 @@ pre_indo_european = {
 		color = { 0.66 0.7 0.53 }
 		
 		male_names = {
-			Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Lagunas Mandonio Magavarico
-			Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
+			Abain Ahoztar Aio Andos Apalo Arixo Arixoni Azeari Azubeli Balcoe Bals Beila Belasco_Vasco Belas Blasco_Vasco Cison Enneco
+			Ereti Erramel Erramon Erramos Garsia Hanna Haros Harsi Heraus Ilun Iluntso Ilintso Ilunosi Ilurde Iaun Iaunti Leheren 
+			Lohis Obeco Otxoa_Ochoa Sembe Selatse Munino Monioni Nabar Ubeltso Txaran Txatzel Txipi Urdin Yssuri Cigor Cilar
 		}
 		female_names = {
-			Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
+			Anderazu Andere Arai Araica Balcca Bihoxa Bita Eduntze Emazteona Enedina Erlea Hahan Iluna Maiora Mari Maite Maura Milia Munnoza 
+			Munnata Monnia Munina Nescato Oneca Ocanda Uenega Ussoa Curia Nabarra
 		}
-		from_dynasty_prefix = "ez "
+		from_dynasty_prefix = "of "
 		
 		dukes_called_kings = yes
-		
-		male_patronym = "ez"
-		female_patronym = "ez"
 
 		pat_grf_name_chance = 80
 		mat_grf_name_chance = 5
