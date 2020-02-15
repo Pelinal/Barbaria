@@ -824,10 +824,18 @@ e_gaul = {
 			color = {  231 203 151  }
 			color2 = { 255 255 255 }
 			capital = 214 # Toulouse
+	
+			carthaginian = "Nimsis"
+			phoenician = "Nimsis"
+			phoeniciberian = "Nimisis"	
 		
 			c_toulouse = {
 				color={ 145 106 33 }
 				color2={ 255 255 255 }
+				
+				carthaginian = "Nimsis"
+				phoenician = "Nimsis"
+				phoeniciberian = "Nimisis"					
 				
 				b_castelnaudary = {
 				} 
@@ -891,6 +899,10 @@ e_gaul = {
 			c_rosello = {
 				color = { 179 143 77 }
 				color2={ 255 255 255 }
+				
+				carthaginian = "Marcino"
+				phoenician = "Marcino"
+				phoeniciberian = "Marcino"
 				
 				b_cotlliure = {
 				}
@@ -962,6 +974,10 @@ e_gaul = {
 			c_narbonne = {
 				color={ 159 137 96 }
 				color2={ 255 255 255 }
+				
+				carthaginian = "Narvo"
+				phoenician = "Narvo"
+				phoeniciberian = "Narvo"
 				
 				b_albi = {
 				} 
