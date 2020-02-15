@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 8009
+	liege = k_carthaginensis
+}

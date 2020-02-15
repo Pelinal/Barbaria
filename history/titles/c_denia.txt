@@ -1,0 +1,7 @@
+580.1.1 = {
+	holder = 8005
+	liege = d_contestania
+}
+623.1.1 = {
+	holder = 8007
+}

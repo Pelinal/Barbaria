@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 8032
+	liege = d_vaccia
+}

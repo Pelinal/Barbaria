@@ -1,0 +1,55 @@
+### Iberian Dynastic Names ###
+# e.g. Iberian
+# 3250- 3499?
+
+# Iberian Dynasties
+3250 = {
+	name = "Orisid"
+	culture = iberian
+	religion = iberic
+}
+3251 = {
+	name = "Laguna"
+	culture = iberian
+	religion = iberic
+}
+3252 = {
+	name = "Umarilus"
+	culture = iberian
+	religion = iberic
+}
+3253 = {
+	name = "Turenus"
+	culture = iberian
+	religion = iberic
+}
+3254 = {
+	name = "Andobalid"
+	culture = iberian
+	religion = iberic
+}
+3255 = {
+	name = "Caroa"
+	culture = iberian
+	religion = iberic
+}
+3256 = {
+	name = "Indicidii"
+	culture = iberian
+	religion = iberic
+}
+3257 = {
+	name = "Karidus"
+	culture = iberian
+	religion = iberic
+}
+3258 = {
+	name = "Urcetica"
+	culture = iberian
+	religion = iberic
+}
+3259 = {
+	name = "Sosias"
+	culture = iberian
+	religion = iberic
+}

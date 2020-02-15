@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 8015
+	liege = k_baetica
+}

@@ -1,0 +1,564 @@
+### Iberian and Celtiberian Characters ###
+# 8000 - 8999
+
+8000 = {
+    name = "Turibas"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2649
+    
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+8001 = {
+    name = "Milkyaton"
+    culture = phoeniciberian
+    religion = punic
+    dynasty = 990103
+    
+    591.1.1 = {
+        birth = yes
+    }
+    666.1.1 = {
+        death = yes
+    }
+}
+
+8002 = {
+    name = "Iscerbeles"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2650
+    
+    575.1.1 = {
+        birth = yes
+    }
+    652.1.1 = {
+        death = yes
+    }
+}
+
+8003 = {
+    name = "Umarilo"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2651
+    
+    588.1.1 = {
+        birth = yes
+    }
+    645.1.1 = {
+        death = yes
+    }
+}
+
+8004 = {
+    name = "Itthobaal"
+    culture = carthaginian
+    religion = punic
+    dynasty = 990102
+    
+    558.1.1 = {
+        birth = yes
+    }
+    636.1.1 = {
+        death = yes
+    }
+}
+
+8005 = {
+    name = "Adonibal"
+    culture = carthaginian
+    religion = punic
+    dynasty = 990002 # Barcid Dynasty
+	
+	add_trait = cruel
+	add_trait = ambitious
+	add_trait = strong
+	add_trait = brilliant_strategist
+	add_trait = strategist
+	add_trait = scarred_high
+	add_trait = sturdy
+
+    557.1.1 = {
+        birth = yes
+    }
+	580.1.1 = {
+		add_spouse = 8006
+	}
+	596.1.1 = {
+		add_claim = k_baetica
+		add_claim = k_tarraconensis
+		add_claim = c_majorca
+	}
+    623.1.1 = {
+        death = yes
+    }
+}
+
+8006 = {
+    name = "Jezebel"
+	female = yes
+    culture = carthaginian
+    religion = punic
+	
+	diplomacy = 12
+	add_trait = kind
+	add_trait = seductress
+    
+    562.1.1 = {
+        birth = yes
+    }
+	580.1.1 = {
+		add_lover = 8005
+	}
+    631.1.1 = {
+        death = yes
+    }
+}
+
+8007 = {
+    name = "Carthalo"
+    culture = carthaginian
+    religion = punic
+    dynasty = 990002 # Barcid Dynasty
+	father = 8005
+	mother = 8006
+	
+	add_trait = strong
+	add_trait = tough_soldier
+
+    590.1.1 = {
+        birth = yes
+    }
+    649.1.1 = {
+        death = yes
+    }
+}
+
+8008 = {
+    name = "Hanno"
+    culture = carthaginian
+    religion = punic
+    dynasty = 990101
+    
+    588.1.1 = {
+        birth = yes
+    }
+    642.1.1 = {
+        death = yes
+    }
+}
+8009 = {
+    name = "Gisco"
+    culture = phoeniciberian
+    religion = punic
+    dynasty = 990100
+    
+    593.1.1 = {
+        birth = yes
+    }
+    655.1.1 = {
+        death = yes
+    }
+}
+
+8010 = {
+    name = "Boldizsar"
+    culture = phoeniciberian
+    religion = punic
+    dynasty = 990099
+    
+	add_trait = honest
+	add_trait = grey_eminence
+	diplomacy = 8
+	
+    564.1.1 = {
+        birth = yes
+    }
+	585.1.1 = {
+		add_friend = 8005
+	}
+    630.1.1 = {
+        death = yes
+    }
+}
+
+8011 = {
+    name = "Hanno"
+    culture = carthaginian
+    religion = punic
+    dynasty = 990098
+    
+    588.1.1 = {
+        birth = yes
+    }
+    642.1.1 = {
+        death = yes
+    }
+}
+
+8012 = {
+    name = "Germelqart"
+    culture = carthaginian
+    religion = punic
+    dynasty = 990097
+    
+    570.1.1 = {
+        birth = yes
+    }
+    625.1.1 = {
+        death = yes
+    }
+}
+
+8013 = {
+    name = "Mago"
+    culture = phoeniciberian
+    religion = punic
+    dynasty = 990096
+    
+    589.1.1 = {
+        birth = yes
+    }
+    650.1.1 = {
+        death = yes
+    }
+}
+
+8014 = {
+    name = "Mandonio"
+    culture = iberian
+    religion = iberic
+    dynasty = 3250
+    
+    577.1.1 = {
+        birth = yes
+    }
+    639.1.1 = {
+        death = yes
+    }
+}
+
+8015 = {
+    name = "Acco"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2652
+    
+    590.1.1 = {
+        birth = yes
+    }
+    650.1.1 = {
+        death = yes
+    }
+}
+
+8016 = {
+    name = "Dalena"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2653
+	female = yes
+    
+    587.1.1 = {
+        birth = yes
+    }
+    644.1.1 = {
+        death = yes
+    }
+}
+
+8017 = {
+    name = "Boio"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2654
+
+    578.1.1 = {
+        birth = yes
+    }
+    630.1.1 = {
+        death = yes
+    }
+}
+
+8018 = {
+    name = "Ildutas"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2655
+
+    582.1.1 = {
+        birth = yes
+    }
+    638.1.1 = {
+        death = yes
+    }
+}
+
+8019 = {
+    name = "Caikonbe"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2656
+	
+	add_trait = weak
+	
+    574.1.1 = {
+        birth = yes
+    }
+    619.1.1 = {
+        death = yes
+    }
+}
+
+8020 = {
+    name = "Alucio"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2657
+	
+    591.1.1 = {
+        birth = yes
+    }
+    654.1.1 = {
+        death = yes
+    }
+}
+
+8021 = {
+    name = "Unibelos"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2658
+	
+    586.1.1 = {
+        birth = yes
+    }
+    633.1.1 = {
+        death = yes
+    }
+}
+
+8022 = {
+    name = "Auruningica"
+	female = yes
+    culture = iberian
+    religion = iberic
+    dynasty = 3251
+	
+    577.1.1 = {
+        birth = yes
+    }
+    620.1.1 = {
+        death = yes
+    }
+}
+
+8023 = {
+    name = "Redukeno"
+    culture = iberian
+    religion = iberic
+    dynasty = 3252
+	
+    580.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+
+8024 = {
+    name = "Sacarisker"
+    culture = iberian
+    religion = iberic
+    dynasty = 3253
+	
+    585.1.1 = {
+        birth = yes
+    }
+    632.1.1 = {
+        death = yes
+    }
+}
+
+8025 = {
+    name = "Vosenius"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2659
+	
+    583.1.1 = {
+        birth = yes
+    }
+    627.1.1 = {
+        death = yes
+    }
+}
+
+8026 = {
+    name = "Ambata"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2648
+	
+	add_trait = feeble
+	add_trait = weak
+	add_trait = master_theologian
+	add_trait = scholar
+	learning = 7
+	diplomacy = 6
+	martial = 0
+	
+    555.1.1 = {
+        birth = yes
+    }
+	579.1.1 = {
+		add_spouse = 8027
+	}
+    618.1.1 = {
+        death = yes
+    }
+}
+
+8027 = {
+    name = "Stena"
+    culture = celtiberian
+    religion = gallic
+	female = yes
+	
+    558.1.1 = {
+        birth = yes
+    }
+    622.1.1 = {
+        death = yes
+    }
+}
+
+8028 = {
+    name = "Celiene"
+    culture = celtiberian
+    religion = gallic
+    dynasty = 2648
+	female = yes
+	father = 8026
+	mother = 8027
+	
+	add_trait = robust
+	add_trait = fair
+	add_trait = zealous
+	add_trait = just
+	
+    587.1.1 = {
+        birth = yes
+    }
+    664.1.1 = {
+        death = yes
+    }
+}
+
+8029 = {
+    name = "Edereta"
+    culture = celtiberian
+    religion = gallic
+	dynasty = 2660
+
+    594.1.1 = {
+        birth = yes
+    }
+    664.1.1 = {
+        death = yes
+    }
+}
+8030 = {
+    name = "Indíbil"
+    culture = celtiberian
+    religion = gallic
+	dynasty = 2661
+
+    575.1.1 = {
+        birth = yes
+    }
+    639.1.1 = {
+        death = yes
+    }
+}
+
+8031 = {
+    name = "Budar"
+    culture = celtiberian
+    religion = gallic
+	dynasty = 2662
+
+    566.1.1 = {
+        birth = yes
+    }
+    628.1.1 = {
+        death = yes
+    }
+}
+
+8032 = {
+    name = "Korribilo"
+    culture = celtiberian
+    religion = gallic
+	dynasty = 2663
+
+    564.1.1 = {
+        birth = yes
+    }
+    633.1.1 = {
+        death = yes
+    }
+}
+8033 = {
+    name = "Canine"
+	female = yes
+    culture = celtiberian
+    religion = gallic
+	dynasty = 2664
+
+    557.1.1 = {
+        birth = yes
+    }
+    621.1.1 = {
+        death = yes
+    }
+}
+
+8034 = {
+    name = "Ahoztar"
+    culture = vasconian
+    religion = vasconic
+	dynasty = 2798
+	
+	add_trait = fortune_builder
+	add_trait = greedy
+
+    568.1.1 = {
+        birth = yes
+    }
+    641.1.1 = {
+        death = yes
+    }
+}
+8035 = {
+    name = "Munino"
+    culture = vasconian
+    religion = vasconic
+	dynasty = 2796
+
+    579.1.1 = {
+        birth = yes
+    }
+    655.1.1 = {
+        death = yes
+    }
+}

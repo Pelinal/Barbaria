@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 8023
+	liege = d_celtiberia
+}

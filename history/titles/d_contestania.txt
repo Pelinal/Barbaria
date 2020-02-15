@@ -1,0 +1,7 @@
+580.1.1 = {
+	holder = 8005
+	liege = k_carthaginensis
+}
+623.1.1 = {
+	holder = 8007
+}

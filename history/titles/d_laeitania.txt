@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 8001
+	liege = k_tarraconensis
+}

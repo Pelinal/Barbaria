@@ -1,0 +1,4 @@
+610.1.1 = {
+	holder = 900030
+	liege = k_vasconia
+}

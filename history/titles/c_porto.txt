@@ -1,0 +1,7 @@
+610.1.1 = {
+	holder = 8026
+	liege = d_gallaecia
+}
+618.1.1 = {
+	holder = 8028
+}
