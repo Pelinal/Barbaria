@@ -253,23 +253,19 @@ e_spain = {
 
 			capital = 2012 # Egitanea
 			
-			bedouin_arabic = "Balata"
-			
-			
+			bedouin_arabic = "Balata"			
 			nabataean = "Balata"
 			himyarite = "Balata"
 
 			c_lisboa = {
 				color = {135 94 94}
 				color2={ 255 255 255 }
-				
-				carthaginian = "Olisipo"				
+						
 				bedouin_arabic = "Lishbuna"			
 				nabataean = "Lishbuna"
 				himyarite = "Lishbuna"
 				
 				b_lisboa = {
-					carthaginian = "Olisipo"	
 					bedouin_arabic = "Lishbuna"					
 					nabataean = "Lishbuna"
 					himyarite = "Lishbuna"
@@ -572,11 +568,15 @@ e_spain = {
 				bedouin_arabic = "Mursiya"				
 				nabataean = "Mursiya"
 				himyarite = "Mursiya"
+				celtiberian = "Ilici"
+				iberian = "Ilici"
 				
 				b_murcia = {
 					bedouin_arabic = "Mursiya"				
 					nabataean = "Mursiya"
 					himyarite = "Mursiya"
+					celtiberian = "Ilici"
+					iberian = "Ilici"					
 				}
 				b_cartagena = {
 				}

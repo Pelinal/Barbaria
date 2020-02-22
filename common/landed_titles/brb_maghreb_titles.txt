@@ -65,7 +65,7 @@ e_carthage = {
 			capital = 843 # Marrakech
 		
 			c_tinmallal = {
-				color={ 60 190 43 }
+				color={ 255 217 102}
 				color2={ 255 255 255 }
 		
 				b_tinmallal = {}
@@ -79,7 +79,7 @@ e_carthage = {
 			capital = 847 # Sous/Tharasset
 			
 			c_tharasset = { # Sous
-				color={ 47 154 16 }
+				color={ 204 153 0 }
 				color2={ 255 255 255 }
 				
 				b_tiznit = {}
@@ -94,7 +94,7 @@ e_carthage = {
 				b_biourga = {}
 			}
 			c_warzazat = {
-				color={ 41 125 16 }
+				color={ 198 169 83 }
 				color2={ 255 255 255 }
 				
 				b_warzazat = {}
@@ -106,7 +106,7 @@ e_carthage = {
 				b_timhata = {} # Fictional for prosperity
 			}		
 			c_marrakech = {
-				color={ 45 152 34 }
+				color={ 255 198 26 }
 				color2={ 255 255 255 }
 
 				holy_site = aztec
@@ -128,7 +128,7 @@ e_carthage = {
 				}
 			}
 			c_anti-atlas = { # Safi
-				color={ 51 158 40 }
+				color={255 223 128}
 				color2={ 255 255 255 }
 				
 				b_safi = {}
@@ -150,7 +150,7 @@ e_carthage = {
 			capital = 841 # Tangiers
 			
 			c_tangiers = {
-				color={ 51 255 9 }
+				color={ 255 140 26 }
 				color2={ 255 255 255 }
 			
 				b_tangiers = {
@@ -171,7 +171,7 @@ e_carthage = {
 				}
 			}
 			c_cebta = { # Ceuta
-				color={ 54 255 12 }
+				color={255 179 102}
 				color2={ 255 255 255 }
 				
 				maghreb_arabic = "Sebta"
@@ -195,7 +195,7 @@ e_carthage = {
 				}
 			}
 			c_el_rif = {
-				color={ 28 240 63 }
+				color={ 204 102 0 }
 				color2={ 255 255 255 }
 			
 				b_melilla = {}
@@ -208,7 +208,7 @@ e_carthage = {
 				b_agadirene = {} # Fictional for prosperity
 			}
 			c_fes = {
-				color={ 24 236 59 }
+				color={ 255 204 153 }
 				color2={ 255 255 255 }
 			
 				b_fes = {}
@@ -220,7 +220,7 @@ e_carthage = {
 				b_subu = {}
 			}
 			c_infa = {
-				color={ 48 255 6 }
+				color={ 186 140 94 }
 				color2={ 255 255 255 }
 			
 				b_infa = {
@@ -248,7 +248,7 @@ e_carthage = {
 			capital = 844 # Massat/Anfa
 				
 			c_meknes = {
-				color={ 32 244 67 }
+				color={ 255 128 0 }
 				color2={ 255 255 255 }
 				
 				b_meknes = {}
@@ -260,7 +260,7 @@ e_carthage = {
 				b_amouguer = {} # Fictional for prosperity
 			}		
 			c_massat = { # Anfa
-				color={ 53 160 42 }
+				color={ 204 102 0 }
 				color2={ 255 255 255 }
 				
 				b_anfa = {}
@@ -272,7 +272,7 @@ e_carthage = {
 				b_zidania = {} # Fictional for prosperity
 			}
 			c_tadla = {
-				color={ 60 190 43 }
+				color={ 153 77 0 }
 				color2={ 255 255 255 }
 		
 				b_tadla = {}
@@ -284,7 +284,7 @@ e_carthage = {
 				b_ait_itab = {}
 			}		
 			c_muluja = {
-				color={ 32 244 67 }
+				color={ 133 102 71 }
 				color2={ 255 255 255 }
 				
 				b_missour = {}
@@ -303,7 +303,7 @@ e_carthage = {
 			capital = 834 # Tlemcen
 			
 			c_taza = {
-				color={ 32 244 67 }
+				color={ 255 217 179 }
 				color2={ 255 255 255 }
 				
 				b_taza = {}
@@ -315,7 +315,7 @@ e_carthage = {
 				b_tamdrost = {} # Fictional for prosperity
 			}
 			c_orania = {
-				color={ 45 192 79 }
+				color={ 255 153 51 }
 				color2={ 255 255 255 }
 			
 				b_oran = {
@@ -336,7 +336,7 @@ e_carthage = {
 				}
 			}			
 			c_tlemcen = {
-				color={ 43 190 77 }
+				color={ 255 179 102 }
 				color2={ 255 255 255 }
 			
 				b_tlemcen = {
@@ -357,7 +357,7 @@ e_carthage = {
 				}
 			}
 			c_snassen = { # Wajda
-				color={ 36 248 71 }
+				color={ 209 179 148 }
 				color2={ 255 255 255 }
 			
 				b_oujda = {
@@ -385,7 +385,7 @@ e_carthage = {
 			capital = 1780 # Ziz
 			
 			c_figuig = { # Tendara
-				color={ 32 244 67 }
+				color={ 217 179 140 }
 				color2={ 255 255 255 }
 			
 				b_figuig = {}
@@ -397,7 +397,7 @@ e_carthage = {
 				b_randon = {} # Fictional for prosperity
 			}		
 			c_ziz = {
-				color={ 130 180 61 }
+				color={ 198 140 83 }
 				color2={ 255 255 255 }
 				
 				b_ziz = {}
@@ -409,7 +409,7 @@ e_carthage = {
 				b_tiskouit = {} # Fictional for prosperity
 			}
 			c_tudgha = {
-				color={ 130 180 61 }
+				color={ 153 102 51 }
 				color2={ 255 255 255 }
 				
 				b_tudgha = {}
@@ -428,7 +428,7 @@ e_carthage = {
 			capital = 918 # Sijilmasa
 			
 			c_sijilmasa = {
-				color={ 72 214 60 }
+				color={ 217 93 0  }
 				color2={ 255 255 255 }
 				
 				b_sijilmasa = {}
@@ -441,7 +441,7 @@ e_carthage = {
 				b_tisserdmine = {}
 			}
 			c_taghaza = {
-				color={ 130 180 61 }
+				color={ 255 111 0 }
 				color2={ 255 255 255 }
 				
 				b_taghaza = {}
@@ -461,7 +461,7 @@ e_carthage = {
 			capital = 1779 # Draa
 			
 			c_ifni = {
-				color={ 49 156 38 }
+				color={ 227 172 53 }
 				color2={ 255 255 255 }
 				
 				b_ifni = {}
@@ -475,7 +475,7 @@ e_carthage = {
 				b_tiglit = {}
 			}
 			c_draa = {
-				color={ 58 127 35 }
+				color={ 194 140 26 }
 				color2={ 255 255 255 }
 				
 				holy_site = west_african_pagan
@@ -490,7 +490,7 @@ e_carthage = {
 				b_tamchennennt = {} # Fictional for prosperity
 			}
 			c_idjil = {
-				color={ 8 76 207 }
+				color={ 135 98 18 }
 				color2={ 255 255 255 }
 				
 				b_bir_um_grein = {}
@@ -814,7 +814,7 @@ e_carthage = {
 			capital = 817 # Tunis
 		
 			c_tunis = {
-				color={ 23 235 98 }
+				color={ 149 64 191 }
 				color2={ 255 255 255 }
 				
 				carthaginian = "Carthago"
@@ -839,7 +839,7 @@ e_carthage = {
 				}
 			}
 			c_medjerda = {
-				color={ 26 238 101 }
+				color={ 170 102 204 }
 				color2={ 255 255 255 }
 				
 				b_medjerda = {
@@ -858,7 +858,7 @@ e_carthage = {
 				}
 			}
 			c_bizerte = {
-				color={ 29 241 104 }
+				color={ 104 45 134 }
 				color2={ 255 255 255 }
 			
 				b_bizerte = {
@@ -886,7 +886,7 @@ e_carthage = {
 			capital = 820 # Annaba	
 	
 			c_constantine = {
-				color={ 45 251 102 }
+				color={ 189 117 189 }
 				color2={ 255 255 255 }
 			
 				b_constantine = {
@@ -905,7 +905,7 @@ e_carthage = {
 				}
 			}		
 			c_annaba = {
-				color={ 51 255 108 }
+				color={ 172 83 172 }
 				color2={ 255 255 255 }
 			
 				b_annabah = {
@@ -926,7 +926,7 @@ e_carthage = {
 				}
 			}
 			c_tebessa = {
-				color={ 51 255 108 }
+				color={ 138 66 138 }
 				color2={ 255 255 255 }
 			
 				b_tebessa = {}
@@ -945,7 +945,7 @@ e_carthage = {
 			capital = 814 # Gabes
 		
 			c_gabes = {
-				color={ 38 250 113 }
+				color={ 181 121 210 }
 				color2={ 255 255 255 }
 			
 				b_gabes = {
@@ -964,7 +964,7 @@ e_carthage = {
 				}
 			}		
 			c_kairwan = {
-				color={ 32 244 107 }
+				color={ 202 159 223 }
 				color2={ 255 255 255 }
 			
 				b_kairouan = {
@@ -983,7 +983,7 @@ e_carthage = {
 				}
 			}
 			c_mahdia = {
-				color={ 35 247 110 }
+				color={ 175 139 193 }
 				color2={ 255 255 255 }
 			
 				b_mahdia = {
@@ -1013,7 +1013,7 @@ e_carthage = {
 			capital = 1726 # Gafsa
 			
 			c_suf = {
-				color={ 38 220 50 }
+				color={ 181 171 186 }
 				color2={ 255 255 255 }
 				
 				b_suf = {}
@@ -1025,7 +1025,7 @@ e_carthage = {
 				b_el_aouina = {} # Fictional for prosperity
 			}
 			c_gafsa = {
-				color={ 38 150 97 }
+				color={ 132 115 140 }
 				color2={ 255 255 255 }
 				
 				b_gafsa = {}
@@ -1054,7 +1054,7 @@ e_carthage = {
 			capital = 811 # Tripolitania
 		
 			c_tripolitana = {
-				color={ 45 192 107 }
+				color={ 125 89 54 }
 				color2={ 255 255 255 }
 			
 				b_libtripoli = {
@@ -1073,7 +1073,7 @@ e_carthage = {
 				}
 			}
 			c_djerba = {
-				color={ 49 196 111 }
+				color={ 179 128 77 }
 				color2={ 255 255 255 }
 			
 				b_houmtsouk = {
@@ -1098,7 +1098,7 @@ e_carthage = {
 				}
 			}
 			c_leptis_magna = {
-				color={ 53 200 115 }
+				color={ 89 64 38 }
 				color2={ 255 255 255 }
 			
 				b_leptismagna = {
@@ -1119,7 +1119,7 @@ e_carthage = {
 				}
 			}
 			c_nafusa = {
-				color={ 69 222 82 }
+				color={ 209 179 148 }
 				color2={ 255 255 255 }
 				
 				b_nafusa = {}
@@ -1131,7 +1131,7 @@ e_carthage = {
 				b_kroussia = {} # Fictional for prosperity
 			}
 			c_nalut = {
-				color={ 45 165 97 }
+				color={ 201 166 130 }
 				color2={ 255 255 255 }
 				
 				b_nalut = {}
@@ -1150,7 +1150,7 @@ e_carthage = {
 			capital = 809 # Syrte
 			
 			c_syrte = {
-				color={ 120 202 135 }
+				color={ 179 128 77 }
 				color2={ 255 255 255 }
 			
 				b_syrte = {}
@@ -1162,7 +1162,7 @@ e_carthage = {
 				b_lathrun = {} # Fictional for prosperity
 			}
 			c_tadjrift = {
-				color={ 57 204 119 }
+				color={ 201 166 130 }
 				color2={ 255 255 255 }
 				
 				b_tadjrift = {}
