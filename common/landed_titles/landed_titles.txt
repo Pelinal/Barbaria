@@ -23318,9 +23318,6 @@ d_estonia = {
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 }
-d_galatia = {
-	color = { 244 75 185 }
-}
 d_georgia = {
 	color = { 251 184 184 }
 }
